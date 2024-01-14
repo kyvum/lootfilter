@@ -13,6 +13,7 @@ ItemDisplay[NMAG !ETH WP12 (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK
 //Kyvum
 
 ItemDisplay[NMAG SK227>1 CL1 CLVL<20]: Spirit Wolf Hat
+ItemDisplay[NMAG SK230>1 CL1 CLVL<40]: Arctic Blast Hat
 ItemDisplay[NMAG SK237>1 CL1 CLVL<40]: Dire Wolf Hat
 ItemDisplay[NMAG SK247>1 CL1 CLVL<70]: Grizzly Hat
 ItemDisplay[MAG !ETH !ID 7ga ILVL>85]: %PURPLE%Blood Base %ORANGE%[L%ILVL%]
