@@ -393,9 +393,6 @@ ItemDisplay[ma6 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Ruined Citadel
 ItemDisplay[ma7 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Burnt Forest
 ItemDisplay[ma8 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Musty Crypt
 ItemDisplay[ma9 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Dim Cellar
-ItemDisplay[ma0]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%
-ItemDisplay[maa]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%
-ItemDisplay[mab]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%
 
 //RUNES
 
@@ -495,11 +492,11 @@ ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
 
 //UNIQUES
 
-ItemDisplay[UNI !ID rin]: UNIQUE %NAME%  
-ItemDisplay[UNI !ID amu]: UNIQUE %NAME%
-ItemDisplay[NORM !ID UNI]: UNIQUE %NAME%
-ItemDisplay[EXC !ID UNI]: %NOTIFY(ITEM,HIGH)%%NL%Excep UNIQUE %NAME%
-ItemDisplay[ELT !ID UNI]: %NOTIFY(ITEM,HIGH)%%NL%Elite UNIQUE %NAME%
+ItemDisplay[rin UNI !ID]: UNIQUE %NAME%  
+ItemDisplay[amu UNI !ID]: UNIQUE %NAME%
+ItemDisplay[NORM UNI !ID]: UNIQUE %NAME%
+ItemDisplay[EXC UNI !ID]: %NOTIFY(ITEM,HIGH)%%NL%Excep UNIQUE %NAME%
+ItemDisplay[ELT UNI !ID]: %NOTIFY(ITEM,HIGH)%%NL%Elite UNIQUE %NAME%
 ItemDisplay[UNI]: %NAME%
 
 //SETS
