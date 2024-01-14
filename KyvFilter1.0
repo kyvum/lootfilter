@@ -497,10 +497,10 @@ ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
 
 ItemDisplay[UNI !ID rin]: UNIQUE %NAME%  
 ItemDisplay[UNI !ID amu]: UNIQUE %NAME%
-ItemDisplay[NORM !ID uni]: UNIQUE %NAME%
-ItemDisplay[EXC !ID uni]: %NOTIFY(ITEM,HIGH)%%NL%Excep UNIQUE %NAME%
-ItemDisplay[ELT !ID uni]: %NOTIFY(ITEM,HIGH)%%NL%Elite UNIQUE %NAME%
-ItemDisplay[uni]: %NAME%
+ItemDisplay[NORM !ID UNI]: UNIQUE %NAME%
+ItemDisplay[EXC !ID UNI]: %NOTIFY(ITEM,HIGH)%%NL%Excep UNIQUE %NAME%
+ItemDisplay[ELT !ID UNI]: %NOTIFY(ITEM,HIGH)%%NL%Elite UNIQUE %NAME%
+ItemDisplay[UNI]: %NAME%
 
 //SETS
 
