@@ -607,8 +607,8 @@ ItemDisplay[rvl]: %PURPLE%+%WHITE%R+%PURPLE%+%WHITE%// Full Rejuv Potion
 ItemDisplay[isc]:
 ItemDisplay[tsc]: %BLUE%!%WHITE%TP%BLUE%!
 ItemDisplay[key]: //key
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<20]: $$$
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>19]://Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<10]: $$$
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]://Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
 
 // Antidote, Stamina, and Thawing potions
 ItemDisplay[yps]:
