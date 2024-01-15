@@ -322,23 +322,23 @@ ItemDisplay[cq2 ID ((RARE OR MAG) (ALLSK>0 AND STAT156>1 AND STAT45>1 AND STAT21
 //POTIONS start
 
 // Health Potions
-ItemDisplay[hp1 DIFF<1]: %RED%+%WHITE%Minor Heal// Minor Healing Potion
-ItemDisplay[hp1 DIFF>0]: // Hides Minor Healing Potions after Normal difficulty
-ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%Light Heal// Light Healing Potion
-ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
-ItemDisplay[hp3 DIFF<1]: %RED%+%WHITE%Norm Heal// Healing Potion
-ItemDisplay[hp3 DIFF>0]: // Hides Healing Potions after after Normal difficulty
+ItemDisplay[hp1 CLVL<20]: %RED%+%WHITE%Minor Heal// Minor Healing Potion
+ItemDisplay[hp1 CLVL>20]: // Hides Minor Healing Potions after 20
+ItemDisplay[hp2 CLVL<25]: %RED%+%WHITE%Light Heal// Light Healing Potion
+ItemDisplay[hp2 CLVL>25]: // Hides Light Healing Potions after 25
+ItemDisplay[hp3 CLVL<30]: %RED%+%WHITE%Norm Heal// Healing Potion
+ItemDisplay[hp3 CLVL>30]: // Hides Healing Potions after after 30
 ItemDisplay[hp4 CLVL<80 DIFF<2]: %RED%+%WHITE%H-// Greater Healing Potion
 ItemDisplay[hp4 DIFF>0]: // HIDE
 ItemDisplay[hp5]: %RED%+%WHITE%H+// Super Healing Potion
 
 // Mana Potions
-ItemDisplay[mp1 DIFF<1]: %BLUE%+%WHITE%Minor Mana// Minor Mana Potion
-ItemDisplay[mp1 DIFF>0]: // Hides Minor Mana Potions after Normal difficulty
-ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%Light Mana// Light Mana Potion
-ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
-ItemDisplay[mp3 DIFF<1]: %BLUE%+%WHITE%Norm Mana// Mana Potion
-ItemDisplay[mp3 DIFF>0]: // Hides Mana Potions after after Normal difficulty
+ItemDisplay[mp1 CLVL<20]: %BLUE%+%WHITE%Minor Mana// Minor Mana Potion
+ItemDisplay[mp1 CLVL>20]: // Hides Minor Mana Potions after 25
+ItemDisplay[mp2 CLVL<25]: %BLUE%+%WHITE%Light Mana// Light Mana Potion
+ItemDisplay[mp2 CLVL>25]: // Hides Light Mana Potions after 25
+ItemDisplay[mp3 CLVL<30]: %BLUE%+%WHITE%Norm Mana// Mana Potion
+ItemDisplay[mp3 CLVL>30]: // Hides Mana Potions after after 30
 ItemDisplay[mp4 CLVL<80 DIFF<2]: %BLUE%+%WHITE%M-// Greater Mana Potion
 ItemDisplay[mp4 DIFF>1]: // HIDES
 ItemDisplay[mp5]: %BLUE%+%WHITE%M+// Super Mana Potion
