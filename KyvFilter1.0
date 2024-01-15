@@ -6,7 +6,7 @@ ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
 ItemDisplay[GOLD<2500 CLVL>65]:
 
-//Kyvum
+//Kyvum start
 
 ItemDisplay[SK230>1 CL1 CLVL<40]: %PURPLE%Kyv %WHITE%Arctic Blast Hat
 ItemDisplay[SK247>1 CL1 CLVL<70]: %PURPLE%Kyv %WHITE%Grizzly Hat
@@ -15,10 +15,11 @@ ItemDisplay[MAG ID 7ga ILVL>85]: %PURPLE%Kyv %ORANGE%Ort %WHITE%+ %RED%Ruby
 ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %PURPLE%Kyv %PURPLE%Hitpower Base %ORANGE%[L%ILVL%]
 ItemDisplay[MAG ID 7gm ILVL>85]: %PURPLE%Kyv %ORANGE%Tir %WHITE%+ %BLUE%Sapphire
 
-//Forhundred
-ItemDisplay[NMAG (SK112=3 AND SK113=3) SOCK=4]: %YELLOW%400Jay %WHITE%Insane Phoenix Base
+//Forhundred start
 
-//f0oster
+ItemDisplay[NMAG SOCK=4 (SK112=3 AND SK113=3) WP13]: %YELLOW%400Jay %WHITE%Insane Phoenix Base
+
+//f0oster start
 
 ItemDisplay[SK39>1 (CL6 OR WP11) CLVL<20]: %ORANGE%f0oster %WHITE%Ice Bolt Stick
 ItemDisplay[SK45>1 (CL6 OR WP11) CLVL<40]: %ORANGE%f0oster %WHITE%Ice Blast Stick
@@ -26,32 +27,33 @@ ItemDisplay[SK64>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster %WHITE%Frozen Orb Sti
 ItemDisplay[SK59>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster %WHITE%Blizzard Stick
 ItemDisplay[SK62>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster %WHITE%Hydra Stick
 
-//Bren
+//Bren start
 
 ItemDisplay[SK67>1 (CL4 OR WP12) CLVL<30]: %RED%Bren's %WHITE%Teeth
 ItemDisplay[SK84>1 (CL4 OR WP12) CLVL<70]: %RED%Bren's %WHITE%Boner
 
-//Ultra
+//Ultra start
 
 ItemDisplay[TABSK27>1 CL7 CLVL<70]: %BLUE%ultra %WHITE%Javs
 
-//Vendor Items
+//Vendor Items start
 ItemDisplay[NMAG !ETH (CL6) (SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0)]: O %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
 ItemDisplay[NMAG !ETH WP12 (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: W %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
 
 //BASES
 
-//Early Bases
+//Early Bases start
+ItemDisplay[NMAG SOCK=3 CLVL<40 EQ3]: %DGREEN%Ancient's Pledge Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=0 CLVL<70 ILVL>25 ILVL<41 crs]: Spirit Sword Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=4 crs]: Spirit Sword Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG SOCK=4 crs]: %DGREEN%Spirit Sword Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=0 CLVL<70 ILVL>25 ILVL<41 bsd]: Spirit Sword Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=4 bsd]: Spirit Sword Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG SOCK=4 bsd]: %DGREEN%Spirit Sword Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=4 CLVL<35 WP8]: %DGREEN%Insight Merc Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 CLVL<25 SK36 WP11]: %DGREEN%Leaf Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%]
 
-//Late Bases
+//Late Bases start
 
 //Monarchs
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %NOTIFY(ITEM,HIGH)% %GRAY%[%WHITE%-10% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] %NOTIFYSOUND(2664,HIGH)%
@@ -81,7 +83,7 @@ ItemDisplay[7gm ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%S
 ItemDisplay[7wa ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%]
 ItemDisplay[7gi ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%]
 
-//Class Specific Items
+//Class Specific Items start
 
 //Sorceress
 ItemDisplay[NMAG !RW ((wst OR 8ws OR 6ws AND SK58=3) (SOCK=5 OR SOCK=0))]: ES CTA Base%PURPLE%[%SOCKETS]
@@ -165,7 +167,7 @@ ItemDisplay[NMAG ETH SUP SOCK=3 72h]: %NOTIFY(ITEM,HIGH)%%RED%MERC LAWBRINGER BA
 ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%]
 
-//SUPER RARES
+//SUPER RARES start
 
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts)
 
@@ -315,7 +317,7 @@ ItemDisplay[cq2 ID ((RARE OR MAG) (ALLSK>0 AND STAT156>1 AND STAT41>1 AND STAT21
 ItemDisplay[cq2 ID ((RARE OR MAG) (ALLSK>0 AND STAT156>1 AND STAT43>1 AND STAT218>1))]: %NAME%%NL%%RED%Max/Lvl%WHITE%, %GOLD%Pierce +5-25%WHITE%, %PURPLE%All Skill%WHITE%, %BLUE%C-res
 ItemDisplay[cq2 ID ((RARE OR MAG) (ALLSK>0 AND STAT156>1 AND STAT45>1 AND STAT218>1))]: %NAME%%NL%%RED%Max/Lvl%WHITE%, %GOLD%Pierce +5-25%WHITE%, %PURPLE%All Skill%WHITE%, %GREEN%P-res
 
-//POTIONS
+//POTIONS start
 
 // Health Potions
 ItemDisplay[hp1 DIFF<1]: %RED%+%WHITE%Minor Heal// Minor Healing Potion
@@ -343,7 +345,7 @@ ItemDisplay[mp5]: %BLUE%+%WHITE%M+// Super Mana Potion
 ItemDisplay[rvs]: %PURPLE%+%WHITE%R// Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%+%WHITE%R+%PURPLE%+%WHITE%// Full Rejuv Potion
 
-//UTILITIES
+//UTILITIES start
 
 // Scrolls & Tomes
 ItemDisplay[isc]:
@@ -359,7 +361,7 @@ ItemDisplay[vps DIFF>1]: // HIDES
 ItemDisplay[wms DIFF<2]:
 ItemDisplay[wms DIFF>0]: // HIDES
 
-//QUEST ITEMS
+//QUEST ITEMS start
 ItemDisplay[hdm]: %NAME%// Horadric Malus
 ItemDisplay[bks]: %NAME%// Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%// Scroll of Inifuss, deciphered
@@ -385,7 +387,7 @@ ItemDisplay[hfh]: %NAME%// Hellforge Hammer
 ItemDisplay[ice]: %NAME%// Malah's Potion
 ItemDisplay[tr2]: %NAME%// Scroll of Resistance
 
-//POD SPECIFICS
+//POD SPECIFICS start
 
 ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)% %RED%Orb of Corruption %NOTIFYSOUND(2664,HIGH)% //OOC
 ItemDisplay[cx6]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Diablo's Soulstone
@@ -409,7 +411,7 @@ ItemDisplay[ma7 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Burnt Forest
 ItemDisplay[ma8 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Musty Crypt
 ItemDisplay[ma9 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Dim Cellar
 
-//RUNES
+//RUNES start
 
 ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17]: %ORANGE%%NAME%%RED%
 ItemDisplay[r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15]: %ORANGE%%NAME%%RED%
@@ -420,7 +422,7 @@ ItemDisplay[r26 OR r27 OR r32]: %NOTIFY(ITEM,HIGH)% %NL% %GREEN% %GOLD% %ORANGE%
 ItemDisplay[r28 OR r29 OR r33]: %NOTIFY(ITEM,HIGH)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[r30 OR r31]: %NOTIFY(ITEM,HIGH)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
 
-//GEMS
+//GEMS start
 
 //Amethyst
 ItemDisplay[gcv DIFF<1]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst// Chipped Amethyst
@@ -486,7 +488,7 @@ ItemDisplay[sku DIFF>0]: //HIDES
 ItemDisplay[skl]: %PURPLE%+%PURPLE%F %GOLD%Skull// Flawless Skull
 ItemDisplay[skz]: %PURPLE%+%PURPLE%P %GOLD%Skull// Perfect Skull
 
-//KEYS AND ESSENCES
+//KEYS AND ESSENCES start
 
 ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
@@ -496,7 +498,7 @@ ItemDisplay[ceh]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 ItemDisplay[bet]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 ItemDisplay[fed]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 
-//JEWELLERY AND CHARMS
+//JEWELLERY AND CHARMS start
 
 ItemDisplay[cm1]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
@@ -505,7 +507,7 @@ ItemDisplay[amu]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[rin]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
 
-//UNIQUES
+//UNIQUES start
 
 ItemDisplay[rin UNI !ID]: UNIQUE %NAME%  
 ItemDisplay[amu UNI !ID]: UNIQUE %NAME%
@@ -514,7 +516,7 @@ ItemDisplay[EXC UNI !ID]: %NOTIFY(ITEM,HIGH)%%NL%Excep UNIQUE %NAME%
 ItemDisplay[ELT UNI !ID]: %NOTIFY(ITEM,HIGH)%%NL%Elite UNIQUE %NAME%
 ItemDisplay[UNI]: %NAME%
 
-//SETS
+//SETS start
 
 ItemDisplay[NORM !ID SET]: SET %NAME%
 ItemDisplay[NORM SET]: %NAME%
@@ -523,16 +525,16 @@ ItemDisplay[EXC SET]: %NAME%
 ItemDisplay[ELT !ID SET]: %NOTIFY(ITEM,HIGH)%%NL%Elite SET %NAME%
 ItemDisplay[ELT SET]: %NAME%
 
-//RARES
+//RARES start
 //Rare Orbs
 ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 
-//MAGIC ITEMS
+//MAGIC ITEMS start
 
 //Magic Orbs
 ItemDisplay[MAG !ETH !ID (oba OR obf OR ob5)]: %BLUE%Orb
 
-//CRAFTING BASES
+//CRAFTING BASES start
 
 //Hitpower Gloves
 ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %ORANGE%HitP%RED%Glv
