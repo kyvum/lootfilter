@@ -8,9 +8,8 @@ ItemDisplay[GOLD<2500 CLVL>65]:
 
 //Kyvum start
 
-ItemDisplay[SK222>1 CL1 CLVL<45]: %PURPLE%Kyvum's %WHITE%Poison Creeper Hat
-ItemDisplay[SK238>1 CL1 CLVL<70]: %PURPLE%Kyvum's %WHITE%Rabies Hat
-ItemDisplay[(SK222>1 AND SK238>1) CL1 CLVL<80]: %PURPLE%Kyvum's %WHITE%Creeper and Rabies Hat
+ItemDisplay[SK225>1 CL1 CLVL<20]: %PURPLE%Kyvum's %WHITE%Firestorm
+ItemDisplay[SK234>1 CL1 CLVL<45]: %PURPLE%Kyvum's %WHITE%Fissure
 ItemDisplay[MAG !ETH !ID 7ga ILVL>85]: %PURPLE%Kyvum's Blood Base %ORANGE%[L%ILVL%]
 ItemDisplay[MAG ID 7ga ILVL>85]: %PURPLE%Kyvum's %ORANGE%Ort %WHITE%+ %RED%Ruby
 ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %PURPLE%Kyvum's %PURPLE%Hitpower Base %ORANGE%[L%ILVL%]
