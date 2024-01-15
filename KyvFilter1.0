@@ -500,8 +500,8 @@ ItemDisplay[MAG ID EQ4 IAS=20 TABSK0=3]: %PURPLE%***%BLUE% 3 Bow & 20 IAS Gloves
 ItemDisplay[!ETH RARE (EQ5) !ID]: %NAME%
 ItemDisplay[!ETH RARE (EQ5) ID STAT43>0 STAT41>0 STAT39>0]: %PURPLE%*** %GREEN%T%RED%r%YELLOW%i %BLUE%R%GREEN%e%RED%s %GREEN%B%RED%o%YELLOW%o%BLUE%t%GREEN%s %PURPLE%***
 
-//Class Specific Rares (Druid Pelts, Barb Helms)
-ItemDisplay[RARE (CL1 OR CL2) !ID]: %YELLOW%%NAME%
+//Class Specific Rares
+ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ID]: %YELLOW%%NAME%
 
 //Javelins
 ItemDisplay[RARE WP6 !ID ILVL>65]: %NAME%
