@@ -83,7 +83,7 @@ ItemDisplay[7gi ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %ORANGE%[%SOCKETS%]
 //Class Specific Items
 
 //Sorceress
-ItemDisplay[NMAG !RW ((wst OR 8ws OR 6ws AND SK58=3) (SOCK=5 or SOCK=0))]: ES CTA Base%PURPLE%[%SOCKETS]
+ItemDisplay[NMAG !RW ((wst OR 8ws OR 6ws AND SK58=3) (SOCK=5 OR SOCK=0))]: ES CTA Base%PURPLE%[%SOCKETS]
 ItemDisplay[(WEAPON) (!INF AND !ETH) (SK57=3) (SOCK=0 OR SOCK=4)]: +3 Discharge Base%PURPLE%[%SOCKETS]
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK8=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%3 Fire sk %ORANGE%***
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK9=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%3 Light sk %ORANGE%***
