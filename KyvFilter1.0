@@ -12,18 +12,22 @@ ItemDisplay[NMAG !ETH WP12 (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK
 
 //Kyvum
 
-ItemDisplay[NMAG SK227>1 CL1 CLVL<20]: Spirit Wolf Hat
-ItemDisplay[NMAG SK230>1 CL1 CLVL<40]: Arctic Blast Hat
-ItemDisplay[NMAG SK237>1 CL1 CLVL<40]: Dire Wolf Hat
-ItemDisplay[NMAG SK247>1 CL1 CLVL<70]: Grizzly Hat
-ItemDisplay[MAG !ETH !ID 7ga ILVL>85]: %PURPLE%Blood Base %ORANGE%[L%ILVL%]
-ItemDisplay[MAG ID 7ga ILVL>85]: %ORANGE%Ort %WHITE%+ %RED%Ruby
-ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %PURPLE%Hitpower Base %ORANGE%[L%ILVL%]
-ItemDisplay[MAG ID 7gm ILVL>85]: %ORANGE%Tir %WHITE%+ %BLUE%Sapphire
+ItemDisplay[NMAG SK230>1 CL1 CLVL<40]: %PURPLE%Kyv %WHITE%Arctic Blast Hat
+ItemDisplay[NMAG SK247>1 CL1 CLVL<70]: %PURPLE%Kyv %WHITE%Grizzly Hat
+ItemDisplay[MAG !ETH !ID 7ga ILVL>85]: %PURPLE%Kyv Blood Base %ORANGE%[L%ILVL%]
+ItemDisplay[MAG ID 7ga ILVL>85]: %PURPLE%Kyv %ORANGE%Ort %WHITE%+ %RED%Ruby
+ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %PURPLE%Kyv %PURPLE%Hitpower Base %ORANGE%[L%ILVL%]
+ItemDisplay[MAG ID 7gm ILVL>85]: %PURPLE%Kyv %ORANGE%Tir %WHITE%+ %BLUE%Sapphire
 
 //Forhundred
 
 //f0oster
+
+ItemDisplay[NMAG SK39>1 (CL6 OR WP11) CLVL<20]: %GREEN%f0oster %WHITE%Ice Bolt Stick
+ItemDisplay[NMAG SK45>1 (CL6 OR WP11) CLVL<40]: %GREEN%f0oster %WHITE%Ice Blast Stick
+ItemDisplay[NMAG SK64>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Frozen Orb Stick
+ItemDisplay[NMAG SK59>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Blizzard Stick
+ItemDisplay[NMAG SK62>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Hydra Stick
 
 //Bren
 
