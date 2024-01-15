@@ -27,7 +27,7 @@ ItemDisplay[SK62>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Hydra Stick
 
 //Bren
 
-ItemDisplay[SK67>1 (CL4 OR WP12) CLVL<20]: %RED%Bren's %WHITE%Teeth
+ItemDisplay[SK67>1 (CL4 OR WP12) CLVL<30]: %RED%Bren's %WHITE%Teeth
 ItemDisplay[SK84>1 (CL4 OR WP12) CLVL<70]: %RED%Bren's %WHITE%Boner
 
 //Ultra
