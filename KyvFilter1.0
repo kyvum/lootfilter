@@ -47,6 +47,9 @@ ItemDisplay[NMAG !ETH WP12 (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK
 //Show Early Rares
 ItemDisplay[RARE CLVL<70]: %YELLOW%%NAME%
 
+//Show all Runewords
+ItemDisplay[RW]: %NAME%
+
 //BASES
 
 //Early Bases start
