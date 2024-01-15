@@ -41,9 +41,9 @@ ItemDisplay[NMAG !ETH WP12 (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK
 //BASES
 
 //Early Bases
-ItemDisplay[NMAG SOCK=0 CLVL<70 crs]: Spirit Sword Base%ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG SOCK=0 CLVL<70 ILVL>25 ILVL<41 crs]: Spirit Sword Base%ORANGE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=4 crs]: Spirit Sword Base%ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG SOCK=0 CLVL<70 bsd]: Spirit Sword Base%ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG SOCK=0 CLVL<70 ILVL>25 ILVL<41 bsd]: Spirit Sword Base%ORANGE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=4 bsd]: Spirit Sword Base%ORANGE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=4 CLVL<35 WP8]: %DGREEN%Insight Merc Base%ORANGE%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%ORANGE%[%SOCKETS%]
