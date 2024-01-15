@@ -31,6 +31,8 @@ ItemDisplay[NMAG SK62>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Hydra Stic
 
 //Bren
 
+//Ultra
+
 //BASES
 
 //Early Bases
@@ -153,9 +155,9 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) TABSK2>2 IAS>29]: %PURPLE% **%GREEN% 3 J
 //ItemDisplay[NMAG CL1]: Dru Hat[L%ILVL%] 
 
 //Merc Bases
-ItemDisplay[NMAG ETH SUP SOCK=3 72h]: %NOTIFY(ITEM,HIGH)%%RED%MERC LAWBRINGER BASE%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=3 72h]: %NOTIFY(ITEM,HIGH)%%RED%MERC LAWBRINGER BASE%ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%ORANGE%[%SOCKETS%]
 
 //SUPER RARES
 
@@ -205,12 +207,12 @@ ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6>1]: %WHITE%!!! %RED%Upgrade befor
 ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
 ItemDisplay[RARE ID ci0 OR ci1 STAT96=10 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
 ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame\\
+ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
 
 //Weapons
 
 //Rare Dimensional Blade (hopefully eth, 40ias, 2000+ ED, maxdmg/lvl. Upgrade to Phase blade)
-ItemDisplay[RARE !ID (9cr OR 7cr)]: %NAME%
+ItemDisplay[RARE !ID (9cr OR 7cr)]: %NAME% %DGREEN%Upgrade if good
 
 //Rare Thunder Maul, War Pike, Colossus Blade, Glorious Axe (the one in a million dream weapon)
 ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs)]: %NAME%
@@ -377,6 +379,8 @@ ItemDisplay[hfh]: %NAME%// Hellforge Hammer
 ItemDisplay[ice]: %NAME%// Malah's Potion
 ItemDisplay[tr2]: %NAME%// Scroll of Resistance
 
+//POD SPECIFICS
+
 ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)% %RED%Orb of Corruption %NOTIFYSOUND(2664,HIGH)% //OOC
 ItemDisplay[cx6]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Diablo's Soulstone
 ItemDisplay[cx7]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%//Key of Chaos
@@ -506,11 +510,11 @@ ItemDisplay[UNI]: %NAME%
 
 //SETS
 
-ItemDisplay[NORM !ID SET]: UNIQUE %NAME%
+ItemDisplay[NORM !ID SET]: SET %NAME%
 ItemDisplay[NORM SET]: %NAME%
-ItemDisplay[EXC !ID SET]: %NOTIFY(ITEM,HIGH)%%NL%Excep UNIQUE %NAME%
+ItemDisplay[EXC !ID SET]: %NOTIFY(ITEM,HIGH)%%NL%Excep SET %NAME%
 ItemDisplay[EXC SET]: %NAME%
-ItemDisplay[ELT !ID SET]: %NOTIFY(ITEM,HIGH)%%NL%Elite UNIQUE %NAME%
+ItemDisplay[ELT !ID SET]: %NOTIFY(ITEM,HIGH)%%NL%Elite SET %NAME%
 ItemDisplay[ELT SET]: %NAME%
 
 //RARES
