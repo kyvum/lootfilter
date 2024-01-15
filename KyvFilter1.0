@@ -323,7 +323,7 @@ ItemDisplay[cq2 ID ((RARE OR MAG) (ALLSK>0 AND STAT156>1 AND STAT45>1 AND STAT21
 
 // Health Potions
 ItemDisplay[hp1 CLVL<20]: %RED%+%WHITE%Minor Heal// Minor Healing Potion
-ItemDisplay[hp1 CLVL>20]: // Hides Minor Healing Potions after 20
+ItemDisplay[hp1 CLVL>19]: // Hides Minor Healing Potions after 20
 ItemDisplay[hp2 CLVL<25]: %RED%+%WHITE%Light Heal// Light Healing Potion
 ItemDisplay[hp2 CLVL>25]: // Hides Light Healing Potions after 25
 ItemDisplay[hp3 CLVL<30]: %RED%+%WHITE%Norm Heal// Healing Potion
@@ -334,7 +334,7 @@ ItemDisplay[hp5]: %RED%+%WHITE%H+// Super Healing Potion
 
 // Mana Potions
 ItemDisplay[mp1 CLVL<20]: %BLUE%+%WHITE%Minor Mana// Minor Mana Potion
-ItemDisplay[mp1 CLVL>20]: // Hides Minor Mana Potions after 25
+ItemDisplay[mp1 CLVL>19]: // Hides Minor Mana Potions after 25
 ItemDisplay[mp2 CLVL<25]: %BLUE%+%WHITE%Light Mana// Light Mana Potion
 ItemDisplay[mp2 CLVL>25]: // Hides Light Mana Potions after 25
 ItemDisplay[mp3 CLVL<30]: %BLUE%+%WHITE%Norm Mana// Mana Potion
@@ -354,7 +354,7 @@ ItemDisplay[isc]:
 ItemDisplay[tsc]: %BLUE%!%WHITE%TP%BLUE%!
 ItemDisplay[key]: //key
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<20]: $$$
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>20]://Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>19]://Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
 
 // Antidote, Stamina, and Thawing potions
 ItemDisplay[yps]:
