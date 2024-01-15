@@ -19,11 +19,11 @@ ItemDisplay[MAG ID 7gm ILVL>85]: %PURPLE%Kyv %ORANGE%Tir %WHITE%+ %BLUE%Sapphire
 
 //f0oster
 
-ItemDisplay[SK39>1 (CL6 OR WP11) CLVL<20]: %GREEN%f0oster %WHITE%Ice Bolt Stick
-ItemDisplay[SK45>1 (CL6 OR WP11) CLVL<40]: %GREEN%f0oster %WHITE%Ice Blast Stick
-ItemDisplay[SK64>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Frozen Orb Stick
-ItemDisplay[SK59>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Blizzard Stick
-ItemDisplay[SK62>1 (CL6 OR WP11) CLVL<70]: %GREEN%f0oster %WHITE%Hydra Stick
+ItemDisplay[SK39>1 (CL6 OR WP11) CLVL<20]: %ORANGE%f0oster %WHITE%Ice Bolt Stick
+ItemDisplay[SK45>1 (CL6 OR WP11) CLVL<40]: %ORANGE%f0oster %WHITE%Ice Blast Stick
+ItemDisplay[SK64>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster %WHITE%Frozen Orb Stick
+ItemDisplay[SK59>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster %WHITE%Blizzard Stick
+ItemDisplay[SK62>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster %WHITE%Hydra Stick
 
 //Bren
 
