@@ -33,6 +33,8 @@ ItemDisplay[!UNI SK62>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster's %WHITE%Hydra S
 
 ItemDisplay[!UNI SK67>1 (CL4 OR WP12) CLVL<30]: %RED%Bren's %WHITE%Teeth
 ItemDisplay[!UNI SK84>1 (CL4 OR WP12) CLVL<70]: %RED%Bren's %WHITE%Boner
+ItemDisplay[NMAG SK84>2 WP12 SOCK=2]: %RED%Bren's %WHITE%Wet Dream
+ItemDisplay[NMAG SK84>2 WP12 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SOCK=0]: %RED%Bren's %WHITE%Wet Dream
 
 //Ultra start
 
