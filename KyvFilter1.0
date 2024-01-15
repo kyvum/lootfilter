@@ -85,6 +85,254 @@ ItemDisplay[7gm ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%S
 ItemDisplay[7wa ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%]
 ItemDisplay[7gi ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%]
 
+//Good Uniques start
+
+//HELMETS
+//- Vampire Gaze
+ItemDisplay[xh9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Vampire Gaze %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xh9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Vampire Gaze
+//- Shako
+ItemDisplay[uap UNI !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Shako  %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uap UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Shako
+//- Griffon's Eye
+ItemDisplay[ci3 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Griffon's Eye %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ci3 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Griffon's Eye
+//- Kira's Guardian
+ItemDisplay[ci2 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Kira's Guardian
+ItemDisplay[ci2 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Kira's Guardian
+//- Veil of Steel or Nightwing's Veil
+ItemDisplay[uhm UNI !ID !ETH]: %GOLD%Veil of Steel or Nightwing's Veil
+ItemDisplay[uhm UNI !ID ETH]: %GRAY%ETH %GOLD%Veil of Steel or %GRAY%ETH %GOLD%Nightwing's Veil
+//- Andariel's Visage
+ItemDisplay[usk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Andariel's Visage
+ItemDisplay[usk UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Andariel's Visage
+//- Crown of Ages
+ItemDisplay[urn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Crown of Ages
+ItemDisplay[urn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Crown of Ages
+
+//BODY ARMOR
+//- The Spirit Shroud
+ItemDisplay[xui UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GOLD%The Spirit Shroud
+ItemDisplay[xui UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %GOLD%The Spirit Shroud
+//- Skin of the Vipermagi
+ItemDisplay[xea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Skin of the Vipermagi %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xea UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Skin of the Vipermagi
+//- Shaftstop 
+ItemDisplay[xhn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Shaftstop %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Shaftstop %NOTIFYSOUND(2664,HIGH)%
+//- Ormus' Robes
+ItemDisplay[uui UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Ormus' Robes
+ItemDisplay[uui UNI !ID ETH]: %GRAY%ETH %GOLD%Ormus' Robes
+//- Arkaine's Valor
+ItemDisplay[upl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Arkaine's Valor
+ItemDisplay[upl UNI !ID ETH]: %GRAY%ETH %GOLD%Arkaine's Valor 
+//- Steel Carapace
+ItemDisplay[uul UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uul UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
+//- Tyrael's Might
+ItemDisplay[uar UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %GOLD%Tyrael's Might or Templar's Might %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uar UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** %NOTIFYSOUND(2664,HIGH)%
+
+//SHIELDS
+//- Stormshield
+ItemDisplay[uit UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %GOLD%Stormshield %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uit UNI !ID ETH]: %GRAY%ETH %GOLD%Stormshield
+//- Head Hunter's Glory
+ItemDisplay[ush UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Head Hunter's Glory
+ItemDisplay[ush UNI !ID ETH]: %GRAY%ETH %GOLD%Head Hunter's Glory
+
+//GLOVES
+//- Dracul's Grasp
+ItemDisplay[uvg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %GOLD%Dracul's Grasp %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uvg UNI !ID ETH]: %GRAY%ETH %GOLD%Dracul's Grasp
+//- Soul Drainer
+ItemDisplay[umg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Soul Drainer  %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[umg UNI !ID ETH]: %GRAY%ETH %GOLD%Soul Drainer
+//- Steelrend
+ItemDisplay[uhg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Steelrend %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uhg UNI !ID ETH]: %GRAY%ETH %GOLD%Steelrend
+
+//BOOTS
+//- Waterwalk
+ItemDisplay[xvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Waterwalk
+ItemDisplay[xvb UNI !ID ETH]: %GRAY%ETH %GOLD%Waterwalk
+//- Silkweave
+ItemDisplay[xmb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Silkweave
+ItemDisplay[xmb UNI !ID ETH]: %GRAY%ETH %GOLD%Silkweave
+//- War Traveler
+ItemDisplay[xtb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%War Traveler %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xtb UNI !ID ETH]: %GRAY%ETH %GOLD%War Traveler 
+//- Gore Rider
+ItemDisplay[xhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Gore Rider %RED% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhb UNI !ID ETH]: %GRAY%ETH %GOLD%Gore Rider
+//- Sandstorm Trek
+ItemDisplay[uvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Sandstorm Trek
+ItemDisplay[uvb UNI !ID ETH]: %GRAY%ETH %GOLD%Sandstorm Trek
+//- Marrowwalk
+ItemDisplay[umb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Marrowwalk
+ItemDisplay[umb UNI !ID ETH]: %GRAY%ETH %GOLD%Marrowwalk
+//- Shadow Dancer
+ItemDisplay[uhb UNI !ID !ETH]:  %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Shadow Dancer %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uhb UNI !ID ETH]:  %GRAY%ETH %GOLD%Shadow Dancer
+
+//BELTS
+//- Verdungo's Hearty Cord
+ItemDisplay[umc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %GOLD%Verdungo's Hearty Cord %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[umc UNI !ID ETH]: %GRAY%ETH %GOLD%Verdungo's Hearty Cord
+//- Snowclash
+ItemDisplay[ztb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Snowclash
+ItemDisplay[ztb UNI !ID ETH]: %GRAY%ETH %GOLD%Snowclash
+//- Thundergod's Vigor
+ItemDisplay[zhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Thundergod's Vigor %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[zhb UNI !ID ETH]: %GRAY%ETH %GOLD%Thundergod's Vigor
+//- Arachnid Mesh
+ItemDisplay[ulc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %GOLD%Arachnid Mesh %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh 
+
+//WEAPONS
+//AXES
+//- Pompeii's Wrath
+ItemDisplay[9mp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GOLD%Pompeii's Wrath
+ItemDisplay[9mp UNI !ID ETH]: %GRAY%ETH %GOLD%Pompeii's Wrath
+//- Rune Master
+ItemDisplay[72a UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GOLD%Rune Master %WHITE%[%%GRAY%ETH %GOLD%ETS%]
+ItemDisplay[72a UNI !ID ETH]: %GRAY%ETH %GOLD%Rune Master %WHITE%[%%GRAY%ETH %GOLD%ETS%]
+//- Death Cleaver
+ItemDisplay[7wa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %GOLD%Death Cleaver %RED%***%NL%
+ItemDisplay[7wa UNI !ID ETH]: %GRAY%ETH %GOLD%Death Cleaver
+//- Executioner's Justice
+ItemDisplay[7gi UNI !ID !ETH]: %RED%* %GOLD%Executioner's Justice %RED%*
+ItemDisplay[7gi UNI !ID ETH]: %GRAY%ETH %GOLD%Executioner's Justice
+//MACES
+//- Horizon's Tornado or Stormlash
+ItemDisplay[7fl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Horizon's Tornado or Stormlash %RED%** 
+ItemDisplay[7fl UNI !ID ETH]: %GRAY%ETH %GOLD%Horizon's Tornado or Stormlash
+//- Windhammer
+ItemDisplay[7m7 UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %RED%** %GOLD%Windhammer %RED%**
+ItemDisplay[7m7 UNI !ID ETH]: %GRAY%ETH %GOLD%Windhammer
+//- Earth Shifter or The Cranium Basher
+ItemDisplay[7gm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Cranium Bashers %RED%**
+ItemDisplay[7gm UNI !ID ETH]: %GRAY%ETH %GOLD%Cranium Bashers
+//SWORDS
+//- Ginther's Rift
+ItemDisplay[9cr UNI !ID !ETH]: %GOLD%Ginther's Rift
+ItemDisplay[9cr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Ginther's Rift %RED%*
+//- Headstriker
+ItemDisplay[9bs UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %GOLD%Headstriker %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[9bs UNI !ID ETH]: %GRAY%ETH %GOLD%Headstriker
+//- Bing Sz Wang
+ItemDisplay[9cm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Bing Sz Wang %RED%*
+ItemDisplay[9cm UNI !ID ETH]: %GRAY%ETH %GOLD%Bing Sz Wang
+//- Lightsabre or Azurewrath
+ItemDisplay[7cr UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%*** %GOLD%Lightsabre or Azurewrath %RED%*** %NOTIFYSOUND(2664,HIGH)%
+//- The Grandfather
+ItemDisplay[7gd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%** %GOLD%The Grandfather **%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7gd UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%The Grandfather %RED%*
+//DAGGERS
+//- Fleshripper
+ItemDisplay[7kr UNI !ID !ETH]: %RED%* %GOLD%Fleshripper %RED%*
+ItemDisplay[7kr UNI !ID ETH]: %GRAY%ETH %GOLD%Fleshripper
+//THROWING WEAPONS
+//- Warshrike
+ItemDisplay[7bk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Warshrike %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7bk UNI !ID ETH]: %GRAY%ETH %GOLD%Warshrike
+//POLEARMS
+//- Bonehew
+ItemDisplay[7o7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GOLD%Bonehew %RED%*
+ItemDisplay[7o7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Bonehew %RED%*
+//- Reaper's Toll
+ItemDisplay[7s8 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Reaper's Toll %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7s8 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Reaper's Toll %RED%*
+//- Tomb Reaver
+ItemDisplay[7pa UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%*** %GOLD%Tomb Reaver %RED%***
+ItemDisplay[7pa UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Tomb Reaver %RED%*
+//BOWS
+//- Windforce
+ItemDisplay[6lw UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %GOLD%Windforce %RED%*** %NOTIFYSOUND(2664,HIGH)%
+//- Goldstrike Arch
+ItemDisplay[8lw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GOLD%Goldstrike Arch %RED%*
+//CROSSBOWS
+//- Buriza-Do Kyanon
+ItemDisplay[8hx UNI !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %GOLD%Buriza-Do Kyanon
+//STAVES
+//- Ondal's Wisdom
+ItemDisplay[6cs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%**%GREEN%** %GOLD%Ondal's Wisdom %RED%**%GREEN%** 
+ItemDisplay[6cs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Ondal's Wisdom %RED%*
+//- Mang Song's Lesson
+ItemDisplay[6ws UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%** %GOLD%Mang Song's Lesson %RED%**
+ItemDisplay[6ws UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Mang Song's Lesson %RED%*
+//WANDS
+//- Death's Web
+ItemDisplay[7gw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%** %GOLD%Death's Web %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7gw UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Death's Web %RED%*
+//SCEPTERS
+//- Hand of Blessed Light
+ItemDisplay[9ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Hand of Blessed Light %RED%**
+ItemDisplay[9ws UNI !ID ETH]: %GRAY%ETH %GOLD%Hand of Blessed Light
+//- Heaven's Light or The Redeemer
+ItemDisplay[7sc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Heaven's Light or The Redeemer %RED%**
+ItemDisplay[7sc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Heaven's Light or The Redeemer
+//- Astreon's Iron Ward
+ItemDisplay[7ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Astreon's Iron Ward %RED%*
+ItemDisplay[7ws UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %GOLD%Astreon's Iron Ward
+
+//CLASS SPECIFICS
+//DRUID
+//- Jalal's Mane
+ItemDisplay[dra UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Jalal's Mane %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[dra UNI !ID ETH]: %GRAY%ETH %GOLD%Jalal's Mane
+//- Ravenlore
+ItemDisplay[dre UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Ravenlore %RED%*
+ItemDisplay[dre UNI !ID ETH]: %GRAY%ETH %GOLD%Ravenlore
+//- Spirit Keeper
+ItemDisplay[drd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Spirit Keeper %RED%*
+ItemDisplay[drd UNI !ID ETH]: %GRAY%ETH %GOLD%Spirit Keeper
+//BARBARIAN
+//- Arreat's Face
+ItemDisplay[baa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Arreat's Face %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[baa UNI !ID ETH]: %GRAY%ETH %GOLD%Arreat's Face
+//- Wolfhowl
+ItemDisplay[bac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Wolfhowl %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[bac UNI !ID ETH]: %GRAY%ETH %GOLD%Wolfhowl
+//PALADIN
+//- Alma Negra
+ItemDisplay[pac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Alma Negra %RED%*
+ItemDisplay[pac UNI !ID ETH]: %GRAY%ETH %GOLD%Alma Negra
+//- Herald of Zakarum
+ItemDisplay[pa9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Herald of Zakarum %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[pa9 UNI !ID ETH]: %GRAY%ETH %GOLD%Herald of Zakarum 
+//NECROMANCER
+//- Homunculus
+ItemDisplay[nea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Homunculus %RED%* %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[nea UNI !ID ETH]:%GRAY%ETH %GOLD%Homunculus
+//- Darkforce Spawn
+ItemDisplay[nef UNI !ID !ETH]: %RED%* %GOLD%Darkforce Spawn %RED%* %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[nef UNI !ID ETH]: %GRAY%ETH %GOLD%Darkforce Spawn
+//- Boneflame
+ItemDisplay[nee UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Boneflame %RED%* %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[nee UNI !ID ETH]: %GRAY%ETH %GOLD%Boneflame
+//ASSASSIN
+//- Bartuc's Cut-Throat
+ItemDisplay[9tw UNI !ID !ETH]: %RED%* %GOLD%Bartuc's Cut-Throat %RED%*
+ItemDisplay[9tw UNI !ID ETH]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat 
+//SORCERESS
+//- The Oculus
+ItemDisplay[oba UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%The Oculus %RED%* %NOTIFYSOUND(2664,HIGH)% %
+ItemDisplay[oba UNI !ID ETH]: %GRAY%ETH %GOLD%The Oculus
+//- Eschuta's Temper
+ItemDisplay[obc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Eschuta's Temper %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[obc UNI !ID ETH]: %GRAY%ETH %GOLD%Eschuta's Temper
+//- Death's Fathom
+ItemDisplay[obf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Death's Fathom %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[obf UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Death's Fathom %RED%* 
+//AMAZON
+//- Titan's Revenge
+ItemDisplay[ama UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Titan's Revenge %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[ama UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GRAY%ETH %GOLD%Titan's Revenge %RED%** %NOTIFYSOUND(2664,HIGH)% 
+//- Thunderstroke
+ItemDisplay[amf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GOLD%Thunderstroke %RED%* %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[amf UNI !ID ETH]: %GRAY%ETH %GOLD%Thunderstroke  
+
 //Class Specific Items start
 
 //Sorceress
