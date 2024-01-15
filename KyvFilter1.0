@@ -329,7 +329,7 @@ ItemDisplay[hp2 CLVL>25]: // Hides Light Healing Potions after 25
 ItemDisplay[hp3 CLVL<30]: %RED%+%WHITE%Norm Heal// Healing Potion
 ItemDisplay[hp3 CLVL>30]: // Hides Healing Potions after after 30
 ItemDisplay[hp4 CLVL<80 DIFF<2]: %RED%+%WHITE%H-// Greater Healing Potion
-ItemDisplay[hp4 DIFF>0]: // HIDE
+ItemDisplay[hp4 CLVL>29]: // HIDE
 ItemDisplay[hp5]: %RED%+%WHITE%H+// Super Healing Potion
 
 // Mana Potions
@@ -361,7 +361,7 @@ ItemDisplay[yps]:
 ItemDisplay[vps DIFF<2]: Stam
 ItemDisplay[vps DIFF>1]: // HIDES
 ItemDisplay[wms DIFF<2]:
-ItemDisplay[wms DIFF>0]: // HIDES
+ItemDisplay[wms CLVL>29]: // HIDES
 
 //QUEST ITEMS start
 ItemDisplay[hdm]: %NAME%// Horadric Malus
@@ -427,66 +427,66 @@ ItemDisplay[r30 OR r31]: %NOTIFY(ITEM,HIGH)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%
 //GEMS start
 
 //Amethyst
-ItemDisplay[gcv DIFF<1]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst// Chipped Amethyst
-ItemDisplay[gcv DIFF>0]: //HIDES
-ItemDisplay[gfv DIFF<1]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst// Flawed Amethyst
-ItemDisplay[gfv DIFF>0]: //HIDES
-ItemDisplay[gsv DIFF<1]: %PURPLE%+%PURPLE%Amethyst// Amethyst ("Normal")
-ItemDisplay[gsv DIFF>0]: //HIDES
+ItemDisplay[gcv CLVL<30]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst// Chipped Amethyst
+ItemDisplay[gcv CLVL>29]: //HIDES
+ItemDisplay[gfv CLVL<30]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst// Flawed Amethyst
+ItemDisplay[gfv CLVL>29]: //HIDES
+ItemDisplay[gsv CLVL<30]: %PURPLE%+%PURPLE%Amethyst// Amethyst ("Normal")
+ItemDisplay[gsv CLVL>29]: //HIDES
 ItemDisplay[gzv]: %PURPLE%+%WHITE%F %PURPLE%Ame%WHITE%// Flawless Amethyst
 ItemDisplay[gpv]: %PURPLE%+%WHITE%P %PURPLE%Ame%WHITE%// Perfect Amethyst
 //Emerald
-ItemDisplay[gcg DIFF<1]: %PURPLE%+%WHITE%Chipped %GREEN%Emerald// Chipped Emerald
-ItemDisplay[gcg DIFF>0]: //HIDES
-ItemDisplay[gfg DIFF<1]: %PURPLE%+%WHITE%Flawed %GREEN%Emerald// Flawed Emerald
-ItemDisplay[gfg DIFF>0]: //HIDES
-ItemDisplay[gsg DIFF<1]: %PURPLE%+%GREEN%Emerald// Emerald ("Normal")
-ItemDisplay[gsg DIFF>0]: //HIDES
+ItemDisplay[gcg CLVL<30]: %PURPLE%+%WHITE%Chipped %GREEN%Emerald// Chipped Emerald
+ItemDisplay[gcg CLVL>29]: //HIDES
+ItemDisplay[gfg CLVL<30]: %PURPLE%+%WHITE%Flawed %GREEN%Emerald// Flawed Emerald
+ItemDisplay[gfg CLVL>29]: //HIDES
+ItemDisplay[gsg CLVL<30]: %PURPLE%+%GREEN%Emerald// Emerald ("Normal")
+ItemDisplay[gsg CLVL>29]: //HIDES
 ItemDisplay[glg]: %PURPLE%+%WHITE%F %GREEN%Eme// Flawless Emerald
 ItemDisplay[gpg]: %PURPLE%+%WHITE%P %GREEN%Eme// Perfect Emerald
 //Ruby
-ItemDisplay[gcr DIFF<1]: %PURPLE%+%WHITE%Chipped %RED%Ruby// Chipped Ruby
-ItemDisplay[gcr DIFF>0]: //HIDES
-ItemDisplay[gfr DIFF<1]: %PURPLE%+%WHITE%Flawed %RED%Ruby// Flawed Ruby
-ItemDisplay[gfr DIFF>0]: //HIDES
-ItemDisplay[gsr DIFF<1]: %PURPLE%+%RED%Ruby// Ruby ("Normal")
-ItemDisplay[gsr DIFF>0]: //HIDES
+ItemDisplay[gcr CLVL<30]: %PURPLE%+%WHITE%Chipped %RED%Ruby// Chipped Ruby
+ItemDisplay[gcr CLVL>29]: //HIDES
+ItemDisplay[gfr CLVL<30]: %PURPLE%+%WHITE%Flawed %RED%Ruby// Flawed Ruby
+ItemDisplay[gfr CLVL>29]: //HIDES
+ItemDisplay[gsr CLVL<30]: %PURPLE%+%RED%Ruby// Ruby ("Normal")
+ItemDisplay[gsr CLVL>29]: //HIDES
 ItemDisplay[glr]: %PURPLE%+%WHITE%F %RED%Ruby// Flawless Ruby
 ItemDisplay[gpr]: %PURPLE%+%WHITE%P %RED%Ruby// Perfect Ruby
 //Sapphire
-ItemDisplay[gcb DIFF<1]: %PURPLE%+%WHITE%Chipped %BLUE%Sapphire// Chipped Sapphire
-ItemDisplay[gcb DIFF>0]: //HIDES
-ItemDisplay[gfb DIFF<1]: %PURPLE%+%WHITE%Flawed %BLUE%Sapphire// Flawed Sapphire
-ItemDisplay[gfb DIFF>0]: //HIDES
-ItemDisplay[gsb DIFF<1]: %PURPLE%+%BLUE%Sapphire// Sapphire ("Normal")
-ItemDisplay[gsb DIFF>0]: //HIDES
+ItemDisplay[gcb CLVL<30]: %PURPLE%+%WHITE%Chipped %BLUE%Sapphire// Chipped Sapphire
+ItemDisplay[gcb CLVL>29]: //HIDES
+ItemDisplay[gfb CLVL<30]: %PURPLE%+%WHITE%Flawed %BLUE%Sapphire// Flawed Sapphire
+ItemDisplay[gfb CLVL>29]: //HIDES
+ItemDisplay[gsb CLVL<30]: %PURPLE%+%BLUE%Sapphire// Sapphire ("Normal")
+ItemDisplay[gsb CLVL>29]: //HIDES
 ItemDisplay[glb]: %PURPLE%+%WHITE%F %BLUE%Sap// Flawless Sapphire
 ItemDisplay[gpb]: %PURPLE%+%WHITE%P %BLUE%Sap// Perfect Sapphire
 //Topaz
-ItemDisplay[gcy DIFF<1]: %PURPLE%+%WHITE%Chipped %YELLOW%Topaz%WHITE%// Chipped Topaz
-ItemDisplay[gcy DIFF>0]: //HIDES
-ItemDisplay[gfy DIFF<1]: %PURPLE%+%WHITE%Flawed %YELLOW%Topaz%WHITE%// Flawed Topaz
-ItemDisplay[gfy DIFF>0]: //HIDES
-ItemDisplay[gsy DIFF<1]: %PURPLE%+%YELLOW%Topaz%WHITE%// Topaz ("Normal")
-ItemDisplay[gsy DIFF>0]: //HIDES
+ItemDisplay[gcy CLVL<30]: %PURPLE%+%WHITE%Chipped %YELLOW%Topaz%WHITE%// Chipped Topaz
+ItemDisplay[gcy CLVL>29]: //HIDES
+ItemDisplay[gfy CLVL<30]: %PURPLE%+%WHITE%Flawed %YELLOW%Topaz%WHITE%// Flawed Topaz
+ItemDisplay[gfy CLVL>29]: //HIDES
+ItemDisplay[gsy CLVL<30]: %PURPLE%+%YELLOW%Topaz%WHITE%// Topaz ("Normal")
+ItemDisplay[gsy CLVL>29]: //HIDES
 ItemDisplay[gly]: %PURPLE%+%WHITE%F %YELLOW%Topaz// Flawless Topaz
 ItemDisplay[gpy]: %PURPLE%+%WHITE%P %YELLOW%Topaz// Perfect Topaz
 //Diamond
-ItemDisplay[gcw DIFF<1]: %PURPLE%+%WHITE%Chipped %WHITE%Diamond%WHITE% 			// Chipped Diamond
-ItemDisplay[gcw DIFF>0]: //HIDES
-ItemDisplay[gfw DIFF<1]: %PURPLE%+%WHITE%Flawed %WHITE%Diamond%WHITE%				// Flawed Diamond
-ItemDisplay[gfw DIFF>0]: //HIDES
-ItemDisplay[gsw DIFF<1]: %PURPLE%+%WHITE%Diamond%WHITE%					// Diamond ("Normal")
-ItemDisplay[gsw DIFF>0]: //HIDES
+ItemDisplay[gcw CLVL<30]: %PURPLE%+%WHITE%Chipped %WHITE%Diamond%WHITE% 			// Chipped Diamond
+ItemDisplay[gcw CLVL>29]: //HIDES
+ItemDisplay[gfw CLVL<30]: %PURPLE%+%WHITE%Flawed %WHITE%Diamond%WHITE%				// Flawed Diamond
+ItemDisplay[gfw CLVL>29]: //HIDES
+ItemDisplay[gsw CLVL<30]: %PURPLE%+%WHITE%Diamond%WHITE%					// Diamond ("Normal")
+ItemDisplay[gsw CLVL>29]: //HIDES
 ItemDisplay[glw]: %PURPLE%+%WHITE%F Dia// Flawless Diamond
 ItemDisplay[gpw]: %PURPLE%+%WHITE%P Dia// Perfect Diamond
 //Skull
-ItemDisplay[skc DIFF<1]: %PURPLE%+%PURPLE%Chipped %GOLD%Skull// Chipped Skull
-ItemDisplay[skc DIFF>0]: //HIDES
-ItemDisplay[skf DIFF<1]: %PURPLE%+%PURPLE%Flawed %GOLD%Skull// Flawed Skull
-ItemDisplay[skf DIFF>0]: //HIDES
-ItemDisplay[sku DIFF<1]: %PURPLE%+%PURPLE%Normal %GOLD%Skull// Skull ("Normal")
-ItemDisplay[sku DIFF>0]: //HIDES
+ItemDisplay[skc CLVL<30]: %PURPLE%+%PURPLE%Chipped %GOLD%Skull// Chipped Skull
+ItemDisplay[skc CLVL>29]: //HIDES
+ItemDisplay[skf CLVL<30]: %PURPLE%+%PURPLE%Flawed %GOLD%Skull// Flawed Skull
+ItemDisplay[skf CLVL>29]: //HIDES
+ItemDisplay[sku CLVL<30]: %PURPLE%+%PURPLE%Normal %GOLD%Skull// Skull ("Normal")
+ItemDisplay[sku CLVL>29]: //HIDES
 ItemDisplay[skl]: %PURPLE%+%PURPLE%F %GOLD%Skull// Flawless Skull
 ItemDisplay[skz]: %PURPLE%+%PURPLE%P %GOLD%Skull// Perfect Skull
 
