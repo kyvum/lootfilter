@@ -23,10 +23,8 @@ ItemDisplay[NMAG SOCK=4 (SK112=3 AND SK113=3) WP13]: %GREEN%400Jay's %WHITE%Insa
 
 //f0oster start
 
-ItemDisplay[!UNI SK39>1 (CL6 OR WP11) CLVL<20]: %ORANGE%f0oster's %WHITE%Ice Bolt Stick
-ItemDisplay[!UNI SK45>1 (CL6 OR WP11) CLVL<40]: %ORANGE%f0oster's %WHITE%Ice Blast Stick
+ItemDisplay[!UNI SK44>1 (CL6 OR WP11) CLVL<20]: %ORANGE%f0oster's %WHITE%Frost Nova Stick
 ItemDisplay[!UNI SK64>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster's %WHITE%Frozen Orb Stick
-ItemDisplay[!UNI SK59>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster's %WHITE%Blizzard Stick
 ItemDisplay[!UNI SK62>1 (CL6 OR WP11) CLVL<70]: %ORANGE%f0oster's %WHITE%Hydra Stick
 
 //Bren start
