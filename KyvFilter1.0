@@ -17,9 +17,9 @@ ItemDisplay[MAG ID 7gm ILVL>85]: %PURPLE%Kyvum's %ORANGE%Tir %WHITE%+ %BLUE%Sapp
 
 //Forhundred start
 
-ItemDisplay[!UNI SK101>1 WP13 CLVL<25]: %YELLOW%400Jay's %WHITE%Holy Bolt Stick
-ItemDisplay[!UNI SK112>1 WP13 CLVL<50]: %YELLOW%400Jay's %WHITE%Blessed Hammer Stick
-ItemDisplay[NMAG SOCK=4 (SK112=3 AND SK113=3) WP13]: %YELLOW%400Jay's %WHITE%Insane Phoenix Base
+ItemDisplay[!UNI SK101>1 WP13 CLVL<25]: %GREEN%400Jay's %WHITE%Holy Bolt Stick
+ItemDisplay[!UNI SK112>1 WP13 CLVL<50]: %GREEN%400Jay's %WHITE%Blessed Hammer Stick
+ItemDisplay[NMAG SOCK=4 (SK112=3 AND SK113=3) WP13]: %GREEN%400Jay's %WHITE%Insane Phoenix Base
 
 //f0oster start
 
