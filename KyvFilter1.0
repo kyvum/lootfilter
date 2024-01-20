@@ -611,7 +611,7 @@ ItemDisplay[rvl]: %PURPLE%+%WHITE%R+%PURPLE%+%WHITE%// Full Rejuv Potion
 // Scrolls & Tomes
 ItemDisplay[isc]:
 ItemDisplay[tsc]: %BLUE%!%WHITE%TP%BLUE%!
-ItemDisplay[key]: //key
+ItemDisplay[key CLVL<30]: %NAME%
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<10]: $$$
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]://Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
 
