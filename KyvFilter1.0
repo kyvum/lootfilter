@@ -48,7 +48,7 @@ ItemDisplay[NMAG !ETH WP12 (SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK
 
 //Show Early Rares and Magics
 ItemDisplay[RARE CLVL<70]: %YELLOW%%NAME%
-ItemDisplay[MAG CLVL<70]: %BLUE%%NAME%
+ItemDisplay[MAG CLVL<15]: %BLUE%%NAME%
 
 //Show all Runewords
 ItemDisplay[RW]: %NAME%
