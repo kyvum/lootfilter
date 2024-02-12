@@ -252,6 +252,11 @@ ItemDisplay[7kr UNI !ID ETH]: %GRAY%ETH %GOLD%Fleshripper
 ItemDisplay[7bk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GOLD%Warshrike %RED%** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[7bk UNI !ID ETH]: %GRAY%ETH %GOLD%Warshrike
 //POLEARMS
+//- Athena's Wrath
+ItemDisplay[9s8 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GOLD%Athena's %RED%*
+ItemDisplay[9s8 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Athena's %RED%*
+ItemDisplay[9s8 UNI ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GOLD%Athena's +3%RED%*
+ItemDisplay[9s8 UNI ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Athena's +3%RED%*
 //- Bonehew
 ItemDisplay[7o7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GOLD%Bonehew %RED%*
 ItemDisplay[7o7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %GOLD%Bonehew %RED%*
