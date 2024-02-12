@@ -35,12 +35,12 @@ ItemDisplay[!NMAG cbw OR sbb OR lbb OR mxb SOCK>1 CLVL<25] %NAME% %RED%Bren's %W
 ItemDisplay[!NMAG swb OR lwb OR lbb OR hxb OR rxb SOCK>1 CLVL<40] %NAME% %RED%Bren's %WHITE%Big Cock %SOCK%
 
 //BREN NECRO HIDDEN
-//ItemDisplay[!UNI SK67>1 (CL4 OR WP12) CLVL<30]: %NAME% %RED%Bren's %WHITE%Teeth
-//ItemDisplay[!UNI SK67=3 (CL4 OR WP12) CLVL<30]: %NAME% %RED%Bren's %WHITE%Teeth %PURPLE%+3
-//ItemDisplay[!UNI SK84>1 (CL4 OR WP12) CLVL<70]: %NAME% %RED%Bren's %WHITE%Boner
-//ItemDisplay[NMAG SK84=3 WP12 SOCK=2]: %NAME% %RED%Bren's %WHITE%Wet Dream
-//ItemDisplay[NMAG SK84=3 WP12 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SOCK=0]: %NAME% %RED%Bren's %WHITE%Wet Dream
-//ItemDisplay[!UNI SK84=3 (CL4 OR WP12) CLVL<70]: %NAME% %RED%Bren's %WHITE%Boner %PURPLE%+3
+ItemDisplay[!UNI SK67>1 (CL4 OR WP12) CLVL<30]: %NAME% %RED%Bren's %WHITE%Teeth
+ItemDisplay[!UNI SK67=3 (CL4 OR WP12) CLVL<30]: %NAME% %RED%Bren's %WHITE%Teeth %PURPLE%+3
+ItemDisplay[!UNI SK84>1 (CL4 OR WP12) CLVL<70]: %NAME% %RED%Bren's %WHITE%Boner
+ItemDisplay[NMAG SK84=3 WP12 SOCK=2]: %NAME% %RED%Bren's %WHITE%Wet Dream
+ItemDisplay[NMAG SK84=3 WP12 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SOCK=0]: %NAME% %RED%Bren's %WHITE%Wet Dream
+ItemDisplay[!UNI SK84=3 (CL4 OR WP12) CLVL<70]: %NAME% %RED%Bren's %WHITE%Boner %PURPLE%+3
 
 //Ultra start
 
