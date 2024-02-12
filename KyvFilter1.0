@@ -10,7 +10,7 @@ ItemDisplay[GOLD<2500 CLVL>65]:
 
 ItemDisplay[SK230>1 CL1 CLVL<30]: %NAME% %PURPLE%Kyvum's %WHITE%Arctic Blast
 ItemDisplay[SK230=3 CL1 CLVL<50]: %NAME% %PURPLE%Kyvum's %WHITE%Arctic Blast %PURPLE%+3
-ItemDisplay[SK247=3 CL1 CLVL<50]: %NAME% %PURPLE%Kyvum's %WHITE%Grizzly %PURPLE%+3
+ItemDisplay[SK247=3 CL1]: %NAME% %PURPLE%Kyvum's %WHITE%Grizzly %PURPLE%+3
 ItemDisplay[MAG !ETH !ID 7ga ILVL>85]: %NAME% %PURPLE%Kyvum's Blood Base %ORANGE%[L%ILVL%]
 ItemDisplay[MAG ID 7ga ILVL>85]: %NAME% %PURPLE%Kyvum's %ORANGE%Ort %WHITE%+ %RED%Ruby
 ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %NAME% %PURPLE%Kyvum's %PURPLE%Hitpower Base %ORANGE%[L%ILVL%]
