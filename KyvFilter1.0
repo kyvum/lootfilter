@@ -619,7 +619,7 @@ ItemDisplay[rvl]: %PURPLE%+%WHITE%R+%PURPLE%+%WHITE%// Full Rejuv Potion
 //UTILITIES start
 
 // Scrolls & Tomes
-ItemDisplay[isc]:
+ItemDisplay[isc CLVL<29]: %RED%!%WHITE%ID%RED%!
 ItemDisplay[tsc]: %BLUE%!%WHITE%TP%BLUE%!
 ItemDisplay[key CLVL<30]: %NAME%
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<10]: $$$
