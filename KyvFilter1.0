@@ -627,9 +627,9 @@ ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]://Choking, Explodin
 
 // Antidote, Stamina, and Thawing potions
 ItemDisplay[yps]:
-ItemDisplay[vps DIFF<2]: Stam
-ItemDisplay[vps DIFF>1]: // HIDES
-ItemDisplay[wms DIFF<2]:
+ItemDisplay[vps CLVL<29]: Stam
+ItemDisplay[vps CLVL>29]: // HIDES
+ItemDisplay[wms CLVL<29]:
 ItemDisplay[wms CLVL>29]: // HIDES
 
 //QUEST ITEMS start
