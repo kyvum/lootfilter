@@ -524,7 +524,6 @@ ItemDisplay[RARE WP6 !ID ILVL>65]: %NAME%
 
 //Tiara Diadem Imbue Charsi
 ItemDisplay[NMAG (ci2 OR ci3) !RW CLVL<80 ILVL>14 SOCK=0]: IMBUE
-ItemDisplay[NMAG (ci2 OR ci3) !RW CLVL<80 ILVL>14 SOCK>0]: IMBUE
 // ^add %NAME% to find imbue-able tiara/diadem
 
 //Other valuables
