@@ -815,6 +815,11 @@ ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %ORANGE%Ort %WHITE%+ %BLUE
 //Caster Gloves
 ItemDisplay[!ETH !ID MAG (xlg OR ulg) ILVL>71]: %ORANGE%C%BLUE%Glv
 ItemDisplay[!ETH ID MAG (xlg OR ulg) ILVL>71]: %ORANGE%Ort %WHITE%+ %PURPLE%Amethyst
+
+//Blood Gloves
+ItemDisplay[!ETH !ID MAG (xvg OR vlg) ILVL>71]: %ORANGE%B%BLUE%Glv
+ItemDisplay[!ETH ID MAG (xvg OR vlg) ILVL>71]: %ORANGE%Nef %WHITE%+ %RED%Ruby
+
 //Caster Boots
 ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %BLUE%C%ORANGE%Boot
 ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71]: %ORANGE%Thul %WHITE%+ %PURPLE%Ame
