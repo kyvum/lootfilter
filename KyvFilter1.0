@@ -820,6 +820,10 @@ ItemDisplay[!ETH ID MAG (xlg OR ulg) ILVL>71]: %ORANGE%Ort %WHITE%+ %PURPLE%Amet
 ItemDisplay[!ETH !ID MAG (xvg OR vlg) ILVL>71]: %ORANGE%B%BLUE%Glv
 ItemDisplay[!ETH ID MAG (xvg OR vlg) ILVL>71]: %ORANGE%Nef %WHITE%+ %RED%Ruby
 
+//Safety Boots
+ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%Safe%ORANGE%Boot
+ItemDisplay[!ETH MAG ID hbt ILVL>71]: %ORANGE%Ort %WHITE%+ %GREEN%Eme
+
 //Caster Boots
 ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %BLUE%C%ORANGE%Boot
 ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71]: %ORANGE%Thul %WHITE%+ %PURPLE%Ame
