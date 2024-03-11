@@ -75,27 +75,27 @@ ItemDisplay[NMAG SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%]
 //Late Bases start
 
 //Monarchs
-ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%[%WHITE%-10% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-9]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%GRAY%[%WHITE%-9% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-8]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%GRAY%[%WHITE%-8% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%[%WHITE%-10% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-9]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%GRAY%[%WHITE%-9% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-8]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%GRAY%[%WHITE%-8% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-7]: %GRAY%[%WHITE%-7% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-6]: %GRAY%[%WHITE%-6% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-5]: %GRAY%[%WHITE%-5% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0)]: %WHITE%%NAME% %PURPLE%[%SOCKETS%]
 
 //Archon Plates
-ItemDisplay[NMAG ETH SUP SOCK=0 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%AP Merc Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH SUP SOCK=3 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%3os Merc AP Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH SUP SOCK=4 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%4os Merc AP Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=0 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%AP Merc Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=3 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%3os Merc AP Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=4 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%4os Merc AP Base%PURPLE%[%SOCKETS%]
 
-ItemDisplay[NMAG SUP SOCK=0 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%AP Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG SUP SOCK=3 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%3os AP Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG SUP SOCK=4 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%4os AP Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG SUP SOCK=0 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%AP Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG SUP SOCK=3 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%3os AP Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG SUP SOCK=4 utp]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%4os AP Base%PURPLE%[%SOCKETS%]
 
 //Sacred Armor MERC
-ItemDisplay[NMAG ETH SUP SOCK=0 uar]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%Merc Sacred Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH SUP SOCK=3 uar]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%3os Merc Sacred Base%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH SUP SOCK=4 uar]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%4os Merc Sacred Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=0 uar]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%Merc Sacred Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=3 uar]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%3os Merc Sacred Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=4 uar]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%4os Merc Sacred Base%PURPLE%[%SOCKETS%]
 
 
 //Weapon Bases
@@ -104,11 +104,11 @@ ItemDisplay[7wa !ETH NMAG SOCK>4]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[7wa ETH NMAG SOCK>4]: %DGREEN%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[7cr NMAG SOCK=4]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[7wa NMAG SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[7p7 ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
-ItemDisplay[6ws NMAG SUP ETH (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
-ItemDisplay[7wa ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
-ItemDisplay[7p7 ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
-ItemDisplay[7gm ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
+ItemDisplay[7p7 ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
+ItemDisplay[6ws NMAG SUP ETH (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
+ItemDisplay[7wa ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
+ItemDisplay[7p7 ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
+ItemDisplay[7gm ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]
 ItemDisplay[7wa ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%]
 ItemDisplay[7gi ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%]
 
@@ -116,152 +116,152 @@ ItemDisplay[7gi ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%]
 
 //HELMETS
 //- Vampire Gaze
-ItemDisplay[xh9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Vampire Gaze %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[xh9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Vampire Gaze
+ItemDisplay[xh9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Vampire Gaze %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xh9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Vampire Gaze
 //- Shako
-ItemDisplay[uap UNI !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Shako %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[uap UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Shako
+ItemDisplay[uap UNI !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Shako %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uap UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Shako
 //- Griffon's Eye
-ItemDisplay[ci3 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Griffon's Eye %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[ci3 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Griffon's Eye
+ItemDisplay[ci3 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Griffon's Eye %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ci3 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Griffon's Eye
 //- Kira's Guardian
-ItemDisplay[ci2 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Kira's Guardian
-ItemDisplay[ci2 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Kira's Guardian
+ItemDisplay[ci2 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Kira's Guardian
+ItemDisplay[ci2 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Kira's Guardian
 //- Veil of Steel or Nightwing's Veil
 ItemDisplay[uhm UNI !ID !ETH]: %GOLD%Veil of Steel or Nightwing's Veil
 ItemDisplay[uhm UNI !ID ETH]: %GRAY%ETH %GOLD%Veil of Steel or %GRAY%ETH %GOLD%Nightwing's Veil
 //- Andariel's Visage
-ItemDisplay[usk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Andariel's Visage
-ItemDisplay[usk UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Andariel's Visage
+ItemDisplay[usk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Andariel's Visage
+ItemDisplay[usk UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Andariel's Visage
 //- Crown of Ages
-ItemDisplay[urn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Crown of Ages
-ItemDisplay[urn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Crown of Ages
+ItemDisplay[urn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Crown of Ages
+ItemDisplay[urn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Crown of Ages
 
 //BODY ARMOR
 //- The Spirit Shroud
 ItemDisplay[xui UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %GOLD%The Spirit Shroud
 ItemDisplay[xui UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %GRAY%ETH %GOLD%The Spirit Shroud
 //- Skin of the Vipermagi
-ItemDisplay[xea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Skin of the Vipermagi %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[xea UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Skin of the Vipermagi
+ItemDisplay[xea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Skin of the Vipermagi %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xea UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Skin of the Vipermagi
 //- Shaftstop 
-ItemDisplay[xhn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Shaftstop %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[xhn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Shaftstop %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Shaftstop %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Shaftstop %NOTIFYSOUND(2664,HIGH)%
 //- Ormus' Robes
-ItemDisplay[uui UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Ormus' Robes
+ItemDisplay[uui UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Ormus' Robes
 ItemDisplay[uui UNI !ID ETH]: %GRAY%ETH %GOLD%Ormus' Robes
 //- Arkaine's Valor
-ItemDisplay[upl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Arkaine's Valor
+ItemDisplay[upl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Arkaine's Valor
 ItemDisplay[upl UNI !ID ETH]: %GRAY%ETH %GOLD%Arkaine's Valor 
 //- Steel Carapace
-ItemDisplay[uul UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[uul UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uul UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uul UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
 //- Tyrael's Might
-ItemDisplay[uar UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%RED%*** %GOLD%Tyrael's Might or Templar's Might %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[uar UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uar UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%RED%*** %GOLD%Tyrael's Might or Templar's Might %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uar UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** %NOTIFYSOUND(2664,HIGH)%
 
 //SHIELDS
 //- Stormshield
-ItemDisplay[uit UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%RED%*** %GOLD%Stormshield %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uit UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%RED%*** %GOLD%Stormshield %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[uit UNI !ID ETH]: %GRAY%ETH %GOLD%Stormshield
 //- Head Hunter's Glory
-ItemDisplay[ush UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Head Hunter's Glory
+ItemDisplay[ush UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Head Hunter's Glory
 ItemDisplay[ush UNI !ID ETH]: %GRAY%ETH %GOLD%Head Hunter's Glory
 
 //GLOVES
 //- Dracul's Grasp
-ItemDisplay[uvg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%*** %GOLD%Dracul's Grasp %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uvg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%*** %GOLD%Dracul's Grasp %RED%*** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[uvg UNI !ID ETH]: %GRAY%ETH %GOLD%Dracul's Grasp
 //- Soul Drainer
-ItemDisplay[umg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Soul Drainer %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[umg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Soul Drainer %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[umg UNI !ID ETH]: %GRAY%ETH %GOLD%Soul Drainer
 //- Steelrend
-ItemDisplay[uhg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Steelrend %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uhg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Steelrend %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[uhg UNI !ID ETH]: %GRAY%ETH %GOLD%Steelrend
 
 //BOOTS
 //- Waterwalk
-ItemDisplay[xvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Waterwalk
+ItemDisplay[xvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Waterwalk
 ItemDisplay[xvb UNI !ID ETH]: %GRAY%ETH %GOLD%Waterwalk
 //- Silkweave
-ItemDisplay[xmb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Silkweave
+ItemDisplay[xmb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Silkweave
 ItemDisplay[xmb UNI !ID ETH]: %GRAY%ETH %GOLD%Silkweave
 //- War Traveler
-ItemDisplay[xtb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%War Traveler %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xtb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%War Traveler %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[xtb UNI !ID ETH]: %GRAY%ETH %GOLD%War Traveler 
 //- Gore Rider
-ItemDisplay[xhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Gore Rider %RED% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Gore Rider %RED% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[xhb UNI !ID ETH]: %GRAY%ETH %GOLD%Gore Rider
 //- Sandstorm Trek
-ItemDisplay[uvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Sandstorm Trek
+ItemDisplay[uvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Sandstorm Trek
 ItemDisplay[uvb UNI !ID ETH]: %GRAY%ETH %GOLD%Sandstorm Trek
 //- Marrowwalk
-ItemDisplay[umb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Marrowwalk
+ItemDisplay[umb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Marrowwalk
 ItemDisplay[umb UNI !ID ETH]: %GRAY%ETH %GOLD%Marrowwalk
 //- Shadow Dancer
-ItemDisplay[uhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Shadow Dancer %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Shadow Dancer %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[uhb UNI !ID ETH]: %GRAY%ETH %GOLD%Shadow Dancer
 
 //BELTS
 //- Verdungo's Hearty Cord
-ItemDisplay[umc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%RED%*** %GOLD%Verdungo's Hearty Cord %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[umc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%RED%*** %GOLD%Verdungo's Hearty Cord %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[umc UNI !ID ETH]: %GRAY%ETH %GOLD%Verdungo's Hearty Cord
 //- Snowclash
-ItemDisplay[ztb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Snowclash
+ItemDisplay[ztb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Snowclash
 ItemDisplay[ztb UNI !ID ETH]: %GRAY%ETH %GOLD%Snowclash
 //- Thundergod's Vigor
-ItemDisplay[zhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Thundergod's Vigor %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[zhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Thundergod's Vigor %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[zhb UNI !ID ETH]: %GRAY%ETH %GOLD%Thundergod's Vigor
 //- Arachnid Mesh
-ItemDisplay[ulc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%RED%*** %GOLD%Arachnid Mesh %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ulc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%RED%*** %GOLD%Arachnid Mesh %RED%*** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh 
 
 //WEAPONS
 //AXES
 //- Pompeii's Wrath
-ItemDisplay[9mp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GOLD%Pompeii's Wrath
+ItemDisplay[9mp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Pompeii's Wrath
 ItemDisplay[9mp UNI !ID ETH]: %GRAY%ETH %GOLD%Pompeii's Wrath
 //- Rune Master
 ItemDisplay[72a UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %GOLD%Rune Master %WHITE%[%%GRAY%ETH %GOLD%ETS%]
 ItemDisplay[72a UNI !ID ETH]: %GRAY%ETH %GOLD%Rune Master %WHITE%[%%GRAY%ETH %GOLD%ETS%]
 //- Death Cleaver
-ItemDisplay[7wa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%RED%*** %GOLD%Death Cleaver %RED%***%NL%
+ItemDisplay[7wa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%RED%*** %GOLD%Death Cleaver %RED%***%NL%
 ItemDisplay[7wa UNI !ID ETH]: %GRAY%ETH %GOLD%Death Cleaver
 //- Executioner's Justice
 ItemDisplay[7gi UNI !ID !ETH]: %RED%* %GOLD%Executioner's Justice %RED%*
 ItemDisplay[7gi UNI !ID ETH]: %GRAY%ETH %GOLD%Executioner's Justice
 //MACES
 //- Horizon's Tornado or Stormlash
-ItemDisplay[7fl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Horizon's Tornado or Stormlash %RED%** 
+ItemDisplay[7fl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Horizon's Tornado or Stormlash %RED%** 
 ItemDisplay[7fl UNI !ID ETH]: %GRAY%ETH %GOLD%Horizon's Tornado or Stormlash
 //- Windhammer
 ItemDisplay[7m7 UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)% %RED%** %GOLD%Windhammer %RED%**
 ItemDisplay[7m7 UNI !ID ETH]: %GRAY%ETH %GOLD%Windhammer
 //- Earth Shifter or The Cranium Basher
-ItemDisplay[7gm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Cranium Bashers %RED%**
+ItemDisplay[7gm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Cranium Bashers %RED%**
 ItemDisplay[7gm UNI !ID ETH]: %GRAY%ETH %GOLD%Cranium Bashers
 //SWORDS
 //- Ginther's Rift
 ItemDisplay[9cr UNI !ID !ETH]: %GOLD%Ginther's Rift
 ItemDisplay[9cr UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GRAY%ETH %GOLD%Ginther's Rift %RED%*
 //- Headstriker
-ItemDisplay[9bs UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%*** %GOLD%Headstriker %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[9bs UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%*** %GOLD%Headstriker %RED%*** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[9bs UNI !ID ETH]: %GRAY%ETH %GOLD%Headstriker
 //- Bing Sz Wang
-ItemDisplay[9cm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Bing Sz Wang %RED%*
+ItemDisplay[9cm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Bing Sz Wang %RED%*
 ItemDisplay[9cm UNI !ID ETH]: %GRAY%ETH %GOLD%Bing Sz Wang
 //- Lightsabre or Azurewrath
 ItemDisplay[7cr UNI !ID]: %NOTIFY(ITEM,LOW)% %RED%*** %GOLD%Lightsabre or Azurewrath %RED%*** %NOTIFYSOUND(2664,HIGH)%
 //- The Grandfather
-ItemDisplay[7gd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%RED%** %GOLD%The Grandfather **%NL% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[7gd UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GRAY%ETH %GOLD%The Grandfather %RED%*
+ItemDisplay[7gd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%RED%** %GOLD%The Grandfather **%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7gd UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GRAY%ETH %GOLD%The Grandfather %RED%*
 //DAGGERS
 //- Fleshripper
 ItemDisplay[7kr UNI !ID !ETH]: %RED%* %GOLD%Fleshripper %RED%*
 ItemDisplay[7kr UNI !ID ETH]: %GRAY%ETH %GOLD%Fleshripper
 //THROWING WEAPONS
 //- Warshrike
-ItemDisplay[7bk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Warshrike %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7bk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Warshrike %RED%** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[7bk UNI !ID ETH]: %GRAY%ETH %GOLD%Warshrike
 //POLEARMS
 //- Athena's Wrath
@@ -273,14 +273,14 @@ ItemDisplay[9s8 UNI ID ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GRAY%ETH %GOLD%Athena's 
 ItemDisplay[7o7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GOLD%Bonehew %RED%*
 ItemDisplay[7o7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GRAY%ETH %GOLD%Bonehew %RED%*
 //- Reaper's Toll
-ItemDisplay[7s8 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Reaper's Toll %RED%** %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[7s8 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GRAY%ETH %GOLD%Reaper's Toll %RED%*
+ItemDisplay[7s8 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Reaper's Toll %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7s8 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GRAY%ETH %GOLD%Reaper's Toll %RED%*
 //- Tomb Reaver
 ItemDisplay[7pa UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %RED%*** %GOLD%Tomb Reaver %RED%***
 ItemDisplay[7pa UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GRAY%ETH %GOLD%Tomb Reaver %RED%*
 //BOWS
 //- Windforce
-ItemDisplay[6lw UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%*** %GOLD%Windforce %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[6lw UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%*** %GOLD%Windforce %RED%*** %NOTIFYSOUND(2664,HIGH)%
 //- Goldstrike Arch
 ItemDisplay[8lw UNI !ID]: %NOTIFY(ITEM,LOW)% %RED%* %GOLD%Goldstrike Arch %RED%*
 //CROSSBOWS
@@ -299,49 +299,49 @@ ItemDisplay[7gw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %RED%** %GOLD%Death's Web %RED
 ItemDisplay[7gw UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GRAY%ETH %GOLD%Death's Web %RED%*
 //SCEPTERS
 //- Hand of Blessed Light
-ItemDisplay[9ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Hand of Blessed Light %RED%**
+ItemDisplay[9ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Hand of Blessed Light %RED%**
 ItemDisplay[9ws UNI !ID ETH]: %GRAY%ETH %GOLD%Hand of Blessed Light
 //- Heaven's Light or The Redeemer
-ItemDisplay[7sc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Heaven's Light or The Redeemer %RED%**
-ItemDisplay[7sc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Heaven's Light or The Redeemer
+ItemDisplay[7sc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Heaven's Light or The Redeemer %RED%**
+ItemDisplay[7sc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Heaven's Light or The Redeemer
 //- Astreon's Iron Ward
-ItemDisplay[7ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Astreon's Iron Ward %RED%*
-ItemDisplay[7ws UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %GRAY%ETH %GOLD%Astreon's Iron Ward
+ItemDisplay[7ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Astreon's Iron Ward %RED%*
+ItemDisplay[7ws UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GRAY%ETH %GOLD%Astreon's Iron Ward
 
 //CLASS SPECIFICS
 //DRUID
 //- Jalal's Mane
-ItemDisplay[dra UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Jalal's Mane %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[dra UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Jalal's Mane %RED%** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[dra UNI !ID ETH]: %GRAY%ETH %GOLD%Jalal's Mane
 //- Ravenlore
-ItemDisplay[dre UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Ravenlore %RED%*
+ItemDisplay[dre UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Ravenlore %RED%*
 ItemDisplay[dre UNI !ID ETH]: %GRAY%ETH %GOLD%Ravenlore
 //- Spirit Keeper
-ItemDisplay[drd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Spirit Keeper %RED%*
+ItemDisplay[drd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Spirit Keeper %RED%*
 ItemDisplay[drd UNI !ID ETH]: %GRAY%ETH %GOLD%Spirit Keeper
 //BARBARIAN
 //- Arreat's Face
-ItemDisplay[baa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Arreat's Face %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[baa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Arreat's Face %RED%** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[baa UNI !ID ETH]: %GRAY%ETH %GOLD%Arreat's Face
 //- Wolfhowl
-ItemDisplay[bac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Wolfhowl %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[bac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Wolfhowl %RED%** %NOTIFYSOUND(2664,HIGH)% 
 ItemDisplay[bac UNI !ID ETH]: %GRAY%ETH %GOLD%Wolfhowl
 //PALADIN
 //- Alma Negra
-ItemDisplay[pac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Alma Negra %RED%*
+ItemDisplay[pac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Alma Negra %RED%*
 ItemDisplay[pac UNI !ID ETH]: %GRAY%ETH %GOLD%Alma Negra
 //- Herald of Zakarum
-ItemDisplay[pa9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Herald of Zakarum %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[pa9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Herald of Zakarum %RED%** %NOTIFYSOUND(2664,HIGH)% 
 ItemDisplay[pa9 UNI !ID ETH]: %GRAY%ETH %GOLD%Herald of Zakarum 
 //NECROMANCER
 //- Homunculus
-ItemDisplay[nea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Homunculus %RED%* %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[nea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Homunculus %RED%* %NOTIFYSOUND(2664,HIGH)% 
 ItemDisplay[nea UNI !ID ETH]:%GRAY%ETH %GOLD%Homunculus
 //- Darkforce Spawn
 ItemDisplay[nef UNI !ID !ETH]: %RED%* %GOLD%Darkforce Spawn %RED%* %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[nef UNI !ID ETH]: %GRAY%ETH %GOLD%Darkforce Spawn
 //- Boneflame
-ItemDisplay[nee UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Boneflame %RED%* %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[nee UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Boneflame %RED%* %NOTIFYSOUND(2664,HIGH)% 
 ItemDisplay[nee UNI !ID ETH]: %GRAY%ETH %GOLD%Boneflame
 //ASSASSIN
 //- Bartuc's Cut-Throat
@@ -349,20 +349,20 @@ ItemDisplay[9tw UNI !ID !ETH]: %RED%* %GOLD%Bartuc's Cut-Throat %RED%*
 ItemDisplay[9tw UNI !ID ETH]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat 
 //SORCERESS
 //- The Oculus
-ItemDisplay[oba UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%The Oculus %RED%* %NOTIFYSOUND(2664,HIGH)% %
+ItemDisplay[oba UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%The Oculus %RED%* %NOTIFYSOUND(2664,HIGH)% %
 ItemDisplay[oba UNI !ID ETH]: %GRAY%ETH %GOLD%The Oculus
 //- Eschuta's Temper
-ItemDisplay[obc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Eschuta's Temper %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[obc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Eschuta's Temper %RED%** %NOTIFYSOUND(2664,HIGH)% 
 ItemDisplay[obc UNI !ID ETH]: %GRAY%ETH %GOLD%Eschuta's Temper
 //- Death's Fathom
-ItemDisplay[obf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Death's Fathom %RED%** %NOTIFYSOUND(2664,HIGH)% 
-ItemDisplay[obf UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GRAY%ETH %GOLD%Death's Fathom %RED%* 
+ItemDisplay[obf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Death's Fathom %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[obf UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GRAY%ETH %GOLD%Death's Fathom %RED%* 
 //AMAZON
 //- Titan's Revenge
-ItemDisplay[ama UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GOLD%Titan's Revenge %RED%** %NOTIFYSOUND(2664,HIGH)% 
-ItemDisplay[ama UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%** %GRAY%ETH %GOLD%Titan's Revenge %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[ama UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GOLD%Titan's Revenge %RED%** %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[ama UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%** %GRAY%ETH %GOLD%Titan's Revenge %RED%** %NOTIFYSOUND(2664,HIGH)% 
 //- Thunderstroke
-ItemDisplay[amf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%* %GOLD%Thunderstroke %RED%* %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[amf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%* %GOLD%Thunderstroke %RED%* %NOTIFYSOUND(2664,HIGH)% 
 ItemDisplay[amf UNI !ID ETH]: %GRAY%ETH %GOLD%Thunderstroke 
 
 //Class Specific Items start
@@ -380,7 +380,7 @@ ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=2]: %ORANGE%***%
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%3 Sorc sk %ORANGE%***
 
 //Assassin
-ItemDisplay[CL5 !ETH (SK259 SK269 SK274) (SOCK=0 OR SOCK=3)]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 !ETH (SK259 SK269 SK274) (SOCK=0 OR SOCK=3)]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%]
 ItemDisplay[MAG CL5 CLSK6>1 SK277>2]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%]
 ItemDisplay[MAG CL5 CLSK6>0 SK277>2]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%]
 ItemDisplay[MAG CL5 CLSK6>1 SK277>1]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%]
@@ -414,7 +414,7 @@ ItemDisplay[CL3 ELT !ETH NMAG RES=41 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DGREEN%Pal 
 ItemDisplay[CL3 ELT !ETH NMAG RES=42 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%42res%WHITE%)
 ItemDisplay[CL3 ELT !ETH NMAG RES=43 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%43res%WHITE%)
 ItemDisplay[CL3 ELT !ETH NMAG RES=44 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%44res%WHITE%)
-ItemDisplay[CL3 ELT !ETH NMAG RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%45res%WHITE%)
+ItemDisplay[CL3 ELT !ETH NMAG RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%45res%WHITE%)
 ItemDisplay[CL3 !ETH NMAG RES>34 (SOCK=0 OR SOCK=3 OR SOCK=4) CLVL<85]: %DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%35-45res%WHITE%)
 ItemDisplay[CL3 !ETH NMAG CLVL>70]:
 ItemDisplay[CL3 !ETH NMAG RES>29 (SOCK=3 OR SOCK=4) CLVL<85]: %DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%30-34res%WHITE%)
@@ -445,7 +445,7 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) TABSK2>2 IAS>29]: %PURPLE% **%GREEN% 3 J
 //ItemDisplay[NMAG CL1]: Dru Hat[L%ILVL%] 
 
 //Merc Bases
-ItemDisplay[NMAG ETH SUP SOCK=3 72h]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%RED%MERC LAWBRINGER BASE%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH SUP SOCK=3 72h]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%RED%MERC LAWBRINGER BASE%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo)]: %ORANGE%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%]
@@ -671,38 +671,38 @@ ItemDisplay[tr2]: %NAME%// Scroll of Resistance
 
 //POD SPECIFICS start
 
-ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %RED%Orb of Corruption %NOTIFYSOUND(2664,HIGH)% //OOC
-ItemDisplay[cx6]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Diablo's Soulstone
-ItemDisplay[cx7]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Key of Chaos
-ItemDisplay[cx8]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Orb of Enchantment (Old)
-ItemDisplay[maz]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Infernal Trial
-ItemDisplay[ma1 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Icy Cavern or Pleasant Pastures
-ItemDisplay[ma2 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Forgotten Desert
-ItemDisplay[ma4 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Desecrated Temple
-ItemDisplay[ma5 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Frigid Plateau
-ItemDisplay[ma6 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Ruined Citadel
-ItemDisplay[ma7 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Burnt Forest
-ItemDisplay[ma8 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Musty Crypt
-ItemDisplay[ma9 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Dim Cellar
-ItemDisplay[ma1 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Icy Cavern or Pleasant Pastures
-ItemDisplay[ma2 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Forgotten Desert
-ItemDisplay[ma4 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Desecrated Temple
-ItemDisplay[ma5 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Frigid Plateau
-ItemDisplay[ma6 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Ruined Citadel
-ItemDisplay[ma7 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Burnt Forest
-ItemDisplay[ma8 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Musty Crypt
-ItemDisplay[ma9 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%//Dim Cellar
+ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %RED%Orb of Corruption %NOTIFYSOUND(2664,HIGH)% //OOC
+ItemDisplay[cx6]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Diablo's Soulstone
+ItemDisplay[cx7]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Key of Chaos
+ItemDisplay[cx8]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Orb of Enchantment (Old)
+ItemDisplay[maz]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Infernal Trial
+ItemDisplay[ma1 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Icy Cavern or Pleasant Pastures
+ItemDisplay[ma2 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Forgotten Desert
+ItemDisplay[ma4 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Desecrated Temple
+ItemDisplay[ma5 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Frigid Plateau
+ItemDisplay[ma6 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Ruined Citadel
+ItemDisplay[ma7 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Burnt Forest
+ItemDisplay[ma8 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Musty Crypt
+ItemDisplay[ma9 !ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Dim Cellar
+ItemDisplay[ma1 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Icy Cavern or Pleasant Pastures
+ItemDisplay[ma2 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Forgotten Desert
+ItemDisplay[ma4 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Desecrated Temple
+ItemDisplay[ma5 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Frigid Plateau
+ItemDisplay[ma6 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Ruined Citadel
+ItemDisplay[ma7 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Burnt Forest
+ItemDisplay[ma8 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Musty Crypt
+ItemDisplay[ma9 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Dim Cellar
 
 //RUNES start
 
 ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17]: %ORANGE%%NAME%%RED%
 ItemDisplay[r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15]: %ORANGE%%NAME%%RED%
-ItemDisplay[r18 OR r19]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%
-ItemDisplay[r20 OR r21 OR r22 OR r23]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL%%GREEN% %ORANGE%%NAME%%RED%%NL% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[r24 OR r25]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[r26 OR r27 OR r32]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[r28 OR r29 OR r33]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[r30 OR r31]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[r18 OR r19]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%
+ItemDisplay[r20 OR r21 OR r22 OR r23]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%GREEN% %ORANGE%%NAME%%RED%%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[r24 OR r25]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[r26 OR r27 OR r32]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[r28 OR r29 OR r33]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[r30 OR r31]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% %NOTIFYSOUND(2664,HIGH)%
 
 //GEMS start
 
@@ -772,13 +772,13 @@ ItemDisplay[skz]: %PURPLE%+%PURPLE%P %GOLD%Skull// Perfect Skull
 
 //KEYS AND ESSENCES start
 
-ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %PURPLE%%NAME%
-ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %PURPLE%%NAME%
-ItemDisplay[pk3]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %PURPLE%%NAME%
-ItemDisplay[tes]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %PURPLE%%NAME%
-ItemDisplay[ceh]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %PURPLE%%NAME%
-ItemDisplay[bet]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %PURPLE%%NAME%
-ItemDisplay[fed]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)% %PURPLE%%NAME%
+ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %PURPLE%%NAME%
+ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %PURPLE%%NAME%
+ItemDisplay[pk3]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %PURPLE%%NAME%
+ItemDisplay[tes]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %PURPLE%%NAME%
+ItemDisplay[ceh]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %PURPLE%%NAME%
+ItemDisplay[bet]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %PURPLE%%NAME%
+ItemDisplay[fed]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %PURPLE%%NAME%
 
 //JEWELLERY AND CHARMS start
 
@@ -791,20 +791,20 @@ ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
 
 //UNIQUES start
 
-ItemDisplay[rin UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%UNIQUE %NAME% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[amu UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%UNIQUE %NAME% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[rin UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%UNIQUE %NAME% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[amu UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%UNIQUE %NAME% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[NORM UNI !ID]: UNIQUE %NAME%
-ItemDisplay[EXC UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%NL%Excep UNIQUE %NAME%
-ItemDisplay[ELT UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%NL%Elite UNIQUE %NAME%
+ItemDisplay[EXC UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%NL%Excep UNIQUE %NAME%
+ItemDisplay[ELT UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%NL%Elite UNIQUE %NAME%
 ItemDisplay[UNI]: %NAME%
 
 //SETS start
 
 ItemDisplay[NORM !ID SET]: SET %NAME%
 ItemDisplay[NORM SET]: %NAME%
-ItemDisplay[EXC !ID SET]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%NL%Excep SET %NAME%
+ItemDisplay[EXC !ID SET]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%NL%Excep SET %NAME%
 ItemDisplay[EXC SET]: %NAME%
-ItemDisplay[ELT !ID SET]: %NOTIFY(ITEM,HIGH)%%MAPICON(13,5)%%NL%Elite SET %NAME%
+ItemDisplay[ELT !ID SET]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%NL%Elite SET %NAME%
 ItemDisplay[ELT SET]: %NAME%
 
 //RARES start
