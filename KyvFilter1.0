@@ -454,7 +454,7 @@ ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo)]: %ORANGE%ETH%DGREEN%
 
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts)
 
-ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME%
+
 //1sk/20fcr helmets & 2sk/20 fcr helmets
 ItemDisplay[RARE ID ci2 OR ci3 STAT105>19 CLSK1>1]: %PURPLE%*** %YELLOW%2 Sorc & 20 FCR %PURPLE%***
 ItemDisplay[RARE ID ci2 OR ci3 STAT105>19 CLSK1=1]: %GOLD%*** %YELLOW%1 Sorc & 20 FCR %GOLD%***
@@ -501,6 +501,8 @@ ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade befor
 ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
 
 ItemDisplay[RARE ID (ci0 OR ci1 OR ci2 OR ci3)]: %NAME%
+ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME%
+ItemDisplay[RARE ID EQ4 OR EQ5]: %NAME%
 
 //Weapons
 
