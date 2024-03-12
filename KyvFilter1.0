@@ -6,6 +6,9 @@ ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
 ItemDisplay[GOLD<2500 CLVL>65]:
 
+//SYNTH
+ItemDisplay[SYNTH]: %BORDER(172,4)%%PURPLE*%GREEN%*%RED%*%BLUE%* %GOLD%%NAME% %BLUE%*%RED%*%GREEN%*%PURPLE%*
+
 //Kyvum start
 
 ItemDisplay[SK230>1 CL1 CLVL<30]: %PURPLE%Kyvum's %WHITE%Arctic Blast %NAME%
