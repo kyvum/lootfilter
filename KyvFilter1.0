@@ -500,7 +500,7 @@ ItemDisplay[RARE ID ci0 OR ci1 STAT96=10 CLSK6=1]: %WHITE%!!! %RED%Upgrade befor
 ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
 ItemDisplay[RARE ID ci0 OR ci1 STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
 
-ItemDisplay[RARE ID (ci0 OR ci1 OR ci2 OR ci3)]: %NAME%
+ItemDisplay[RARE ID EQ7]: %NAME%
 ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME%
 ItemDisplay[RARE ID EQ4 OR EQ5]: %NAME%
 
