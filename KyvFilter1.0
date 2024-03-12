@@ -59,6 +59,10 @@ ItemDisplay[MAG CLVL<15]: %BLUE%%NAME%
 //Show all Runewords
 ItemDisplay[RW]: %NAME%
 
+// Gambling
+ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationSound = 2678, NotificationSoundPriority = HIGH
+ItemDisplay[EQ7 !ID ILVL=1]: %PURPLE%CIRCLET/CORONET <<GAMBLING>>
+
 //BASES
 
 //Early Bases start
