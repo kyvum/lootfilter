@@ -7,7 +7,7 @@ ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
 ItemDisplay[GOLD<2500 CLVL>65]:
 
 //CHARMS
-ItemDisplay[!ID cm1 OR cm3]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%NAME%
+ItemDisplay[UID cm1 OR cm3]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%%NAME%
 
 
 //SYNTH
