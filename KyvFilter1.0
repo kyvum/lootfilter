@@ -306,11 +306,11 @@ ItemDisplay[8hx UNI !ID]: %NOTIFY(ITEM,MEDIUM)% %GOLD%Buriza-Do Kyanon
 ItemDisplay[6cs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %RED%**%GREEN%** %GOLD%Ondal's Wisdom %RED%**%GREEN%** 
 ItemDisplay[6cs UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GRAY%ETH %GOLD%Ondal's Wisdom %RED%*
 //- Mang Song's Lesson
-ItemDisplay[6ws UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %RED%** %GOLD%Mang Song's Lesson %RED%**
+ItemDisplay[6ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)% %RED%** %GOLD%Mang Song's Lesson %RED%**
 ItemDisplay[6ws UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Mang Song's Lesson %RED%*
 //WANDS
 //- Death's Web
-ItemDisplay[7gw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %RED%** %GOLD%Death's Web %RED%** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7gw UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)% %RED%** %GOLD%Death's Web %RED%** %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[7gw UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %RED%* %GRAY%ETH %GOLD%Death's Web %RED%*
 //SCEPTERS
 //- Hand of Blessed Light
@@ -710,6 +710,7 @@ ItemDisplay[ma6 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Ruined Citad
 ItemDisplay[ma7 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Burnt Forest
 ItemDisplay[ma8 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Musty Crypt
 ItemDisplay[ma9 ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Dim Cellar
+ItemDisplay[MAP ID]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//CATCHALLMAPS
 
 //RUNES start
 
