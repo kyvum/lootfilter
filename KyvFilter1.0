@@ -242,8 +242,8 @@ ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh
 ItemDisplay[9mp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %GOLD%Pompeii's Wrath
 ItemDisplay[9mp UNI !ID ETH]: %GRAY%ETH %GOLD%Pompeii's Wrath
 //- Rune Master
-ItemDisplay[72a UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %GOLD%Rune Master %WHITE%[%%GRAY%ETH %GOLD%ETS%]
-ItemDisplay[72a UNI !ID ETH]: %GRAY%ETH %GOLD%Rune Master %WHITE%[%%GRAY%ETH %GOLD%ETS%]
+ItemDisplay[72a UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %GOLD%Rune Master %WHITE%
+ItemDisplay[72a UNI !ID ETH]: %GRAY%ETH %GOLD%Rune Master %WHITE%
 //- Death Cleaver
 ItemDisplay[7wa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(26,3)% %NL%%RED%*** %GOLD%Death Cleaver %RED%***%NL%
 ItemDisplay[7wa UNI !ID ETH]: %GRAY%ETH %GOLD%Death Cleaver
