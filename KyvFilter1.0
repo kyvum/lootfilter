@@ -695,8 +695,8 @@ ItemDisplay[cx6]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Diablo's Soulst
 ItemDisplay[cx7]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Key of Chaos
 ItemDisplay[cx8]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Orb of Enchantment (Old)
 ItemDisplay[maz]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%//Infernal Trial
-ItemDisplay[ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%
-ItemDisplay[ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%
+ItemDisplay[ID ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%
+ItemDisplay[!ID ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12]: %RED%%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(26,3)%
 
 //RUNES start
 
