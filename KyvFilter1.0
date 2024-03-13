@@ -26,7 +26,7 @@ ItemDisplay[MAG ID 7gm ILVL>85]: %PURPLE%Kyvum's %ORANGE%Tir %WHITE%+ %BLUE%Sapp
 
 //Forhundred start
 
-ItemDisplay[pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%400Jay's Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%)
+ItemDisplay[pab RES>39 (SOCK=0 OR SOCK=4)]: %GREEN%400Jay's Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%)
 ItemDisplay[!UNI SK102>1 WP13 CLVL<25]: %NAME% %GREEN%400Jay's %WHITE%Holy Fire Stick
 ItemDisplay[!UNI SK112>1 WP13 CLVL<50]: %NAME% %GREEN%400Jay's %WHITE%Blessed Hammer Stick
 ItemDisplay[NMAG SOCK=4 (SK112=3 AND SK113=3) WP13]: %NAME% %GREEN%400Jay's %WHITE%Insane Phoenix Base
