@@ -34,10 +34,10 @@ ItemDisplay[SKILL("Summon Grizzly")=3 CL1]: %PURPLE%Kyvum's %WHITE%Grizzly %PURP
 //400Jay
 ItemDisplay[CLVL<50 WP13 SKILL("Holy Bolt")>1]: %NAME% %GREEN%400Jay's %WHITE%Holy Bolt Stick <<LADDERSTART>>
 //f0oster
-ItemDisplay[CLVL<40 CL6 OR WP11 SKILL("Frost Nova")>1]: %NAME% %ORANGE%f0oster's %WHITE%Frost Nova Stick <<LADDERSTART>>
+ItemDisplay[CLVL<40 (CL6 OR WP11) SKILL("Frost Nova")>1]: %NAME% %ORANGE%f0oster's %WHITE%Frost Nova Stick <<LADDERSTART>>
 ItemDisplay[CLVL<40 CL6 SKILL("Frozen Orb")>1]: %NAME% %ORANGE%f0oster's %WHITE%Frozen Orb Stick <<LADDERSTART>>
 //Bren
-ItemDisplay[WP12 OR CL4 SKILL SKILL("Hemorrhage")>1] %NAME% %RED%Bren's %WHITE%Hemorrhoid <<LADDERSTART>>
+ItemDisplay[(WP12 OR CL4) SKILL("Hemorrhage")>1] %NAME% %RED%Bren's %WHITE%Hemorrhoid <<LADDERSTART>>
 //ultra
 ItemDisplay[!UNI TABSK2>1 (am5 OR amf OR ama) CLVL<70]: %BLUE%ultra's %WHITE%Javs <<LADDERSTART>>
 ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%ultra's %WHITE%Javs %PURPLE%+3 <<LADDERSTART>>
