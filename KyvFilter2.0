@@ -134,10 +134,6 @@ ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-6]: %GRAY%[%WHITE%-6% Req%G
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-5]: %GRAY%[%WHITE%-5% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[uit !ETH NMAG (SOCK=4 OR SOCK=0)]: %WHITE%%NAME% %PURPLE%[%SOCKETS%]
 
-//Paladin Shields
-ItemDisplay[CL3 RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
-ItemDisplay[NMAG SOCK=4 SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3 WP13]: %NAME% %GREEN%Insane Phoenix Base <<BASE>>
-
 //Archon Plates
 ItemDisplay[NMAG SUP SOCK=0 utp]: AP Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG SUP SOCK=3 utp]: 3os AP Base%PURPLE%[%SOCKETS%] <<BASE>>
@@ -485,6 +481,8 @@ ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=3]: %ORANGE%***%
 //ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("LIGHTNING SENTRY">2 AND "DEATH SENTRY">2) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death%WHITE%) <<BASE>>
 
 //Paladin
+ItemDisplay[CL3 RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
+ItemDisplay[NMAG SOCK=4 SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3 WP13]: %NAME% %GREEN%Insane Phoenix Base <<BASE>>
 ItemDisplay[(WEAPON) (!INF AND !ETH) SKILL("Sanctuary")=3 (SOCK=0 OR SOCK=4)]: +3 Sanc%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[CL3 ELT !ETH NMAG RES=40 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40res%WHITE%) <<BASE>>
 ItemDisplay[CL3 ELT !ETH NMAG RES=41 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DGREEN%Pal Shield%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%41res%WHITE%) <<BASE>>
