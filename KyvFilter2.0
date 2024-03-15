@@ -48,14 +48,14 @@ ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
 //RUNES start
-ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17]: %ORANGE%%NAME%%RED%
-ItemDisplay[r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15]: %ORANGE%%NAME%%RED%
-ItemDisplay[r18 OR r19]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%
-ItemDisplay[r20 OR r21 OR r22 OR r23]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL% <<RUNE>>
-ItemDisplay[r24 OR r25]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL% <<RUNE>>
-ItemDisplay[r26 OR r27 OR r32]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% %NL% <<RUNE>>
-ItemDisplay[r28 OR r29 OR r33]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <<RUNE>>
-ItemDisplay[r30 OR r31]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <<RUNE>>
+ItemDisplay[(r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17)]: %ORANGE%%NAME%%RED%
+ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %ORANGE%%NAME%%RED%
+ItemDisplay[(r18 OR r19)]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%
+ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL% <<RUNE>>
+ItemDisplay[(r24 OR r25)]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL% <<RUNE>>
+ItemDisplay[(r26 OR r27 OR r32)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% %NL% <<RUNE>>
+ItemDisplay[(r28 OR r29 OR r33)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <<RUNE>>
+ItemDisplay[(r30 OR r31)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <<RUNE>>
 
 //RELICS
 ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>//CATCHALLMAPS
