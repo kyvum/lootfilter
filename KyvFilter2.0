@@ -44,8 +44,8 @@ ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%ultra's %WHITE%Jav
 ItemDisplay[!UNI TABSK2=3 IAS=20 EQ4]: %BLUE%ultra's %%WHITE%Gloves <<LADDERSTART>>
 
 //SMALL AND GRAND CHARMS
-ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
 //RUNES start
 ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17]: %ORANGE%%NAME%%RED%
