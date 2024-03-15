@@ -57,6 +57,9 @@ ItemDisplay[r26 OR r27 OR r32]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% 
 ItemDisplay[r28 OR r29 OR r33]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <<RUNE>>
 ItemDisplay[r30 OR r31]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <<RUNE>>
 
+//RELICS
+ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>//CATCHALLMAPS
+
 //CRAFTING BASES
 
 //BLOOD BASES
@@ -730,23 +733,6 @@ ItemDisplay[cx6]: %RED%%NAME%//Diablo's Soulstone
 ItemDisplay[cx7]: %RED%%NAME%//Key of Chaos
 ItemDisplay[cx8]: %RED%%NAME%//Orb of Enchantment (Old)
 ItemDisplay[maz]: %RED%%NAME%//Infernal Trial
-ItemDisplay[ma1 !ID]: %RED%%NAME% <<RELIC>>//Icy Cavern or Pleasant Pastures
-ItemDisplay[ma2 !ID]: %RED%%NAME% <<RELIC>>//Forgotten Desert
-ItemDisplay[ma4 !ID]: %RED%%NAME% <<RELIC>>//Desecrated Temple
-ItemDisplay[ma5 !ID]: %RED%%NAME% <<RELIC>>//Frigid Plateau
-ItemDisplay[ma6 !ID]: %RED%%NAME% <<RELIC>>//Ruined Citadel
-ItemDisplay[ma7 !ID]: %RED%%NAME% <<RELIC>>//Burnt Forest
-ItemDisplay[ma8 !ID]: %RED%%NAME% <<RELIC>>//Musty Crypt
-ItemDisplay[ma9 !ID]: %RED%%NAME% <<RELIC>>//Dim Cellar
-ItemDisplay[ma1 ID]: %RED%%NAME% <<RELIC>>//Icy Cavern or Pleasant Pastures
-ItemDisplay[ma2 ID]: %RED%%NAME% <<RELIC>>//Forgotten Desert
-ItemDisplay[ma4 ID]: %RED%%NAME% <<RELIC>>//Desecrated Temple
-ItemDisplay[ma5 ID]: %RED%%NAME% <<RELIC>>//Frigid Plateau
-ItemDisplay[ma6 ID]: %RED%%NAME% <<RELIC>>//Ruined Citadel
-ItemDisplay[ma7 ID]: %RED%%NAME% <<RELIC>>//Burnt Forest
-ItemDisplay[ma8 ID]: %RED%%NAME% <<RELIC>>//Musty Crypt
-ItemDisplay[ma9 ID]: %RED%%NAME% <<RELIC>>//Dim Cellar
-ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>//CATCHALLMAPS
 
 //GEMS start
 //Amethyst
