@@ -61,8 +61,8 @@ ItemDisplay[r30 OR r31]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <
 
 //BLOOD BASES
 //Weapons
-ItemDisplay[MAG !ETH !ID 7ga OR 7wa ILVL>85]: %WHITE%%NAME% %PURPLE%Blood Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[MAG !ETH ID 7ga OR 7wa ILVL>85]: %PURPLE%%ORANGE%Ort %WHITE%+ %RED%Ruby %NAME% <<MAGIC>>
+ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %WHITE%%NAME% %PURPLE%Blood Base %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85]: %PURPLE%%ORANGE%Ort %WHITE%+ %RED%Ruby %NAME% <<MAGIC>>
 //Gloves
 ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %ORANGE%B%BLUE%Glv
 ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %ORANGE%Nef %WHITE%+ %RED%Ruby
@@ -393,8 +393,8 @@ ItemDisplay[bac UNI !ID ETH]: %GRAY%ETH %GOLD%Wolfhowl
 ItemDisplay[pac UNI !ID !ETH]: %RED%* %GOLD%Alma Negra %RED%*
 ItemDisplay[pac UNI !ID ETH]: %GRAY%ETH %GOLD%Alma Negra
 //- Herald of Zakarum
-ItemDisplay[pa9 UNI !ID !ETH]: %RED%** %GOLD%Herald of Zakarum %RED%** <<UNIQUE>> 
-ItemDisplay[pa9 UNI !ID ETH]: %GRAY%ETH %GOLD%Herald of Zakarum 
+ItemDisplay[UNI !ID !ETH pa9]: %RED%** %GOLD%Herald of Zakarum %RED%** <<UNIQUE>> 
+ItemDisplay[UNI !ID ETH pa9]: %GRAY%ETH %GOLD%Herald of Zakarum 
 //NECROMANCER
 //- Homunculus
 ItemDisplay[nea UNI !ID !ETH]: %RED%* %GOLD%Homunculus %RED%* <<UNIQUE>> 
