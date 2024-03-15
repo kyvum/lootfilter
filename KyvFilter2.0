@@ -62,7 +62,7 @@ ItemDisplay[r30 OR r31]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <
 //BLOOD BASES
 //Weapons
 ItemDisplay[MAG !ETH !ID 7ga OR 7wa ILVL>85]: %WHITE%%NAME% %PURPLE%Blood Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[MAG ID 7ga OR 7wa ILVL>85]: %PURPLE%%ORANGE%Ort %WHITE%+ %RED%Ruby %NAME% <<MAGIC>>
+ItemDisplay[MAG !ETH ID 7ga OR 7wa ILVL>85]: %PURPLE%%ORANGE%Ort %WHITE%+ %RED%Ruby %NAME% <<MAGIC>>
 //Gloves
 ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %ORANGE%B%BLUE%Glv
 ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %ORANGE%Nef %WHITE%+ %RED%Ruby
