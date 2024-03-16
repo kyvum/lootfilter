@@ -457,32 +457,32 @@ ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=2]: %ORANGE%***%
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%3 Sorc sk %ORANGE%*** <<MAGIC>>
 
 //Assassin TO BE FIXED
-//ItemDisplay[CL5 !ETH SKILL("FISTS OF FIRE" AND "CLAWS OF THUNDER" AND "BLADES OF ICE") (SOCK=0 OR SOCK=3)]: %RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[MAG CL5 CLSK6>1 "BLADE SHIELD">2]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 CLSK6>0 "BLADE SHIELD">2]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 CLSK6>1 "BLADE SHIELD">1]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 TABSK48>2 "BLADE SHIELD">2]: %NAME% %WHITE%(%PURPLE%+6 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 TABSK48>1 "BLADE SHIELD">2]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 TABSK48>2 "BLADE SHIELD">1]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 TABSK48>1 "BLADE SHIELD">1]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 TABSK48>0 "BLADE SHIELD">2]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 TABSK48>2 "BLADE SHIELD">0]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 TABSK48>2]: %NAME% %WHITE%(%DGREEN%+3 Trap%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[MAG CL5 "BLADE SHIELD">2]: %NAME% %WHITE%(%DGREEN%+3 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK<1 OR SOCK>2) SKILL("BLADE SHIELD">2 AND "VENOM">2)]: %NAME% %WHITE%(%ORANGE%3 BS, 3 VENOM%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK<1 OR SOCK>2) SKILL("BLADE SHIELD">2 AND "VENOM">1)]: %NAME% %WHITE%(%ORANGE%3 BS, 2 VENOM%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK<1 OR SOCK>2) SKILL("BLADE SHIELD">2 AND "VENOM">0)]: %NAME% %WHITE%(%ORANGE%3 BS, 1 VENOM%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("BLADE SHIELD")>2 (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 BS%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("WAKE OF FIRE">2 AND "WAKE OF INFERNO">2 AND "FADE">0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, Fade%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("WAKE OF FIRE">2 AND "WAKE OF INFERNO">2 AND "WEAPON BLOCK">0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, Cblock%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("WAKE OF FIRE">2 AND "WAKE OF INFERNO">2 AND "BLADES OF ICE">0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, BoI%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("WAKE OF FIRE">2 AND "WAKE OF INFERNO">2) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("WAKE OF FIRE">2 AND "BLADES OF ICE">0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, BoI%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("WAKE OF FIRE")>2 (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%+3 WoF%WHITE%) %WHITE%[%RED%%SOCKETS%%WHITE%] <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("LIGHTNING SENTRY">2 AND "DEATH SENTRY">2 AND "FADE">0) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, Fade%WHITE%) <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("LIGHTNING SENTRY">2 AND "DEATH SENTRY">2 AND "WEAPON BLOCK">0) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, CBlock%WHITE%) <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("LIGHTNING SENTRY">2 AND "DEATH SENTRY">2 AND "BLADES OF ICE">0) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, BoI%WHITE%) <<BASE>>
-//ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("LIGHTNING SENTRY">2 AND "DEATH SENTRY">2) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death%WHITE%) <<BASE>>
+ItemDisplay[CL5 !ETH SKILL("FISTS OF FIRE" AND "CLAWS OF THUNDER" AND ("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[MAG CL5 CLSK6>1 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 CLSK6>0 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 CLSK6>1 SKILL("Blade Shield")>1]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 TABSK48>2 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%PURPLE%+6 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 TABSK48>1 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 TABSK48>2 SKILL("Blade Shield")>1]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 TABSK48>1 SKILL("Blade Shield")>1]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 TABSK48>0 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 TABSK48>2 SKILL("Blade Shield")>0]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 TABSK48>2]: %NAME% %WHITE%(%DGREEN%+3 Trap%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%DGREEN%+3 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK<1 OR SOCK>2) (SKILL("Blade Shield")>2 AND SKILL("Venom")>2)]: %NAME% %WHITE%(%ORANGE%3 BS, 3 VENOM%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK<1 OR SOCK>2) (SKILL("Blade Shield")>2 AND SKILL("Venom")>1)]: %NAME% %WHITE%(%ORANGE%3 BS, 2 VENOM%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK<1 OR SOCK>2) (SKILL("Blade Shield")>2 AND SKILL("Venom")>0)]: %NAME% %WHITE%(%ORANGE%3 BS, 1 VENOM%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("Blade Shield")>2 (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 BS%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")>2 AND SKILL("Wake of Inferno")>2 AND ("Fade")>0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, Fade%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")>2 AND SKILL("Wake of Inferno")>2 AND ("Weapon Block")>0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, Cblock%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")>2 AND SKILL("Wake of Inferno")>2 AND ("Blades of Ice")>0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, BoI%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")>2 AND SKILL("Wake of Inferno")>2) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")>2 AND ("Blades of Ice")>0) (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%3 WoF, BoI%WHITE%) %PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL(("Wake of Fire")>2 (SOCK<1 OR SOCK>2)]: %NAME% %WHITE%(%ORANGE%+3 WoF%WHITE%) %WHITE%[%RED%%SOCKETS%%WHITE%] <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")>2 AND SKILL("Death Sentry")>2) AND ("Fade")>0) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, Fade%WHITE%) <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")>2 AND SKILL("Death Sentry")>2) AND ("Weapon Block")>0) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, CBlock%WHITE%) <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")>2 AND SKILL("Death Sentry")>2) AND ("Blades of Ice")>0) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, BoI%WHITE%) <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")>2 AND SKILL("Death Sentry")>2) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death%WHITE%) <<BASE>>
 
 //Paladin
 ItemDisplay[CL3 RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
