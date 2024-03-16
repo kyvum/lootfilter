@@ -58,8 +58,8 @@ ItemDisplay[(r28 OR r29 OR r33)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREE
 ItemDisplay[(r30 OR r31)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL% <<RUNE>>
 
 //RELICS
-ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>//CATCHALLMAPS
-ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>//CATCHALLMAPS
+ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>
+ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>
 
 //CRAFTING BASES
 
@@ -171,7 +171,7 @@ ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo)]: %ORANGE%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%] <<BASE>>
 
-//Good Uniques start
+//Good Uniques/Sets start
 
 ItemDisplay[rin UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
 ItemDisplay[amu UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
@@ -198,6 +198,9 @@ ItemDisplay[usk UNI !ID ETH]: %GRAY%ETH %GOLD%Andariel's Visage
 //- Crown of Ages
 ItemDisplay[urn UNI !ID !ETH]: %GOLD%Crown of Ages <<UNIQUE>>
 ItemDisplay[urn UNI !ID ETH]: %GRAY%ETH %GOLD%Crown of Ages
+//- Guillaume's Face
+ItemDisplay[xhm SET !ID !ETH]: %GREEN%Guillaume's Face <<SET>>
+ItemDisplay[xhm SET !ID ETH]: %GREEN%ETH Guillaume's Face
 
 //BODY ARMOR
 //- The Spirit Shroud
@@ -221,6 +224,12 @@ ItemDisplay[uul UNI !ID ETH]: %GRAY%ETH %GOLD%Steel Carapace <<UNIQUE>>
 //- Tyrael's Might
 ItemDisplay[uar UNI !ID !ETH]: %NL%%RED%*** %GOLD%Tyrael's Might or Templar's Might %RED%***%NL% <<UNIQUE>>
 ItemDisplay[uar UNI !ID ETH]: %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** <<UNIQUE>>
+//- Tal Rasha's Guardianship
+ItemDisplay[uth SET !ID !ETH]: %GREEN%Tal Rasha's Guardianship <<SET>>
+ItemDisplay[uth SET !ID ETH]: %GREEN%ETH Tal Rasha's Guardianship
+//- Naj's Light Plate
+ItemDisplay[ult SET !ID !ETH]: %GREEN%Naj's Light Plate <<SET>>
+ItemDisplay[ult SET !ID ETH]: %GREEN%ETH Naj's Light Plate
 
 //SHIELDS
 //- Stormshield
@@ -240,6 +249,12 @@ ItemDisplay[umg UNI !ID ETH]: %GRAY%ETH %GOLD%Soul Drainer
 //- Steelrend
 ItemDisplay[uhg UNI !ID !ETH]: %GOLD%Steelrend <<UNIQUE>>
 ItemDisplay[uhg UNI !ID ETH]: %GRAY%ETH %GOLD%Steelrend
+//- Laying of Hands
+ItemDisplay[ulg SET !ID !ETH]: %GREEN%Laying of Hands <<SET>>
+ItemDisplay[ulg SET !ID ETH]: %GREEN%ETH Laying of Hands
+//- Trang-Oul's Claws
+ItemDisplay[xmg SET !ID !ETH]: %GREEN%Trang-Oul's Claws <<SET>>
+ItemDisplay[xmg SET !ID ETH]: %GREEN%ETH Trang-Oul's Claws
 
 //BOOTS
 //- Waterwalk
@@ -263,6 +278,9 @@ ItemDisplay[umb UNI !ID ETH]: %GRAY%ETH %GOLD%Marrowwalk
 //- Shadow Dancer
 ItemDisplay[uhb UNI !ID !ETH]: %GOLD%Shadow Dancer
 ItemDisplay[uhb UNI !ID ETH]: %GRAY%ETH %GOLD%Shadow Dancer
+//- Aldur's Advance
+ItemDisplay[xtb SET !ID !ETH]: %GREEN%Aldur's Advance <<SET>>
+ItemDisplay[xtb SET !ID ETH]: %GREEN%ETH Aldur's Advance
 
 //BELTS
 //- Verdungo's Hearty Cord
@@ -279,6 +297,7 @@ ItemDisplay[ulc UNI !ID !ETH]: %NL%%RED%*** %GOLD%Arachnid Mesh %RED%*** <<UNIQU
 ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh 
 
 //WEAPONS
+
 //AXES
 //- Pompeii's Wrath
 ItemDisplay[9mp UNI !ID !ETH]: %GOLD%Pompeii's Wrath
@@ -292,6 +311,7 @@ ItemDisplay[7wa UNI !ID ETH]: %GRAY%ETH %GOLD%Death Cleaver
 //- Executioner's Justice
 ItemDisplay[7gi UNI !ID !ETH]: %RED%* %GOLD%Executioner's Justice %RED%* <<UNIQUE>>
 ItemDisplay[7gi UNI !ID ETH]: %GRAY%ETH %GOLD%Executioner's Justice
+
 //MACES
 //- Horizon's Tornado or Stormlash
 ItemDisplay[7fl UNI !ID !ETH]: %RED%** %GOLD%Horizon's Tornado or Stormlash %RED%** <<UNIQUE>>
@@ -302,6 +322,7 @@ ItemDisplay[7m7 UNI !ID ETH]: %GRAY%ETH %GOLD%Windhammer
 //- Earth Shifter or The Cranium Basher
 ItemDisplay[7gm UNI !ID !ETH]: %RED%** %GOLD%Cranium Bashers %RED%** <<UNIQUE>>
 ItemDisplay[7gm UNI !ID ETH]: %GRAY%ETH %GOLD%Cranium Bashers
+
 //SWORDS
 //- Ginther's Rift
 ItemDisplay[9cr UNI !ID !ETH]: %GOLD%Ginther's Rift
@@ -317,6 +338,7 @@ ItemDisplay[7cr UNI !ID]: %RED%*** %GOLD%Lightsabre or Azurewrath %RED%*** <<UNI
 //- The Grandfather
 ItemDisplay[7gd UNI !ID !ETH]: %NL%%RED%** %GOLD%The Grandfather **%NL% <<UNIQUE>>
 ItemDisplay[7gd UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%The Grandfather %RED%*
+
 //DAGGERS
 //- Fleshripper
 ItemDisplay[7kr UNI !ID !ETH]: %RED%* %GOLD%Fleshripper %RED%*
@@ -325,6 +347,7 @@ ItemDisplay[7kr UNI !ID ETH]: %GRAY%ETH %GOLD%Fleshripper
 //- Warshrike
 ItemDisplay[7bk UNI !ID !ETH]: %RED%** %GOLD%Warshrike %RED%** <<UNIQUE>>
 ItemDisplay[7bk UNI !ID ETH]: %GRAY%ETH %GOLD%Warshrike
+
 //POLEARMS
 //- Athena's Wrath
 ItemDisplay[9s8 UNI !ID !ETH]: %RED%* %GOLD%Athena's %RED%* <<UNIQUE>>
@@ -340,6 +363,7 @@ ItemDisplay[7s8 UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Reaper's Toll %RED%*
 //- Tomb Reaver
 ItemDisplay[7pa UNI !ID !ETH]: %RED%*** %GOLD%Tomb Reaver %RED%*** <<UNIQUE>>
 ItemDisplay[7pa UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Tomb Reaver %RED%*
+
 //BOWS
 //- Windforce
 ItemDisplay[6lw UNI !ID]: %RED%*** %GOLD%Windforce %RED%*** <<UNIQUE>>
@@ -348,6 +372,7 @@ ItemDisplay[8lw UNI !ID]: %RED%* %GOLD%Goldstrike Arch %RED%*
 //CROSSBOWS
 //- Buriza-Do Kyanon
 ItemDisplay[8hx UNI !ID]: %GOLD%Buriza-Do Kyanon
+
 //STAVES
 //- Ondal's Wisdom
 ItemDisplay[6cs UNI !ID !ETH]: %RED%**%GREEN%** %GOLD%Ondal's Wisdom %RED%**%GREEN%** <<UNIQUE>>
@@ -355,10 +380,12 @@ ItemDisplay[6cs UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Ondal's Wisdom %RED%*
 //- Mang Song's Lesson
 ItemDisplay[6ws UNI !ID !ETH]: %RED%** %GOLD%Mang Song's Lesson %RED%** <<UNIQUE>>
 ItemDisplay[6ws UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Mang Song's Lesson %RED%*
+
 //WANDS
 //- Death's Web
 ItemDisplay[7gw UNI !ID !ETH]: %RED%** %GOLD%Death's Web %RED%** <<UNIQUE>>
 ItemDisplay[7gw UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Death's Web %RED%*
+
 //SCEPTERS
 //- Hand of Blessed Light
 ItemDisplay[9ws UNI !ID !ETH]: %RED%** %GOLD%Hand of Blessed Light %RED%**
@@ -371,6 +398,7 @@ ItemDisplay[7ws UNI !ID !ETH]: %RED%* %GOLD%Astreon's Iron Ward %RED%*
 ItemDisplay[7ws UNI !ID ETH]: %GRAY%ETH %GOLD%Astreon's Iron Ward
 
 //CLASS SPECIFICS
+
 //DRUID
 //- Jalal's Mane
 ItemDisplay[dra UNI !ID !ETH]: %RED%** %GOLD%Jalal's Mane %RED%** <<UNIQUE>>
@@ -381,6 +409,7 @@ ItemDisplay[dre UNI !ID ETH]: %GRAY%ETH %GOLD%Ravenlore
 //- Spirit Keeper
 ItemDisplay[drd UNI !ID !ETH]: %RED%* %GOLD%Spirit Keeper %RED%*
 ItemDisplay[drd UNI !ID ETH]: %GRAY%ETH %GOLD%Spirit Keeper
+
 //BARBARIAN
 //- Arreat's Face
 ItemDisplay[baa UNI !ID !ETH]: %RED%** %GOLD%Arreat's Face %RED%** <<UNIQUE>>
@@ -388,6 +417,7 @@ ItemDisplay[baa UNI !ID ETH]: %GRAY%ETH %GOLD%Arreat's Face
 //- Wolfhowl
 ItemDisplay[bac UNI !ID !ETH]: %RED%** %GOLD%Wolfhowl %RED%** <<UNIQUE>> 
 ItemDisplay[bac UNI !ID ETH]: %GRAY%ETH %GOLD%Wolfhowl
+
 //PALADIN
 //- Alma Negra
 ItemDisplay[pac UNI !ID !ETH]: %RED%* %GOLD%Alma Negra %RED%*
@@ -395,6 +425,7 @@ ItemDisplay[pac UNI !ID ETH]: %GRAY%ETH %GOLD%Alma Negra
 //- Herald of Zakarum
 ItemDisplay[UNI !ID !ETH pa9]: %RED%** %GOLD%Herald of Zakarum %RED%** <<UNIQUE>> 
 ItemDisplay[UNI !ID ETH pa9]: %GRAY%ETH %GOLD%Herald of Zakarum 
+
 //NECROMANCER
 //- Homunculus
 ItemDisplay[nea UNI !ID !ETH]: %RED%* %GOLD%Homunculus %RED%* <<UNIQUE>> 
@@ -405,10 +436,15 @@ ItemDisplay[nef UNI !ID ETH]: %GRAY%ETH %GOLD%Darkforce Spawn
 //- Boneflame
 ItemDisplay[nee UNI !ID !ETH]: %RED%* %GOLD%Boneflame %RED%* <<UNIQUE>> 
 ItemDisplay[nee UNI !ID ETH]: %GRAY%ETH %GOLD%Boneflame
+
 //ASSASSIN
 //- Bartuc's Cut-Throat
 ItemDisplay[9tw UNI !ID !ETH]: %RED%* %GOLD%Bartuc's Cut-Throat %RED%*
 ItemDisplay[9tw UNI !ID ETH]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat 
+//- Natalya's Mark
+ItemDisplay[7qr SET !ID !ETH]: %GREEN%Natalya's Mark <<SET>>
+ItemDisplay[7qr SET !ID ETH]: %GREEN%ETH Natalya's Mark
+
 //SORCERESS
 //- The Oculus
 ItemDisplay[oba UNI !ID !ETH]: %RED%* %GOLD%The Oculus %RED%* <<UNIQUE>>
@@ -419,6 +455,7 @@ ItemDisplay[obc UNI !ID ETH]: %GRAY%ETH %GOLD%Eschuta's Temper
 //- Death's Fathom
 ItemDisplay[obf UNI !ID !ETH]: %RED%** %GOLD%Death's Fathom %RED%** <<UNIQUE>> 
 ItemDisplay[obf UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Death's Fathom %RED%* 
+
 //AMAZON
 //- Titan's Revenge
 ItemDisplay[ama UNI !ID !ETH]: %RED%** %GOLD%Titan's Revenge %RED%** <<UNIQUE>> 
