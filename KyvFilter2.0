@@ -47,6 +47,9 @@ ItemDisplay[!UNI TABSK2=3 IAS=20 EQ4]: %BLUE%ultra's %%WHITE%Gloves <<LADDERSTAR
 ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
+//RARE JEWELLERY
+ItemDisplay[!ID RARE (amu OR rin OR jew)]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
+
 //RUNES start
 ItemDisplay[(r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17)]: %ORANGE%%NAME%%RED%
 ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %ORANGE%%NAME%%RED%
@@ -484,14 +487,14 @@ ItemDisplay[ELT SET]: %NAME%
 //Sorceress
 ItemDisplay[NMAG !RW ((wst OR 8ws OR 6ws AND SK58=3) (SOCK=5 OR SOCK=0))]: ES CTA Base%PURPLE%[%SOCKETS%]
 ItemDisplay[(WEAPON) (!INF AND !ETH) (SK57=3) (SOCK=0 OR SOCK=4)]: +3 Discharge Base%PURPLE%[%SOCKETS%]
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK8=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%3 Fire sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK9=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%3 Light sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK10=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %BLUE%3 Cold sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK8=2]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%2 Fire sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK9=2]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%2 Light sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 TABSK10=2]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %BLUE%2 Cold sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=2]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%2 Sorc sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%3 Sorc sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK8=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%3 Fire sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK9=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%3 Light sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK10=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %BLUE%3 Cold sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK8=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%2 Fire sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK9=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%2 Light sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK10=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %BLUE%2 Cold sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%2 Sorc sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%3 Sorc sk %ORANGE%*** <<MAGIC>>
 
 //Assassin
 ItemDisplay[CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") AND SKILL("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%] <<BASE>>
@@ -563,48 +566,48 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) TABSK2>2 IAS>29]: %PURPLE% **%GREEN% 3 J
 
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts)
 //1sk/20fcr helmets & 2sk/20 fcr helmets
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 CLSK1>1]: %PURPLE%*** %YELLOW%2 Sorc & 20 FCR %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 CLSK1=1]: %GOLD%*** %YELLOW%1 Sorc & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 TABSK8>1]: %GOLD%*** %YELLOW%2 Fire & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 TABSK10>1]: %GOLD%*** %YELLOW%2 Cold & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 TABSK9>1]: %GOLD%*** %YELLOW%2 Light & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 CLSK2>1]: %PURPLE%*** %YELLOW%2 Necro & 20 FCR %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 CLSK2=1]: %GOLD%*** %YELLOW%1 Necro & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 TABSK17>1]: %GOLD%*** %YELLOW%2 Psn&Bone & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 CLSK5=1]: %GOLD%*** %YELLOW%1 Druid & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 CLSK5>1]: %GOLD%*** %YELLOW%2 Druid & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 TABSK42>1]: %GOLD%*** %YELLOW%2 Elemental & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 TABSK42=1]: %GOLD%*** %YELLOW%1 Elemental & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 CLSK3>1]: %PURPLE%*** %YELLOW%2 Pala & 20 FCR %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT105>19 TABSK24>1]: %GOLD%*** %YELLOW%2 Pcomb & 20 FCR %GOLD***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT96=10 CLSK6>1]: %GOLD%*** %YELLOW%2 Sin & 10 FRW %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT96=20 CLSK6>1]: %PURPLE%*** %YELLOW%2 Sin & 20 FRW %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT96=30 CLSK6>1]: %PURPLE%*** %YELLOW%2 Sin & 30 FRW %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT96=10 CLSK6=1]: %GOLD%*** %YELLOW%1 Sin & 10 FRW %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT96=20 CLSK6=1]: %GOLD%*** %YELLOW%1 Sin & 20 FRW %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) STAT96=20 CLSK6=1]: %GOLD%*** %YELLOW%1 Sin & 30 FRW %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK1>1)]: %PURPLE%*** %YELLOW%2 Sorc & 20 FCR %PURPLE%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK1=1)]: %GOLD%*** %YELLOW%1 Sorc & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK8>1)]: %GOLD%*** %YELLOW%2 Fire & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK10>1)]: %GOLD%*** %YELLOW%2 Cold & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK9>1)]: %GOLD%*** %YELLOW%2 Light & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK2>1)]: %PURPLE%*** %YELLOW%2 Necro & 20 FCR %PURPLE%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK2=1)]: %GOLD%*** %YELLOW%1 Necro & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK17>1)]: %GOLD%*** %YELLOW%2 Psn&Bone & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK5=1)]: %GOLD%*** %YELLOW%1 Druid & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK5>1)]: %GOLD%*** %YELLOW%2 Druid & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK42>1)]: %GOLD%*** %YELLOW%2 Elemental & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK42=1)]: %GOLD%*** %YELLOW%1 Elemental & 20 FCR %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK3>1)]: %PURPLE%*** %YELLOW%2 Pala & 20 FCR %PURPLE%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK24>1)]: %GOLD%*** %YELLOW%2 Pcomb & 20 FCR %GOLD***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=10 AND CLSK6>1)]: %GOLD%*** %YELLOW%2 Sin & 10 FRW %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=20 AND CLSK6>1)]: %PURPLE%*** %YELLOW%2 Sin & 20 FRW %PURPLE%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=30 AND CLSK6>1)]: %PURPLE%*** %YELLOW%2 Sin & 30 FRW %PURPLE%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=10 AND CLSK6=1)]: %GOLD%*** %YELLOW%1 Sin & 10 FRW %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=20 AND CLSK6=1)]: %GOLD%*** %YELLOW%1 Sin & 20 FRW %GOLD%***
+ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=20 AND CLSK6=1)]: %GOLD%*** %YELLOW%1 Sin & 30 FRW %GOLD%***
 
 //Coronets & Circlets (needs upgrade to slam 3os)
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 CLSK1>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 CLSK1=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 TABSK8>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 TABSK10>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 TABSK9>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 CLSK2>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 CLSK2=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 TABSK17>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 CLSK5=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 CLSK5>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 TABSK42>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 TABSK42=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 CLSK3>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT105>19 TABSK24>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT96=10 CLSK6>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT96=20 CLSK6>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT96=20 CLSK6>1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT96=10 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) STAT96=20 CLSK6=1]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK1>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK1=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK8>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK10>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK9>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK2>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK2=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK17>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK5=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK5>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK42>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK42=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK3>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK24>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=10 AND CLSK6>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=10 AND CLSK6=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
+ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
 ItemDisplay[RARE ID EQ7]: %NAME% <<MAGIC>>
 ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME%
 
