@@ -457,7 +457,7 @@ ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=2]: %ORANGE%***%
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) STAT105>11 CLSK1=3]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%3 Sorc sk %ORANGE%*** <<MAGIC>>
 
 //Assassin TO BE FIXED
-ItemDisplay[CL5 !ETH SKILL("FISTS OF FIRE" AND "CLAWS OF THUNDER" AND ("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") AND SKILL("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[MAG CL5 CLSK6>1 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 CLSK6>0 SKILL("Blade Shield")>2]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 CLSK6>1 SKILL("Blade Shield")>1]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
