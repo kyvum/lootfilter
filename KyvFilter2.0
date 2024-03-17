@@ -859,6 +859,7 @@ ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
 
 //Rare Arrows/Bolts
 ItemDisplay[(RARE aq2 OR cq2)]: %NAME%
+ItemDisplay[(MAG aq2 OR cq2)]:
 
 //Rare Orbs
 ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
