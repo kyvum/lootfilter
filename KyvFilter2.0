@@ -211,9 +211,11 @@ ItemDisplay[xui UNI !ID !ETH]: %GOLD%The Spirit Shroud
 ItemDisplay[xui UNI !ID ETH]: %GRAY%ETH %GOLD%The Spirit Shroud
 //- Skin of the Vipermagi
 ItemDisplay[xea UNI !ID !ETH]: %GOLD%Skin of the Vipermagi <<UNIQUE>>
+ItemDisplay[UNIQUE("Skin of the Vipermagi") ID !ETH]: %GOLD%Skin of the Vipermagi {Upgrade: %ORANGE%Ko + Lem + %WHITE%P Diamond} <<UNIQUE>>
 ItemDisplay[xea UNI !ID ETH]: %GRAY%ETH %GOLD%Skin of the Vipermagi
 //- Shaftstop 
 ItemDisplay[xhn UNI !ID !ETH]: %GOLD%Shaftstop <<UNIQUE>>
+ItemDisplay[UNIQUE("Shaftstop") ID !ETH]: %GOLD%Shaftstop {Upgrade: %ORANGE%Ko + Lem + %WHITE%P Diamond} <<UNIQUE>>
 ItemDisplay[xhn UNI !ID ETH]: %GRAY%ETH %GOLD%Shaftstop <<UNIQUE>>
 //- Ormus' Robes
 ItemDisplay[uui UNI !ID !ETH]: %GOLD%Ormus' Robes <<UNIQUE>>
