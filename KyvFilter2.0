@@ -652,6 +652,10 @@ ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves
 ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon
 
 //Arrows ----- TO BE FIXED
+
+//Rare Arrows/Bolts
+ItemDisplay[RARE !ID (aq2 OR cq2)]: %NAME%
+
 //5 rolls
 ItemDisplay[aq2 ID (RARE OR MAG) (ALLSK0>1 AND STAT156>0 AND STAT21>1 AND STAT62>1 AND STAT218>1)]: %NAME%%NL%%RED%Max/Lvl%WHITE%, %PURPLE%All Skill%GOLD%Pierce +5-25%WHITE%, %RED%Flat Dmg %BLUE%ML
 ItemDisplay[aq2 ID (RARE OR MAG) (TABSK0>1 AND STAT156>0 AND STAT21>1 AND STAT62>1 AND STAT218>1)]: %NAME%%NL%%RED%Max/Lvl%WHITE%, %PURPLE%1-2 Bow Skill%GOLD%Pierce +5-25%WHITE%, %RED%Flat Dmg %BLUE%ML
@@ -856,10 +860,6 @@ ItemDisplay[cm3]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[amu]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[rin]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
-
-//Rare Arrows/Bolts
-ItemDisplay[(RARE aq2 OR cq2)]: %NAME%
-ItemDisplay[(MAG aq2 OR cq2)]:
 
 //Rare Orbs
 ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
