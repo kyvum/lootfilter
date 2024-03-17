@@ -211,11 +211,15 @@ ItemDisplay[xui UNI !ID !ETH]: %GOLD%The Spirit Shroud
 ItemDisplay[xui UNI !ID ETH]: %GRAY%ETH %GOLD%The Spirit Shroud
 //- Skin of the Vipermagi
 ItemDisplay[xea UNI !ID !ETH]: %GOLD%Skin of the Vipermagi <<UNIQUE>>
-ItemDisplay[UNIQUE("Skin of the Vipermagi") ID !ETH]: %GOLD%Skin of the Vipermagi {Upgrade: %ORANGE%Ko + Lem + %WHITE%P Diamond} <<UNIQUE>>
+ItemDisplay[UNIQUE("Skin of the Vipermagi") xea ID !ETH]: %GOLD%Skin of the Vipermagi {Upgrade: %ORANGE%Ko + Lem + %WHITE%P Diamond} <<UNIQUE>>
 ItemDisplay[xea UNI !ID ETH]: %GRAY%ETH %GOLD%Skin of the Vipermagi
+//- Skullder's Ire
+ItemDisplay[xpl UNI !ID !ETH]: %GOLD%Skullder's Ire <<UNIQUE>>
+ItemDisplay[UNIQUE("Skullder's Ire") xpl ID !ETH]: %GOLD%Skullder's Ire {Upgrade: %ORANGE%Ko + Lem + %WHITE%P Diamond} <<UNIQUE>>
+ItemDisplay[xpl UNI !ID ETH]: %GRAY%ETH %GOLD%Skullder's Ire
 //- Shaftstop 
 ItemDisplay[xhn UNI !ID !ETH]: %GOLD%Shaftstop <<UNIQUE>>
-ItemDisplay[UNIQUE("Shaftstop") ID !ETH]: %GOLD%Shaftstop {Upgrade: %ORANGE%Ko + Lem + %WHITE%P Diamond} <<UNIQUE>>
+ItemDisplay[UNIQUE("Shaftstop") xhn ID !ETH]: %GOLD%Shaftstop {Upgrade: %ORANGE%Ko + Lem + %WHITE%P Diamond} <<UNIQUE>>
 ItemDisplay[xhn UNI !ID ETH]: %GRAY%ETH %GOLD%Shaftstop <<UNIQUE>>
 //- Ormus' Robes
 ItemDisplay[uui UNI !ID !ETH]: %GOLD%Ormus' Robes <<UNIQUE>>
@@ -357,8 +361,7 @@ ItemDisplay[7bk UNI !ID ETH]: %GRAY%ETH %GOLD%Warshrike
 //- Athena's Wrath
 ItemDisplay[9s8 UNI !ID !ETH]: %RED%* %GOLD%Athena's %RED%* <<UNIQUE>>
 ItemDisplay[9s8 UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Athena's %RED%*
-ItemDisplay[9s8 UNI ID !ETH]: %RED%* %GOLD%Athena's +3%RED%*
-ItemDisplay[9s8 UNI ID ETH]: %RED%* %GRAY%ETH %GOLD%Athena's +3%RED%*
+ItemDisplay[UNIQUE("Athena's Wrath") 9s8 ID !ETH CLSK5=3]: %RED%* %GOLD%Athena's +3%RED%* {Upgrade: %ORANGE%Pul + Lum + %GREEN%P Emerald}
 //- Bonehew
 ItemDisplay[7o7 UNI !ID !ETH]: %RED%* %GOLD%Bonehew %RED%*
 ItemDisplay[7o7 UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Bonehew %RED%*
