@@ -655,6 +655,7 @@ ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon
 
 //Rare Arrows/Bolts
 ItemDisplay[RARE !ID (aq2 OR cq2)]: %NAME%
+ItemDisplay[MAG (aq2 OR cq2)]:
 
 //5 rolls
 ItemDisplay[aq2 ID (RARE OR MAG) (ALLSK0>1 AND STAT156>0 AND STAT21>1 AND STAT62>1 AND STAT218>1)]: %NAME%%NL%%RED%Max/Lvl%WHITE%, %PURPLE%All Skill%GOLD%Pierce +5-25%WHITE%, %RED%Flat Dmg %BLUE%ML
