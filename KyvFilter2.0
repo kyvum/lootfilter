@@ -388,6 +388,10 @@ ItemDisplay[6cs UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Ondal's Wisdom %RED%*
 //- Mang Song's Lesson
 ItemDisplay[6ws UNI !ID !ETH]: %RED%** %GOLD%Mang Song's Lesson %RED%** <<UNIQUE>>
 ItemDisplay[6ws UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Mang Song's Lesson %RED%*
+//- Ribcracker
+ItemDisplay[8ls UNI !ID !ETH]: %RED%* %GOLD%Ribcracker %RED%* <<UNIQUE>>
+ItemDisplay[UNIQUE("Ribcracker") 8ls !ID !ETH]: %RED%* %GOLD%Ribcracker %RED%* {Upgrade: %ORANGE%Pul + Lum + %GREEN%P Emerald} <<UNIQUE>>
+ItemDisplay[8ls UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Ribcracker %RED%*
 
 //WANDS
 //- Death's Web
