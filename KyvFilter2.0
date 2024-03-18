@@ -175,7 +175,7 @@ ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo)]: %ORANGE%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%] <<BASE>>
 
 //Druid Bases
-ItemDisplay[CL1 ((SKILL("Rabies")=3 AND SKILL("Summon Dire Wolf")=3]:
+ItemDisplay[CL1 ((SKILL("Rabies")=3]: Rabies Metamorph Base <<BASE>>
 
 //Good Uniques/Sets start
 
