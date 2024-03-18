@@ -556,8 +556,7 @@ ItemDisplay[CL3 ELT ETH NMAG RES>29 (SOCK=4 OR SOCK=0)]: %DGREEN%ETH Pal Shield%
 ItemDisplay[CL3 ETH NMAG]:
 
 //Amazon
-ItemDisplay[(amc OR amb) SOCK=4 NMAG TABSK0>2]: %DGREEN%Faith Base %PURPLE%[%SOCKETS%]
-ItemDisplay[(amc OR amb) SOCK=0 NMAG TABSK0>2]: %DGREEN%Faith Base %PURPLE%[%SOCKETS%]
+ItemDisplay[amc SOCK=4 NMAG TABSK0=3]: %DGREEN%Faith Base %PURPLE%[%SOCKETS%]
 ItemDisplay[MAG !ID ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
 ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %GREEN%#
 ItemDisplay[RARE !ID (am5 OR ama OR amf)]: %NAME% %GREEN%# 
