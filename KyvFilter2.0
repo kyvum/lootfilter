@@ -231,7 +231,7 @@ ItemDisplay[upl UNI !ID ETH]: %GRAY%ETH %GOLD%Arkaine's Valor
 ItemDisplay[uul UNI !ID !ETH]: %GOLD%Steel Carapace <<UNIQUE>>
 ItemDisplay[uul UNI !ID ETH]: %GRAY%ETH %GOLD%Steel Carapace <<UNIQUE>>
 //- Tyrael's Might
-ItemDisplay[uar UNI !ID !ETH]: %NL%%RED%*** %GOLD%Tyrael's Might or Templar's Might %RED%***%NL% <<UNIQUE>>
+ItemDisplay[uar UNI !ID !ETH]: %NL%%RED%*** %GOLD%Tyrael's Might or Templar's Might %RED%***%NL%%NL% <<UNIQUE>>
 ItemDisplay[uar UNI !ID ETH]: %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** <<UNIQUE>>
 //- Tal Rasha's Guardianship
 ItemDisplay[uth SET !ID !ETH]: %GREEN%Tal Rasha's Guardianship <<SET>>
@@ -242,7 +242,7 @@ ItemDisplay[ult SET !ID ETH]: %GREEN%ETH Naj's Light Plate
 
 //SHIELDS
 //- Stormshield
-ItemDisplay[uit UNI !ID !ETH]: %NL%%RED%*** %GOLD%Stormshield %RED%***%NL% <<UNIQUE>>
+ItemDisplay[uit UNI !ID !ETH]: %NL%%RED%*** %GOLD%Stormshield %RED%***%NL%%NL% <<UNIQUE>>
 ItemDisplay[uit UNI !ID ETH]: %GRAY%ETH %GOLD%Stormshield
 //- Head Hunter's Glory
 ItemDisplay[ush UNI !ID !ETH]: %GOLD%Head Hunter's Glory
@@ -293,7 +293,7 @@ ItemDisplay[xtb SET !ID ETH]: %GREEN%ETH Aldur's Advance
 
 //BELTS
 //- Verdungo's Hearty Cord
-ItemDisplay[umc UNI !ID !ETH]: %NL%%RED%*** %GOLD%Verdungo's Hearty Cord %RED%***%NL% <<UNIQUE>>
+ItemDisplay[umc UNI !ID !ETH]: %NL%%RED%*** %GOLD%Verdungo's Hearty Cord %RED%***%NL%%NL% <<UNIQUE>>
 ItemDisplay[umc UNI !ID ETH]: %GRAY%ETH %GOLD%Verdungo's Hearty Cord
 //- Snowclash
 ItemDisplay[ztb UNI !ID !ETH]: %GOLD%Snowclash
@@ -302,7 +302,7 @@ ItemDisplay[ztb UNI !ID ETH]: %GRAY%ETH %GOLD%Snowclash
 ItemDisplay[zhb UNI !ID !ETH]: %GOLD%Thundergod's Vigor <<UNIQUE>>
 ItemDisplay[zhb UNI !ID ETH]: %GRAY%ETH %GOLD%Thundergod's Vigor
 //- Arachnid Mesh
-ItemDisplay[ulc UNI !ID !ETH]: %NL%%RED%*** %GOLD%Arachnid Mesh %RED%*** <<UNIQUE>>
+ItemDisplay[ulc UNI !ID !ETH]: %NL%%RED%*** %GOLD%Arachnid Mesh %RED%***%NL%%NL% <<UNIQUE>>
 ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh 
 
 //WEAPONS
@@ -315,7 +315,7 @@ ItemDisplay[9mp UNI !ID ETH]: %GRAY%ETH %GOLD%Pompeii's Wrath
 ItemDisplay[72a UNI !ID !ETH]: %GOLD%Rune Master %WHITE%
 ItemDisplay[72a UNI !ID ETH]: %GRAY%ETH %GOLD%Rune Master %WHITE%
 //- Death Cleaver
-ItemDisplay[7wa UNI !ID !ETH]: %NL%%RED%*** %GOLD%Death Cleaver %RED%***%NL% <<UNIQUE>>
+ItemDisplay[7wa UNI !ID !ETH]: %NL%%RED%*** %GOLD%Death Cleaver %RED%***%NL%%NL% <<UNIQUE>>
 ItemDisplay[7wa UNI !ID ETH]: %GRAY%ETH %GOLD%Death Cleaver
 //- Executioner's Justice
 ItemDisplay[7gi UNI !ID !ETH]: %RED%* %GOLD%Executioner's Justice %RED%* <<UNIQUE>>
@@ -345,7 +345,7 @@ ItemDisplay[9cm UNI !ID ETH]: %GRAY%ETH %GOLD%Bing Sz Wang
 //- Lightsabre or Azurewrath
 ItemDisplay[7cr UNI !ID]: %RED%*** %GOLD%Lightsabre or Azurewrath %RED%*** <<UNIQUE>>
 //- The Grandfather
-ItemDisplay[7gd UNI !ID !ETH]: %NL%%RED%** %GOLD%The Grandfather **%NL% <<UNIQUE>>
+ItemDisplay[7gd UNI !ID !ETH]: %NL%%RED%** %GOLD%The Grandfather **%NL%%NL% <<UNIQUE>>
 ItemDisplay[7gd UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%The Grandfather %RED%*
 
 //DAGGERS
