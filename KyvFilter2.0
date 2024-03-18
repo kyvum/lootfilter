@@ -30,7 +30,7 @@ ItemDisplay[GOLD<2500 CLVL>65]:
 
 //Kyvum
 ItemDisplay[CLVL<30 CL1 SKILL("Arctic Blast")>1]: %PURPLE%Kyvum's %WHITE%Arctic Blast %NAME% <<LADDERSTART>>
-ItemDisplay[SKILL("Summon Grizzly")=3 CL1]: %PURPLE%Kyvum's %WHITE%Grizzly %PURPLE%+3 %NAME% <<LADDERSTART>>
+ItemDisplay[NMAG SKILL("Summon Grizzly")=3 CL1]: %PURPLE%Kyvum's %WHITE%Grizzly %PURPLE%+3 %NAME% <<LADDERSTART>>
 //400Jay
 ItemDisplay[CLVL<50 WP13 SKILL("Holy Bolt")>1]: %NAME% %GREEN%400Jay's %WHITE%Holy Bolt Stick <<LADDERSTART>>
 //f0oster
@@ -175,7 +175,7 @@ ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%] <<BASE>>
 
 //Druid Bases
-ItemDisplay[CL1 (SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
+ItemDisplay[NMAG CL1 (SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
 
 //Good Uniques/Sets start
 
