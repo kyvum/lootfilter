@@ -58,7 +58,7 @@ ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL%
 ItemDisplay[(r24 OR r25)]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL%%NL% <<RUNE>>
 ItemDisplay[(r26 OR r27 OR r32)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% %NL%%NL% <<RUNE>>
 ItemDisplay[(r28 OR r29 OR r33)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL%%NL% <<RUNE>>
-ItemDisplay[(r30 OR r31)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL%%NL% <<RUNE>>
+ItemDisplay[(r30 OR r31)]: %NL%%NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL%%NL%%NL% <<RUNE>>
 
 //RELICS
 ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>
@@ -883,9 +883,6 @@ ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 
 //MAGIC ITEMS start
-
-//Magic Orbs
-ItemDisplay[MAG !ETH !ID (oba OR obf OR ob5)]: %BLUE%Orb
 
 //Rings, Magic [LEVEL REQ FOR CRAFTING]
 ItemDisplay[MAG !ID rin ILVL=85]: %BLUE%R%ORANGE% [96+]
