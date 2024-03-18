@@ -173,6 +173,8 @@ ItemDisplay[NMAG ETH SUP SOCK=4 utp]: 4os Merc AP Base%PURPLE%[%SOCKETS%] <<BASE
 ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG ETH !RW SOCK=5 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Doom Base%PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=6) 7gd]: Merc Silence Base%PURPLE%[%SOCKETS%] <<BASE>>
 
 //Druid Bases
 ItemDisplay[NMAG CL1 (SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
