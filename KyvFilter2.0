@@ -178,6 +178,7 @@ ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo)]: %ORANGE%ETH%DGREEN%
 
 ItemDisplay[rin UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
 ItemDisplay[amu UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
+ItemDisplay[jew UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
 
 //HELMETS
 //- Vampire Gaze
