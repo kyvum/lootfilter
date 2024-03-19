@@ -201,10 +201,10 @@ ItemDisplay[ci3 UNI !ID ETH]: %GRAY%ETH %GOLD%Griffon's Eye
 ItemDisplay[ci2 UNI !ID !ETH]: %GOLD%Kira's Guardian
 ItemDisplay[ci2 UNI !ID ETH]: %GRAY%ETH %GOLD%Kira's Guardian
 //- Veil of Steel or Nightwing's Veil
-ItemDisplay[uhm UNI !ID !ETH]: %GOLD%Veil of Steel or Nightwing's Veil
+ItemDisplay[uhm UNI !ID !ETH]: %GOLD%Veil of Steel or Nightwing's Veil <<UNIQUE>>
 ItemDisplay[uhm UNI !ID ETH]: %GRAY%ETH %GOLD%Veil of Steel or %GRAY%ETH %GOLD%Nightwing's Veil
 //- Andariel's Visage
-ItemDisplay[usk UNI !ID !ETH]: %GOLD%Andariel's Visage
+ItemDisplay[usk UNI !ID !ETH]: %GOLD%Andariel's Visage <<UNIQUE>>
 ItemDisplay[usk UNI !ID ETH]: %GRAY%ETH %GOLD%Andariel's Visage
 //- Crown of Ages
 ItemDisplay[urn UNI !ID !ETH]: %GOLD%Crown of Ages <<UNIQUE>>
