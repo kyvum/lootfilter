@@ -542,7 +542,8 @@ ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightn
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")>2 AND SKILL("Death Sentry")>2) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death%WHITE%) <<BASE>>
 
 //Paladin
-ItemDisplay[NMAG pab RES>39 CLVL>84 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
+ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
+ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %GREEN%PExile Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
 ItemDisplay[NMAG CL3 RES>39 CLVL<85 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
 ItemDisplay[NMAG SOCK=4 SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3 WP13]: %NAME% %GREEN%Insane Phoenix Base <<BASE>>
 ItemDisplay[(WEAPON) (!INF AND !ETH) SKILL("Sanctuary")=3 (SOCK=0 OR SOCK=4)]: +3 Sanc%PURPLE%[%SOCKETS%] <<BASE>>
