@@ -252,6 +252,9 @@ ItemDisplay[ult SET !ID ETH]: %GREEN%ETH Naj's Light Plate
 //- Stormshield
 ItemDisplay[uit UNI !ID !ETH]: %NL%%RED%*** %GOLD%Stormshield %RED%***%NL%%NL% <<UNIQUE>>
 ItemDisplay[uit UNI !ID ETH]: %GRAY%ETH %GOLD%Stormshield
+//- Medusa's Gaze
+ItemDisplay[uow UNI !ID !ETH]: %NL%%RED%** %GOLD%Medusa's Gaze %RED%**%NL%%NL% <<UNIQUE>>
+ItemDisplay[uow UNI !ID ETH]: %GRAY%ETH %GOLD%Medusa's Gaze
 //- Head Hunter's Glory
 ItemDisplay[ush UNI !ID !ETH]: %GOLD%Head Hunter's Glory
 ItemDisplay[ush UNI !ID ETH]: %GRAY%ETH %GOLD%Head Hunter's Glory
