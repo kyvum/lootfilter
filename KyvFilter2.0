@@ -45,7 +45,7 @@ ItemDisplay[!UNI TABSK2>1 (am5 OR amf OR ama) CLVL<70]: %BLUE%ultra's %WHITE%Jav
 ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%ultra's %WHITE%Javs %PURPLE%+3 <<LADDERSTART>>
 ItemDisplay[!UNI TABSK2=3 IAS=20 EQ4]: %BLUE%ultra's %%WHITE%Gloves <<LADDERSTART>>
 //General
-ItemDisplay[CLVL<30 EQ1 SOCK=3]: %DGREEN%MF Base <<LADDERSTART>>
+ItemDisplay[NMAG CLVL<30 EQ1 SOCK=3]: %DGREEN%MF Base <<LADDERSTART>>
 
 //SMALL AND GRAND CHARMS
 ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
