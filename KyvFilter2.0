@@ -650,7 +650,7 @@ ItemDisplay[!ETH RARE (EQ5) ID (STAT43>0 AND STAT41>0 AND STAT39>0)]: %PURPLE%**
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ID]: %YELLOW%%NAME%
 
 //Tiara Diadem Imbue Charsi
-ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0]: IMBUE
+ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
 // ^add %NAME% to find imbue-able tiara/diadem
 
 //Other valuables
