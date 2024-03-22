@@ -654,7 +654,7 @@ ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
 // ^add %NAME% to find imbue-able tiara/diadem
 
 //Other valuables
-ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick
+ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves
 ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves
 ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon
