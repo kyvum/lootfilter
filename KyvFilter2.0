@@ -118,8 +118,9 @@ ItemDisplay[MAG CLVL<15]: %BLUE%%NAME%
 //Show all Runewords
 ItemDisplay[RW]: %NAME%
 
-//GAMBLES
+//SHOPPING
 ItemDisplay[EQ7 !ID ILVL=1]: %PURPLE%CIRCLET/CORONET <<GAMBLING>>
+ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %PURPLE%MA Gloves <<GAMBLING>>
 
 //BASES
 
