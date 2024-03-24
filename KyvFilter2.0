@@ -14,7 +14,7 @@ ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, Border
 // Valuable Sets 
 ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0/185/0, BorderSize = 3, BackgroundColor = 0/185/0, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 22, MapIconColor = 236
 // Valuable Bases
-ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 31/41/29, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
+ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 33/33/33, BorderSize = 3, BackgroundColor = 33/33/33, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
 // Valuable RUNES
 ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 135/135/135, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // VERY Valuable RUNES
