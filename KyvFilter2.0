@@ -13,6 +13,8 @@ ItemStyle[LADDERSTART]: NotificationPriority = HIGH, NotificationColor = ITEM, B
 ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 237, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Uniques
 ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 207/140/26, BorderSize = 3, BackgroundColor = 207/140/26, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
+// Unique Jewellery
+ItemStyle[UNIQUEJ]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 207/140/26, BorderSize = 3, BackgroundColor = 207/140/26, NotificationSound = 464, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Sets 
 ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0/185/0, BorderSize = 3, BackgroundColor = 0/185/0, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 22, MapIconColor = 236
 // Valuable Bases
@@ -207,9 +209,9 @@ ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 
 //Good Uniques/Sets start
 
-ItemDisplay[rin UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
-ItemDisplay[amu UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
-ItemDisplay[jew UNI !ID]: UNIQUE %NAME% <<UNIQUE>>
+ItemDisplay[rin UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[amu UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[jew UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
 
 //HELMETS
 //- Vampire Gaze
