@@ -133,7 +133,9 @@ ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %PURPLE%MA Gloves <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves <<GAMBLING>>
 ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick
-ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon
+ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3) FCR>19]: %NL%%RED%**%PURPLE%FOH Weapon%RED%**%NL%%NL% <<GAMBLING>>
+ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon <<GAMBLING>>
+ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: %NL%%RED%**%PURPLE%FCR Hemo Weapon%RED%**%NL%%NL% <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Weapon <<GAMBLING>>
 
 //BASES
@@ -190,9 +192,6 @@ ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=5 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Doom Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=6) 7gd]: Merc Silence Base%PURPLE%[%SOCKETS%] <<BASE>>
-
-//Druid Bases
-ItemDisplay[NMAG CL1 (SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
 
 //Good Uniques/Sets start
 
@@ -603,12 +602,14 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND CLSK0>0 AND IAS>29)]: %PUR
 ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>29)]: %PURPLE% **%GREEN% 3 Jav%YELLOW% 30+ IAS%PURPLE% ** <<MAGIC>>
 
 //Druid
-//ItemDisplay[MAG CL1]: Dru Hat[L%ILVL%]
-//ItemDisplay[NMAG CL1]: Dru Hat[L%ILVL%] 
+ItemDisplay[NMAG CL1 (SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
 
 //Necromancer
-ItemDisplay[CL4 FCR>9 WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL%
-ItemDisplay[CL4 WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand
+ItemDisplay[CL4 FCR>9 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL% <<MAGIC>>
+ItemDisplay[CL4 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand <<MAGIC>>
+
+//Barbarian
+ItemDisplay[CL2 SKILL("Battle Orders")=3 TABSK34=3]: %RED%**%PURPLE%Battle Orders Helmet%RED%** <<MAGIC>>
 
 //SUPER RARES start
 
