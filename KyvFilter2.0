@@ -128,6 +128,10 @@ ItemDisplay[RW]: %NAME%
 //SHOPPING
 ItemDisplay[EQ7 !ID ILVL=1]: %PURPLE%CIRCLET/CORONET <<GAMBLING>>
 ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %PURPLE%MA Gloves <<GAMBLING>>
+ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves <<GAMBLING>>
+ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves <<GAMBLING>>
+ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick
+ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon
 
 //BASES
 
@@ -660,12 +664,6 @@ ItemDisplay[RARE (CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) !ID]: %YELLOW%%NAME%
 //Tiara Diadem Imbue Charsi
 ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
 // ^add %NAME% to find imbue-able tiara/diadem
-
-//Other valuables
-ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick <<GAMBLING>>
-ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves
-ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves
-ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon
 
 //Arrows ----- TO BE FIXED
 
