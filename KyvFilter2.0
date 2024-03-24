@@ -9,6 +9,8 @@ Attribute[Version]: 2.0
 ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationSound = 2678, NotificationSoundPriority = HIGH
 // Ladder Start
 ItemStyle[LADDERSTART]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 135/135/135, NotificationSound = 2678, NotificationSoundPriority = HIGH
+// VERY Valuable Uniques
+ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 237, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Uniques
 ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 207/140/26, BorderSize = 3, BackgroundColor = 207/140/26, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Sets 
@@ -16,9 +18,11 @@ ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderCol
 // Valuable Bases
 ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 33/33/33, BorderSize = 3, BackgroundColor = 33/33/33, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
 // VERY Valuable RUNES
-ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 237, NotificationSound = 2680, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 237, NotificationSound = 2680, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+// Highly Valuable RUNES
+ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 138, NotificationSound = 2677, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable RUNES
-ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 138, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[MRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 138, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable MAGIC/RARE ITEMS
 ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 54/62/148, BorderSize = 3, BackgroundColor = 54/62/148, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
 // Relics
@@ -66,12 +70,11 @@ ItemDisplay[!ID RARE (amu OR rin OR jew)]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
 //RUNES start
 ItemDisplay[(r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17)]: %ORANGE%%NAME%%RED%
-ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %ORANGE%%NAME%%RED%
+ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %!TOPTIER!% %ORANGE%%NAME%  %!TOPEND!%<<HRUNE>>
 ItemDisplay[(r18 OR r19)]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%%NL%
-ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL% <<RUNE>>
-ItemDisplay[(r24 OR r25)]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL%%NL% <<RUNE>>
-ItemDisplay[(r26 OR r27 OR r32)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
-ItemDisplay[(r28 OR r29 OR r33)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
+ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL% <<MRUNE>>
+ItemDisplay[(r24 OR r25 OR r26 OR r32 OR r33)]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL%%NL% <<MRUNE>>
+ItemDisplay[(r27 OR r28 OR r29)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
 ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %ORANGE%%NAME%  %!TOPEND!%<<HRUNE>>
 
 //RELICS
@@ -216,7 +219,7 @@ ItemDisplay[xh9 UNI !ID ETH]: %GOLD%Vampire Gaze
 ItemDisplay[uap UNI !ETH]: %!HIGHTIER!% %WHITE%Shako  %!HIGHEND!% <<UNIQUE>>
 ItemDisplay[uap UNI !ID ETH]: %GRAY%ETH %GOLD%Shako
 //- Griffon's Eye
-ItemDisplay[ci3 UNI !ID !ETH]: %!TOPTIER!% %WHITE%Griffon's Eye  %!TOPEND!% <<UNIQUE>>
+ItemDisplay[ci3 UNI !ID !ETH]: %!TOPTIER!% %WHITE%Griffon's Eye  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[ci3 UNI !ID ETH]: %GRAY%ETH %GOLD%Griffon's Eye
 //- Kira's Guardian
 ItemDisplay[ci2 UNI !ID !ETH]: %GOLD%Kira's Guardian
@@ -263,7 +266,7 @@ ItemDisplay[upl UNI !ID ETH]: %GRAY%ETH %GOLD%Arkaine's Valor
 ItemDisplay[uul UNI !ID !ETH]: %GOLD%Steel Carapace <<UNIQUE>>
 ItemDisplay[uul UNI !ID ETH]: %GRAY%ETH %GOLD%Steel Carapace <<UNIQUE>>
 //- Tyrael's Might
-ItemDisplay[uar UNI !ID !ETH]: %!TOPTIER!% %WHITE%Tyrael's Or Templar's  %!TOPEND!% <<UNIQUE>>
+ItemDisplay[uar UNI !ID !ETH]: %!TOPTIER!% %WHITE%Tyrael's Or Templar's  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[uar UNI !ID ETH]: %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** <<UNIQUE>>
 //- Tal Rasha's Guardianship
 ItemDisplay[uth SET !ID !ETH]: %GREEN%Tal Rasha's Guardianship <<SET>>
@@ -445,7 +448,7 @@ ItemDisplay[8ls UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Ribcracker %RED%*
 
 //WANDS
 //- Death's Web
-ItemDisplay[7gw UNI !ID !ETH]: %!TOPTIER!% %WHITE%Death's Web  %!TOPEND!% <<UNIQUE>>
+ItemDisplay[7gw UNI !ID !ETH]: %!TOPTIER!% %WHITE%Death's Web  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[7gw UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Death's Web %RED%*
 
 //SCEPTERS
@@ -556,7 +559,7 @@ ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=2)]: %ORANG
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%3 Sorc sk %ORANGE%*** <<MAGIC>>
 
 //Assassin
-ItemDisplay[CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") AND SKILL("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%]  %!TOPEND!% <<BASE>>
+ItemDisplay[CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") AND SKILL("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %RED%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%]  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %RED%CoT+BoI Base%PURPLE%[%SOCKETS%]  %!HIGHEND!% <<BASE>>
 ItemDisplay[CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Fists of Fire")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %RED%CoT+FoF Base%PURPLE%[%SOCKETS%]  %!HIGHEND!% <<BASE>>
 ItemDisplay[CL5 !ETH (SKILL("Fists of Fire")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %RED%FoF+BoI Base%PURPLE%[%SOCKETS%]  %!HIGHEND!% <<BASE>>
@@ -590,7 +593,7 @@ ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightn
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")>2 AND SKILL("Death Sentry")>2) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death%WHITE%) <<BASE>>
 
 //Paladin
-ItemDisplay[NMAG !ETH pab RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!TOPTIER!% %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%45 Res%WHITE%)  %!TOPEND!% <<BASE>>
+ItemDisplay[NMAG !ETH pab RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!TOPTIER!% %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%45 Res%WHITE%)  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!HIGHTIER!% %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%)  %!HIGHEND!% <<BASE>>
 ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %GREEN%PExile Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
 ItemDisplay[NMAG CL3 RES>39 CLVL<85 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
