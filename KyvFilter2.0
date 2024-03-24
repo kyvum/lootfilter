@@ -72,8 +72,8 @@ ItemDisplay[!ID RARE (amu OR rin OR jew)]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[(r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17)]: %ORANGE%%NAME%%RED%
 ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %ORANGE%%NAME%%RED%
 ItemDisplay[(r18 OR r19)]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%%NL%
-ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL% <<MRUNE>>
-ItemDisplay[(r24 OR r25 OR r26 OR r32 OR r33)]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL%%NL% <<MRUNE>>
+ItemDisplay[(r20 OR r21 OR r22 OR r23 OR r24 OR r25)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL% <<MRUNE>>
+ItemDisplay[(r26 OR r32 OR r33)]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<MRUNE>>
 ItemDisplay[(r27 OR r28 OR r29)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
 ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %ORANGE%%NAME%  %!TOPEND!%<<HRUNE>>
 
