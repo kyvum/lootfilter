@@ -631,6 +631,10 @@ ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
 //GRAND CHARMS
 ItemDisplay[MAG ID cm3 (TABSK0>0 OR TABSK3>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK50>0)]: %NAME% <<BASE>>
+ItemDisplay[MAG ID cm3 STAT22>8]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Grand Charm <<BASE>>
+ItemDisplay[MAG ID cm3 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Grand Charm <<BASE>>
+
+//ItemDisplay[MAG ID cm3 TABSK0>0]: %!MIDTIER!% %WHITE%Bow & Crossbow GC %!MIDEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK3>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<BASE>>
@@ -648,8 +652,6 @@ ItemDisplay[MAG ID cm3 (TABSK0>0 OR TABSK3>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>
 //ItemDisplay[MAG ID cm3 TABSK42>0]: %!MIDTIER!% %WHITE%Druid Elemental GC %!MIDEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 STAT22>8]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Grand Charm <<BASE>>
-ItemDisplay[MAG ID cm3 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Grand Charm <<BASE>>
 
 //SMALL CHARMS
 ItemDisplay[MAG ID cm1 STAT22=3]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Small Charm  <<BASE>>
