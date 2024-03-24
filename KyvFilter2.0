@@ -16,9 +16,9 @@ ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderCol
 // Valuable Bases
 ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 33/33/33, BorderSize = 3, BackgroundColor = 33/33/33, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
 // Valuable RUNES
-ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 135/135/135, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 237, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // VERY Valuable RUNES
-ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 138, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 138, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable MAGIC/RARE ITEMS
 ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 54/62/148, BorderSize = 3, BackgroundColor = 54/62/148, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
 // Relics
@@ -27,8 +27,8 @@ ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderC
 //TEXT MACROS
 TextMacro[TOPTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%%YELLOW%%%PURPLE%%%NL%
 TextMacro[TOPEND]: %NL%%PURPLE%%%YELLOW%%%GOLD%%%RED%%%PURPLE%%%GREEN%%%%%     %NL%%NL%
-TextMacro[HIGHTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%NL%
-TextMacro[HIGHEND]: %NL%%GOLD%%%RED%%%PURPLE%%%GREEN%%%%%     %NL%%NL%
+TextMacro[HIGHTIER]: %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%NL%
+TextMacro[HIGHEND]: %NL%%GOLD%%%RED%%%PURPLE%%%GREEN%%%%%
 TextMacro[MIDTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%NL%
 TextMacro[MIDEND]: %NL%%RED%%%PURPLE%%%GREEN%%%%%     %NL%%NL%
 
@@ -66,12 +66,12 @@ ItemDisplay[!ID RARE (amu OR rin OR jew)]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
 //RUNES start
 ItemDisplay[(r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17)]: %ORANGE%%NAME%%RED%
-ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %ORANGE%%NAME%%RED%
+ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %!TOPTIER!% %ORANGE%%NAME%  %!TOPEND!%<<HRUNE>>
 ItemDisplay[(r18 OR r19)]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%%NL%
 ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL% <<RUNE>>
 ItemDisplay[(r24 OR r25)]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL%%NL% <<RUNE>>
-ItemDisplay[(r26 OR r27 OR r32)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% %NL%%NL% <<RUNE>>
-ItemDisplay[(r28 OR r29 OR r33)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL%%NL% <<RUNE>>
+ItemDisplay[(r26 OR r27 OR r32)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
+ItemDisplay[(r28 OR r29 OR r33)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
 ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %WHITE%%NAME%  %!TOPEND!%<<HRUNE>>
 
 //RELICS
