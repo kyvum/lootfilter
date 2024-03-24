@@ -10,7 +10,7 @@ ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, Bord
 // Ladder Start
 ItemStyle[LADDERSTART]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 135/135/135, NotificationSound = 2678, NotificationSoundPriority = HIGH
 // VERY Valuable Uniques
-ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 237, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
+ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 225, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Uniques
 ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 207/140/26, BorderSize = 3, BackgroundColor = 207/140/26, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Unique Jewellery
@@ -20,7 +20,7 @@ ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderCol
 // Valuable Bases
 ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 33/33/33, BorderSize = 3, BackgroundColor = 33/33/33, NotificationSound = 498, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
 // VERY Valuable RUNES
-ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 6, BackgroundColor = 237, NotificationSound = 2680, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 225, NotificationSound = 2680, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Highly Valuable RUNES
 ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 138, NotificationSound = 2677, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable RUNES
@@ -61,7 +61,7 @@ ItemDisplay[(r18 OR r19)]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%%NL%
 ItemDisplay[(r20 OR r21 OR r22 OR r23 OR r24 OR r25)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL% <<MRUNE>>
 ItemDisplay[(r26 OR r32 OR r33)]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<MRUNE>>
 ItemDisplay[(r27 OR r28 OR r29)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
-ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %ORANGE%%NAME%  %!TOPEND!%<<HRUNE>>
+ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %ORANGE%%NAME%  %!TOPEND!% <<HRUNE>>
 
 //RELICS
 ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>
