@@ -630,36 +630,36 @@ ItemDisplay[CL2 SKILL("Battle Orders")=3 TABSK34=3]: %RED%**%PURPLE%Battle Order
 ItemDisplay[CL2 SKILL("War Cry")=3 TABSK34=3]: %RED%**%PURPLE%Warcry Helmet%RED%** <<MAGIC>>
 
 //GRAND CHARMS
-ItemDisplay[MAG ID cm3 TABSK0>0]: %!MIDTIER!% %WHITE%Bow & Crossbow GC  %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK3>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK10>0]: %!MIDTIER!% %WHITE%Cold GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK16>0]: %!HIGHTIER!% %WHITE%Curse GC %!HIGHEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK17>0]: %!MIDTIER!% %WHITE%Poison & Bone GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK18>0]: %!MIDTIER!% %WHITE%Necro Summon GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK24>0]: %!MIDTIER!% %WHITE%Paladin Combat GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK25>0]: %!MIDTIER!% %WHITE%Offensive Aura GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK32>0]: %!MIDTIER!% %WHITE%Barbarian Combat GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK33>0]: %!MIDTIER!% %WHITE%Masteries GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK34>0]: %!MIDTIER!% %WHITE%Warcries GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK40>0]: %!MIDTIER!% %WHITE%Druid Summoning GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK41>0]: %!MIDTIER!% %WHITE%Druid Shapeshifting GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK42>0]: %!MIDTIER!% %WHITE%Druid Elemental GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 STAT22>8]: %!HIGHTIER!% %WHITE%Max Damage GC%RED%|%WHITE%%STAT(24,0)% MD  %!HIGHEND!% <<BASE>>
-ItemDisplay[MAG ID cm3 RES>13]: %!HIGHTIER!% %WHITE%All Resist GC  %!HIGHEND!% <<BASE>>
+ItemDisplay[MAG ID cm3 (TABSK0>0 OR TABSK3>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK50>0)]: %NAME% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK3>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK10>0]: %!MIDTIER!% %WHITE%Cold GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK16>0]: %!HIGHTIER!% %WHITE%Curse GC %!HIGHEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK17>0]: %!MIDTIER!% %WHITE%Poison & Bone GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK18>0]: %!MIDTIER!% %WHITE%Necro Summon GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK24>0]: %!MIDTIER!% %WHITE%Paladin Combat GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK25>0]: %!MIDTIER!% %WHITE%Offensive Aura GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK32>0]: %!MIDTIER!% %WHITE%Barbarian Combat GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK33>0]: %!MIDTIER!% %WHITE%Masteries GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK34>0]: %!MIDTIER!% %WHITE%Warcries GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK40>0]: %!MIDTIER!% %WHITE%Druid Summoning GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK41>0]: %!MIDTIER!% %WHITE%Druid Shapeshifting GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK42>0]: %!MIDTIER!% %WHITE%Druid Elemental GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 STAT22>8]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Grand Charm <<BASE>>
+//ItemDisplay[MAG ID cm3 RES>13]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Grand Charm <<BASE>>
 
 //SMALL CHARMS
-ItemDisplay[MAG ID cm1 STAT22=3]: %!HIGHTIER!% %WHITE%Max Damage SC%RED%|%WHITE%%STAT(24,0)% MD %!HIGHEND!% <<BASE>>
-ItemDisplay[MAG ID cm1 MANA>10 LIFE>10]: %!MIDTIER!% %WHITE%Life & Mana SC  %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm1 RES>2]: %!HIGHTIER!% %WHITE%All Resist SC  %!HIGHEND!% <<BASE>>
-ItemDisplay[MAG ID cm1 STAT41>2]: %!MIDTIER!% %WHITE%Lightning Resist SC  %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm1 STAT39>2]: %!MIDTIER!% %WHITE%Fire Resist SC  %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm1 STAT45>2]: %!MIDTIER!% %WHITE%Poison Resist SC  %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm1 STAT43>2]: %!MIDTIER!% %WHITE%Cold Resist SC  %!MIDEND!% <<BASE>>
-ItemDisplay[MAG ID cm1 STAT80>2]: %!MIDTIER!% %WHITE%Magic Find SC  %!MIDEND!% <<BASE>>
+ItemDisplay[MAG ID cm1 STAT22=3]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Small Charm  <<BASE>>
+ItemDisplay[MAG ID cm1 MANA>10 LIFE>10]: %BLUE%Life%RED%[%WHITE%%STAT(7,0)%%RED%] & %BLUE%Mana%RED%[%WHITE%%STAT(9,0)%%RED%] %BLUE%Small Charm <<BASE>>
+ItemDisplay[MAG ID cm1 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
+ItemDisplay[MAG ID cm1 STAT41>2]: %BLUE%Lightning Resist%RED%[%WHITE%%STAT(41,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
+ItemDisplay[MAG ID cm1 STAT39>2]: %BLUE%Fire Resist%RED%[%WHITE%%STAT(39,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
+ItemDisplay[MAG ID cm1 STAT45>2]: %BLUE%Poison Resist%RED%[%WHITE%%STAT(45,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
+ItemDisplay[MAG ID cm1 STAT43>2]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
+ItemDisplay[MAG ID cm1 STAT80>2]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
 
 //SUPER RARES start
 
