@@ -17,6 +17,8 @@ ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderCol
 ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 31/41/29, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
 // Valuable RUNES
 ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 135/135/135, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+// VERY Valuable RUNES
+ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0/255/244, BorderSize = 8, BackgroundColor = 0/255/244, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable MAGIC/RARE ITEMS
 ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 54/62/148, BorderSize = 3, BackgroundColor = 54/62/148, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
 // Relics
@@ -62,7 +64,7 @@ ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL%
 ItemDisplay[(r24 OR r25)]: %NL% %RED% %GOLD% %ORANGE%%NAME%%GOLD%%RED% %NL%%NL% <<RUNE>>
 ItemDisplay[(r26 OR r27 OR r32)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD%%GREEN% %NL%%NL% <<RUNE>>
 ItemDisplay[(r28 OR r29 OR r33)]: %NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL%%NL% <<RUNE>>
-ItemDisplay[(r30 OR r31)]: %NL%%NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL%%NL%%NL% <<RUNE>>
+ItemDisplay[(r30 OR r31)]: %NL%%NL% %GREEN% %GOLD% %ORANGE%%NAME%%GOLD% %GREEN% %NL%%NL%%NL% <<HRUNE>>
 
 //RELICS
 ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>
