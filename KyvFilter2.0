@@ -10,7 +10,7 @@ ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, Bord
 // Ladder Start
 ItemStyle[LADDERSTART]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 135/135/135, NotificationSound = 2678, NotificationSoundPriority = HIGH
 // VERY Valuable Uniques
-ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 225, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
+ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 98, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Uniques
 ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 207/140/26, BorderSize = 3, BackgroundColor = 207/140/26, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Unique Jewellery
@@ -20,11 +20,11 @@ ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderCol
 // Valuable Bases
 ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 33/33/33, BorderSize = 3, BackgroundColor = 33/33/33, NotificationSound = 498, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
 // VERY Valuable RUNES
-ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 225, NotificationSound = 2680, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 98, NotificationSound = 2680, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Highly Valuable RUNES
-ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 138, NotificationSound = 2677, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2677, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable RUNES
-ItemStyle[MRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 138, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[MRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable MAGIC/RARE ITEMS
 ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 54/62/148, BorderSize = 3, BackgroundColor = 54/62/148, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
 // Relics
