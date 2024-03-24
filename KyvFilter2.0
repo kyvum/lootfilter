@@ -134,6 +134,7 @@ ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves <<GAMBLING>>
 ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick
 ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon
+ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Weapon <<GAMBLING>>
 
 //BASES
 
@@ -581,7 +582,7 @@ ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightn
 ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
 ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %GREEN%PExile Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
 ItemDisplay[NMAG CL3 RES>39 CLVL<85 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
-ItemDisplay[NMAG SOCK=4 SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3 WP13]: %NAME% %GREEN%Insane Phoenix Base <<BASE>>
+ItemDisplay[NMAG SOCK=4 (SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3) WP13]: %NAME% %GREEN%Insane Phoenix Base <<BASE>>
 ItemDisplay[(WEAPON) (!INF AND !ETH) SKILL("Sanctuary")=3 (SOCK=0 OR SOCK=4)]: +3 Sanc%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[CL3 !ETH NMAG RES<30 CLVL>54]:
 ItemDisplay[CL3 ETH NMAG]:
@@ -604,6 +605,10 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>29)]: %PURPLE% **%GREE
 //Druid
 //ItemDisplay[MAG CL1]: Dru Hat[L%ILVL%]
 //ItemDisplay[NMAG CL1]: Dru Hat[L%ILVL%] 
+
+//Necromancer
+ItemDisplay[CL4 FCR>9 WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL%
+ItemDisplay[CL4 WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand
 
 //SUPER RARES start
 
