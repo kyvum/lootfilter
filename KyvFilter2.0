@@ -146,8 +146,8 @@ ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %PURPLE%MA Gloves <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves <<GAMBLING>>
 ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick
-ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3) FCR>19]: %NL%%RED%**%PURPLE%FOH Weapon%RED%**%NL%%NL% <<GAMBLING>>
-ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %PURPLE%FOH Weapon <<GAMBLING>>
+ItemDisplay[MAG WP13 SKILL("Fist of Heavens")=3 TABSK24=3 FCR>19]: %NL%%RED%**%PURPLE%FOH Weapon%RED%**%NL%%NL% <<GAMBLING>>
+ItemDisplay[MAG WP13 SKILL("Fist of Heavens")=3 TABSK24=3]: %PURPLE%FOH Weapon <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: %NL%%RED%**%PURPLE%FCR Hemo Weapon%RED%**%NL%%NL% <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Weapon <<GAMBLING>>
 
@@ -161,7 +161,7 @@ ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 bsd]: Spirit Sword Base%PURP
 ItemDisplay[NMAG !RW SOCK=4 bsd]: %DGREEN%Spirit Sword Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+THUL+ORT+AMN} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=4 CLVL<40 WP8]: %DGREEN%Insight Merc Base%PURPLE%[%SOCKETS%] %ORANGE%{RAL+TIR+TAL+SOL} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+ETH} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=2 CLVL<25 SK36 WP11]: %DGREEN%Leaf Base%PURPLE%[%SOCKETS%] %ORANGE%{TIR+RAL} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=2 CLVL<25 SKILL("Fire Bolt")=3 WP11]: %DGREEN%Leaf Base%PURPLE%[%SOCKETS%] %ORANGE%{TIR+RAL} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%] %ORANGE%{ORT+SOL} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %DGREEN%White Base%PURPLE%[%SOCKETS%] {DOL+IO} <<BASE>>
 
@@ -549,8 +549,9 @@ ItemDisplay[ELT SET]: %NAME%
 //Class Specific Items start
 
 //Sorceress
-ItemDisplay[NMAG !RW ((wst OR 8ws OR 6ws AND SK58=3) (SOCK=5 OR SOCK=0))]: ES CTA Base%PURPLE%[%SOCKETS%]
-ItemDisplay[(WEAPON) (!INF AND !ETH) (SK57=3) (SOCK=0 OR SOCK=4)]: +3 Discharge Base%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=5 OR SOCK=0)]: ES CTA Base%PURPLE%[%SOCKETS%] {%ORANGE%CTA: %DGREEN%AMN+RAL+MAL+IST+OHM}
+ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs wst OR 8ws OR 6ws) (SKILL("Energy Shield")=3 AND SKILL("Shiver Armor")=3) (SOCK=4)]: ES+SA Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
+ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=4)]: ES Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK8=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%3 Fire sk %ORANGE%*** <<MAGIC>>
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK9=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%3 Light sk %ORANGE%*** <<MAGIC>>
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK10=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %BLUE%3 Cold sk %ORANGE%*** <<MAGIC>>
