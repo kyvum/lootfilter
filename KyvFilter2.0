@@ -918,9 +918,9 @@ ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 ItemDisplay[RW]: %NAME%
 
 //JEWELLERY AND CHARMS start
-ItemDisplay[cm1]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[cm3]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[jew]: %NAME% %PURPLE%
-ItemDisplay[rin]: %BLUE%R%WHITE% [L%ILVL%]
-ItemDisplay[amu]: %BLUE%A%WHITE% [L%ILVL%]
+ItemDisplay[MAG !ID cm1]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[MAG !ID CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[MAG !IDcm3]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[MAG !ID jew]: %NAME% %PURPLE%
+ItemDisplay[MAG !ID rin]: %BLUE%R%WHITE% [L%ILVL%]
+ItemDisplay[MAG !ID amu]: %BLUE%A%WHITE% [L%ILVL%]
