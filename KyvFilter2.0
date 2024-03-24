@@ -27,6 +27,10 @@ ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderC
 //TEXT MACROS
 TextMacro[TOPTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%%YELLOW%%%PURPLE%%%NL%
 TextMacro[TOPEND]: %NL%%PURPLE%%%YELLOW%%%GOLD%%%RED%%%PURPLE%%%GREEN%%%%%     %NL%%NL%
+TextMacro[HIGHTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%NL%
+TextMacro[HIGHEND]: %NL%%GOLD%%%RED%%%PURPLE%%%GREEN%%%%%     %NL%%NL%
+TextMacro[MIDTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%NL%
+TextMacro[MIDEND]: %NL%%RED%%%PURPLE%%%GREEN%%%%%     %NL%%NL%
 
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>2500]: %NAME%
