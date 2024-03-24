@@ -44,22 +44,6 @@ ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
 ItemDisplay[GOLD<2500 CLVL>65]:
 
-//EARLY LADDER
-
-//Kyvum
-ItemDisplay[CLVL<30 CL1 SKILL("Arctic Blast")>1]: %PURPLE%Kyvum's %WHITE%Arctic Blast %NAME% <<LADDERSTART>>
-ItemDisplay[CLVL<90 NMAG SKILL("Summon Grizzly")=3 CL1]: %PURPLE%Kyvum's %WHITE%Grizzly %PURPLE%+3 %NAME% <<LADDERSTART>>
-//400Jay
-ItemDisplay[CLVL<50 WP13 SKILL("Holy Bolt")>1]: %NAME% %GREEN%400Jay's %WHITE%Holy Bolt Stick <<LADDERSTART>>
-//f0oster
-ItemDisplay[CLVL<40 (CL6 OR WP11) SKILL("Frost Nova")>1]: %NAME% %ORANGE%f0oster's %WHITE%Frost Nova Stick <<LADDERSTART>>
-ItemDisplay[CLVL<40 CL6 SKILL("Frozen Orb")>1]: %NAME% %ORANGE%f0oster's %WHITE%Frozen Orb Stick <<LADDERSTART>>
-//Bren
-ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %NAME% %RED%Bren's %WHITE%Hemorrhoid <<LADDERSTART>>
-//ultra
-ItemDisplay[!UNI TABSK2>1 (am5 OR amf OR ama) CLVL<70]: %BLUE%ultra's %WHITE%Javs <<LADDERSTART>>
-ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%ultra's %WHITE%Javs %PURPLE%+3 <<LADDERSTART>>
-ItemDisplay[!UNI TABSK2=3 IAS=20 EQ4]: %BLUE%ultra's %%WHITE%Gloves <<LADDERSTART>>
 //General
 ItemDisplay[NMAG CLVL<30 EQ1 SOCK=3]: %DGREEN%MF Base <<LADDERSTART>>
 
@@ -87,37 +71,34 @@ ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>
 
 //BLOOD BASES
 //Weapons
-ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %WHITE%%NAME% %PURPLE%Blood Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85]: %PURPLE%%ORANGE%Ort %WHITE%+ %RED%Ruby %NAME% <<MAGIC>>
+ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %RED%Blood Weapon Base %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85]: %RED%Blood Weapon Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %RED%Ruby} <<MAGIC>>
 //Gloves
-ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %ORANGE%B%BLUE%Glv
-ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %ORANGE%Nef %WHITE%+ %RED%Ruby
-//Boots
-ItemDisplay[!ETH MAG !ID (xtb OR utb) ILVL>71]: %RED%B%ORANGE%Boot
-ItemDisplay[!ETH MAG ID (xtb OR utb) ILVL>71]: %ORANGE%Eth %WHITE%+ %RED%Ruby
+ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %RED%Blood Glove Base %ORANGE%[L%ILVL%]
+ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %RED%Blood Glove Base %ORANGE%[L%ILVL%] {%ORANGE%Nef %WHITE%+J+ %RED%Ruby}
 
 //HITPOWER BASES
-ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %WHITE%%NAME% %PURPLE%Hitpower Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[MAG ID 7gm ILVL>85]: %ORANGE%Tir %WHITE%+ %BLUE%Sapphire %NAME% <<MAGIC>>
+ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %BLUE%Hitpower Weapon Base %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[MAG ID 7gm ILVL>85]: %BLUE%Hitpower Weapon Base %ORANGE%[L%ILVL%] {%ORANGE%Tir %WHITE%+J+ %BLUE%Sapphire} <<MAGIC>>
 //Gloves
-ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %ORANGE%HitP%RED%Glv
-ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %ORANGE%Ort %WHITE%+ %BLUE%Sapphire
+ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %WHITE%%NAME% %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%]
+ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %WHITE%%NAME% %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %BLUE%Sapphire}
 
 //CASTER BASES
 //Gloves
-ItemDisplay[!ETH !ID MAG (xlg OR ulg) ILVL>71]: %ORANGE%C%BLUE%Glv
-ItemDisplay[!ETH ID MAG (xlg OR ulg) ILVL>71]: %ORANGE%Ort %WHITE%+ %PURPLE%Amethyst
+ItemDisplay[!ETH !ID MAG (xlg OR ulg) ILVL>71]: %PURPLE%Caster Glove Base %ORANGE%[L%ILVL%]
+ItemDisplay[!ETH ID MAG (xlg OR ulg) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %PURPLE%Amethyst}
 //Boots
-ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %BLUE%C%ORANGE%Boot
-ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71]: %ORANGE%Thul %WHITE%+ %PURPLE%Ame
+ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %PURPLE%Caster Boot Base %ORANGE%[L%ILVL%]
+ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Thul %WHITE%+J+ %PURPLE%Amethyst}
 //Belts
-ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71]: %BLUE%C%ORANGE%Belt
-ItemDisplay[!ETH MAG ID (uvc OR zvb) ILVL>71]: %ORANGE%Ith %WHITE%+ %PURPLE%Ame
+ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71]: %PURPLE%Caster Belt Base %ORANGE%[L%ILVL%]
+ItemDisplay[!ETH MAG ID (uvc OR zvb) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Ith %WHITE%+J+ %PURPLE%Amethyst}
 
 //SAFETY BASES
 //Boots
-ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%Safe%ORANGE%Boot
-ItemDisplay[!ETH MAG ID hbt ILVL>71]: %ORANGE%Ort %WHITE%+ %GREEN%Eme
+ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%Safety Boot Base %ORANGE%[L%ILVL%]
+ItemDisplay[!ETH MAG ID hbt ILVL>71]: %DGREEN%Safety Boot Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %GREEN%Emerald}
 
 //SYNTH
 ItemDisplay[SYNTH]: %PURPLE%*%GREEN%*%RED%*%BLUE%* %GOLD%%NAME% %BLUE%*%RED%*%GREEN%*%PURPLE%* <<UNIQUE>>
@@ -161,9 +142,7 @@ ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 bsd]: Spirit Sword Base%PURP
 ItemDisplay[NMAG !RW SOCK=4 bsd]: %DGREEN%Spirit Sword Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+THUL+ORT+AMN} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=4 CLVL<40 WP8]: %DGREEN%Insight Merc Base%PURPLE%[%SOCKETS%] %ORANGE%{RAL+TIR+TAL+SOL} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+ETH} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=2 CLVL<25 SKILL("Fire Bolt")=3 WP11]: %DGREEN%Leaf Base%PURPLE%[%SOCKETS%] %ORANGE%{TIR+RAL} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%] %ORANGE%{ORT+SOL} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %DGREEN%White Base%PURPLE%[%SOCKETS%] {DOL+IO} <<BASE>>
 
 //Late Bases start
 
@@ -533,22 +512,24 @@ ItemDisplay[amf UNI !ID ETH]: %GRAY%ETH %GOLD%Thunderstroke
 
 //UNIQUES catchall start
 ItemDisplay[NORM UNI !ID]: UNIQUE %NAME%
-ItemDisplay[EXC UNI !ID]: %NL%Excep UNIQUE %NAME%
-ItemDisplay[ELT UNI !ID]: %NL%Elite UNIQUE %NAME%
+ItemDisplay[EXC UNI !ID]: Excep UNIQUE %NAME%
+ItemDisplay[ELT UNI !ID]: Elite UNIQUE %NAME%
 ItemDisplay[UNI]: %NAME%
 
 //SETS catchall start
 
 ItemDisplay[NORM !ID SET]: SET %NAME%
 ItemDisplay[NORM SET]: %NAME%
-ItemDisplay[EXC !ID SET]: %NL%Excep SET %NAME%
+ItemDisplay[EXC !ID SET]: Excep SET %NAME%
 ItemDisplay[EXC SET]: %NAME%
-ItemDisplay[ELT !ID SET]: %NL%Elite SET %NAME%
+ItemDisplay[ELT !ID SET]: Elite SET %NAME%
 ItemDisplay[ELT SET]: %NAME%
 
 //Class Specific Items start
 
 //Sorceress
+ItemDisplay[CLVL<40 (CL6 OR WP11) SKILL("Frost Nova")>1]: %ORANGE%Frost Nova Stick %NAME% <<LADDERSTART>>
+ItemDisplay[NMAG !RW SOCK=2 CLVL<35 SKILL("Fire Bolt")=3 WP11]: %DGREEN%Leaf Base%PURPLE%[%SOCKETS%] %ORANGE%{TIR+RAL} <<LADDERSTART>>
 ItemDisplay[NMAG !RW (wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=5 OR SOCK=0)]: ES CTA Base%PURPLE%[%SOCKETS%] {%ORANGE%CTA: %DGREEN%AMN+RAL+MAL+IST+OHM}
 ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs wst OR 8ws OR 6ws) (SKILL("Energy Shield")=3 AND SKILL("Shiver Armor")=3) (SOCK=4)]: ES+SA Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
 ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=4)]: ES Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
@@ -596,6 +577,7 @@ ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightn
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")>2 AND SKILL("Death Sentry")>2) (SOCK<1 OR SOCK>2)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death%WHITE%) <<BASE>>
 
 //Paladin
+ItemDisplay[CLVL<50 WP13 SKILL("Holy Bolt")>1]: %GREEN%Holy Bolt Stick %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG !ETH pab RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!TOPTIER!% %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%45 Res%WHITE%)  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!HIGHTIER!% %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%)  %!HIGHEND!% <<BASE>>
 ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %GREEN%PExile Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
@@ -606,6 +588,8 @@ ItemDisplay[CL3 !ETH NMAG RES<30 CLVL>54]:
 ItemDisplay[CL3 ETH NMAG]:
 
 //Amazon
+ItemDisplay[!UNI TABSK2>1 (am5 OR amf OR ama) CLVL<70]: %BLUE%Javs %PURPLE%+2 <<LADDERSTART>>
+ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%Javs %PURPLE%+3 <<LADDERSTART>>
 ItemDisplay[amc SOCK=4 NMAG TABSK0=3]: %DGREEN%Faith Base %PURPLE%[%SOCKETS%]
 ItemDisplay[MAG !ID ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
 ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %GREEN%#
@@ -621,6 +605,8 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND CLSK0>0 AND IAS>29)]: %PUR
 ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>29)]: %PURPLE% **%GREEN% 3 Jav%YELLOW% 30+ IAS%PURPLE% ** <<MAGIC>>
 
 //Druid
+ItemDisplay[CLVL<30 CL1 SKILL("Arctic Blast")>1]: %PURPLE%Arctic Blast %NAME% <<LADDERSTART>>
+ItemDisplay[CLVL<90 NMAG SKILL("Summon Grizzly")=3 CL1]: %PURPLE%Grizzly %ORANGE%+3 %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG CL1 SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
 ItemDisplay[NMAG CL1 SKILL("Volcano")=3] TABSK42=3: %RED%**%PURPLE%Volcano Helmet%RED%** <<MAGIC>>
 ItemDisplay[NMAG CL1 SKILL("Tornado")=3] TABSK42=3: %RED%**%PURPLE%Tornado Helmet%RED%** <<MAGIC>>
@@ -628,6 +614,8 @@ ItemDisplay[NMAG CL1 SKILL("Hurricane")=3] TABSK42=3: %RED%**%PURPLE%Hurricane H
 ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3] TABSK40=3: %RED%**%PURPLE%Grizzly Helmet%RED%** <<MAGIC>>
 
 //Necromancer
+ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %RED%Hemorrhage %NAME% <<LADDERSTART>>
+ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %DGREEN%White Base%PURPLE%[%SOCKETS%] {DOL+IO} <<BASE>>
 ItemDisplay[CL4 FCR>9 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL% <<MAGIC>>
 ItemDisplay[CL4 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand <<MAGIC>>
 
@@ -923,14 +911,6 @@ ItemDisplay[dhn]: %PURPLE%%NAME% <<RUNE>>
 ItemDisplay[mbr]: %PURPLE%%NAME% <<RUNE>>
 ItemDisplay[bey]: %PURPLE%%NAME% <<RUNE>>
 
-//JEWELLERY AND CHARMS start
-ItemDisplay[cm1]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[cm3]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[amu]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[rin]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
-
 //Rare Orbs
 ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 
@@ -938,6 +918,9 @@ ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 ItemDisplay[RW]: %NAME%
 
 //MAGIC ITEMS start
+
+ItemDisplay[MAG ID rin]: %NAME% %ORANGE%[L%ILVL%] {%PURPLE%CASTER: AMN + AMETHYST%NL%%RED%BLOOD: SOL + RUBY%}
+ItemDisplay[MAG ID amu]: %NAME% %ORANGE%[L%ILVL%] {%PURPLE%CASTER: RAL + AMETHYST%NL%%RED%BLOOD: AMN + RUBY%NL%%BLUE%HITPOWER: THUL + SAPPHIRE}
 
 //Rings, Magic [LEVEL REQ FOR CRAFTING]
 ItemDisplay[MAG !ID rin ILVL=85]: %BLUE%R%ORANGE% [96+]
@@ -974,3 +957,9 @@ ItemDisplay[MAG !ID amu ILVL=97]: %BLUE%A%ORANGE% [84+]
 ItemDisplay[MAG !ID amu ILVL=98]: %BLUE%A%ORANGE% [82+]
 ItemDisplay[MAG !ID amu ILVL=99]: %BLUE%A%ORANGE% [82+]
 ItemDisplay[MAG !ID amu ILVL<85]: %BLUE%A%WHITE% [L%ILVL%]
+
+//JEWELLERY AND CHARMS start
+ItemDisplay[cm1]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[cm3]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[jew]: %NAME% %PURPLE%[L%ILVL%]
