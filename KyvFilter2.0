@@ -224,6 +224,9 @@ ItemDisplay[urn UNI !ID ETH]: %GRAY%ETH %GOLD%Crown of Ages
 //- Guillaume's Face
 ItemDisplay[xhm SET !ID !ETH]: %GREEN%Guillaume's Face <<SET>>
 ItemDisplay[xhm SET !ID ETH]: %GREEN%ETH Guillaume's Face
+//- Vampire Gaze
+ItemDisplay[xh9 SET !ID !ETH]: %GOLD%Natalya's Totem <<SET>>
+ItemDisplay[xh9 SET !ID ETH]: %GOLD%Natalya's Totem
 
 //BODY ARMOR
 //- The Spirit Shroud
@@ -259,6 +262,9 @@ ItemDisplay[uth SET !ID ETH]: %GREEN%ETH Tal Rasha's Guardianship
 //- Naj's Light Plate
 ItemDisplay[ult SET !ID !ETH]: %GREEN%Naj's Light Plate <<SET>>
 ItemDisplay[ult SET !ID ETH]: %GREEN%ETH Naj's Light Plate
+//- Natalya's Shadow
+ItemDisplay[ucl SET !ID !ETH]: %GREEN%Natalya's Shadow <<SET>>
+ItemDisplay[ucl SET !ID ETH]: %GREEN%ETH Natalya's Shadow
 
 //SHIELDS
 //- Stormshield
@@ -313,6 +319,9 @@ ItemDisplay[uhb UNI !ID ETH]: %GRAY%ETH %GOLD%Shadow Dancer
 //- Aldur's Advance
 ItemDisplay[xtb SET !ID !ETH]: %GREEN%Aldur's Advance <<SET>>
 ItemDisplay[xtb SET !ID ETH]: %GREEN%ETH Aldur's Advance
+//- Natalya's Soul
+ItemDisplay[xmb SET !ID !ETH]: %GREEN%Natalya's Soul <<SET>>
+ItemDisplay[xmb SET !ID ETH]: %GREEN%ETH Natalya's Soul
 
 //BELTS
 //- Verdungo's Hearty Cord
@@ -330,6 +339,9 @@ ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh
 //- Razortail
 ItemDisplay[zvb UNI !ID !ETH]: %GOLD%Razortail
 ItemDisplay[zvb UNI !ID ETH]: %GRAY%ETH %GOLD%Razortail
+//- String of Ears
+ItemDisplay[zlb UNI !ID !ETH]: %GOLD%String of Ears
+ItemDisplay[zlb UNI !ID ETH]: %GRAY%ETH %GOLD%String of Ears
 
 //WEAPONS
 
