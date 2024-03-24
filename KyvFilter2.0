@@ -916,6 +916,8 @@ ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 
 //CATCHALL
 ItemDisplay[RW]: %NAME%
+ItemDisplay[CRAFT rin]: %NAME%
+ItemDisplay[CRAFT amu]: %NAME%
 ItemDisplay[RARE rin]: %NAME%
 ItemDisplay[RARE amu]: %NAME%
 ItemDisplay[RARE jew]: %NAME%
