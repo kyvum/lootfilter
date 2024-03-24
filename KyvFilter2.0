@@ -150,7 +150,7 @@ ItemDisplay[NMAG SOCK=4 CLVL<40 WP8]: %DGREEN%Insight Merc Base%PURPLE%[%SOCKETS
 ItemDisplay[NMAG SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%PURPLE%[%SOCKETS%] {TAL+ETH} <<BASE>>
 ItemDisplay[NMAG SOCK=2 CLVL<25 SK36 WP11]: %DGREEN%Leaf Base%PURPLE%[%SOCKETS%] {TIR+RAL} <<BASE>>
 ItemDisplay[NMAG SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%] {ORT+SOL} <<BASE>>
-ItemDisplay[NMAG SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) Skill("Bone Spear")=3]: %DGREEN%White Base%PURPLE%[%SOCKETS%] {DOL+IO} <<BASE>>
+ItemDisplay[NMAG SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %DGREEN%White Base%PURPLE%[%SOCKETS%] {DOL+IO} <<BASE>>
 
 //Late Bases start
 
