@@ -327,6 +327,9 @@ ItemDisplay[zhb UNI !ID ETH]: %GRAY%ETH %GOLD%Thundergod's Vigor
 //- Arachnid Mesh
 ItemDisplay[ulc UNI !ID !ETH]: %NL%%RED%*** %GOLD%Arachnid Mesh %RED%***%NL%%NL% <<UNIQUE>>
 ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh 
+//- Razortail
+ItemDisplay[zvb UNI !ID !ETH]: %GOLD%Razortail
+ItemDisplay[zvb UNI !ID ETH]: %GRAY%ETH %GOLD%Razortail
 
 //WEAPONS
 
