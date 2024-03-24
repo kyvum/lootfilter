@@ -101,7 +101,7 @@ ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%Safety Boot Base %ORANGE%[L%ILVL%
 ItemDisplay[!ETH MAG ID hbt ILVL>71]: %DGREEN%Safety Boot Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %GREEN%Emerald}
 
 //SYNTH
-ItemDisplay[SYNTH]: %PURPLE%*%GREEN%*%RED%*%BLUE%* %GOLD%%NAME% %BLUE%*%RED%*%GREEN%*%PURPLE%* <<UNIQUE>>
+ItemDisplay[SYNTH]: %!HIGHTIER!% %GOLD%%NAME%  %!HIGHEND!% <<UNIQUE>>
 
 //Vendor Items start
 //Low Level Low Value
