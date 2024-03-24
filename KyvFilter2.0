@@ -916,11 +916,15 @@ ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 
 //CATCHALL
 ItemDisplay[RW]: %NAME%
+ItemDisplay[RARE rin]: %NAME%
+ItemDisplay[RARE amu]: %NAME%
+ItemDisplay[RARE jew]: %NAME%
+ItemDisplay[MAG jew]: %NAME%
 
 //JEWELLERY AND CHARMS start
 ItemDisplay[MAG !ID cm1]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[MAG !ID CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[MAG !IDcm3]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[MAG !ID cm3]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[MAG !ID jew]: %NAME% %PURPLE%
 ItemDisplay[MAG !ID rin]: %BLUE%R%WHITE% [L%ILVL%]
 ItemDisplay[MAG !ID amu]: %BLUE%A%WHITE% [L%ILVL%]
