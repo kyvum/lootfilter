@@ -127,8 +127,8 @@ ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %PURPLE%MA Gloves <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves <<GAMBLING>>
 ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick
-ItemDisplay[MAG WP13 SKILL("Fist of Heavens")=3 TABSK24=3 FCR>19]: %NL%%RED%**%PURPLE%FOH Weapon%RED%**%NL%%NL% <<GAMBLING>>
-ItemDisplay[MAG WP13 SKILL("Fist of Heavens")=3 TABSK24=3]: %PURPLE%FOH Weapon <<GAMBLING>>
+ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3 FCR>19]: %NL%%RED%**%PURPLE%FOH Weapon%RED%**%NL%%NL% <<GAMBLING>>
+ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3]: %PURPLE%FOH Weapon <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: %NL%%RED%**%PURPLE%FCR Hemo Weapon%RED%**%NL%%NL% <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Weapon <<GAMBLING>>
 
