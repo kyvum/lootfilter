@@ -67,10 +67,6 @@ ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>
 
 //CRAFTING BASES
 
-//JEWELLERY
-ItemDisplay[MAG ID rin ILVL>85]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: AMN %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: SOL %WHITE%+J+ %RED%RUBY%%NL%%ORANGE%----CRAFTING----}
-ItemDisplay[MAG ID amu ILVL>90]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: RAL %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: AMN %WHITE%+J+ %RED%RUBY%NL%%BLUE%HITPOWER: THUL %WHITE%+J+ %BLUE%SAPPHIRE%NL%%ORANGE%----CRAFTING----}
-
 //BLOOD BASES
 //Weapons
 ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %RED%Blood Weapon Base %ORANGE%[L%ILVL%] <<MAGIC>>
@@ -670,7 +666,7 @@ ItemDisplay[MAG ID cm1 CRES>2]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE
 ItemDisplay[MAG ID cm1 MFIND>2]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
 
 
-//RARES start
+//MAGIC & RARES start
 
 //1sk/20fcr helmets & 2sk/20 fcr helmets
 ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK1>1)]: %PURPLE%*** %YELLOW%2 Sorc & 20 FCR %PURPLE%***
@@ -774,7 +770,36 @@ ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND CRES>0 AND LRES>0)]: %!MIDTIE
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND LRES>0 AND PRES>0)]: %!MIDTIER!% Dual Res FCR Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND LRES>0 AND FRES>0)]: %!MIDTIER!% Dual Res FCR Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND FRES>0 AND PRES>0)]: %!MIDTIER!% Dual Res FCR Ring %!MIDEND!% <<MAGIC>>
+//Magic Ring
+ItemDisplay[MAG ID rin ILVL>85]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: AMN %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: SOL %WHITE%+J+ %RED%RUBY%%NL%%ORANGE%----CRAFTING----}
 
+//Amulets
+//FCR All Skills Slammed
+ItemDisplay[MAG ID amu (TABSK16=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Curse Amulet  %!TOPEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK9=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Lightning Amulet  %!TOPEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK34=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Warcries Amulet  %!TOPEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK2=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Javazon Amulet  %!TOPEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK48=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Traps Amulet  %!TOPEND!% <<MAGIC>>
+//All Skills Slammed
+ItemDisplay[MAG ID amu (TABSK16=3 AND ALLSK=1)]: %!TOPTIER!% %GOLD%All Skills Curse Amulet  %!TOPEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK9=3 AND ALLSK=1)]: %!HIGHTIER!% %GOLD%All Skills Lightning Amulet  %!HIGHEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK34=3 AND ALLSK=1)]: %!HIGHTIER!% %GOLD%All Skills Warcries Amulet  %!HIGHEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK2=3 AND ALLSK=1)]: %!HIGHTIER!% %GOLD%All Skills Javazon Amulet  %!HIGHEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK48=3 AND ALLSK=1)]: %!TOPTIER!% %GOLD%All Skills Traps Amulet  %!TOPEND!% <<MAGIC>>
+//FCR
+ItemDisplay[MAG ID amu (TABSK16=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Curse Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK9=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Lightning Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK34=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Warcries Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK2=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Javazon Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu (TABSK48=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Traps Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+//Valuable Tabskills
+ItemDisplay[MAG ID amu TABSK16=3]: %!MIDTIER!% %WHITE%Curse Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu TABSK9=3]: %!MIDTIER!% %WHITE%Lightning Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu TABSK34=3]: %!MIDTIER!% %WHITE%Warcries Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu TABSK2=3]: %!MIDTIER!% %WHITE%Javazon Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID amu TABSK48=3]: %!MIDTIER!% %WHITE%Traps Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
+//Good for crafting
+ItemDisplay[MAG ID amu ILVL>90]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: RAL %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: AMN %WHITE%+J+ %RED%RUBY%NL%%BLUE%HITPOWER: THUL %WHITE%+J+ %BLUE%SAPPHIRE%NL%%ORANGE%----CRAFTING----}
 
 //Weapons
 
