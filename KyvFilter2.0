@@ -29,6 +29,8 @@ ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderCo
 ItemStyle[MRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable MAGIC/RARE ITEMS
 ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
+// Special Items
+ItemStyle[SPECIAL]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 662, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
 // Relics
 ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 10, NotificationSound = 499, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 75
 
@@ -979,16 +981,16 @@ ItemDisplay[skl]: %NL%%PURPLE%+%PURPLE%F %GOLD%Skull%NL%%NL%// Flawless Skull
 ItemDisplay[skz]: %NL%%PURPLE%+%PURPLE%P %GOLD%Skull%NL%%NL%// Perfect Skull
 
 //KEYS AND ESSENCES start
-ItemDisplay[pk1]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<RUNE>>
-ItemDisplay[pk2]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<RUNE>>
-ItemDisplay[pk3]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<RUNE>>
-ItemDisplay[tes]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<RUNE>>
-ItemDisplay[ceh]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<RUNE>>
-ItemDisplay[bet]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<RUNE>>
-ItemDisplay[fed]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<RUNE>>
-ItemDisplay[dhn]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<RUNE>>
-ItemDisplay[mbr]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<RUNE>>
-ItemDisplay[bey]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<RUNE>>
+ItemDisplay[pk1]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
+ItemDisplay[pk2]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
+ItemDisplay[pk3]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
+ItemDisplay[tes]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<SPECIAL>>
+ItemDisplay[ceh]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<SPECIAL>>
+ItemDisplay[bet]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<SPECIAL>>
+ItemDisplay[fed]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<SPECIAL>>
+ItemDisplay[dhn]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
+ItemDisplay[mbr]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
+ItemDisplay[bey]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
 
 //Rare Orbs
 ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
