@@ -498,11 +498,11 @@ ItemDisplay[ama UNI !ID ETH]: %RED%** %GRAY%ETH %GOLD%Titan's Revenge %RED%** <<
 ItemDisplay[amf UNI !ID !ETH]: %RED%* %GOLD%Thunderstroke %RED%* <<UNIQUE>> 
 ItemDisplay[amf UNI !ID ETH]: %GRAY%ETH %GOLD%Thunderstroke 
 
-ItemDisplay[rin UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[amu UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[jew UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[cm1 UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[cm2 UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[rin UNI !ID]: %!HIGHTIER!% %GOLD%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[amu UNI !ID]: %!HIGHTIER!% %GOLD%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[jew UNI !ID]: %!HIGHTIER!% %GOLD%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[cm1 UNI !ID]: %!TOPTIER!% %GOLD%%NAME%  %!TOPEND!% <<UNIQUEJ>>
+ItemDisplay[cm2 UNI !ID]: %!TOPTIER!% %GOLD%%NAME%  %!TOPEND!% <<UNIQUEJ>>
 
 ItemDisplay[rin SET !ID]: %GREEN%%NAME%
 ItemDisplay[rin SET ID]: %GREEN%%NAME%
