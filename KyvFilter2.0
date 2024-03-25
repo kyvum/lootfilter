@@ -599,7 +599,6 @@ ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%Javs %PURPLE%+3 <<
 ItemDisplay[amc SOCK=4 NMAG TABSK0=3]: %DGREEN%Faith Base %PURPLE%[%SOCKETS%]
 ItemDisplay[MAG !ID ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
 ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %GREEN%#
-ItemDisplay[RARE !ID (am5 OR ama OR amf)]: %NAME% %GREEN%# 
 ItemDisplay[MAG ID (am5 OR ama OR amf) TABSK2=6]: %GREEN%6 Jav <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2=6 AND IAS=40)]: %ORANGE%*** %PURPLE% %GREEN%6 Jav %YELLOW%40 IAS %ORANGE%*** <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2=6 AND IAS>40)]: %ORANGE%*** %PURPLE%%GREEN%6 Jav %PURPLE%40+ IAS %ORANGE%*** <<MAGIC>>
@@ -812,7 +811,7 @@ ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd 
 ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) STAT25>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS  %!HIGHEND!% <<MAGIC>>
 
 //Class Specific Rares
-ItemDisplay[RARE (CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE (CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
 
 //Arrows
 
