@@ -638,7 +638,7 @@ ItemDisplay[MAG ID cm3 STAT22>8]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%
 ItemDisplay[MAG ID cm3 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Grand Charm <<BASE>>
 
 //ItemDisplay[MAG ID cm3 TABSK0>0]: %!MIDTIER!% %WHITE%Bow & Crossbow GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK3>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK2>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK10>0]: %!MIDTIER!% %WHITE%Cold GC %!MIDEND!% <<BASE>>
