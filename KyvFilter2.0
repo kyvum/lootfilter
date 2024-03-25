@@ -3,6 +3,8 @@ Attribute[Author]: Kyvum
 Attribute[Name]: KyvFilter
 Attribute[Version]: 2.0
 
+Option[IgnoreMissingSounds]: True
+
 //ITEM STYLES
 
 // Gambling
