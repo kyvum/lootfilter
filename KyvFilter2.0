@@ -180,12 +180,6 @@ ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 
 //Good Uniques/Sets start
 
-ItemDisplay[rin UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[amu UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[jew UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[cm1 UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-ItemDisplay[cm2 UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
-
 //HELMETS
 //- Vampire Gaze
 ItemDisplay[xh9 UNI !ID !ETH]: %!HIGHTIER!% %WHITE%Vampire Gaze  %!HIGHEND!% <<UNIQUE>>
@@ -503,6 +497,17 @@ ItemDisplay[ama UNI !ID ETH]: %RED%** %GRAY%ETH %GOLD%Titan's Revenge %RED%** <<
 //- Thunderstroke
 ItemDisplay[amf UNI !ID !ETH]: %RED%* %GOLD%Thunderstroke %RED%* <<UNIQUE>> 
 ItemDisplay[amf UNI !ID ETH]: %GRAY%ETH %GOLD%Thunderstroke 
+
+ItemDisplay[rin UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[amu UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[jew UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[cm1 UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+ItemDisplay[cm2 UNI !ID]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!% <<UNIQUEJ>>
+
+ItemDisplay[rin SET !ID]: %GREEN%%NAME%
+ItemDisplay[rin SET ID]: %GREEN%%NAME%
+ItemDisplay[amu SET !ID]: %!MIDTIER!% %GREEN%%NAME%  %!MIDEND!% <<SET>>
+ItemDisplay[amu SET ID]: %GREEN%%NAME%
 
 //UNIQUES catchall start
 ItemDisplay[NORM UNI !ID]: UNIQUE %NAME%
