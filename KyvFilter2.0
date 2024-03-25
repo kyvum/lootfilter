@@ -942,5 +942,5 @@ ItemDisplay[MAG !ID cm1]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[MAG !ID CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[MAG !ID cm3]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[MAG !ID jew]: %NAME% %PURPLE%
-ItemDisplay[MAG !ID rin]: %BLUE%R%WHITE% [L%ILVL%]
-ItemDisplay[MAG !ID amu]: %BLUE%A%WHITE% [L%ILVL%]
+ItemDisplay[MAG !ID rin]:
+ItemDisplay[MAG !ID amu]: %BLUE%Amu%WHITE% [L%ILVL%]
