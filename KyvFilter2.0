@@ -10,27 +10,27 @@ Option[IgnoreMissingSounds]: True
 // Gambling
 ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationSound = 2678, NotificationSoundPriority = HIGH
 // Ladder Start
-ItemStyle[LADDERSTART]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 135/135/135, BorderSize = 3, BackgroundColor = 135/135/135, NotificationSound = 2678, NotificationSoundPriority = HIGH
+ItemStyle[LADDERSTART]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 31, NotificationSound = 2678, NotificationSoundPriority = HIGH
 // VERY Valuable Uniques
-ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 98, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
+ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 12, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Uniques
-ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 207/140/26, BorderSize = 3, BackgroundColor = 207/140/26, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
+ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 14, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Unique Jewellery
-ItemStyle[UNIQUEJ]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 207/140/26, BorderSize = 3, BackgroundColor = 207/140/26, NotificationSound = 464, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
+ItemStyle[UNIQUEJ]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 14, NotificationSound = 464, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
 // Valuable Sets 
-ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0/185/0, BorderSize = 3, BackgroundColor = 0/185/0, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 22, MapIconColor = 236
+ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 125, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 22, MapIconColor = 236
 // Valuable Bases
-ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 33/33/33, BorderSize = 3, BackgroundColor = 33/33/33, NotificationSound = 498, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
+ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 40, NotificationSound = 498, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
 // VERY Valuable RUNES
 ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 98, NotificationSound = 2680, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Highly Valuable RUNES
 ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2677, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable RUNES
-ItemStyle[MRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
+ItemStyle[MRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
 // Valuable MAGIC/RARE ITEMS
-ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 54/62/148, BorderSize = 3, BackgroundColor = 54/62/148, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
+ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
 // Relics
-ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 150/100/100, BorderSize = 3, BackgroundColor = 150/100/100, NotificationSound = 499, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 75
+ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 10, NotificationSound = 499, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 75
 
 //TEXT MACROS
 TextMacro[TOPTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%%YELLOW%%%PURPLE%%%NL% %ORANGE%
@@ -130,7 +130,7 @@ ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3]: !%MIDTIER%! FOH 
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: !%TOPTIER%! FCR Hemo Weapon  !%TOPEND%! <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: !%HIGHTIER%! Hemo Weapon  !%HIGHEND%! <<GAMBLING>>
 
-//BASES
+//EMPTY BASES
 
 //Early Bases start
 ItemDisplay[NMAG !RW SOCK=3 CLVL<40 EQ3]: %DGREEN%Ancient's Pledge Base%PURPLE%[%SOCKETS%] %ORANGE%{RAL+ORT+TAL} <<BASE>>
@@ -146,28 +146,21 @@ ItemDisplay[NMAG !RW SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%] %
 
 //Monarchs
 ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %GRAY%[%DGREEN%-10% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%P%ORANGE%HOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
-ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-9]: %GRAY%[%DGREEN%-9% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
+ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-9 CLVL<85]: %GRAY%[%DGREEN%-9% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
 ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) CLVL<85]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH}
 
 //Archon Plates
-ItemDisplay[NMAG !RW !ETH SUP SOCK=0 utp]: AP Base%PURPLE%[%SOCKETS%] <<BASE>>
-ItemDisplay[NMAG !RW !ETH SUP SOCK=3 utp]: 3os AP Base%PURPLE%[%SOCKETS%] {%ORANGE%ENIGMA: %DGREEN%JAH+ITH+BER} <<BASE>>
+ItemDisplay[NMAG !RW !ETH SUP SOCK=3 utp]: !%MIDTIER%! 3os AP Base%PURPLE%[%SOCKETS%] {%ORANGE%ENIGMA: %DGREEN%JAH+ITH+BER}  !%MIDEND%! <<BASE>>
 ItemDisplay[NMAG !RW !ETH SUP SOCK=4 utp]: 4os AP Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%CoH: %DGREEN%DOL+UM+BER+IST} <<BASE>>
 
 //Weapon Bases
-ItemDisplay[7cr !RW NMAG SOCK>4]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[7wa !RW !ETH NMAG SOCK>4]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[7wa !RW ETH NMAG SOCK>4]: %DGREEN%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[7cr !RW NMAG SOCK=4]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[7wa !RW NMAG SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[7gd !RW ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
-ItemDisplay[7p7 !RW ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
-ItemDisplay[6ws !RW ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
-ItemDisplay[7wa !RW ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
-ItemDisplay[7p7 !RW ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
-ItemDisplay[7gm !RW ETH SUP NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
-ItemDisplay[7wa !RW ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%] {%ORANGE%DEATH: %DGREEN%HEL+EL+VEX+ORT+GUL} <<BASE>>
-ItemDisplay[7gi !RW ETH SUP NMAG SOCK=5]: %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%] {%ORANGE%DEATH: %DGREEN%HEL+EL+VEX+ORT+GUL} <<BASE>>
+ItemDisplay[7cr !RW NMAG STAT25=15 SOCK>4]: !%MIDTIER%! %DGREEN%Last Wish Base %PURPLE%[%SOCKETS%] {%ORANGE%LAST WISH: %DGREEN%JAH+MAL+JAH+SUR+JAH+BER}  !%MIDEND%! <<BASE>>
+ItemDisplay[7gd !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: !%MIDTIER%! %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  !%MIDEND%! <<BASE>>
+ItemDisplay[7p7 !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: !%MIDTIER%! %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  !%MIDEND%! <<BASE>>
+ItemDisplay[6ws !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: !%MIDTIER%! %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  !%MIDEND%! <<BASE>>
+ItemDisplay[7wa !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: !%MIDTIER%! %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  !%MIDEND%! <<BASE>>
+ItemDisplay[7gm !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: !%MIDTIER%! %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  !%MIDEND%! <<BASE>>
+ItemDisplay[7wa !RW ETH STAT25=9 NMAG SOCK=5]: !%MIDTIER%! %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%] {%ORANGE%DEATH: %DGREEN%HEL+EL+VEX+ORT+GUL} <<BASE>>
 
 //Merc Bases
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 72h]: %RED%MERC LAWBRINGER BASE%PURPLE%[%SOCKETS%] {%ORANGE%LAWBRINGER: %DGREEN%AMN+LEM+KO} <<BASE>>
@@ -175,15 +168,15 @@ ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%
 ItemDisplay[NMAG ETH !RW SOCK=5 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Doom Base%PURPLE%[%SOCKETS%] {%ORANGE%DOOM: %DGREEN%HEL+OHM+UM+LO+CHAM} <<BASE>>
 ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=6) 7gd]: Merc Silence Base%PURPLE%[%SOCKETS%] {%ORANGE%SILENCE: %DGREEN%DOL+ELD+HEL+IST+TIR+VEX} <<BASE>>
 //Sacred Armor MERC
-ItemDisplay[NMAG ETH !RW SUP SOCK=0 uar]: Merc Sacred Base%PURPLE%[%SOCKETS%] <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=3 uar]: 3os Merc Sacred Base%PURPLE%[%SOCKETS%] {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: 4os Merc Sacred Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=0 uar]: !%MIDTIER%! Merc Sacred Base%PURPLE%[%SOCKETS%] !%MIDEND%! <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=3 uar]: !%MIDTIER%! 3os Merc Sacred Base%PURPLE%[%SOCKETS%] {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} !%MIDEND%! <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: !%MIDTIER%! 4os Merc Sacred Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} !%MIDEND%! <<BASE>>
 //Archon Plate MERC
-ItemDisplay[NMAG ETH !RW SUP SOCK=0 utp]: AP Base%PURPLE%[%SOCKETS%] <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=3 utp]: 3os AP Base%PURPLE%[%SOCKETS%] {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=4 utp]: 4os AP Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} <<BASE>>
-ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] <<BASE>>
-ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=0 utp]: !%MIDTIER%! Merc AP Base%PURPLE%[%SOCKETS%] !%MIDEND%! <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=3 utp]: !%MIDTIER%! 3os Merc AP Base%PURPLE%[%SOCKETS%] {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} !%MIDEND%! <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=4 utp]: !%MIDTIER%! 4os Merc AP Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} !%MIDEND%! <<BASE>>
+ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: !%MIDTIER%! %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] !%MIDEND%! <<BASE>>
+ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: !%MIDTIER%! %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] !%MIDEND%! <<BASE>>
 
 //Good Uniques/Sets start
 
@@ -629,42 +622,41 @@ ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
 //GRAND CHARMS
-ItemDisplay[MAG ID cm3 (TABSK0>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK50>0)]: %NAME% <<BASE>>
-ItemDisplay[MAG ID cm3 STAT22>8]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Grand Charm <<BASE>>
-ItemDisplay[MAG ID cm3 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Grand Charm <<BASE>>
+ItemDisplay[MAG ID cm3 (TABSK0>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK50>0)]: %NAME% <<MAGIC>>
+ItemDisplay[MAG ID cm3 STAT22>8]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Grand Charm <<MAGIC>>
+ItemDisplay[MAG ID cm3 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Grand Charm <<MAGIC>>
 
-//ItemDisplay[MAG ID cm3 TABSK0>0]: %!MIDTIER!% %WHITE%Bow & Crossbow GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK2>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK10>0]: %!MIDTIER!% %WHITE%Cold GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK16>0]: %!HIGHTIER!% %WHITE%Curse GC %!HIGHEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK17>0]: %!MIDTIER!% %WHITE%Poison & Bone GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK18>0]: %!MIDTIER!% %WHITE%Necro Summon GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK24>0]: %!MIDTIER!% %WHITE%Paladin Combat GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK25>0]: %!MIDTIER!% %WHITE%Offensive Aura GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK32>0]: %!MIDTIER!% %WHITE%Barbarian Combat GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK33>0]: %!MIDTIER!% %WHITE%Masteries GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK34>0]: %!MIDTIER!% %WHITE%Warcries GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK40>0]: %!MIDTIER!% %WHITE%Druid Summoning GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK41>0]: %!MIDTIER!% %WHITE%Druid Shapeshifting GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK42>0]: %!MIDTIER!% %WHITE%Druid Elemental GC %!MIDEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<BASE>>
-//ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<BASE>>
+//ItemDisplay[MAG ID cm3 TABSK0>0]: %!MIDTIER!% %WHITE%Bow & Crossbow GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK2>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK10>0]: %!MIDTIER!% %WHITE%Cold GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK16>0]: %!HIGHTIER!% %WHITE%Curse GC %!HIGHEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK17>0]: %!MIDTIER!% %WHITE%Poison & Bone GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK18>0]: %!MIDTIER!% %WHITE%Necro Summon GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK24>0]: %!MIDTIER!% %WHITE%Paladin Combat GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK25>0]: %!MIDTIER!% %WHITE%Offensive Aura GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK32>0]: %!MIDTIER!% %WHITE%Barbarian Combat GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK33>0]: %!MIDTIER!% %WHITE%Masteries GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK34>0]: %!MIDTIER!% %WHITE%Warcries GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK40>0]: %!MIDTIER!% %WHITE%Druid Summoning GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK41>0]: %!MIDTIER!% %WHITE%Druid Shapeshifting GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK42>0]: %!MIDTIER!% %WHITE%Druid Elemental GC %!MIDEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<MAGIC>>
+//ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<MAGIC>>
 
 ItemDisplay[MAG ID cm3 ILVL>90]: %BLUE%--------------%NL%%RED%BETTER LUCK NEXT TIME%NL% %BLUE%%NAME% %PURPLE%[L%ILVL%] %NL%%GREEN%REROLL
 
 //SMALL CHARMS
-ItemDisplay[MAG ID cm1 STAT22=3]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Small Charm  <<BASE>>
-ItemDisplay[MAG ID cm1 STAT58>100]: %BLUE%Poison Damage%RED%[%WHITE%%STAT(58,0)%%RED%] %BLUE%Small Charm  <<BASE>>
-ItemDisplay[MAG ID cm1 MANA>10 LIFE>10]: %BLUE%Life%RED%[%WHITE%%STAT(7,0)%%RED%] & %BLUE%Mana%RED%[%WHITE%%STAT(9,0)%%RED%] %BLUE%Small Charm <<BASE>>
-ItemDisplay[MAG ID cm1 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
-ItemDisplay[MAG ID cm1 LRES>2]: %BLUE%Lightning Resist%RED%[%WHITE%%STAT(41,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
-ItemDisplay[MAG ID cm1 FRES>2]: %BLUE%Fire Resist%RED%[%WHITE%%STAT(39,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
-ItemDisplay[MAG ID cm1 PRES>2]: %BLUE%Poison Resist%RED%[%WHITE%%STAT(45,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
-ItemDisplay[MAG ID cm1 CRES>2]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
-ItemDisplay[MAG ID cm1 MFIND>2]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
-
+ItemDisplay[MAG ID cm1 STAT22=3]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Small Charm  <<MAGIC>>
+ItemDisplay[MAG ID cm1 STAT58>100]: %BLUE%Poison Damage%RED%[%WHITE%%STAT(58,0)%%RED%] %BLUE%Small Charm  <<MAGIC>>
+ItemDisplay[MAG ID cm1 MANA>10 LIFE>10]: %BLUE%Life%RED%[%WHITE%%STAT(7,0)%%RED%] & %BLUE%Mana%RED%[%WHITE%%STAT(9,0)%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 LRES>2]: %BLUE%Lightning Resist%RED%[%WHITE%%STAT(41,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 FRES>2]: %BLUE%Fire Resist%RED%[%WHITE%%STAT(39,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 PRES>2]: %BLUE%Poison Resist%RED%[%WHITE%%STAT(45,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 CRES>2]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 MFIND>2]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
 
 //MAGIC & RARES start
 
