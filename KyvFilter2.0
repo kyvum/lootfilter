@@ -125,14 +125,14 @@ ItemDisplay[RW]: %NAME%
 
 //SHOPPING
 ItemDisplay[EQ7 !ID ILVL=1]: %PURPLE%CIRCLET/CORONET <<GAMBLING>>
-ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %PURPLE%MA Gloves <<GAMBLING>>
-ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %PURPLE%Bowzon Gloves <<GAMBLING>>
-ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %PURPLE%Javazon Gloves <<GAMBLING>>
+ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: !%HIGHTIER%! MA Gloves  !%HIGHEND%! <<GAMBLING>>
+ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: !%HIGHTIER%! Bowzon Gloves  !%HIGHEND%! <<GAMBLING>>
+ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: !%HIGHTIER%! Javazon Gloves  !%HIGHEND%! <<GAMBLING>>
 ItemDisplay[MAG ID !amu TABSK34=3]: %PURPLE%BO Stick
-ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3 FCR>19]: %NL%%RED%**%PURPLE%FOH Weapon%RED%**%NL%%NL% <<GAMBLING>>
-ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3]: %PURPLE%FOH Weapon <<GAMBLING>>
-ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: %NL%%RED%**%PURPLE%FCR Hemo Weapon%RED%**%NL%%NL% <<GAMBLING>>
-ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Weapon <<GAMBLING>>
+ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3 FCR>19]:!%HIGHTIER%! FOH Weapon  !%HIGHEND%! <<GAMBLING>>
+ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3]: !%MIDTIER%! FOH Weapon  !%MIDEND%! <<GAMBLING>>
+ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: !%TOPTIER%! FCR Hemo Weapon  !%TOPEND%! <<GAMBLING>>
+ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: !%HIGHTIER%! Hemo Weapon  !%HIGHEND%! <<GAMBLING>>
 
 //BASES
 
@@ -668,9 +668,8 @@ ItemDisplay[MAG ID cm1 STAT43>2]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHI
 ItemDisplay[MAG ID cm1 STAT80>2]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<BASE>>
 
 
-//SUPER RARES start
+//RARES start
 
-//Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts)
 //1sk/20fcr helmets & 2sk/20 fcr helmets
 ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK1>1)]: %PURPLE%*** %YELLOW%2 Sorc & 20 FCR %PURPLE%***
 ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK1=1)]: %GOLD%*** %YELLOW%1 Sorc & 20 FCR %GOLD%***
@@ -717,35 +716,43 @@ ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6=1)]: %WHITE%!!! %RED%Upgra
 ItemDisplay[RARE ID EQ7]: %NAME% <<MAGIC>>
 ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME%
 
+
+//Rare Boots
+ItemDisplay[!ETH RARE EQ5 !ID]: %NAME% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ5 ID (STAT43>0 AND STAT41>0 AND STAT39>0) FRW>9]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ5 ID (STAT45>0 AND STAT41>0 AND STAT39>0) FRW>9]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ5 ID (STAT43>0 AND STAT45>0 AND STAT39>0) FRW>9]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ5 ID (STAT43>0 AND STAT41>0 AND STAT45>0) FRW>9]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
+
+//Rare Gloves
+ItemDisplay[!ETH RARE EQ4 !ID]: %NAME% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT41>0) TABSK2=2 IAS=20]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT45>0 AND STAT41>0) TABSK2=2 IAS=20]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT45>) TABSK2=2 IAS=20]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+
+ItemDisplay[RARE ID EQ4 IAS=20 TABSK2=2]: %!MIDTIER!% 2 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
+ItemDisplay[RARE ID EQ4 IAS=20 TABSK2=1]: %!MIDTIER!% 1 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
+ItemDisplay[RARE ID EQ4 IAS=20 TABSK2=0]: %!MIDTIER!% 2 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
+ItemDisplay[RARE ID EQ4 IAS=20 TABSK2=0]: %!MIDTIER!% 1 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
+
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT41>0 AND STAT39>0) IAS>9]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT45>0 AND STAT41>0 AND STAT39>0) IAS>9]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT45>0 AND STAT39>0) IAS>9]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT41>0 AND STAT45>0) IAS>9]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
+
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT41>0 AND STAT39>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT45>0 AND STAT41>0 AND STAT39>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT45>0 AND STAT39>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE EQ4 ID (STAT43>0 AND STAT41>0 AND STAT45>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
+
 //Weapons
 
 //Rare Melee
 ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr)]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level} <<MAGIC>>
 ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) STAT25>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS  %!HIGHEND!% <<MAGIC>>
 
-//3 and 2 skill magic gloves for zon
-//Java skill
-ItemDisplay[RARE ID EQ4 IAS=20 TABSK2=2]: %PURPLE%*%YELLOW% 2 Jav & 20 IAS Gloves %PURPLE%* <<MAGIC>>
-ItemDisplay[RARE ID EQ4 IAS=20 TABSK2=1]: %PURPLE%*%YELLOW% 1 Jav & 20 IAS Gloves %PURPLE%* <<MAGIC>>
-ItemDisplay[MAG ID EQ4 IAS=20 TABSK2=2]: %PURPLE%*%BLUE% 2 Jav & 20 IAS Gloves %PURPLE%* <<MAGIC>>
-ItemDisplay[MAG ID EQ4 IAS=20 TABSK2=3]: %PURPLE%***%BLUE% 3 Jav & 20 IAS Gloves %PURPLE%*** <<MAGIC>>
-
-//Bow skill
-ItemDisplay[RARE ID EQ4 IAS=20 TABSK0=2]: %PURPLE%*%YELLOW% 2 Bow & 20 IAS Gloves %PURPLE%* <<MAGIC>>
-ItemDisplay[RARE ID EQ4 IAS=20 TABSK0=1]: %PURPLE%*%YELLOW% 1 Bow & 20 IAS Gloves %PURPLE%* <<MAGIC>>
-ItemDisplay[MAG ID EQ4 IAS=20 TABSK0=2]: %PURPLE%*%BLUE% 2 Bow & 20 IAS Gloves %PURPLE%* <<MAGIC>>
-ItemDisplay[MAG ID EQ4 IAS=20 TABSK0=3]: %PURPLE%***%BLUE% 3 Bow & 20 IAS Gloves %PURPLE%*** <<MAGIC>>
-
-//Rare Boots
-ItemDisplay[!ETH RARE (EQ5) !ID]: %NAME% <<MAGIC>>
-ItemDisplay[!ETH RARE (EQ5) ID (STAT43>0 AND STAT41>0 AND STAT39>0) FRW>9]: %PURPLE%*** %GREEN%T%RED%r%YELLOW%i %BLUE%R%GREEN%e%RED%s %GREEN%B%RED%o%YELLOW%o%BLUE%t%GREEN%s %PURPLE%*** <<MAGIC>>
-
 //Class Specific Rares
 ItemDisplay[RARE (CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) !ID]: %YELLOW%%NAME%
-
-//Tiara Diadem Imbue Charsi
-ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
-// ^add %NAME% to find imbue-able tiara/diadem
 
 //Arrows
 
@@ -936,6 +943,10 @@ ItemDisplay[RARE rin]: %NAME%
 ItemDisplay[RARE amu]: %NAME%
 ItemDisplay[RARE jew]: %NAME%
 ItemDisplay[MAG jew]: %NAME%
+
+//Tiara Diadem Imbue Charsi
+ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
+// ^add %NAME% to find imbue-able tiara/diadem
 
 //JEWELLERY AND CHARMS start
 ItemDisplay[MAG !ID cm1]: %NAME% %PURPLE%[L%ILVL%]
