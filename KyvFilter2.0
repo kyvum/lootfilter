@@ -79,8 +79,8 @@ ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %RED%Blood Glove Base %ORANGE%[L%
 ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %BLUE%Hitpower Weapon Base %ORANGE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[MAG ID 7gm ILVL>85]: %BLUE%Hitpower Weapon Base %ORANGE%[L%ILVL%] {%ORANGE%Tir %WHITE%+J+ %BLUE%Sapphire} <<MAGIC>>
 //Gloves
-ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %WHITE%%NAME% %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%]
-ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %WHITE%%NAME% %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %BLUE%Sapphire}
+ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%]
+ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %BLUE%Sapphire}
 
 //CASTER BASES
 //Gloves
