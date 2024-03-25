@@ -35,12 +35,12 @@ ItemStyle[SPECIAL]: NotificationPriority = HIGH, NotificationColor = ITEM, Borde
 ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 10, NotificationSound = 499, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 75
 
 //TEXT MACROS
-TextMacro[TOPTIER]: %NL%     %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%%YELLOW%%%PURPLE%%%NL% %ORANGE%
-TextMacro[TOPEND]: %NL%%PURPLE%%%YELLOW%%%GOLD%%%RED%%%PURPLE%%%GREEN%%%%%     %NL%%NL%
-TextMacro[HIGHTIER]: %GREEN% %%%%%PURPLE%%%RED%%%GOLD%%%NL%
-TextMacro[HIGHEND]: %NL%%GOLD%%%RED%%%PURPLE%%%GREEN%%%%%
-TextMacro[MIDTIER]: %GREEN% %%%%RED%%%NL%
-TextMacro[MIDEND]: %NL%%RED%%%GREEN%%%%
+TextMacro[TOPTIER]: %NL%     %GREEN% OOOO%PURPLE%O%RED%O%GOLD%O%YELLOW%O%PURPLE%O%NL% %ORANGE%
+TextMacro[TOPEND]: %NL%%PURPLE%O%YELLOW%O%GOLD%O%RED%O%PURPLE%O%GREEN%OOOO     %NL%%NL%
+TextMacro[HIGHTIER]: %GREEN% OOOO%PURPLE%O%RED%O%GOLD%O%NL%
+TextMacro[HIGHEND]: %NL%%GOLD%O%RED%O%PURPLE%O%GREEN%OOOO
+TextMacro[MIDTIER]: %GREEN% OOO%RED%O%NL%
+TextMacro[MIDEND]: %NL%%RED%O%GREEN%OOO
 
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>2500]: %NAME%
