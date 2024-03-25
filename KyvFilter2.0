@@ -656,6 +656,8 @@ ItemDisplay[MAG ID cm3 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] 
 //ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<BASE>>
 //ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<BASE>>
 
+ItemDisplay[MAG ID cm3 ILVL>90]: %BLUE%--------------%NL%%RED%BETTER LUCK NEXT TIME%NL% %BLUE%%NAME% %PURPLE%[L%ILVL%] %NL%%GREEN%REROLL
+
 //SMALL CHARMS
 ItemDisplay[MAG ID cm1 STAT22=3]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Small Charm  <<BASE>>
 ItemDisplay[MAG ID cm1 STAT58>100]: %BLUE%Poison Damage%RED%[%WHITE%%STAT(58,0)%%RED%] %BLUE%Small Charm  <<BASE>>
