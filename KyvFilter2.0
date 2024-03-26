@@ -268,7 +268,7 @@ ItemDisplay[uvg UNI !ID ETH]: %GRAY%ETH %GOLD%Dracul's Grasp
 ItemDisplay[umg UNI !ID !ETH]: %GOLD%Soul Drainer <<UNIQUE>>
 ItemDisplay[umg UNI !ID ETH]: %GRAY%ETH %GOLD%Soul Drainer
 //- Steelrend
-ItemDisplay[uhg UNI !ID !ETH]: %GOLD%Steelrend <<UNIQUE>>
+ItemDisplay[uhg UNI !ID !ETH]: %!HIGHTIER!% %WHITE%Steelrend %!HIGHEND!% <<UNIQUE>>
 ItemDisplay[uhg UNI !ID ETH]: %GRAY%ETH %GOLD%Steelrend
 //- Frostburn
 ItemDisplay[hgl UNI !ID !ETH]: %GREEN%Frostburn <<UNIQUE>>
