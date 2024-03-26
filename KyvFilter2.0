@@ -71,34 +71,34 @@ ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>
 
 //BLOOD BASES
 //Weapons
-ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %RED%Blood Weapon Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85]: %RED%Blood Weapon Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %RED%Ruby} <<MAGIC>>
+ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %RED%B Weapon %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85]: %RED%B Weapon %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %RED%Ruby} <<MAGIC>>
 //Gloves
-ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %RED%Blood Glove Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %RED%Blood Glove Base %ORANGE%[L%ILVL%] {%ORANGE%Nef %WHITE%+J+ %RED%Ruby}
+ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %RED%Bd Glv %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %RED%B Glv %ORANGE%[L%ILVL%] {%ORANGE%Nef %WHITE%+J+ %RED%Ruby}
 
 //HITPOWER BASES
-ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %BLUE%Hitpower Weapon Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[MAG ID 7gm ILVL>85]: %BLUE%Hitpower Weapon Base %ORANGE%[L%ILVL%] {%ORANGE%Tir %WHITE%+J+ %BLUE%Sapphire} <<MAGIC>>
+ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %BLUE%HitP Weapon %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[MAG ID 7gm ILVL>85]: %BLUE%HitP Weapon %ORANGE%[L%ILVL%] {%ORANGE%Tir %WHITE%+J+ %BLUE%Sapphire} <<MAGIC>>
 //Gloves
-ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%Hitpower Glove Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %BLUE%Sapphire}
+ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%HitP Glv %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%HitP Glv %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %BLUE%Sapphire}
 
 //CASTER BASES
 //Gloves
-ItemDisplay[!ETH !ID MAG (xlg OR ulg) ILVL>71]: %PURPLE%Caster Glove Base %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ETH !ID MAG (xlg OR ulg) ILVL>71]: %PURPLE%C Glv %ORANGE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[!ETH ID MAG (xlg OR ulg) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %PURPLE%Amethyst}
 //Boots
-ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %PURPLE%Caster Boot Base %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %PURPLE%C Glv %ORANGE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Thul %WHITE%+J+ %PURPLE%Amethyst}
 //Belts
-ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71]: %PURPLE%Caster Belt Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[!ETH MAG ID (uvc OR zvb) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Ith %WHITE%+J+ %PURPLE%Amethyst}
+ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71]: %PURPLE%C Belt %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ETH MAG ID (uvc OR zvb) ILVL>71]: %PURPLE%C Belt %ORANGE%[L%ILVL%] {%ORANGE%Ith %WHITE%+J+ %PURPLE%Amethyst}
 
 //SAFETY BASES
 //Boots
-ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%Safety Boot Base %ORANGE%[L%ILVL%] <<MAGIC>>
-ItemDisplay[!ETH MAG ID hbt ILVL>71]: %DGREEN%Safety Boot Base %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %GREEN%Emerald}
+ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%S Boots %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ETH MAG ID hbt ILVL>71]: %DGREEN%S Boots %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %GREEN%Emerald}
 
 //SYNTH
 ItemDisplay[SYNTH]: %!HIGHTIER!% %GOLD%%NAME%  %!HIGHEND!% <<UNIQUE>>
