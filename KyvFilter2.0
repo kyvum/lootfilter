@@ -90,7 +90,7 @@ ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%HitP Glv %ORANGE%[L%
 
 //CASTER BASES
 //Boots
-ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %PURPLE%C Glv %ORANGE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %PURPLE%C Boots %ORANGE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Thul %WHITE%+J+ %PURPLE%Amethyst}
 //Belts
 ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71]: %PURPLE%C Belt %ORANGE%[L%ILVL%] <<MAGIC>>
