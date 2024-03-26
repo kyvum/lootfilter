@@ -183,8 +183,6 @@ ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 
 //Good Uniques/Sets start
 
-//Good Uniques/Sets start
-
 //HELMETS
 //- Vampire Gaze
 ItemDisplay[xh9 UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Vampire Gaze  %!HIGHEND!% <<UNIQUE>>
