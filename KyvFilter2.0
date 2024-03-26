@@ -353,8 +353,8 @@ ItemDisplay[7fl UNI !ID ETH]: %GRAY%ETH %GOLD%Horizon's Tornado or Stormlash
 ItemDisplay[7m7 UNI !ID !ETH]: %!MIDTIER!% %WHITE%Windhammer  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7m7 UNI !ID ETH]: %GRAY%ETH %GOLD%Windhammer
 //- Earth Shifter or The Cranium Basher
-ItemDisplay[7gm UNI !ID !ETH]: %!MIDTIER!% %WHITE%Cranium Basher  %!MIDEND!% <<UNIQUE>>
-ItemDisplay[7gm UNI !ID ETH]: %GRAY%ETH %GOLD%Cranium Bashers
+ItemDisplay[7gm UNI !ID !ETH]: %!MIDTIER!% %WHITE%Earth Shifter or Cranium Basher  %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7gm UNI !ID ETH]: %GRAY%ETH %GOLD%Earth Shifter or Cranium Bashers
 
 //SWORDS
 //- Ginther's Rift
