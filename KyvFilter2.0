@@ -227,6 +227,9 @@ ItemDisplay[uui UNI !ID ETH]: %GRAY%ETH %GOLD%Ormus' Robes
 //- Arkaine's Valor
 ItemDisplay[upl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Arkaine's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[upl UNI !ID ETH]: %GRAY%ETH %GOLD%Arkaine's Valor 
+//- Leviathan
+ItemDisplay[uld UNI !ID !ETH]: %!MIDTIER!% %GOLD%Leviathan  %!MIDEND!% <<UNIQUE>>
+ItemDisplay[uld UNI !ID ETH]: %GRAY%ETH %GOLD%Leviathan
 //- Steel Carapace
 ItemDisplay[uul UNI !ID !ETH]: %!LOWTIER!% %GOLD%Steel Carapace %!LOWEND!% <<UNIQUE>>
 ItemDisplay[uul UNI !ID ETH]: %GRAY%ETH %GOLD%Steel Carapace <<UNIQUE>>
