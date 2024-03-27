@@ -45,6 +45,8 @@ TextMacro[HIGHTIER]: %GREEN% OOOO%PURPLE%O%RED%O%GOLD%O%NL%
 TextMacro[HIGHEND]: %NL%%GOLD%O%RED%O%PURPLE%O%GREEN%OOOO
 TextMacro[MIDTIER]: %GREEN% OOO%RED%O%NL%
 TextMacro[MIDEND]: %NL%%RED%O%GREEN%OOO
+TextMacro[LOWTIER]: %GREEN% O%RED%O%NL%
+TextMacro[LOWEND]: %NL%%RED%O%GREEN%O
 
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>2500]: %NAME%
@@ -141,7 +143,7 @@ ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 crs]: Spirit Sword Base%PURP
 ItemDisplay[NMAG !RW SOCK=4 crs]: %DGREEN%Spirit Sword Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+THUL+ORT+AMN} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 bsd]: Spirit Sword Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG !RW SOCK=4 bsd]: %DGREEN%Spirit Sword Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+THUL+ORT+AMN} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=4 CLVL<40 WP8]: %DGREEN%Insight Merc Base%PURPLE%[%SOCKETS%] %ORANGE%{RAL+TIR+TAL+SOL} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=4 CLVL<40 WP8]: %!LOWTIER!% %DGREEN%Insight Merc Base%PURPLE%[%SOCKETS%] %ORANGE%{RAL+TIR+TAL+SOL}  %!LOWEND!% <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+ETH} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%] %ORANGE%{ORT+SOL} <<BASE>>
 
@@ -194,7 +196,7 @@ ItemDisplay[uap UNI !ID ETH]: %GRAY%ETH %GOLD%Shako
 ItemDisplay[ci3 UNI !ID !ETH]: %!TOPTIER!% %GOLD%Griffon's Eye  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[ci3 UNI !ID ETH]: %GRAY%ETH %GOLD%Griffon's Eye
 //- Veil of Steel or Nightwing's Veil
-ItemDisplay[uhm UNI !ID !ETH]: %GOLD%Veil of Steel or Nightwing's Veil <<UNIQUE>>
+ItemDisplay[uhm UNI !ID !ETH]: %!LOWTIER!% %GOLD%Veil of Steel or Nightwing's Veil  %!LOWEND!% <<UNIQUE>>
 ItemDisplay[uhm UNI !ID ETH]: %GRAY%ETH %GOLD%Veil of Steel or %GRAY%ETH %GOLD%Nightwing's Veil
 //- Andariel's Visage
 ItemDisplay[usk UNI !ID !ETH]: %!MIDTIER!% %GOLD%Andariel's Visage  %!MIDEND!% <<UNIQUE>>
@@ -203,7 +205,7 @@ ItemDisplay[usk UNI !ID ETH]: %GRAY%ETH %GOLD%Andariel's Visage
 ItemDisplay[urn UNI !ID !ETH]: %!MIDTIER!% %GOLD%Crown of Ages  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[urn UNI !ID ETH]: %GRAY%ETH %GOLD%Crown of Ages
 //- Natalya's Totem
-ItemDisplay[xh9 SET !ID !ETH]: %GOLD%Natalya's Totem <<SET>>
+ItemDisplay[xh9 SET !ID !ETH]: %!LOWTIER!% %GOLD%Natalya's Totem  %!LOWEND!% <<SET>>
 ItemDisplay[xh9 SET !ID ETH]: %GOLD%Natalya's Totem
 
 //BODY ARMOR
@@ -220,25 +222,25 @@ ItemDisplay[xhn UNI !ID !ETH]: %!MIDTIER!% %GOLD%Shaftstop  %!MIDEND!% <<UNIQUE>
 ItemDisplay[UNIQUE("Shaftstop") xhn ID !ETH]: %GOLD%Shaftstop {Upgrade: %ORANGE%Ko + Lem + %GOLD%P Diamond} <<UNIQUE>>
 ItemDisplay[xhn UNI !ID ETH]: %GRAY%ETH %GOLD%Shaftstop <<UNIQUE>>
 //- Ormus' Robes
-ItemDisplay[uui UNI !ID !ETH]: %GOLD%Ormus' Robes <<UNIQUE>>
+ItemDisplay[uui UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ormus' Robes  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[uui UNI !ID ETH]: %GRAY%ETH %GOLD%Ormus' Robes
 //- Arkaine's Valor
 ItemDisplay[upl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Arkaine's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[upl UNI !ID ETH]: %GRAY%ETH %GOLD%Arkaine's Valor 
 //- Steel Carapace
-ItemDisplay[uul UNI !ID !ETH]: %GOLD%Steel Carapace <<UNIQUE>>
+ItemDisplay[uul UNI !ID !ETH]: %!LOWTIER!% %GOLD%Steel Carapace %!LOWEND!% <<UNIQUE>>
 ItemDisplay[uul UNI !ID ETH]: %GRAY%ETH %GOLD%Steel Carapace <<UNIQUE>>
 //- Tyrael's Might
 ItemDisplay[uar UNI !ID !ETH]: %!TOPTIER!% %GOLD%Tyrael's Or Templar's  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[uar UNI !ID ETH]: %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** <<UNIQUE>>
 //- Tal Rasha's Guardianship
-ItemDisplay[uth SET !ID !ETH]: %GREEN%Tal Rasha's Guardianship <<SET>>
+ItemDisplay[uth SET !ID !ETH]: %!MIDTIER!% %GREEN%Tal Rasha's Guardianship %!MIDEND!% <<SET>>
 ItemDisplay[uth SET !ID ETH]: %GREEN%ETH Tal Rasha's Guardianship
 //- Naj's Light Plate
-ItemDisplay[ult SET !ID !ETH]: %GREEN%Naj's Light Plate <<SET>>
+ItemDisplay[ult SET !ID !ETH]: %!LOWTIER!% %GREEN%Naj's Light Plate %!LOWEND!% <<SET>>
 ItemDisplay[ult SET !ID ETH]: %GREEN%ETH Naj's Light Plate
 //- Natalya's Shadow
-ItemDisplay[ucl SET !ID !ETH]: %GREEN%Natalya's Shadow <<SET>>
+ItemDisplay[ucl SET !ID !ETH]: %!LOWTIER!% %GREEN%Natalya's Shadow %!LOWEND!% <<SET>>
 ItemDisplay[ucl SET !ID ETH]: %GREEN%ETH Natalya's Shadow
 
 //SHIELDS
@@ -260,21 +262,21 @@ ItemDisplay[umg UNI !ID ETH]: %GRAY%ETH %GOLD%Soul Drainer
 ItemDisplay[uhg UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Steelrend %!HIGHEND!% <<UNIQUE>>
 ItemDisplay[uhg UNI !ID ETH]: %GRAY%ETH %GOLD%Steelrend
 //- Frostburn
-ItemDisplay[hgl UNI !ID !ETH]: %GREEN%Frostburn
+ItemDisplay[hgl UNI !ID !ETH]: %!LOWTIER!% %GREEN%Frostburn %!LOWEND!%
 ItemDisplay[hgl UNI !ID ETH]: %GREEN%ETH Frostburn
 //- Laying of Hands
-ItemDisplay[ulg SET !ID !ETH]: %GREEN%Laying of Hands <<SET>>
+ItemDisplay[ulg SET !ID !ETH]: %!LOWTIER!% %GREEN%Laying of Hands %!LOWEND!% <<SET>>
 ItemDisplay[ulg SET !ID ETH]: %GREEN%ETH Laying of Hands
 //- Trang-Oul's Claws
-ItemDisplay[xmg SET !ID !ETH]: %GREEN%Trang-Oul's Claws <<SET>>
+ItemDisplay[xmg SET !ID !ETH]: %!LOWTIER!% %GREEN%Trang-Oul's Claws %!LOWEND!% <<SET>>
 ItemDisplay[xmg SET !ID ETH]: %GREEN%ETH Trang-Oul's Claws
 
 //BOOTS
 //- Waterwalk
-ItemDisplay[xvb UNI !ID !ETH]: %GOLD%Waterwalk
+ItemDisplay[xvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Waterwalk %!LOWEND!%
 ItemDisplay[xvb UNI !ID ETH]: %GRAY%ETH %GOLD%Waterwalk
 //- Silkweave
-ItemDisplay[xmb UNI !ID !ETH]: %GOLD%Silkweave
+ItemDisplay[xmb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Silkweave %!LOWEND!%
 ItemDisplay[xmb UNI !ID ETH]: %GRAY%ETH %GOLD%Silkweave
 //- War Traveler
 ItemDisplay[xtb UNI !ID !ETH]: %!HIGHTIER!% %GOLD%War Traveler  %!HIGHEND!%  <<UNIQUE>>
@@ -283,19 +285,19 @@ ItemDisplay[xtb UNI !ID ETH]: %GRAY%ETH %GOLD%War Traveler
 ItemDisplay[xhb UNI !ID !ETH]: %!MIDTIER!% %GOLD%Gore Rider  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[xhb UNI !ID ETH]: %GRAY%ETH %GOLD%Gore Rider
 //- Sandstorm Trek
-ItemDisplay[uvb UNI !ID !ETH]: %GOLD%Sandstorm Trek
+ItemDisplay[uvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Sandstorm Trek %!LOWEND!%
 ItemDisplay[uvb UNI !ID ETH]: %GRAY%ETH %GOLD%Sandstorm Trek
 //- Marrowwalk
-ItemDisplay[umb UNI !ID !ETH]: %GOLD%Marrowwalk
+ItemDisplay[umb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Marrowwalk %!LOWEND!%
 ItemDisplay[umb UNI !ID ETH]: %GRAY%ETH %GOLD%Marrowwalk
 //- Shadow Dancer
-ItemDisplay[uhb UNI !ID !ETH]: %GOLD%Shadow Dancer
+ItemDisplay[uhb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Shadow Dancer %!LOWEND!%
 ItemDisplay[uhb UNI !ID ETH]: %GRAY%ETH %GOLD%Shadow Dancer
 //- Aldur's Advance
-ItemDisplay[xtb SET !ID !ETH]: %GREEN%Aldur's Advance <<SET>>
+ItemDisplay[xtb SET !ID !ETH]: %!LOWTIER!% %GREEN%Aldur's Advance %!LOWEND!% <<SET>>
 ItemDisplay[xtb SET !ID ETH]: %GREEN%ETH Aldur's Advance
 //- Natalya's Soul
-ItemDisplay[xmb SET !ID !ETH]: %GREEN%Natalya's Soul <<SET>>
+ItemDisplay[xmb SET !ID !ETH]: %!LOWTIER!% %GREEN%Natalya's Soul %!LOWEND!% <<SET>>
 ItemDisplay[xmb SET !ID ETH]: %GREEN%ETH Natalya's Soul
 
 //BELTS
@@ -303,7 +305,7 @@ ItemDisplay[xmb SET !ID ETH]: %GREEN%ETH Natalya's Soul
 ItemDisplay[umc UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Verdungo's  %!HIGHEND!%  <<UNIQUE>>
 ItemDisplay[umc UNI !ID ETH]: %GRAY%ETH %GOLD%Verdungo's Hearty Cord
 //- Snowclash
-ItemDisplay[ztb UNI !ID !ETH]: %GOLD%Snowclash
+ItemDisplay[ztb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Snowclash %!LOWEND!% 
 ItemDisplay[ztb UNI !ID ETH]: %GRAY%ETH %GOLD%Snowclash
 //- Thundergod's Vigor
 ItemDisplay[zhb UNI !ID !ETH]: %!MIDTIER!% %GOLD%Thundergod's  %!MIDEND!% <<UNIQUE>>
@@ -312,10 +314,10 @@ ItemDisplay[zhb UNI !ID ETH]: %GRAY%ETH %GOLD%Thundergod's Vigor
 ItemDisplay[ulc UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Arachnid's Mesh  %!HIGHEND!%  <<UNIQUE>>
 ItemDisplay[ulc UNI !ID ETH]: %GRAY%ETH %GOLD%Arachnid Mesh 
 //- Razortail
-ItemDisplay[zvb UNI !ID !ETH]: %GOLD%Razortail
+ItemDisplay[zvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Razortail %!LOWEND!%
 ItemDisplay[zvb UNI !ID ETH]: %GRAY%ETH %GOLD%Razortail
 //- String of Ears
-ItemDisplay[zlb UNI !ID !ETH]: %GOLD%String of Ears
+ItemDisplay[zlb UNI !ID !ETH]: %!LOWTIER!% %GOLD%String of Ears %!LOWEND!%
 ItemDisplay[zlb UNI !ID ETH]: %GRAY%ETH %GOLD%String of Ears
 
 //WEAPONS
@@ -344,7 +346,7 @@ ItemDisplay[7gm UNI !ID ETH]: %GRAY%ETH %GOLD%Earth Shifter or Cranium Bashers
 ItemDisplay[9bs UNI !ID !ETH]: %!MIDTIER!% %GOLD%Headstriker  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[9bs UNI !ID ETH]: %GRAY%ETH %GOLD%Headstriker
 //- Bing Sz Wang
-ItemDisplay[9cm UNI !ID !ETH]: %RED%* %GOLD%Bing Sz Wang %RED%* <<UNIQUE>>
+ItemDisplay[9cm UNI !ID !ETH]: %!LOWTIER!% %GOLD%Bing Sz Wang !%LOWEND%! <<UNIQUE>>
 ItemDisplay[9cm UNI !ID ETH]: %GRAY%ETH %GOLD%Bing Sz Wang
 //- Lightsabre or Azurewrath
 ItemDisplay[7cr UNI !ID]: %!HIGHTIER!% %GOLD%Lightsabre OR Azurewrath  %!HIGHEND!%  <<UNIQUE>>
@@ -360,13 +362,12 @@ ItemDisplay[7bk UNI !ID ETH]: %!MIDTIER!% %GRAY%ETH %GOLD%Warshrike  %!MIDEND!% 
 //POLEARMS
 //- Athena's Wrath
 ItemDisplay[9s8 UNI !ID !ETH]: %!MIDTIER!% %GOLD%Athena's  %!MIDEND!% <<UNIQUE>>
-ItemDisplay[9s8 UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Athena's %RED%*
 ItemDisplay[UNIQUE("Athena's Wrath") 9s8 ID !ETH CLSK5=3]: %RED%* %GOLD%Athena's +3%RED%* {Upgrade: %ORANGE%Pul + Lum + %GREEN%P Emerald}
 //- Reaper's Toll
-ItemDisplay[7s8 UNI !ID !ETH]: %RED%** %GOLD%Reaper's Toll %RED%** <<UNIQUE>>
+ItemDisplay[7s8 UNI !ID !ETH]: %!LOWTIER!% %GOLD%Reaper's Toll !%LOWEND%! <<UNIQUE>>
 ItemDisplay[7s8 UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Reaper's Toll %RED%*
 //- Tomb Reaver
-ItemDisplay[7pa UNI !ID !ETH]: %!MIDTIER!% %GOLD%Tomb Reaver  %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7pa UNI !ID !ETH]: %!LOWTIER!% %GOLD%Tomb Reaver  !%LOWEND%!  <<UNIQUE>>
 ItemDisplay[7pa UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Tomb Reaver %RED%*
 
 //BOWS
@@ -673,7 +674,6 @@ ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6=1)]: %WHITE%!!! %RED%Upgra
 ItemDisplay[RARE ID EQ7]: %NAME% <<MAGIC>>
 ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME% <<MAGIC>>
 
-
 //Rare Boots
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 !ID]: %NAME% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (CRES>0 AND LRES>0 AND FRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
@@ -759,6 +759,14 @@ ItemDisplay[MAG ID amu TABSK2=3]: %!MIDTIER!% %WHITE%Javazon Amulet %NL%%RED%SLA
 ItemDisplay[MAG ID amu TABSK48=3]: %!MIDTIER!% %WHITE%Traps Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 //Good for crafting
 ItemDisplay[MAG ID amu ILVL>90]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: RAL %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: AMN %WHITE%+J+ %RED%RUBY%NL%%BLUE%HITPOWER: THUL %WHITE%+J+ %BLUE%SAPPHIRE%NL%%ORANGE%----CRAFTING----}
+
+//Jewels
+ItemDisplay[MAG ID jew (STAT25>37 AND IAS=15)]: !%HIGHTIER%! IAS + ED Jewel !%HIGHEND%! <<MAGIC>>
+ItemDisplay[RARE ID jew (STAT25>27 AND FHR=7 AND RES>7)]: !%HIGHTIER%! FHR + ED + RES Jewel !%HIGHEND%! <<MAGIC>>
+ItemDisplay[RARE ID jew (MAEK>1 AND FHR=7 AND RES>7)]: !%HIGHTIER%! FHR + MAEK + RES Jewel !%HIGHEND%! <<MAGIC>>
+ItemDisplay[MAG ID jew (STAT25>37 AND STAT22>13)]: !%MIDTIER%! 37%+ED 13+Max Dmg Jewel !%MIDEND%! <<MAGIC>>
+ItemDisplay[MAG ID jew STAT22>27]: !%MIDTIER%! 27+ Max Dmg Jewel !%MIDEND%! <<MAGIC>>
+ItemDisplay[MAG ID jew STAT25>37]: !%LOWTIER%! 37%+ ED Jewel !%LOWEND%! <<MAGIC>>
 
 //Weapons
 
