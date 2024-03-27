@@ -205,7 +205,7 @@ ItemDisplay[usk UNI !ID ETH]: %GRAY%ETH %GOLD%Andariel's Visage
 ItemDisplay[urn UNI !ID !ETH]: %!MIDTIER!% %GOLD%Crown of Ages  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[urn UNI !ID ETH]: %GRAY%ETH %GOLD%Crown of Ages
 //- Natalya's Totem
-ItemDisplay[xh9 SET !ID !ETH]: %!LOWTIER!% %GOLD%Natalya's Totem  %!LOWEND!% <<SET>>
+ItemDisplay[xh9 SET !ID !ETH]: %!LOWTIER!% %GREEN%Natalya's Totem  %!LOWEND!% <<SET>>
 ItemDisplay[xh9 SET !ID ETH]: %GOLD%Natalya's Totem
 
 //BODY ARMOR
@@ -438,7 +438,7 @@ ItemDisplay[nea UNI !ID ETH]:%GRAY%ETH %GOLD%Homunculus
 ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat
 ItemDisplay[9tw UNI !ID ETH]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat 
 //- Natalya's Mark
-ItemDisplay[7qr SET !ID !ETH]: %!HIGHTIER!% %GOLD%Natalya's Mark  %!HIGHEND!% <<SET>>
+ItemDisplay[7qr SET !ID !ETH]: %!HIGHTIER!% %GREEN%Natalya's Mark  %!HIGHEND!% <<SET>>
 ItemDisplay[7qr SET !ID ETH]: %GREEN%ETH Natalya's Mark
 
 //SORCERESS
