@@ -35,8 +35,8 @@ ItemStyle[SPECIAL]: NotificationPriority = HIGH, NotificationColor = ITEM, Borde
 ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 10, NotificationSound = 499, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 75
 // Crafting Bases
 ItemStyle[CRAFT]: NotificationPriority = LOW, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 75
-
-
+//GEMS
+ItemStyle[GEM]: BorderColor = 1, BorderSize = 5, BackgroundColor = 32
 
 //TEXT MACROS
 TextMacro[TOPTIER]: %NL%     %GREEN% OOOO%PURPLE%O%RED%O%GOLD%O%YELLOW%O%PURPLE%O%NL% %ORANGE%
@@ -883,68 +883,68 @@ ItemDisplay[maz]: %RED%%NAME%//Infernal Trial
 
 //GEMS start
 //Amethyst
-ItemDisplay[gcv CLVL<30]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst// Chipped Amethyst
+ItemDisplay[gcv CLVL<30]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst <:GEM: BackgroundColor = 75>
 ItemDisplay[gcv CLVL>29]: //HIDES
-ItemDisplay[gfv CLVL<30]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst// Flawed Amethyst
+ItemDisplay[gfv CLVL<30]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst <:GEM: BackgroundColor = 75>
 ItemDisplay[gfv CLVL>29]: //HIDES
-ItemDisplay[gsv CLVL<30]: %PURPLE%+%PURPLE%Amethyst// Amethyst SKILL("Normal")
+ItemDisplay[gsv CLVL<30]: %PURPLE%+%PURPLE%Amethyst <:GEM: BackgroundColor = 75>
 ItemDisplay[gsv CLVL>29]: //HIDES
-ItemDisplay[gzv]: %NL%%PURPLE%+%WHITE%F %PURPLE%Ame%WHITE%%NL%%NL%// Flawless Amethyst
-ItemDisplay[gpv]: %NL%%PURPLE%+%WHITE%P %PURPLE%Ame%WHITE%%NL%%NL%// Perfect Amethyst
+ItemDisplay[gzv]: %NL%%PURPLE%+%WHITE%F %PURPLE%Ame%WHITE%%NL%%NL% <:GEM: BackgroundColor = 75>
+ItemDisplay[gpv]: %NL%%PURPLE%+%WHITE%P %PURPLE%Ame%WHITE%%NL%%NL% <:GEM: BackgroundColor = 75>
 //Emerald
-ItemDisplay[gcg CLVL<30]: %PURPLE%+%WHITE%Chipped %GREEN%Emerald// Chipped Emerald
+ItemDisplay[gcg CLVL<30]: %PURPLE%+%WHITE%Chipped %GREEN%Emerald <:GEM: BackgroundColor = 121>
 ItemDisplay[gcg CLVL>29]: //HIDES
-ItemDisplay[gfg CLVL<30]: %PURPLE%+%WHITE%Flawed %GREEN%Emerald// Flawed Emerald
+ItemDisplay[gfg CLVL<30]: %PURPLE%+%WHITE%Flawed %GREEN%Emerald <:GEM: BackgroundColor = 121>
 ItemDisplay[gfg CLVL>29]: //HIDES
-ItemDisplay[gsg CLVL<30]: %PURPLE%+%GREEN%Emerald// Emerald SKILL("Normal")
+ItemDisplay[gsg CLVL<30]: %PURPLE%+%GREEN%Emerald <:GEM: BackgroundColor = 121>
 ItemDisplay[gsg CLVL>29]: //HIDES
-ItemDisplay[glg]: %NL%%PURPLE%+%WHITE%F %GREEN%Eme%NL%%NL%// Flawless Emerald
-ItemDisplay[gpg]: %NL%%PURPLE%+%WHITE%P %GREEN%Eme%NL%%NL%// Perfect Emerald
+ItemDisplay[glg]: %NL%%PURPLE%+%WHITE%F %GREEN%Eme%NL%%NL% <:GEM: BackgroundColor = 121>
+ItemDisplay[gpg]: %NL%%PURPLE%+%WHITE%P %GREEN%Eme%NL%%NL% <:GEM: BackgroundColor = 121>
 //Ruby
-ItemDisplay[gcr CLVL<30]: %PURPLE%+%WHITE%Chipped %RED%Ruby// Chipped Ruby
+ItemDisplay[gcr CLVL<30]: %PURPLE%+%WHITE%Chipped %RED%Ruby <:GEM: BackgroundColor = 98>
 ItemDisplay[gcr CLVL>29]: //HIDES
-ItemDisplay[gfr CLVL<30]: %PURPLE%+%WHITE%Flawed %RED%Ruby// Flawed Ruby
+ItemDisplay[gfr CLVL<30]: %PURPLE%+%WHITE%Flawed %RED%Ruby <:GEM: BackgroundColor = 98>
 ItemDisplay[gfr CLVL>29]: //HIDES
-ItemDisplay[gsr CLVL<30]: %PURPLE%+%RED%Ruby// Ruby SKILL("Normal")
+ItemDisplay[gsr CLVL<30]: %PURPLE%+%RED%Ruby <:GEM: BackgroundColor = 98>
 ItemDisplay[gsr CLVL>29]: //HIDES
-ItemDisplay[glr]: %NL%%PURPLE%+%WHITE%F %RED%Ruby%NL%%NL%// Flawless Ruby
-ItemDisplay[gpr]: %NL%%PURPLE%+%WHITE%P %RED%Ruby%NL%%NL%// Perfect Ruby
+ItemDisplay[glr]: %NL%%PURPLE%+%WHITE%F %RED%Ruby%NL%%NL% <:GEM: BackgroundColor = 98>
+ItemDisplay[gpr]: %NL%%PURPLE%+%WHITE%P %RED%Ruby%NL%%NL% <:GEM: BackgroundColor = 98>
 //Sapphire
-ItemDisplay[gcb CLVL<30]: %PURPLE%+%WHITE%Chipped %BLUE%Sapphire// Chipped Sapphire
+ItemDisplay[gcb CLVL<30]: %PURPLE%+%WHITE%Chipped %BLUE%Sapphire  <:GEM: BackgroundColor = RGB(0/0/255)>
 ItemDisplay[gcb CLVL>29]: //HIDES
-ItemDisplay[gfb CLVL<30]: %PURPLE%+%WHITE%Flawed %BLUE%Sapphire// Flawed Sapphire
+ItemDisplay[gfb CLVL<30]: %PURPLE%+%WHITE%Flawed %BLUE%Sapphire  <:GEM: BackgroundColor = RGB(0/0/255)>
 ItemDisplay[gfb CLVL>29]: //HIDES
-ItemDisplay[gsb CLVL<30]: %PURPLE%+%BLUE%Sapphire// Sapphire SKILL("Normal")
+ItemDisplay[gsb CLVL<30]: %PURPLE%+%BLUE%Sapphire  <:GEM: BackgroundColor = RGB(0/0/255)>
 ItemDisplay[gsb CLVL>29]: //HIDES
-ItemDisplay[glb]: %NL%%PURPLE%+%WHITE%F %BLUE%Sap%NL%%NL%// Flawless Sapphire
-ItemDisplay[gpb]: %NL%%PURPLE%+%WHITE%P %BLUE%Sap%NL%%NL%// Perfect Sapphire
+ItemDisplay[glb]: %NL%%PURPLE%+%WHITE%F %BLUE%Sap%NL%%NL% <:GEM: BackgroundColor = RGB(0/0/255)>
+ItemDisplay[gpb]: %NL%%PURPLE%+%WHITE%P %BLUE%Sap%NL%%NL%  <:GEM: BackgroundColor = RGB(0/0/255)>
 //Topaz
-ItemDisplay[gcy CLVL<30]: %PURPLE%+%WHITE%Chipped %YELLOW%Topaz%WHITE%// Chipped Topaz
+ItemDisplay[gcy CLVL<30]: %PURPLE%+%WHITE%Chipped %YELLOW%Topaz%WHITE% <:GEM: BackgroundColor = 111>
 ItemDisplay[gcy CLVL>29]: //HIDES
-ItemDisplay[gfy CLVL<30]: %PURPLE%+%WHITE%Flawed %YELLOW%Topaz%WHITE%// Flawed Topaz
+ItemDisplay[gfy CLVL<30]: %PURPLE%+%WHITE%Flawed %YELLOW%Topaz%WHITE% <:GEM: BackgroundColor = 111>
 ItemDisplay[gfy CLVL>29]: //HIDES
-ItemDisplay[gsy CLVL<30]: %PURPLE%+%YELLOW%Topaz%WHITE%// Topaz SKILL("Normal")
+ItemDisplay[gsy CLVL<30]: %PURPLE%+%YELLOW%Topaz%WHITE% <:GEM: BackgroundColor = 111>
 ItemDisplay[gsy CLVL>29]: //HIDES
-ItemDisplay[gly]: %NL%%PURPLE%+%WHITE%F %YELLOW%Topaz%NL%%NL%// Flawless Topaz
-ItemDisplay[gpy]: %NL%%PURPLE%+%WHITE%P %YELLOW%Topaz%NL%%NL%// Perfect Topaz
+ItemDisplay[gly]: %NL%%PURPLE%+%WHITE%F %YELLOW%Topaz%NL%%NL% <:GEM: BackgroundColor = 111>
+ItemDisplay[gpy]: %NL%%PURPLE%+%WHITE%P %YELLOW%Topaz%NL%%NL% <:GEM: BackgroundColor = 111>
 //Diamond
-ItemDisplay[gcw CLVL<30]: %PURPLE%+%WHITE%Chipped %WHITE%Diamond%WHITE% 			// Chipped Diamond
+ItemDisplay[gcw CLVL<30]: %PURPLE%+%WHITE%Chipped %WHITE%Diamond%WHITE% <:GEM: BackgroundColor = 32>
 ItemDisplay[gcw CLVL>29]: //HIDES
-ItemDisplay[gfw CLVL<30]: %PURPLE%+%WHITE%Flawed %WHITE%Diamond%WHITE%				// Flawed Diamond
+ItemDisplay[gfw CLVL<30]: %PURPLE%+%WHITE%Flawed %WHITE%Diamond%WHITE% <:GEM: BackgroundColor = 32>
 ItemDisplay[gfw CLVL>29]: //HIDES
-ItemDisplay[gsw CLVL<30]: %PURPLE%+%WHITE%Diamond%WHITE%					// Diamond SKILL("Normal")
+ItemDisplay[gsw CLVL<30]: %PURPLE%+%WHITE%Diamond%WHITE% <:GEM: BackgroundColor = 32>
 ItemDisplay[gsw CLVL>29]: //HIDES
-ItemDisplay[glw]: %NL%%PURPLE%+%WHITE%F Dia%NL%%NL%// Flawless Diamond
-ItemDisplay[gpw]: %NL%%PURPLE%+%WHITE%P Dia%NL%%NL%// Perfect Diamond
+ItemDisplay[glw]: %NL%%PURPLE%+%WHITE%F Dia%NL%%NL% <:GEM: BackgroundColor = 32>
+ItemDisplay[gpw]: %NL%%PURPLE%+%WHITE%P Dia%NL%%NL% <:GEM: BackgroundColor = 32>
 //Skull
-ItemDisplay[skc CLVL<30]: %PURPLE%+%PURPLE%Chipped %GOLD%Skull// Chipped Skull
+ItemDisplay[skc CLVL<30]: %PURPLE%+%PURPLE%Chipped %GOLD%Skull <:GEM: BackgroundColor = 28>
 ItemDisplay[skc CLVL>29]: //HIDES
-ItemDisplay[skf CLVL<30]: %PURPLE%+%PURPLE%Flawed %GOLD%Skull// Flawed Skull
+ItemDisplay[skf CLVL<30]: %PURPLE%+%PURPLE%Flawed %GOLD%Skull <:GEM: BackgroundColor = 28>
 ItemDisplay[skf CLVL>29]: //HIDES
-ItemDisplay[sku CLVL<30]: %PURPLE%+%PURPLE%Normal %GOLD%Skull// Skull SKILL("Normal")
+ItemDisplay[sku CLVL<30]: %PURPLE%+%PURPLE%Normal %GOLD%Skull <:GEM: BackgroundColor = 28>
 ItemDisplay[sku CLVL>29]: //HIDES
-ItemDisplay[skl]: %NL%%PURPLE%+%PURPLE%F %GOLD%Skull%NL%%NL%// Flawless Skull
-ItemDisplay[skz]: %NL%%PURPLE%+%PURPLE%P %GOLD%Skull%NL%%NL%// Perfect Skull
+ItemDisplay[skl]: %NL%%PURPLE%+%PURPLE%F %GOLD%Skull%NL%%NL% <:GEM: BackgroundColor = 28>
+ItemDisplay[skz]: %NL%%PURPLE%+%PURPLE%P %GOLD%Skull%NL%%NL% <:GEM: BackgroundColor = 28>
 
 //KEYS AND ESSENCES start
 ItemDisplay[pk1]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
@@ -978,6 +978,6 @@ ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
 ItemDisplay[MAG !ID cm1]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[MAG !ID CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
 ItemDisplay[MAG !ID cm3]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[MAG !ID jew]: %NAME% %PURPLE%
+ItemDisplay[MAG !ID jew]: %NL%%NAME% %PURPLE%%NL%%NL% <<GEM>>
 ItemDisplay[MAG !ID rin]:
 ItemDisplay[MAG !ID amu]: %BLUE%Amu%WHITE% [L%ILVL%]
