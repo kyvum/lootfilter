@@ -968,7 +968,7 @@ ItemDisplay[CRAFT amu]: %NAME%
 ItemDisplay[RARE rin]: %NAME%
 ItemDisplay[RARE amu]: %NAME%
 ItemDisplay[RARE jew]: %NAME%
-ItemDisplay[MAG jew]: %NAME%
+ItemDisplay[MAG ID jew]: %NAME%
 
 //Tiara Diadem Imbue Charsi
 ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
