@@ -34,7 +34,7 @@ ItemStyle[SPECIAL]: NotificationPriority = HIGH, NotificationColor = ITEM, Borde
 // Relics
 ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 10, NotificationSound = 499, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 75
 // Crafting Bases
-ItemStyle[CRAFT]: NotificationPriority = LOW, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 75
+ItemStyle[CRAFT]: NotificationPriority = LOW, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 79, MapIconColor = 75
 //GEMS
 ItemStyle[GEM]: BorderColor = 1, BorderSize = 5, BackgroundColor = 32
 
