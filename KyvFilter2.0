@@ -609,7 +609,7 @@ ItemDisplay[MAG ID cm1 LRES>7]: %BLUE%Lightning Resist%RED%[%WHITE%%STAT(41,0)%%
 ItemDisplay[MAG ID cm1 FRES>7]: %BLUE%Fire Resist%RED%[%WHITE%%STAT(39,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
 ItemDisplay[MAG ID cm1 PRES>7]: %BLUE%Poison Resist%RED%[%WHITE%%STAT(45,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
 ItemDisplay[MAG ID cm1 CRES>7]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
-ItemDisplay[MAG ID cm1 MFIND>7]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 MFIND>4]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
 
 //-------------------------------------------------------- MAGIC & RARES start
 
