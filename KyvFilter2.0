@@ -1,44 +1,44 @@
-//KyvFilter 2.0
+//-------------------------------------------------------- KyvFilter 2.0
 Attribute[Author]: Kyvum
 Attribute[Name]: KyvFilter
 Attribute[Version]: 2.0
 
 Option[IgnoreMissingSounds]: True
 
-//ITEM STYLES
+//-------------------------------------------------------- ITEM STYLES
 
-// Gambling
+//-------------------------------------------------------- Gambling
 ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationSound = 2678, NotificationSoundPriority = HIGH
-// Ladder Start
+//-------------------------------------------------------- Ladder Start
 ItemStyle[LADDERSTART]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 31, NotificationSound = 2678, NotificationSoundPriority = HIGH
-// VERY Valuable Uniques
+//-------------------------------------------------------- VERY Valuable Uniques
 ItemStyle[HUNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 12, NotificationSound = 2679, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
-// Valuable Uniques
+//-------------------------------------------------------- Valuable Uniques
 ItemStyle[UNIQUE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 14, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
-// Unique Jewellery
+//-------------------------------------------------------- Unique Jewellery
 ItemStyle[UNIQUEJ]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 14, NotificationSound = 464, NotificationSoundPriority = HIGH, MapIcon = 26, MapIconColor = 105
-// Valuable Sets 
+//-------------------------------------------------------- Valuable Sets 
 ItemStyle[SET]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 125, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 22, MapIconColor = 236
-// Valuable Bases
+//-------------------------------------------------------- Valuable Bases
 ItemStyle[BASE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 40, NotificationSound = 498, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 224
-// VERY Valuable RUNES
+//-------------------------------------------------------- VERY Valuable RUNES
 ItemStyle[HRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 10, BackgroundColor = 98, NotificationSound = 2668, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
-// Highly Valuable RUNES
+//-------------------------------------------------------- Highly Valuable RUNES
 ItemStyle[RUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 32, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2677, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
-// Valuable RUNES
+//-------------------------------------------------------- Valuable RUNES
 ItemStyle[MRUNE]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 104, NotificationSound = 2678, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 229
-// Valuable MAGIC/RARE ITEMS
+//-------------------------------------------------------- Valuable MAGIC/RARE ITEMS
 ItemStyle[MAGIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
-// Special Items
+//-------------------------------------------------------- Special Items
 ItemStyle[SPECIAL]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 662, NotificationSoundPriority = HIGH, MapIcon = 21, MapIconColor = 238
-// Relics
+//-------------------------------------------------------- Relics
 ItemStyle[RELIC]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 1, BorderSize = 3, BackgroundColor = 10, NotificationSound = 499, NotificationSoundPriority = HIGH, MapIcon = 24, MapIconColor = 75
-// Crafting Bases
+//-------------------------------------------------------- Crafting Bases
 ItemStyle[CRAFT]: NotificationPriority = LOW, BorderColor = 1, BorderSize = 3, BackgroundColor = 75, NotificationSound = 494, NotificationSoundPriority = HIGH, MapIcon = 79, MapIconColor = 75
-//GEMS
+//-------------------------------------------------------- Gems
 ItemStyle[GEM]: BorderColor = 1, BorderSize = 5, BackgroundColor = 32
 
-//TEXT MACROS
+//-------------------------------------------------------- TEXT MACROS
 TextMacro[TOPTIER]: %NL%     %GREEN% OOOO%PURPLE%O%RED%O%GOLD%O%YELLOW%O%PURPLE%O%NL% %ORANGE%
 TextMacro[TOPEND]: %NL%%PURPLE%O%YELLOW%O%GOLD%O%RED%O%PURPLE%O%GREEN%OOOO     %NL%%NL%
 TextMacro[HIGHTIER]: %GREEN% OOOO%PURPLE%O%RED%O%GOLD%O%NL%
@@ -48,19 +48,19 @@ TextMacro[MIDEND]: %NL%%RED%O%GREEN%OOO
 TextMacro[LOWTIER]: %GREEN% O%RED%O%NL%
 TextMacro[LOWEND]: %NL%%RED%O%GREEN%O
 
-//Hide Gold Piles Smaller Than (<) X
+//-------------------------------------------------------- Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>2500]: %NAME%
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
 ItemDisplay[GOLD<2500 CLVL>65]:
 
-//General
+//-------------------------------------------------------- General
 ItemDisplay[NMAG CLVL<30 EQ1 SOCK=3]: %DGREEN%MF Base <<LADDERSTART>>
 
-//RARE JEWELLERY
+//-------------------------------------------------------- RARE JEWELLERY
 ItemDisplay[!ID RARE (amu OR rin OR jew)]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
-//RUNES start
+//-------------------------------------------------------- RUNES start
 ItemDisplay[(r01 OR r02 OR r03 OR r07 OR r10 OR r14 OR r16 OR r17)]: %ORANGE%%NAME%%RED%
 ItemDisplay[(r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15)]: %ORANGE%%NAME%%RED%
 ItemDisplay[(r18 OR r19)]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%%NL%
@@ -69,62 +69,62 @@ ItemDisplay[(r26 OR r32 OR r33)]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<MRUNE>
 ItemDisplay[(r27 OR r28 OR r29)]: %!HIGHTIER!% %WHITE%%NAME%  %!HIGHEND!%<<RUNE>>
 ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %WHITE%%NAME%  %!TOPEND!% <<HRUNE>>
 
-//RELICS
+//-------------------------------------------------------- RELICS
 ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>
 ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>
 
-//CRAFTING BASES
+//-------------------------------------------------------- CRAFTING BASES
 
-//BLOOD BASES
-//Weapons
-ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %RED%B Weapon %ORANGE%[L%ILVL%] <<CRAFT>>
-ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85]: %RED%B Weapon %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %RED%Ruby} <<CRAFT>>
-//Gloves
-ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %RED%B Glv %ORANGE%[L%ILVL%] <<CRAFT>>
+//-------------------------------------------------------- BLOOD BASES
+//-------------------------------------------------------- Weapons
+ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85]: %RED%B Weapon %ORANGE%[L%ILVL%] <:CRAFT: MapIcon = 74>
+ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85]: %RED%B Weapon %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %RED%Ruby} 
+//-------------------------------------------------------- Gloves
+ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71]: %RED%B Glv %ORANGE%[L%ILVL%] <:CRAFT: MapIcon = 66>
 ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71]: %RED%B Glv %ORANGE%[L%ILVL%] {%ORANGE%Nef %WHITE%+J+ %RED%Ruby}
 
-//HITPOWER BASES
-ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %BLUE%HitP Weapon %ORANGE%[L%ILVL%] <<CRAFT>>
+//-------------------------------------------------------- HITPOWER BASES
+ItemDisplay[MAG !ETH !ID 7gm ILVL>85]: %BLUE%HitP Weapon %ORANGE%[L%ILVL%] <:CRAFT: MapIcon = 72>
 ItemDisplay[MAG ID 7gm ILVL>85]: %BLUE%HitP Weapon %ORANGE%[L%ILVL%] {%ORANGE%Tir %WHITE%+J+ %BLUE%Sapphire}
-//Gloves
-ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%HitP Glv %ORANGE%[L%ILVL%] <<CRAFT>>
+//-------------------------------------------------------- Gloves
+ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%HitP Glv %ORANGE%[L%ILVL%] <:CRAFT: MapIcon = 63>
 ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71]: %BLUE%HitP Glv %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %BLUE%Sapphire}
 
-//CASTER BASES
-//Boots
-ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %PURPLE%C Boots %ORANGE%[L%ILVL%] <<CRAFT>>
+//-------------------------------------------------------- CASTER BASES
+//-------------------------------------------------------- Boots
+ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71]: %PURPLE%C Boots %ORANGE%[L%ILVL%] <:CRAFT: MapIcon = 75>
 ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71]: %PURPLE%Caster Base %ORANGE%[L%ILVL%] {%ORANGE%Thul %WHITE%+J+ %PURPLE%Amethyst}
-//Belts
-ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71]: %PURPLE%C Belt %ORANGE%[L%ILVL%] <<CRAFT>>
+//-------------------------------------------------------- Belts
+ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71]: %PURPLE%C Belt %ORANGE%[L%ILVL%] <:CRAFT: MapIcon = 67>
 ItemDisplay[!ETH MAG ID (uvc OR zvb) ILVL>71]: %PURPLE%C Belt %ORANGE%[L%ILVL%] {%ORANGE%Ith %WHITE%+J+ %PURPLE%Amethyst}
 
-//SAFETY BASES
-//Boots
-ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%S Boots %ORANGE%[L%ILVL%] <<CRAFT>>
+//-------------------------------------------------------- SAFETY BASES
+//-------------------------------------------------------- Boots
+ItemDisplay[!ETH MAG !ID hbt ILVL>71]: %DGREEN%S Boots %ORANGE%[L%ILVL%] <:CRAFT: MapIcon = 64>
 ItemDisplay[!ETH MAG ID hbt ILVL>71]: %DGREEN%S Boots %ORANGE%[L%ILVL%] {%ORANGE%Ort %WHITE%+J+ %GREEN%Emerald}
 
-//SYNTH
+//-------------------------------------------------------- SYNTH
 ItemDisplay[SYNTH]: %!HIGHTIER!% %GOLD%%NAME%  %!HIGHEND!% <<UNIQUE>>
 
-//Vendor Items start
-//Low Level Low Value
+//-------------------------------------------------------- Vendor Items start
+//-------------------------------------------------------- Low Level Low Value
 ItemDisplay[NMAG CLVL<40 !ETH CL6 PRICE>4999]: O %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
 ItemDisplay[NMAG CLVL<40 !ETH WP12 PRICE>4999]: W %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
-//Pre-75 Mid Value
+//-------------------------------------------------------- Pre-75 Mid Value
 ItemDisplay[NMAG CLVL<75 !ETH CL6 PRICE>19999]: O %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
 ItemDisplay[NMAG CLVL<75 !ETH WP12 PRICE>19999]: W %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
-//High Value
+//-------------------------------------------------------- High Value
 ItemDisplay[NMAG !ETH CL6 PRICE>29999]: O %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
 ItemDisplay[NMAG !ETH WP12 PRICE>29999]: W %YELLOW%[%GOLD%$%WHITE% %PRICE% %YELLOW%]
 
-//Show Early Rares and Magics
+//-------------------------------------------------------- Show Early Rares and Magics
 ItemDisplay[RARE CLVL<70]: %YELLOW%%NAME%
 ItemDisplay[MAG CLVL<15]: %BLUE%%NAME%
 
-//Show all Runewords
+//-------------------------------------------------------- Show all Runewords
 ItemDisplay[RW]: %NAME%
 
-//SHOPPING
+//-------------------------------------------------------- SHOPPING
 ItemDisplay[EQ7 !ID ILVL=1]: %PURPLE%CIRCLET/CORONET <<GAMBLING>>
 ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %!HIGHTIER!% MA Gloves  %!HIGHEND!% <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %!HIGHTIER!% Bowzon Gloves  %!HIGHEND!% <<GAMBLING>>
@@ -135,9 +135,8 @@ ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3]: %!MIDTIER!% FOH 
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: %!TOPTIER!% FCR Hemo Weapon  %!TOPEND!% <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %!HIGHTIER!% Hemo Weapon  %!HIGHEND!% <<GAMBLING>>
 
-//EMPTY BASES
-
-//Early Bases start
+//-------------------------------------------------------- EMPTY BASES
+//-------------------------------------------------------- EARLY BASES start
 ItemDisplay[NMAG !RW SOCK=3 CLVL<40 EQ3]: %DGREEN%Ancient's Pledge Base%PURPLE%[%SOCKETS%] %ORANGE%{RAL+ORT+TAL} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 crs]: Spirit Sword Base%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[NMAG !RW SOCK=4 crs]: %DGREEN%Spirit Sword Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+THUL+ORT+AMN} <<BASE>>
@@ -147,18 +146,15 @@ ItemDisplay[NMAG !RW SOCK=4 CLVL<40 WP8]: %!LOWTIER!% %DGREEN%Insight Merc Base%
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%PURPLE%[%SOCKETS%] %ORANGE%{TAL+ETH} <<BASE>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%PURPLE%[%SOCKETS%] %ORANGE%{ORT+SOL} <<BASE>>
 
-//Late Bases start
-
-//Monarchs
+//-------------------------------------------------------- LATE BASES start
+//-------------------------------------------------------- Monarchs
 ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %GRAY%[%DGREEN%-10% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%P%ORANGE%HOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
 ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-9 CLVL<85]: %GRAY%[%DGREEN%-9% Req%GRAY%] %NAME% %PURPLE%[%SOCKETS%] {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
 ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) CLVL<85]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH}
-
-//Archon Plates
+//-------------------------------------------------------- Archon Plates
 ItemDisplay[NMAG !RW !ETH SUP SOCK=3 utp]: %!MIDTIER!% 3os AP Base%PURPLE%[%SOCKETS%] {%ORANGE%ENIGMA: %DGREEN%JAH+ITH+BER}  %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG !RW !ETH SUP SOCK=4 utp]: 4os AP Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%CoH: %DGREEN%DOL+UM+BER+IST} <<BASE>>
-
-//Weapon Bases
+//-------------------------------------------------------- Weapon Bases
 ItemDisplay[7cr !RW NMAG STAT25=15 SOCK>4]: %!MIDTIER!% %DGREEN%Last Wish Base %PURPLE%[%SOCKETS%] {%ORANGE%LAST WISH: %DGREEN%JAH+MAL+JAH+SUR+JAH+BER}  %!MIDEND!% <<BASE>>
 ItemDisplay[7gd !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
 ItemDisplay[7p7 !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
@@ -166,26 +162,24 @@ ItemDisplay[6ws !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%E
 ItemDisplay[7wa !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
 ItemDisplay[7gm !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%] {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
 ItemDisplay[7wa !RW ETH STAT25=9 NMAG SOCK=5]: %!MIDTIER!% %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%] {%ORANGE%DEATH: %DGREEN%HEL+EL+VEX+ORT+GUL} <<BASE>>
-
-//Merc Bases
+//-------------------------------------------------------- Merc Bases
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 72h]: %RED%MERC LAWBRINGER BASE%PURPLE%[%SOCKETS%] {%ORANGE%LAWBRINGER: %DGREEN%AMN+LEM+KO} <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%] {%ORANGE%INSIGHT: %DGREEN%RAL+TIR+TAL+SOL%NL%%ORANGE%INFINITY: %DGREEN%BER+MAL+BER+IST} <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=5 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %ORANGE%ETH%DGREEN% Merc Doom Base%PURPLE%[%SOCKETS%] {%ORANGE%DOOM: %DGREEN%HEL+OHM+UM+LO+CHAM} <<BASE>>
 ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=6) 7gd]: Merc Silence Base%PURPLE%[%SOCKETS%] {%ORANGE%SILENCE: %DGREEN%DOL+ELD+HEL+IST+TIR+VEX} <<BASE>>
-//Sacred Armor MERC
+//-------------------------------------------------------- Sacred Armor MERC
 ItemDisplay[NMAG ETH !RW SUP SOCK=0 uar]: %!MIDTIER!% Merc Sacred Base%PURPLE%[%SOCKETS%] %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 uar]: %!MIDTIER!% 3os Merc Sacred Base%PURPLE%[%SOCKETS%] {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: %!MIDTIER!% 4os Merc Sacred Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
-//Archon Plate MERC
+//-------------------------------------------------------- Archon Plate MERC
 ItemDisplay[NMAG ETH !RW SUP SOCK=0 utp]: %!MIDTIER!% Merc AP Base%PURPLE%[%SOCKETS%] %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 utp]: %!MIDTIER!% 3os Merc AP Base%PURPLE%[%SOCKETS%] {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SUP SOCK=4 utp]: %!MIDTIER!% 4os Merc AP Base%PURPLE%[%SOCKETS%] {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%DGREEN% Merc Armor Base%PURPLE%[%SOCKETS%] %!MIDEND!% <<BASE>>
 
-//Good Uniques/Sets start
-
-//HELMETS
+//-------------------------------------------------------- GOOD UNIQUES/SET ITEMS
+//-------------------------------------------------------- HELMETS
 //- Vampire Gaze
 ItemDisplay[xh9 UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Vampire Gaze  %!HIGHEND!% <<UNIQUE>>
 ItemDisplay[xh9 UNI !ID ETH]: %GOLD%Vampire Gaze
@@ -208,7 +202,7 @@ ItemDisplay[urn UNI !ID ETH]: %GRAY%ETH %GOLD%Crown of Ages
 ItemDisplay[xh9 SET !ID !ETH]: %!LOWTIER!% %GREEN%Natalya's Totem  %!LOWEND!% <<SET>>
 ItemDisplay[xh9 SET !ID ETH]: %GOLD%Natalya's Totem
 
-//BODY ARMOR
+//-------------------------------------------------------- BODY ARMOR
 //- Skin of the Vipermagi
 ItemDisplay[xea UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Skin of the Vipermagi  %!HIGHEND!% <<UNIQUE>>
 ItemDisplay[UNIQUE("Skin of the Vipermagi") xea ID !ETH]: %GOLD%Skin of the Vipermagi {Upgrade: %ORANGE%Ko + Lem + %GOLD%P Diamond} <<UNIQUE>>
@@ -246,7 +240,7 @@ ItemDisplay[ult SET !ID ETH]: %GREEN%ETH Naj's Light Plate
 ItemDisplay[ucl SET !ID !ETH]: %!LOWTIER!% %GREEN%Natalya's Shadow %!LOWEND!% <<SET>>
 ItemDisplay[ucl SET !ID ETH]: %GREEN%ETH Natalya's Shadow
 
-//SHIELDS
+//-------------------------------------------------------- SHIELDS
 //- Stormshield
 ItemDisplay[uit UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Stormshield  %!HIGHEND!%  <<UNIQUE>>
 ItemDisplay[uit UNI !ID ETH]: %GRAY%ETH %GOLD%Stormshield
@@ -254,7 +248,7 @@ ItemDisplay[uit UNI !ID ETH]: %GRAY%ETH %GOLD%Stormshield
 ItemDisplay[uow UNI !ID !ETH]: %!MIDTIER!% %GOLD%Medusa's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[uow UNI !ID ETH]: %GRAY%ETH %GOLD%Medusa's Gaze
 
-//GLOVES
+//-------------------------------------------------------- GLOVES
 //- Dracul's Grasp
 ItemDisplay[uvg UNI !ID !ETH]: %!MIDTIER!% %GOLD%Dracul's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[uvg UNI !ID ETH]: %GRAY%ETH %GOLD%Dracul's Grasp
@@ -274,7 +268,7 @@ ItemDisplay[ulg SET !ID ETH]: %GREEN%ETH Laying of Hands
 ItemDisplay[xmg SET !ID !ETH]: %!LOWTIER!% %GREEN%Trang-Oul's Claws %!LOWEND!% <<SET>>
 ItemDisplay[xmg SET !ID ETH]: %GREEN%ETH Trang-Oul's Claws
 
-//BOOTS
+//-------------------------------------------------------- BOOTS
 //- Waterwalk
 ItemDisplay[xvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Waterwalk %!LOWEND!%
 ItemDisplay[xvb UNI !ID ETH]: %GRAY%ETH %GOLD%Waterwalk
@@ -303,7 +297,7 @@ ItemDisplay[xtb SET !ID ETH]: %GREEN%ETH Aldur's Advance
 ItemDisplay[xmb SET !ID !ETH]: %!LOWTIER!% %GREEN%Natalya's Soul %!LOWEND!% <<SET>>
 ItemDisplay[xmb SET !ID ETH]: %GREEN%ETH Natalya's Soul
 
-//BELTS
+//-------------------------------------------------------- BELTS
 //- Verdungo's Hearty Cord
 ItemDisplay[umc UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Verdungo's  %!HIGHEND!%  <<UNIQUE>>
 ItemDisplay[umc UNI !ID ETH]: %GRAY%ETH %GOLD%Verdungo's Hearty Cord
@@ -323,9 +317,9 @@ ItemDisplay[zvb UNI !ID ETH]: %GRAY%ETH %GOLD%Razortail
 ItemDisplay[zlb UNI !ID !ETH]: %!LOWTIER!% %GOLD%String of Ears %!LOWEND!%
 ItemDisplay[zlb UNI !ID ETH]: %GRAY%ETH %GOLD%String of Ears
 
-//WEAPONS
+//-------------------------------------------------------- WEAPONS
 
-//AXES
+//-------------------------------------------------------- AXES
 //- Death Cleaver
 ItemDisplay[7wa UNI !ID !ETH]: %!MIDTIER!% %GOLD%Death Cleaver  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7wa UNI !ID ETH]: %GRAY%ETH %GOLD%Death Cleaver
@@ -333,7 +327,7 @@ ItemDisplay[7wa UNI !ID ETH]: %GRAY%ETH %GOLD%Death Cleaver
 ItemDisplay[7gi UNI !ID !ETH]: %!MIDTIER!% %GOLD%Executioner's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7gi UNI !ID ETH]: %GRAY%ETH %GOLD%Executioner's Justice
 
-//MACES
+//-------------------------------------------------------- MACES
 //- Horizon's Tornado or Stormlash
 ItemDisplay[7fl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Horizon's or Stormlash  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7fl UNI !ID ETH]: %GRAY%ETH %GOLD%Horizon's Tornado or Stormlash
@@ -344,7 +338,7 @@ ItemDisplay[7m7 UNI !ID ETH]: %GRAY%ETH %GOLD%Windhammer
 ItemDisplay[7gm UNI !ID !ETH]: %!MIDTIER!% %GOLD%Earth Shifter or Cranium Basher  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7gm UNI !ID ETH]: %GRAY%ETH %GOLD%Earth Shifter or Cranium Bashers
 
-//SWORDS
+//-------------------------------------------------------- SWORDS
 //- Headstriker
 ItemDisplay[9bs UNI !ID !ETH]: %!MIDTIER!% %GOLD%Headstriker  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[9bs UNI !ID ETH]: %GRAY%ETH %GOLD%Headstriker
@@ -357,12 +351,12 @@ ItemDisplay[7cr UNI !ID]: %!HIGHTIER!% %GOLD%Lightsabre OR Azurewrath  %!HIGHEND
 ItemDisplay[7gd UNI !ID !ETH]: %!HIGHTIER!% %GOLD%The Grandfather  %!HIGHEND!%  <<UNIQUE>>
 ItemDisplay[7gd UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%The Grandfather %RED%*
 
-//THROWING WEAPONS
+//-------------------------------------------------------- THROWING WEAPONS
 //- Warshrike
 ItemDisplay[7bk UNI !ID !ETH]: %!MIDTIER!% %GOLD%Warshrike  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7bk UNI !ID ETH]: %!MIDTIER!% %GRAY%ETH %GOLD%Warshrike  %!MIDEND!% <<UNIQUE>>
 
-//POLEARMS
+//-------------------------------------------------------- POLEARMS
 //- Athena's Wrath
 ItemDisplay[9s8 UNI !ID !ETH]: %!MIDTIER!% %GOLD%Athena's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[UNIQUE("Athena's Wrath") 9s8 ID !ETH CLSK5=3]: %RED%* %GOLD%Athena's +3%RED%* {Upgrade: %ORANGE%Pul + Lum + %GREEN%P Emerald}
@@ -373,11 +367,11 @@ ItemDisplay[7s8 UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Reaper's Toll %RED%*
 ItemDisplay[7pa UNI !ID !ETH]: %!LOWTIER!% %GOLD%Tomb Reaver  %!LOWEND!%  <<UNIQUE>>
 ItemDisplay[7pa UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Tomb Reaver %RED%*
 
-//BOWS
+//-------------------------------------------------------- BOWS
 //- Windforce
 ItemDisplay[6lw UNI !ID]: %!HIGHTIER!% %GOLD%WINDFORCE  %!HIGHEND!% <<UNIQUE>>
 
-//STAVES
+//-------------------------------------------------------- STAVES
 //- Ondal's Wisdom
 ItemDisplay[6cs UNI !ID !ETH]: %RED%**%GREEN%** %GOLD%Ondal's Wisdom %RED%**%GREEN%** <<UNIQUE>>
 ItemDisplay[6cs UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Ondal's Wisdom %RED%*
@@ -389,12 +383,12 @@ ItemDisplay[8ls UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ribcracker  %!MIDEND!% <<UNIQUE
 ItemDisplay[UNIQUE("Ribcracker") 8ls !ID !ETH]: %RED%* %GOLD%Ribcracker %RED%* {Upgrade: %ORANGE%Pul + Lum + %GREEN%P Emerald} <<UNIQUE>>
 ItemDisplay[8ls UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Ribcracker %RED%*
 
-//WANDS
+//-------------------------------------------------------- WANDS
 //- Death's Web
 ItemDisplay[7gw UNI !ID !ETH]: %!TOPTIER!% %GOLD%Death's Web  %!TOPEND!% <<HUNIQUE>>
 ItemDisplay[7gw UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Death's Web %RED%*
 
-//SCEPTERS
+//-------------------------------------------------------- SCEPTERS
 //- Heaven's Light or The Redeemer
 ItemDisplay[7sc UNI !ID !ETH]: %!MIDTIER!% %GOLD%Heaven's or Redeemer  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7sc UNI !ID ETH]: %GRAY%ETH %GOLD%Heaven's Light or The Redeemer
@@ -402,9 +396,9 @@ ItemDisplay[7sc UNI !ID ETH]: %GRAY%ETH %GOLD%Heaven's Light or The Redeemer
 ItemDisplay[7ws UNI !ID !ETH]: %RED%* %GOLD%Astreon's Iron Ward %RED%*
 ItemDisplay[7ws UNI !ID ETH]: %GRAY%ETH %GOLD%Astreon's Iron Ward
 
-//CLASS SPECIFICS
+//-------------------------------------------------------- CLASS SPECIFICS
 
-//DRUID
+//-------------------------------------------------------- DRUID
 //- Jalal's Mane
 ItemDisplay[dra UNI !ID !ETH]: %!MIDTIER!% %GOLD%Jalal's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[dra UNI !ID ETH]: %GRAY%ETH %GOLD%Jalal's Mane
@@ -412,7 +406,7 @@ ItemDisplay[dra UNI !ID ETH]: %GRAY%ETH %GOLD%Jalal's Mane
 ItemDisplay[dre UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ravenlore %!MIDEND!% 
 ItemDisplay[dre UNI !ID ETH]: %GRAY%ETH %GOLD%Ravenlore
 
-//BARBARIAN
+//-------------------------------------------------------- BARBARIAN
 //- Arreat's Face
 ItemDisplay[baa UNI !ID !ETH]: %!MIDTIER!% %GOLD%Arreat's  %!MIDEND!% <<UNIQUE>>
 ItemDisplay[baa UNI !ID ETH]: %GRAY%ETH %GOLD%Arreat's Face
@@ -420,7 +414,7 @@ ItemDisplay[baa UNI !ID ETH]: %GRAY%ETH %GOLD%Arreat's Face
 ItemDisplay[bac UNI !ID !ETH]: %!MIDTIER!% %GOLD%Wolfhowl  %!MIDEND!% <<UNIQUE>> 
 ItemDisplay[bac UNI !ID ETH]: %GRAY%ETH %GOLD%Wolfhowl
 
-//PALADIN
+//-------------------------------------------------------- PALADIN
 //- Alma Negra
 ItemDisplay[pac UNI !ID !ETH]: %RED%* %GOLD%Alma Negra %RED%*
 ItemDisplay[pac UNI !ID ETH]: %GRAY%ETH %GOLD%Alma Negra
@@ -428,12 +422,12 @@ ItemDisplay[pac UNI !ID ETH]: %GRAY%ETH %GOLD%Alma Negra
 ItemDisplay[UNI !ID !ETH pa9]: %!MIDTIER!% %GOLD%Herald of Zakarum  %!MIDEND!% <<UNIQUE>> 
 ItemDisplay[UNI !ID ETH pa9]: %GRAY%ETH %GOLD%Herald of Zakarum 
 
-//NECROMANCER
+//-------------------------------------------------------- NECROMANCER
 //- Homunculus
 ItemDisplay[nea UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Homunculus  %!HIGHEND!%  <<UNIQUE>> 
 ItemDisplay[nea UNI !ID ETH]:%GRAY%ETH %GOLD%Homunculus
 
-//ASSASSIN
+//-------------------------------------------------------- ASSASSIN
 //- Bartuc's Cut-Throat
 ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat
 ItemDisplay[9tw UNI !ID ETH]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat 
@@ -441,7 +435,7 @@ ItemDisplay[9tw UNI !ID ETH]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat
 ItemDisplay[7qr SET !ID !ETH]: %!HIGHTIER!% %GREEN%Natalya's Mark  %!HIGHEND!% <<SET>>
 ItemDisplay[7qr SET !ID ETH]: %GREEN%ETH Natalya's Mark
 
-//SORCERESS
+//-------------------------------------------------------- SORCERESS
 //- The Oculus
 ItemDisplay[oba UNI !ID !ETH]: %GOLD%The Oculus <<UNIQUE>>
 ItemDisplay[oba UNI !ID ETH]: %GRAY%ETH %GOLD%The Oculus
@@ -452,7 +446,7 @@ ItemDisplay[obc UNI !ID ETH]: %GRAY%ETH %GOLD%Eschuta's Temper
 ItemDisplay[obf UNI !ID !ETH]: %GOLD%Death's Fathom <<UNIQUE>> 
 ItemDisplay[obf UNI !ID ETH]: %RED%* %GRAY%ETH %GOLD%Death's Fathom %RED%* 
 
-//AMAZON
+//-------------------------------------------------------- AMAZON
 //- Titan's Revenge
 ItemDisplay[ama UNI !ID !ETH]: %GOLD%Titan's Revenge <<UNIQUE>> 
 ItemDisplay[ama UNI !ID ETH]: %GRAY%ETH %GOLD%Titan's Revenge <<UNIQUE>> 
@@ -471,39 +465,27 @@ ItemDisplay[rin SET ID]: %GREEN%%NAME%
 ItemDisplay[amu SET !ID]: %!MIDTIER!% %GREEN%%NAME%  %!MIDEND!% <<SET>>
 ItemDisplay[amu SET ID]: %GREEN%%NAME%
 
-//UNIQUES catchall start
-ItemDisplay[NORM UNI !ID]: UNIQUE %NAME%
-ItemDisplay[EXC UNI !ID]: Excep UNIQUE %NAME%
-ItemDisplay[ELT UNI !ID]: Elite UNIQUE %NAME%
-ItemDisplay[UNI]: %NAME%
+//-------------------------------------------------------- Class Specific Items start
 
-//SETS catchall start
-
-ItemDisplay[NORM !ID SET]: SET %NAME%
-ItemDisplay[NORM SET]: %NAME%
-ItemDisplay[EXC !ID SET]: Excep SET %NAME%
-ItemDisplay[EXC SET]: %NAME%
-ItemDisplay[ELT !ID SET]: Elite SET %NAME%
-ItemDisplay[ELT SET]: %NAME%
-
-//Class Specific Items start
-
-//Sorceress
+//-------------------------------------------------------- Sorceress
+//-------------------------------------------------------- Bases
 ItemDisplay[CLVL<40 (CL6 OR WP11) SKILL("Frost Nova")>1]: %ORANGE%Frost Nova Stick %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<35 SKILL("Fire Bolt")=3 WP11]: %DGREEN%Leaf Base%PURPLE%[%SOCKETS%] %ORANGE%{TIR+RAL} <<LADDERSTART>>
 ItemDisplay[NMAG !RW (wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=5 OR SOCK=0)]: ES CTA Base%PURPLE%[%SOCKETS%] {%ORANGE%CTA: %DGREEN%AMN+RAL+MAL+IST+OHM}
-ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs wst OR 8ws OR 6ws) (SKILL("Energy Shield")=3 AND SKILL("Shiver Armor")=3) (SOCK=4)]: ES+SA Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
-ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=4)]: ES Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK8=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%3 Fire sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK9=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%3 Light sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK10=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %BLUE%3 Cold sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK8=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %RED%2 Fire sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK9=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %YELLOW%2 Light sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK10=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %BLUE%2 Cold sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=2)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%2 Sorc sk %ORANGE%*** <<MAGIC>>
-ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=3)]: %ORANGE%***%PURPLE% 20 FCR%WHITE% & %PURPLE%3 Sorc sk %ORANGE%*** <<MAGIC>>
+ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) (SKILL("Energy Shield")=3 AND SKILL("Shiver Armor")=3) (SOCK=4)]: ES+SA Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
+ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=4)]: ES Memory Base%PURPLE%[%SOCKETS%] {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
+//-------------------------------------------------------- Rares and Magic
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK8=3)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(TABSK8=3)% Fire %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK9=3)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(TABSK9=3)% Light %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK10=3)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(TABSK10=3)% Cold %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK8=2)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(TABSK8=2)% Fire %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK9=2)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(TABSK9=2)% Light %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND TABSK10=2)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(TABSK10=2)% Cold %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=2)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(CLSK1=2)% Sorc %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (STAT105>11 AND CLSK1=3)]: %!MIDTIER!%%PURPLE% 20 FCR%WHITE% & %WHITE%%STAT(CLSK1=3)% Sorc %!MIDEND!% <<MAGIC>>
 
-//Assassin
+//-------------------------------------------------------- Assassin
+//-------------------------------------------------------- Mosaic Bases
 ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") AND SKILL("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %PURPLE%FoF+CoT+BoI Base%PURPLE%[%SOCKETS%]  %!TOPEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<HUNIQUE>>
 ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %PURPLE%CoT+BoI Base%PURPLE%[%SOCKETS%]  %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
 ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Fists of Fire")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %PURPLE%CoT+FoF Base%PURPLE%[%SOCKETS%]  %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
@@ -511,11 +493,11 @@ ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire")>1 AND SKILL("Blades of Ice")>1
 ItemDisplay[NMAG CL5 !ETH SKILL("Blades of Ice")=3 (SOCK=0 OR SOCK=3)]: %PURPLE%BoI +3 Base%PURPLE%[%SOCKETS%] {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
 ItemDisplay[NMAG CL5 !ETH SKILL("Claws of Thunder")=3 (SOCK=0 OR SOCK=3)]: %PURPLE%CoT +3 Base%PURPLE%[%SOCKETS%] {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
 ItemDisplay[NMAG CL5 !ETH SKILL("Fists of Fire")=3 (SOCK=0 OR SOCK=3)]: %PURPLE%FoF +3 Base%PURPLE%[%SOCKETS%] {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN}
-//Blade Shield All Skills
+//-------------------------------------------------------- Blade Shield All Skills
 ItemDisplay[MAG CL5 (CLSK6=2 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 (CLSK6>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 (CLSK6>1 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//Blade Shield Trap Skills
+//-------------------------------------------------------- Blade Shield Trap Skills
 ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%PURPLE%+6 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 (TABSK48>1 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
@@ -523,12 +505,12 @@ ItemDisplay[MAG CL5 (TABSK48>1 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%OR
 ItemDisplay[MAG CL5 (TABSK48>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>0)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 SKILL("Blade Shield")=3]: %NAME% %WHITE%(%DGREEN%+3 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//Blade Shield Venom
+//-------------------------------------------------------- Blade Shield Venom
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=3)]: %NAME% %WHITE%(%ORANGE%3 BS, 3 VENOM%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")>1)]: %NAME% %WHITE%(%ORANGE%3 BS, 2 VENOM%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")>0)]: %NAME% %WHITE%(%ORANGE%3 BS, 1 VENOM%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("Blade Shield")=3 (SOCK=0 OR SOCK=3)]: %NAME% %WHITE%(%ORANGE%3 BS%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-//WoF and WoI
+//-------------------------------------------------------- WoF and WoI
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Fade")>0) (SOCK=0 OR SOCK=3)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, Fade%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Weapon Block")>0) (SOCK=0 OR SOCK=3)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, Cblock%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %NAME% %WHITE%(%ORANGE%3 WoF, 3 Inferno, BoI%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
@@ -536,13 +518,13 @@ ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake o
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %NAME% %WHITE%(%ORANGE%3 WoF, BoI%WHITE%) %PURPLE%[%SOCKETS%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("Wake of Fire")=3 (SOCK=0 OR SOCK=3)]: %NAME% %WHITE%(%ORANGE%+3 WoF%WHITE%) %WHITE%[%RED%%SOCKETS%%WHITE%] {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Wake of Fire")=3)]: %NAME% %WHITE%(%DGREEN%+6 WoF%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-//Lightning Sentry
+//-------------------------------------------------------- Lightning Sentry
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Fade")>0) (SOCK=0 OR SOCK=3)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, Fade%WHITE%) {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Weapon Block")>0) (SOCK=0 OR SOCK=3)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, CBlock%WHITE%) {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death, BoI%WHITE%) {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3) (SOCK=0 OR SOCK=3)]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%3 Light, 3 Death%WHITE%) {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
 
-//Paladin
+//-------------------------------------------------------- Paladin
 ItemDisplay[CLVL<50 WP13 SKILL("Holy Bolt")>1]: %GREEN%Holy Bolt Stick %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG !ETH pab RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!TOPTIER!% %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%45 Res%WHITE%)  %!TOPEND!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN} <<HUNIQUE>>
 ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!HIGHTIER!% %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%)  %!HIGHEND!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN} <<BASE>>
@@ -553,11 +535,11 @@ ItemDisplay[(WEAPON) (!INF AND !ETH) SKILL("Sanctuary")=3 (SOCK=0 OR SOCK=4)]: +
 ItemDisplay[CL3 !ETH NMAG RES<30 CLVL>54]:
 ItemDisplay[CL3 ETH NMAG]:
 
-//Amazon
+//-------------------------------------------------------- Amazon
 ItemDisplay[!UNI TABSK2>1 (am5 OR amf OR ama) CLVL<70]: %BLUE%Javs %PURPLE%+2 <<LADDERSTART>>
 ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%Javs %PURPLE%+3 <<LADDERSTART>>
 ItemDisplay[amc SOCK=4 NMAG TABSK0=3]: %DGREEN%Faith Base %PURPLE%[%SOCKETS%]
-ItemDisplay[MAG !ID ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
+//- ItemDisplay[MAG !ID ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
 ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %GREEN%#
 ItemDisplay[MAG ID (am5 OR ama OR amf) TABSK2=6]: %GREEN%6 Jav <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2=6 AND IAS=40)]: %ORANGE%*** %PURPLE% %GREEN%6 Jav %YELLOW%40 IAS %ORANGE%*** <<MAGIC>>
@@ -569,7 +551,7 @@ ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2>1 AND CLSK0>0 AND IAS>29)]: %PURP
 ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND CLSK0>0 AND IAS>29)]: %PURPLE% **%GREEN% 3 Jav%YELLOW% 30+ IAS %PURPLE% ** <<MAGIC>>
 ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>29)]: %PURPLE% **%GREEN% 3 Jav%YELLOW% 30+ IAS%PURPLE% ** <<MAGIC>>
 
-//Druid
+//-------------------------------------------------------- Druid
 ItemDisplay[CLVL<30 CL1 SKILL("Arctic Blast")>1]: %PURPLE%Arctic Blast %NAME% <<LADDERSTART>>
 ItemDisplay[CLVL<90 NMAG SKILL("Summon Grizzly")=3 CL1]: %PURPLE%Grizzly %ORANGE%+3 %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG CL1 SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
@@ -578,47 +560,47 @@ ItemDisplay[NMAG CL1 SKILL("Tornado")=3] TABSK42=3: %RED%**%PURPLE%Tornado Helme
 ItemDisplay[NMAG CL1 SKILL("Hurricane")=3] TABSK42=3: %RED%**%PURPLE%Hurricane Helmet%RED%** <<MAGIC>>
 ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3] TABSK40=3: %RED%**%PURPLE%Grizzly Helmet%RED%** <<MAGIC>>
 
-//Necromancer
+//-------------------------------------------------------- Necromancer
 ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %RED%Hemorrhage %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %DGREEN%White Base%PURPLE%[%SOCKETS%] {DOL+IO} <<BASE>>
 ItemDisplay[CL4 FCR>9 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL% <<MAGIC>>
 ItemDisplay[CL4 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand <<MAGIC>>
 
-//Barbarian
+//-------------------------------------------------------- Barbarian
 ItemDisplay[CL2 SKILL("Battle Orders")=3 TABSK34=3]: %RED%**%PURPLE%Battle Orders Helmet%RED%** <<MAGIC>>
 ItemDisplay[CL2 SKILL("War Cry")=3 TABSK34=3]: %RED%**%PURPLE%Warcry Helmet%RED%** <<MAGIC>>
 
-//SMALL AND GRAND CHARMS
+//-------------------------------------------------------- SMALL AND GRAND CHARMS
 ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
-//GRAND CHARMS
+//-------------------------------------------------------- GRAND CHARMS
 ItemDisplay[MAG ID cm3 (TABSK0>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK50>0)]: %NAME% <<MAGIC>>
 ItemDisplay[MAG ID cm3 STAT22>8]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Grand Charm <<MAGIC>>
 ItemDisplay[MAG ID cm3 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Grand Charm <<MAGIC>>
 
-//ItemDisplay[MAG ID cm3 TABSK0>0]: %!MIDTIER!% %WHITE%Bow & Crossbow GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK2>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK10>0]: %!MIDTIER!% %WHITE%Cold GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK16>0]: %!HIGHTIER!% %WHITE%Curse GC %!HIGHEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK17>0]: %!MIDTIER!% %WHITE%Poison & Bone GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK18>0]: %!MIDTIER!% %WHITE%Necro Summon GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK24>0]: %!MIDTIER!% %WHITE%Paladin Combat GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK25>0]: %!MIDTIER!% %WHITE%Offensive Aura GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK32>0]: %!MIDTIER!% %WHITE%Barbarian Combat GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK33>0]: %!MIDTIER!% %WHITE%Masteries GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK34>0]: %!MIDTIER!% %WHITE%Warcries GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK40>0]: %!MIDTIER!% %WHITE%Druid Summoning GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK41>0]: %!MIDTIER!% %WHITE%Druid Shapeshifting GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK42>0]: %!MIDTIER!% %WHITE%Druid Elemental GC %!MIDEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<MAGIC>>
-//ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK0>0]: %!MIDTIER!% %WHITE%Bow & Crossbow GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK2>0]: %!MIDTIER!% %WHITE%Jav & Spear GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK8>0]: %!MIDTIER!% %WHITE%Fire GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK9>0]: %!MIDTIER!% %WHITE%Lightning GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK10>0]: %!MIDTIER!% %WHITE%Cold GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK16>0]: %!HIGHTIER!% %WHITE%Curse GC %!HIGHEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK17>0]: %!MIDTIER!% %WHITE%Poison & Bone GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK18>0]: %!MIDTIER!% %WHITE%Necro Summon GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK24>0]: %!MIDTIER!% %WHITE%Paladin Combat GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK25>0]: %!MIDTIER!% %WHITE%Offensive Aura GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK32>0]: %!MIDTIER!% %WHITE%Barbarian Combat GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK33>0]: %!MIDTIER!% %WHITE%Masteries GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK34>0]: %!MIDTIER!% %WHITE%Warcries GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK40>0]: %!MIDTIER!% %WHITE%Druid Summoning GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK41>0]: %!MIDTIER!% %WHITE%Druid Shapeshifting GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK42>0]: %!MIDTIER!% %WHITE%Druid Elemental GC %!MIDEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK48>0]: %!HIGHTIER!% %WHITE%Traps GC %!HIGHEND!% <<MAGIC>>
+//- ItemDisplay[MAG ID cm3 TABSK50>0]: %!MIDTIER!% %WHITE%Martial Arts GC %!MIDEND!% <<MAGIC>>
 
 ItemDisplay[MAG ID cm3 ILVL>90]: %BLUE%--------------%NL%%RED%BETTER LUCK NEXT TIME%NL% %BLUE%%NAME% %PURPLE%[L%ILVL%] %NL%%GREEN%REROLL
 
-//SMALL CHARMS
+//-------------------------------------------------------- SMALL CHARMS
 ItemDisplay[MAG ID cm1 STAT22=3]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%] %BLUE%Small Charm  <<MAGIC>>
 ItemDisplay[MAG ID cm1 STAT58>205]: %BLUE%Poison Damage%RED%[%WHITE%%STAT(58,0)%%RED%] %BLUE%Small Charm  <<MAGIC>>
 ItemDisplay[MAG ID cm1 MANA>10 LIFE>10]: %BLUE%Life%RED%[%WHITE%%STAT(7,0)%%RED%] & %BLUE%Mana%RED%[%WHITE%%STAT(9,0)%%RED%] %BLUE%Small Charm <<MAGIC>>
@@ -629,88 +611,117 @@ ItemDisplay[MAG ID cm1 PRES>2]: %BLUE%Poison Resist%RED%[%WHITE%%STAT(45,0)%%WHI
 ItemDisplay[MAG ID cm1 CRES>2]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
 ItemDisplay[MAG ID cm1 MFIND>2]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
 
-//MAGIC & RARES start
+//-------------------------------------------------------- MAGIC & RARES start
 
-//1sk/20fcr helmets & 2sk/20 fcr helmets
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK1>1)]: %PURPLE%*** %YELLOW%2 Sorc & 20 FCR %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK1=1)]: %GOLD%*** %YELLOW%1 Sorc & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK8>1)]: %GOLD%*** %YELLOW%2 Fire & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK10>1)]: %GOLD%*** %YELLOW%2 Cold & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK9>1)]: %GOLD%*** %YELLOW%2 Light & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK2>1)]: %PURPLE%*** %YELLOW%2 Necro & 20 FCR %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK2=1)]: %GOLD%*** %YELLOW%1 Necro & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK17>1)]: %GOLD%*** %YELLOW%2 Psn&Bone & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK5=1)]: %GOLD%*** %YELLOW%1 Druid & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK5>1)]: %GOLD%*** %YELLOW%2 Druid & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK42>1)]: %GOLD%*** %YELLOW%2 Elemental & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK42=1)]: %GOLD%*** %YELLOW%1 Elemental & 20 FCR %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND CLSK3>1)]: %PURPLE%*** %YELLOW%2 Pala & 20 FCR %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT105>19 AND TABSK24>1)]: %GOLD%*** %YELLOW%2 Pcomb & 20 FCR %GOLD***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=10 AND CLSK6>1)]: %GOLD%*** %YELLOW%2 Sin & 10 FRW %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=20 AND CLSK6>1)]: %PURPLE%*** %YELLOW%2 Sin & 20 FRW %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=30 AND CLSK6>1)]: %PURPLE%*** %YELLOW%2 Sin & 30 FRW %PURPLE%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=10 AND CLSK6=1)]: %GOLD%*** %YELLOW%1 Sin & 10 FRW %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=20 AND CLSK6=1)]: %GOLD%*** %YELLOW%1 Sin & 20 FRW %GOLD%***
-ItemDisplay[RARE ID (ci2 OR ci3) (STAT96=20 AND CLSK6=1)]: %GOLD%*** %YELLOW%1 Sin & 30 FRW %GOLD%***
+//-------------------------------------------------------- Weapons
 
-//Coronets & Circlets (needs upgrade to slam 3os)
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK1>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK1=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK8>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK10>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK9>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK2>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK2=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK17>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK5=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK5>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK42>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK42=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND CLSK3>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT105>19 AND TABSK24>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=10 AND CLSK6>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6>1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=10 AND CLSK6=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID (ci0 OR ci1) (STAT96=20 AND CLSK6=1)]: %WHITE%!!! %RED%Upgrade before slam%WHITE% !!!%NL%%ORANGE%Ral Thul %PURPLE%P-Ame
-ItemDisplay[RARE ID EQ7]: %NAME% <<MAGIC>>
+//-------------------------------------------------------- Rare Melee
+ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr)]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level} <<MAGIC>>
+ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) STAT25>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS  %!HIGHEND!% <<MAGIC>>
+
+//-------------------------------------------------------- Class Specific Rares
+ItemDisplay[RARE (CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
+
+
+//-------------------------------------------------------- Circlets
+//-------------------------------------------------------- Amazon
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND CLSK0=2)]: %!MIDTIER!% %GOLD%+2 Zon + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK0=2)]: %!MIDTIER!% %GOLD%+2 Bow + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK2=2)]: %!MIDTIER!% %GOLD%+2 Java + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+//-------------------------------------------------------- Sorceress
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK1=2)]: %!MIDTIER!% %GOLD%+2 Sorc + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK8=2)]: %!MIDTIER!% %GOLD%+2 Fire + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK10=2)]: %!MIDTIER!% %GOLD%+2 Cold + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK9=2)]: %!MIDTIER!% %GOLD%+2 Light + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+//-------------------------------------------------------- Necromancer
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK2=2)]: %!MIDTIER!% %GOLD%+2 Necro + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK16=2)]: %!MIDTIER!% %GOLD%+2 Curse + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK17=2)]: %!MIDTIER!% %GOLD%+2 Psn & Bone + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK16=2)]: %!MIDTIER!% %GOLD%+2 Curse + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+//-------------------------------------------------------- Druid
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK5=2 AND RES>9)]: %!MIDTIER!% %GOLD%+2 Druid + FCR[%WHITE%%STAT(FCR)%%RED%] + RES[%WHITE%%STAT(RES)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK42=2 AND RES>9)]: %!MIDTIER!% %GOLD%+2 Elemental + FCR [%WHITE%%STAT(FCR)%%RED%] + RES[%WHITE%%STAT(RES)%%RED%] %!MIDEND!%
+//-------------------------------------------------------- Paladin
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK3=2)]: %!MIDTIER!% %GOLD%+2 Pala + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK2=2)]: %!MIDTIER!% %GOLD%+2 Pala Combat + FCR[%WHITE%%STAT(FCR)%%RED%]
+//-------------------------------------------------------- Assassin
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND CLSK6=2)]: %!MIDTIER!% %GOLD%+2 Sin + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK48=2)]: %!MIDTIER!% %GOLD%+2 Traps + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK50=2)]: %!MIDTIER!% %GOLD%+2 MA + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+//-------------------------------------------------------- Circlets (Upgrade before slam)
+//-------------------------------------------------------- Amazon
+ItemDisplay[RARE ID (ci0 OR ci1) (FRW=10 AND CLSK0=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FRW=20 AND CLSK0=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FRW=30 AND CLSK0=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+//-------------------------------------------------------- Sorceress
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND CLSK1=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%P Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND TABSK8=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%P Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND TABSK10=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND TABSK9=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+//-------------------------------------------------------- Necromancer
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND CLSK2=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND TABSK16=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND TABSK17=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+//-------------------------------------------------------- Druid
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND RES>9 AND CLSK5=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND RES>9 AND TABSK42=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+//-------------------------------------------------------- Paladin
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND CLSK3=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FCR=20 AND TABSK2=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+//-------------------------------------------------------- Assassin
+ItemDisplay[RARE ID (ci0 OR ci1) (FRW>19 AND CLSK6=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FRW>19 AND TABSK48=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+ItemDisplay[RARE ID (ci0 OR ci1) (FRW>19 AND TABSK50=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
+
+ItemDisplay[RARE ID EQ7]:
 ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME% <<MAGIC>>
 
-//Rare Boots
+//-------------------------------------------------------- Rare Boots
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 !ID]: %NAME% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (CRES>0 AND LRES>0 AND FRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (PRES>0 AND LRES>0 AND FRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (CRES>0 AND PRES>0 AND FRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (CRES>0 AND LRES>0 AND PRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 
-//Rare Gloves
+//-------------------------------------------------------- Rare Gloves
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 !ID]: %NAME% <<MAGIC>>
-//Jav+IAS
+//-------------------------------------------------------- Jav+IAS
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND TABSK2=2 AND IAS=20)]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND FRES>0 AND TABSK2=2 AND IAS=20)]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND PRES>0 AND TABSK2=2 AND IAS=20)]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (FRES>0 AND PRES>0 AND TABSK2=2 AND IAS=20)]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (LRES>0 AND FRES>0 AND TABSK2=2 AND IAS=20)]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (LRES>0 AND PRES>0 AND TABSK2=2 AND IAS=20)]: %!TOPTIER!% Jav/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
-
-ItemDisplay[(RARE OR CRAFT) ID EQ4 (IAS=20 AND TABSK2=2)]: %!MIDTIER!% 2 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
-ItemDisplay[(RARE OR CRAFT) ID EQ4 (IAS=20 AND TABSK2=1)]: %!MIDTIER!% 1 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
-ItemDisplay[(RARE OR CRAFT) ID EQ4 (IAS=20 AND TABSK0=2)]: %!MIDTIER!% 2 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
-ItemDisplay[(RARE OR CRAFT) ID EQ4 (IAS=20 AND TABSK0=1)]: %!MIDTIER!% 1 Jav & 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
-//IAS+Tri Res
+ItemDisplay[(RARE OR CRAFT) ID EQ4 (IAS=20 AND TABSK2=2)]: %!MIDTIER!% 2 Jav + 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
+//-------------------------------------------------------- Bow+IAS
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND TABSK0=2 AND IAS=20)]: %!TOPTIER!% Bow/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND FRES>0 AND TABSK0=2 AND IAS=20)]: %!TOPTIER!% Bow/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND PRES>0 AND TABSK0=2 AND IAS=20)]: %!TOPTIER!% Bow/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (FRES>0 AND PRES>0 AND TABSK0=2 AND IAS=20)]: %!TOPTIER!% Bow/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (LRES>0 AND FRES>0 AND TABSK0=2 AND IAS=20)]: %!TOPTIER!% Bow/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (LRES>0 AND PRES>0 AND TABSK0=2 AND IAS=20)]: %!TOPTIER!% Bow/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+//-------------------------------------------------------- MA+IAS
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND TABSK50=2 AND IAS=20)]: %!TOPTIER!% MA/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND FRES>0 AND TABSK50=2 AND IAS=20)]: %!TOPTIER!% MA/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND PRES>0 AND TABSK50=2 AND IAS=20)]: %!TOPTIER!% MA/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (FRES>0 AND PRES>0 AND TABSK50=2 AND IAS=20)]: %!TOPTIER!% MA/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (LRES>0 AND FRES>0 AND TABSK50=2 AND IAS=20)]: %!TOPTIER!% MA/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (LRES>0 AND PRES>0 AND TABSK50=2 AND IAS=20)]: %!TOPTIER!% MA/IAS Dual Res Gloves %!TOPEND!% <<MAGIC>>
+ItemDisplay[(RARE OR CRAFT) ID EQ4 (IAS=20 AND TABSK50=2)]: %!MIDTIER!% 2 MA + 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
+ItemDisplay[(RARE OR CRAFT) ID EQ4 (IAS=20 AND TABSK0=2)]: %!MIDTIER!% 2 Bow + 20 IAS Gloves %!MIDEND!%  <<MAGIC>>
+//-------------------------------------------------------- IAS+Tri Res
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND FRES>0 AND IAS>9)]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (PRES>0 AND LRES>0 AND FRES>0 AND IAS>9)]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND PRES>0 AND FRES>0 AND IAS>9)]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND PRES>0 AND IAS>9)]: %!HIGHTIER!% IAS Tri Res Gloves %!HIGHEND!% <<MAGIC>>
-//Tri Res
+//-------------------------------------------------------- Tri Res
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND FRES>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (PRES>0 AND LRES>0 AND FRES>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND PRES>0 AND FRES>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND PRES>0)]: %!MIDTIER!% Tri Res Gloves %!MIDEND!% <<MAGIC>>
 
-//Rare Rings
-//Dual Leech
+//-------------------------------------------------------- Rare Rings
+//-------------------------------------------------------- Dual Leech
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND RES>4 AND STR>14)]: %!HIGHTIER!% %RED%STR%RED%[%WHITE%%STR%%RED%] %PURPLE%All Res%RED%[%WHITE%%RES%%RED%] %RED%LS%RED%[%WHITE%%STAT(60,0)%%RED%] %BLUE%ML%RED%[%WHITE%%STAT(62,0)%%RED%] %WHITE%Ring %!HIGHEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND RES>4 AND LIFE>19)]: %!HIGHTIER!% %RED%Life%RED%[%WHITE%%LIFE%%RED%] %PURPLE%All Res%RED%[%WHITE%%RES%%RED%] %RED%LS%RED%[%WHITE%%STAT(60,0)%%RED%] %BLUE%ML%RED%[%WHITE%%STAT(62,0)%%RED%] %WHITE%Ring %!HIGHEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND RES>4 AND AR>49)]: %!MIDTIER!% %WHITE%AR%RED%[%WHITE%%STAT(19,0)%%RED%] %PURPLE%All Res%RED%[%WHITE%%RES%%RED%] %RED%LS%RED%[%WHITE%%STAT(60,0)%%RED%] %BLUE%ML%RED%[%WHITE%%STAT(62,0)%%RED%] %WHITE%Ring %!MIDEND!% <<MAGIC>>
@@ -722,7 +733,7 @@ ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND FRES>0 AND PR
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND LRES>0 AND FRES>0 AND AR>49)]: %!MIDTIER!% AR All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND LRES>0 AND PRES>0 AND AR>49)]: %!MIDTIER!% AR All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2)]: %!MIDTIER!% Dual Leech Ring %!MIDEND!% <<MAGIC>>
-//FCR
+//-------------------------------------------------------- FCR
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND RES>4 AND STR>14 AND LIFE>19)]: %!TOPTIER!% %RED%STR%RED%[%WHITE%%STR%%RED%] %RED%Life%RED%[%WHITE%%LIFE%%RED%] %PURPLE%All Res%RED%[%WHITE%%RES%%RED%] %WHITE%FCR%RED%[%WHITE%%FCR%%RED%] %WHITE%Ring %!TOPEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND RES>4 AND STR>14)]: %!HIGHTIER!% %RED%STR%RED%[%WHITE%%STR%%RED%] %PURPLE%All Res%RED%[%WHITE%%RES%%RED%] %WHITE%FCR%RED%[%WHITE%%FCR%%RED%] %WHITE%Ring %!HIGHEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND RES>4)]: %!MIDTIER!% All Res FCR Ring %!MIDEND!% <<MAGIC>>
@@ -732,38 +743,38 @@ ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND CRES>0 AND LRES>0)]: %!MIDTIE
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND LRES>0 AND PRES>0)]: %!MIDTIER!% Dual Res FCR Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND LRES>0 AND FRES>0)]: %!MIDTIER!% Dual Res FCR Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND FRES>0 AND PRES>0)]: %!MIDTIER!% Dual Res FCR Ring %!MIDEND!% <<MAGIC>>
-//Magic Ring
+//-------------------------------------------------------- Magic Ring
 ItemDisplay[MAG ID rin ILVL>85]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: AMN %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: SOL %WHITE%+J+ %RED%RUBY%NL%%ORANGE%----CRAFTING----}
 
-//Amulets
-//FCR All Skills Slammed
+//-------------------------------------------------------- Amulets
+//-------------------------------------------------------- FCR All Skills Slammed
 ItemDisplay[MAG ID amu (TABSK16=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Curse Amulet  %!TOPEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK9=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Lightning Amulet  %!TOPEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK34=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Warcries Amulet  %!TOPEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK2=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Javazon Amulet  %!TOPEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK48=3 AND ALLSK=1 AND FCR>9)]: %!TOPTIER!% %PURPLE%FCR %GOLD%All Skills Traps Amulet  %!TOPEND!% <<MAGIC>>
-//All Skills Slammed
+//-------------------------------------------------------- All Skills Slammed
 ItemDisplay[MAG ID amu (TABSK16=3 AND ALLSK=1)]: %!TOPTIER!% %GOLD%All Skills Curse Amulet  %!TOPEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK9=3 AND ALLSK=1)]: %!HIGHTIER!% %GOLD%All Skills Lightning Amulet  %!HIGHEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK34=3 AND ALLSK=1)]: %!HIGHTIER!% %GOLD%All Skills Warcries Amulet  %!HIGHEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK2=3 AND ALLSK=1)]: %!HIGHTIER!% %GOLD%All Skills Javazon Amulet  %!HIGHEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK48=3 AND ALLSK=1)]: %!TOPTIER!% %GOLD%All Skills Traps Amulet  %!TOPEND!% <<MAGIC>>
-//FCR
+//-------------------------------------------------------- FCR
 ItemDisplay[MAG ID amu (TABSK16=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Curse Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK9=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Lightning Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK34=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Warcries Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK2=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Javazon Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu (TABSK48=3 AND FCR>9)]: %!HIGHTIER!% %PURPLE%FCR Traps Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
-//Valuable Tabskills
+//-------------------------------------------------------- Valuable Tabskills
 ItemDisplay[MAG ID amu TABSK16=3]: %!MIDTIER!% %WHITE%Curse Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu TABSK9=3]: %!MIDTIER!% %WHITE%Lightning Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu TABSK34=3]: %!MIDTIER!% %WHITE%Warcries Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu TABSK2=3]: %!MIDTIER!% %WHITE%Javazon Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID amu TABSK48=3]: %!MIDTIER!% %WHITE%Traps Amulet %NL%%RED%SLAM %!MIDEND!% <<MAGIC>>
-//Good for crafting
+//-------------------------------------------------------- Good for crafting
 ItemDisplay[MAG ID amu ILVL>90]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: RAL %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: AMN %WHITE%+J+ %RED%RUBY%NL%%BLUE%HITPOWER: THUL %WHITE%+J+ %BLUE%SAPPHIRE%NL%%ORANGE%----CRAFTING----}
 
-//Jewels
+//-------------------------------------------------------- Jewels
 ItemDisplay[MAG ID jew (STAT25>37 AND IAS=15)]: %!HIGHTIER!% IAS + ED Jewel %!HIGHEND!% <<MAGIC>>
 ItemDisplay[RARE ID jew (STAT25>27 AND FHR=7 AND RES>7)]: %!HIGHTIER!% FHR + ED + RES Jewel %!HIGHEND!% <<MAGIC>>
 ItemDisplay[RARE ID jew (MAEK>1 AND FHR=7 AND RES>7)]: %!HIGHTIER!% FHR + MAEK + RES Jewel %!HIGHEND!% <<MAGIC>>
@@ -771,182 +782,173 @@ ItemDisplay[MAG ID jew (STAT25>37 AND STAT22>13)]: %!MIDTIER!% 37%+ED 13+Max Dmg
 ItemDisplay[MAG ID jew STAT22>27]: %!MIDTIER!% 27+ Max Dmg Jewel %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID jew STAT25>37]: %!LOWTIER!% 37%+ ED Jewel %!LOWEND!% <<MAGIC>>
 
-//Weapons
-
-//Rare Melee
-ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr)]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level} <<MAGIC>>
-ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) STAT25>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS  %!HIGHEND!% <<MAGIC>>
-
-//Class Specific Rares
-ItemDisplay[RARE (CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
-
-//Arrows
-
-//Rare Arrows/Bolts
+//-------------------------------------------------------- ARROWS start
+//-------------------------------------------------------- Rare Arrows/Bolts
 ItemDisplay[RARE !ID (aq2 OR cq2)]: %NAME%
 ItemDisplay[MAG (aq2 OR cq2)]:
+//-------------------------------------------------------- Physical Arrows/Bolts
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0>0 AND STAT218>2 AND STAT21>0 AND IAS>0)]: %!TOPTIER!% %GOLD%Insane Phys Arrows %!TOPEND!% <<HUNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (STAT156>0 AND STAT218>2 AND STAT21>0 AND IAS>0 AND STAT141>0)]: %!TOPTIER!% %GOLD%Insane Phys Arrows %!TOPEND!% <<HUNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (STAT156>0 AND STAT218>2 AND STAT21>0 AND IAS>0)]: %!HIGHTIER!% %GOLD%Phys Arrows %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (STAT141>0 AND STAT218>2 AND STAT21>0 AND IAS>0)]: %!HIGHTIER!% %GOLD%Phys Arrows %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (STAT218>2 AND STAT21>0 AND IAS>0)]: %!LOWTIER!% %GOLD%Phys Arrows %!LOWEND!%
+ItemDisplay[(aq2 OR cq2) !UNI (STAT218>2 AND STAT21>0 AND STAT141>0)]: %!LOWTIER!% %GOLD%Phys Arrows %!LOWEND!%
+ItemDisplay[(aq2 OR cq2) !UNI (STAT218>2 AND STAT21>0 AND STAT62>0)]: %!LOWTIER!% %GOLD%Phys Arrows %!LOWEND!%
+ItemDisplay[(aq2 OR cq2) !UNI (STAT218>2 AND STAT21>0 AND STAT136>0)]: %!LOWTIER!% %GOLD%Phys Arrows %!LOWEND!%
+ItemDisplay[(aq2 OR cq2) !UNI (STAT218>2 AND STAT21>0 AND STAT156>0)]: %!LOWTIER!% %GOLD%Phys Arrows %!LOWEND!%
+//-------------------------------------------------------- Elemental Arrows/Bolts
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0>0 AND IAS>0 AND STAT156>0 AND STAT495>0)]: %!TOPTIER!% %GOLD%Insane Ele Arrows %!TOPEND!% <<HUNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0>0 AND STAT156>0 AND STAT495>0)]: %!HIGHTIER!% %GOLD%Good Ele Arrows %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0>0 AND IAS>0 AND STAT495>0)]: %!HIGHTIER!% %GOLD%Good Ele Arrows %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0=3 AND STAT495>1)]: %!HIGHTIER!% %GOLD%Good Ele Arrows %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0>0 AND STAT495>0)]: %!MIDTIER!% %GOLD%Ele Arrows %!MIDEND!% <<UNIQUE>>
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0>0)]: %!LOWTIER!% %GOLD%Ele Arrows %!LOWEND!%
+ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND STAT495>0)]: %!LOWTIER!% %GOLD%Ele Arrows %!LOWEND!%
+ItemDisplay[(aq2 OR cq2) !UNI (TABSK0>0 AND STAT495>0)]: %!LOWTIER!% %GOLD%Ele Arrows %!LOWEND!%
+//-------------------------------------------------------- Other Arrows
+ItemDisplay[(aq2 OR cq2) !UNI (STAT240>0 AND MFIND>0)]: %!LOWTIER!% %GOLD%MF Arrows %!LOWEND!%
 
-ItemDisplay[(aq2 OR cq2) !UNI (STAT218>0 OR STAT21>0 OR ALLSK>0 OR TABSK0>0 OR STAT156>0 OR STAT62>0 OR STAT141>0 OR RES>0 OR IAS>0 OR STAT136>0 OR FRW>0)]: %NAME%%NL% %CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI ALLSK>0]: %NAME%%GOLD% +1 All Skill%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI TABSK0=1]: %NAME%%PURPLE% +1 AMA(Bow)%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI TABSK0=2]: %NAME%%PURPLE% +2 AMA(Bow)%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT218=3]: %NAME%%WHITE% +0.375 MAX/Level%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT218=4]: %NAME%%WHITE% +0.5 MAX/Level%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT218=5]: %NAME%%WHITE% +0.625 MAX/Level%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT21>0]: %NAME%%WHITE% +%STAT(21,0)%-%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT21>0]: %NAME%%WHITE%%STAT(22,0)%DMG%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT156>0]: %NAME%%ORANGE% +%STAT(156,0)%% Pierce%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT62>0]: %NAME%%BLUE% +%STAT(62,0)%% ML%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT141>0]: %NAME%%RED% +%STAT(141,0)%% DS%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI RES>0]: %NAME%%GOLD% +%RES%%%RED% A%PURPLE%L%ORANGE%L%DGREEN%RES%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI IAS>0]: %NAME%%GREEN% +%STAT(93,0)%% IAS%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI STAT136>0]: %NAME%%RED% +%STAT(136,0)%% CB%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI FRW>0]: %NAME%%DGREEN% +%STAT(96,0)%% RUN%CONTINUE%
-ItemDisplay[(aq2 OR cq2) !UNI (STAT218>0 OR STAT21>0 OR ALLSK>0 OR TABSK0>0 OR STAT156>0 OR STAT62>0 OR STAT141>0 OR RES>0 OR IAS>0 OR STAT136>0 OR FRW>0)]: %NAME%%CONTINUE%
+//-------------------------------------------------------- POTIONS start
+//-------------------------------------------------------- Health Potions
+ItemDisplay[hp1 CLVL<10]: %RED%+%WHITE%H//- Minor Healing Potion
+ItemDisplay[hp1 CLVL>9]: //- Hides Minor Healing Potions after 10
+ItemDisplay[hp2 CLVL<25]: %RED%+%WHITE%H//- Light Healing Potion
+ItemDisplay[hp2 CLVL>25]: //- Hides Light Healing Potions after 25
+ItemDisplay[hp3 CLVL<30]: %RED%+%WHITE%H//- Healing Potion
+ItemDisplay[hp3 CLVL>30]: //- Hides Healing Potions after after 30
+ItemDisplay[hp4 CLVL<29]: %RED%+%WHITE%H-//- Greater Healing Potion
+ItemDisplay[hp4 CLVL>29]: //- HIDE
+ItemDisplay[hp5]: %RED%+%WHITE%H+//- Super Healing Potion
+//-------------------------------------------------------- Mana Potions
+ItemDisplay[mp1 CLVL<10]: %BLUE%+%WHITE%M//- Minor Mana Potion
+ItemDisplay[mp1 CLVL>9]: //- Hides Minor Mana Potions after 10
+ItemDisplay[mp2 CLVL<25]: %BLUE%+%WHITE%M//- Light Mana Potion
+ItemDisplay[mp2 CLVL>25]: //- Hides Light Mana Potions after 25
+ItemDisplay[mp3 CLVL<30]: %BLUE%+%WHITE%M//- Mana Potion
+ItemDisplay[mp3 CLVL>30]: //- Hides Mana Potions after after 30
+ItemDisplay[mp4 CLVL<29]: %BLUE%+%WHITE%M-//- Greater Mana Potion
+ItemDisplay[mp4 CLVL>29]: //- HIDES
+ItemDisplay[mp5]: %BLUE%+%WHITE%M+//- Super Mana Potion
+//-------------------------------------------------------- Rejuv Potions
+ItemDisplay[rvs]: %PURPLE%+%WHITE%R//- Rejuv Potion
+ItemDisplay[rvl]: %PURPLE%+%WHITE%R+%PURPLE%+%WHITE%//- Full Rejuv Potion
 
-//POTIONS start
-// Health Potions
-ItemDisplay[hp1 CLVL<10]: %RED%+%WHITE%H// Minor Healing Potion
-ItemDisplay[hp1 CLVL>9]: // Hides Minor Healing Potions after 10
-ItemDisplay[hp2 CLVL<25]: %RED%+%WHITE%H// Light Healing Potion
-ItemDisplay[hp2 CLVL>25]: // Hides Light Healing Potions after 25
-ItemDisplay[hp3 CLVL<30]: %RED%+%WHITE%H// Healing Potion
-ItemDisplay[hp3 CLVL>30]: // Hides Healing Potions after after 30
-ItemDisplay[hp4 CLVL<29]: %RED%+%WHITE%H-// Greater Healing Potion
-ItemDisplay[hp4 CLVL>29]: // HIDE
-ItemDisplay[hp5]: %RED%+%WHITE%H+// Super Healing Potion
-
-// Mana Potions
-ItemDisplay[mp1 CLVL<10]: %BLUE%+%WHITE%M// Minor Mana Potion
-ItemDisplay[mp1 CLVL>9]: // Hides Minor Mana Potions after 10
-ItemDisplay[mp2 CLVL<25]: %BLUE%+%WHITE%M// Light Mana Potion
-ItemDisplay[mp2 CLVL>25]: // Hides Light Mana Potions after 25
-ItemDisplay[mp3 CLVL<30]: %BLUE%+%WHITE%M// Mana Potion
-ItemDisplay[mp3 CLVL>30]: // Hides Mana Potions after after 30
-ItemDisplay[mp4 CLVL<29]: %BLUE%+%WHITE%M-// Greater Mana Potion
-ItemDisplay[mp4 CLVL>29]: // HIDES
-ItemDisplay[mp5]: %BLUE%+%WHITE%M+// Super Mana Potion
-
-// Rejuv Potions
-ItemDisplay[rvs]: %PURPLE%+%WHITE%R// Rejuv Potion
-ItemDisplay[rvl]: %PURPLE%+%WHITE%R+%PURPLE%+%WHITE%// Full Rejuv Potion
-
-//UTILITIES start
-// Scrolls & Tomes
+//-------------------------------------------------------- UTILITIES start
+//-------------------------------------------------------- Scrolls & Tomes
 ItemDisplay[isc IDSCROLLS<5]: %RED%!%WHITE%ID%RED%!
 ItemDisplay[isc IDSCROLLS>4]:
 ItemDisplay[tsc TPSCROLLS<5]: %BLUE%!%WHITE%TP%BLUE%!
 ItemDisplay[tsc TPSCROLLS>4]:
 ItemDisplay[key CLVL<30]: %NAME%
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<10]: $$$
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]://Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]://- Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
 
-// Antidote, Stamina, and Thawing potions
+//-------------------------------------------------------- Antidote, Stamina, and Thawing potions
 ItemDisplay[yps]:
 ItemDisplay[vps CLVL<29]: Stam
-ItemDisplay[vps CLVL>29]: // HIDES
+ItemDisplay[vps CLVL>29]: //- HIDES
 ItemDisplay[wms CLVL<29]:
-ItemDisplay[wms CLVL>29]: // HIDES
+ItemDisplay[wms CLVL>29]: //- HIDES
 
-//QUEST ITEMS start
-ItemDisplay[hdm]: %NAME%// Horadric Malus
-ItemDisplay[bks]: %NAME%// Scroll of Inifuss
-ItemDisplay[bkd]: %NAME%// Scroll of Inifuss, deciphered
-ItemDisplay[leg]: %NAME%// Wirt's Leg
-ItemDisplay[ass]: %NAME%// Book of Skill
+//-------------------------------------------------------- QUEST ITEMS start
+ItemDisplay[hdm]: %NAME%//- Horadric Malus
+ItemDisplay[bks]: %NAME%//- Scroll of Inifuss
+ItemDisplay[bkd]: %NAME%//- Scroll of Inifuss, deciphered
+ItemDisplay[leg]: %NAME%//- Wirt's Leg
+ItemDisplay[ass]: %NAME%//- Book of Skill
 ItemDisplay[tr1]: %NAME%
-ItemDisplay[box]: %NAME%// Horadric Cube
-ItemDisplay[hst]: %NAME%// Horadric Staff
-ItemDisplay[msf]: %NAME%// Staff of Kings
-ItemDisplay[vip]: %NAME%// Amulet of the Viper
-ItemDisplay[j34]: %NAME%// A Jade Figurine
-ItemDisplay[g33]: %NAME%// Gidbinn
-ItemDisplay[qbr]: %NAME%// Khalim's Brain
-ItemDisplay[qey]: %NAME%// Khalim's Eye
-ItemDisplay[qf1]: %NAME%// Khalim's Flail
-ItemDisplay[qhr]: %NAME%// Khalim's Heart
-ItemDisplay[qf2]: %NAME%// Khalim's Will
-ItemDisplay[bbb]: %NAME%// Lam Esen's Tome
-ItemDisplay[mss]: %NAME%// Mephisto's Soulstone
-ItemDisplay[xyz]: %NAME%// Potion of Life
-ItemDisplay[g34]: %NAME%// The Golden Bird
-ItemDisplay[hfh]: %NAME%// Hellforge Hammer
-ItemDisplay[ice]: %NAME%// Malah's Potion
-ItemDisplay[tr2]: %NAME%// Scroll of Resistance
+ItemDisplay[box]: %NAME%//- Horadric Cube
+ItemDisplay[hst]: %NAME%//- Horadric Staff
+ItemDisplay[msf]: %NAME%//- Staff of Kings
+ItemDisplay[vip]: %NAME%//- Amulet of the Viper
+ItemDisplay[j34]: %NAME%//- A Jade Figurine
+ItemDisplay[g33]: %NAME%//- Gidbinn
+ItemDisplay[qbr]: %NAME%//- Khalim's Brain
+ItemDisplay[qey]: %NAME%//- Khalim's Eye
+ItemDisplay[qf1]: %NAME%//- Khalim's Flail
+ItemDisplay[qhr]: %NAME%//- Khalim's Heart
+ItemDisplay[qf2]: %NAME%//- Khalim's Will
+ItemDisplay[bbb]: %NAME%//- Lam Esen's Tome
+ItemDisplay[mss]: %NAME%//- Mephisto's Soulstone
+ItemDisplay[xyz]: %NAME%//- Potion of Life
+ItemDisplay[g34]: %NAME%//- The Golden Bird
+ItemDisplay[hfh]: %NAME%//- Hellforge Hammer
+ItemDisplay[ice]: %NAME%//- Malah's Potion
+ItemDisplay[tr2]: %NAME%//- Scroll of Resistance
 
-//POD SPECIFICS start
-ItemDisplay[cx5]: %RED%Orb of Corruption <<UNIQUE>> //OOC
-ItemDisplay[cx6]: %RED%%NAME%//Diablo's Soulstone
-ItemDisplay[cx7]: %RED%%NAME%//Key of Chaos
-ItemDisplay[cx8]: %RED%%NAME%//Orb of Enchantment (Old)
-ItemDisplay[maz]: %RED%%NAME%//Infernal Trial
+//-------------------------------------------------------- POD SPECIFICS start
+ItemDisplay[cx5]: %RED%Orb of Corruption <<UNIQUE>> //- OOC
+ItemDisplay[cx6]: %RED%%NAME%//- Diablo's Soulstone
+ItemDisplay[cx7]: %RED%%NAME%//- Key of Chaos
+ItemDisplay[cx8]: %RED%%NAME%//- Orb of Enchantment (Old)
+ItemDisplay[maz]: %RED%%NAME%//- Infernal Trial
 
-//GEMS start
-//Amethyst
+//-------------------------------------------------------- GEMS start
+//-------------------------------------------------------- Amethyst
 ItemDisplay[gcv CLVL<30]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst <:GEM: BackgroundColor = 75>
-ItemDisplay[gcv CLVL>29]: //HIDES
+ItemDisplay[gcv CLVL>29]: //- HIDES
 ItemDisplay[gfv CLVL<30]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst <:GEM: BackgroundColor = 75>
-ItemDisplay[gfv CLVL>29]: //HIDES
+ItemDisplay[gfv CLVL>29]: //- HIDES
 ItemDisplay[gsv CLVL<30]: %PURPLE%+%PURPLE%Amethyst <:GEM: BackgroundColor = 75>
-ItemDisplay[gsv CLVL>29]: //HIDES
+ItemDisplay[gsv CLVL>29]: //- HIDES
 ItemDisplay[gzv]: %NL%%PURPLE%+%WHITE%F %PURPLE%Ame%WHITE%%NL%%NL% <:GEM: BackgroundColor = 75>
 ItemDisplay[gpv]: %NL%%PURPLE%+%WHITE%P %PURPLE%Ame%WHITE%%NL%%NL% <:GEM: BackgroundColor = 75>
-//Emerald
+//-------------------------------------------------------- Emerald
 ItemDisplay[gcg CLVL<30]: %PURPLE%+%WHITE%Chipped %GREEN%Emerald <:GEM: BackgroundColor = 121>
-ItemDisplay[gcg CLVL>29]: //HIDES
+ItemDisplay[gcg CLVL>29]: //- HIDES
 ItemDisplay[gfg CLVL<30]: %PURPLE%+%WHITE%Flawed %GREEN%Emerald <:GEM: BackgroundColor = 121>
-ItemDisplay[gfg CLVL>29]: //HIDES
+ItemDisplay[gfg CLVL>29]: //- HIDES
 ItemDisplay[gsg CLVL<30]: %PURPLE%+%GREEN%Emerald <:GEM: BackgroundColor = 121>
-ItemDisplay[gsg CLVL>29]: //HIDES
+ItemDisplay[gsg CLVL>29]: //- HIDES
 ItemDisplay[glg]: %NL%%PURPLE%+%WHITE%F %GREEN%Eme%NL%%NL% <:GEM: BackgroundColor = 121>
 ItemDisplay[gpg]: %NL%%PURPLE%+%WHITE%P %GREEN%Eme%NL%%NL% <:GEM: BackgroundColor = 121>
-//Ruby
+//-------------------------------------------------------- Ruby
 ItemDisplay[gcr CLVL<30]: %PURPLE%+%WHITE%Chipped %RED%Ruby <:GEM: BackgroundColor = 98>
-ItemDisplay[gcr CLVL>29]: //HIDES
+ItemDisplay[gcr CLVL>29]: //- HIDES
 ItemDisplay[gfr CLVL<30]: %PURPLE%+%WHITE%Flawed %RED%Ruby <:GEM: BackgroundColor = 98>
-ItemDisplay[gfr CLVL>29]: //HIDES
+ItemDisplay[gfr CLVL>29]: //- HIDES
 ItemDisplay[gsr CLVL<30]: %PURPLE%+%RED%Ruby <:GEM: BackgroundColor = 98>
-ItemDisplay[gsr CLVL>29]: //HIDES
+ItemDisplay[gsr CLVL>29]: //- HIDES
 ItemDisplay[glr]: %NL%%PURPLE%+%WHITE%F %RED%Ruby%NL%%NL% <:GEM: BackgroundColor = 98>
 ItemDisplay[gpr]: %NL%%PURPLE%+%WHITE%P %RED%Ruby%NL%%NL% <:GEM: BackgroundColor = 98>
-//Sapphire
+//-------------------------------------------------------- Sapphire
 ItemDisplay[gcb CLVL<30]: %PURPLE%+%WHITE%Chipped %BLUE%Sapphire  <:GEM: BackgroundColor = RGB(0/0/255)>
-ItemDisplay[gcb CLVL>29]: //HIDES
+ItemDisplay[gcb CLVL>29]: //- HIDES
 ItemDisplay[gfb CLVL<30]: %PURPLE%+%WHITE%Flawed %BLUE%Sapphire  <:GEM: BackgroundColor = RGB(0/0/255)>
-ItemDisplay[gfb CLVL>29]: //HIDES
+ItemDisplay[gfb CLVL>29]: //- HIDES
 ItemDisplay[gsb CLVL<30]: %PURPLE%+%BLUE%Sapphire  <:GEM: BackgroundColor = RGB(0/0/255)>
-ItemDisplay[gsb CLVL>29]: //HIDES
+ItemDisplay[gsb CLVL>29]: //- HIDES
 ItemDisplay[glb]: %NL%%PURPLE%+%WHITE%F %BLUE%Sap%NL%%NL% <:GEM: BackgroundColor = RGB(0/0/255)>
 ItemDisplay[gpb]: %NL%%PURPLE%+%WHITE%P %BLUE%Sap%NL%%NL%  <:GEM: BackgroundColor = RGB(0/0/255)>
-//Topaz
+//-------------------------------------------------------- Topaz
 ItemDisplay[gcy CLVL<30]: %PURPLE%+%WHITE%Chipped %YELLOW%Topaz%WHITE% <:GEM: BackgroundColor = 111>
-ItemDisplay[gcy CLVL>29]: //HIDES
+ItemDisplay[gcy CLVL>29]: //- HIDES
 ItemDisplay[gfy CLVL<30]: %PURPLE%+%WHITE%Flawed %YELLOW%Topaz%WHITE% <:GEM: BackgroundColor = 111>
-ItemDisplay[gfy CLVL>29]: //HIDES
+ItemDisplay[gfy CLVL>29]: //- HIDES
 ItemDisplay[gsy CLVL<30]: %PURPLE%+%YELLOW%Topaz%WHITE% <:GEM: BackgroundColor = 111>
-ItemDisplay[gsy CLVL>29]: //HIDES
+ItemDisplay[gsy CLVL>29]: //- HIDES
 ItemDisplay[gly]: %NL%%PURPLE%+%WHITE%F %YELLOW%Topaz%NL%%NL% <:GEM: BackgroundColor = 111>
 ItemDisplay[gpy]: %NL%%PURPLE%+%WHITE%P %YELLOW%Topaz%NL%%NL% <:GEM: BackgroundColor = 111>
-//Diamond
+//-------------------------------------------------------- Diamond
 ItemDisplay[gcw CLVL<30]: %PURPLE%+%WHITE%Chipped %WHITE%Diamond%WHITE% <:GEM: BackgroundColor = 32>
-ItemDisplay[gcw CLVL>29]: //HIDES
+ItemDisplay[gcw CLVL>29]: //- HIDES
 ItemDisplay[gfw CLVL<30]: %PURPLE%+%WHITE%Flawed %WHITE%Diamond%WHITE% <:GEM: BackgroundColor = 32>
-ItemDisplay[gfw CLVL>29]: //HIDES
+ItemDisplay[gfw CLVL>29]: //- HIDES
 ItemDisplay[gsw CLVL<30]: %PURPLE%+%WHITE%Diamond%WHITE% <:GEM: BackgroundColor = 32>
-ItemDisplay[gsw CLVL>29]: //HIDES
+ItemDisplay[gsw CLVL>29]: //- HIDES
 ItemDisplay[glw]: %NL%%PURPLE%+%WHITE%F Dia%NL%%NL% <:GEM: BackgroundColor = 32>
 ItemDisplay[gpw]: %NL%%PURPLE%+%WHITE%P Dia%NL%%NL% <:GEM: BackgroundColor = 32>
-//Skull
+//-------------------------------------------------------- Skull
 ItemDisplay[skc CLVL<30]: %PURPLE%+%PURPLE%Chipped %GOLD%Skull <:GEM: BackgroundColor = 28>
-ItemDisplay[skc CLVL>29]: //HIDES
+ItemDisplay[skc CLVL>29]: //- HIDES
 ItemDisplay[skf CLVL<30]: %PURPLE%+%PURPLE%Flawed %GOLD%Skull <:GEM: BackgroundColor = 28>
-ItemDisplay[skf CLVL>29]: //HIDES
+ItemDisplay[skf CLVL>29]: //- HIDES
 ItemDisplay[sku CLVL<30]: %PURPLE%+%PURPLE%Normal %GOLD%Skull <:GEM: BackgroundColor = 28>
-ItemDisplay[sku CLVL>29]: //HIDES
+ItemDisplay[sku CLVL>29]: //- HIDES
 ItemDisplay[skl]: %NL%%PURPLE%+%PURPLE%F %GOLD%Skull%NL%%NL% <:GEM: BackgroundColor = 28>
 ItemDisplay[skz]: %NL%%PURPLE%+%PURPLE%P %GOLD%Skull%NL%%NL% <:GEM: BackgroundColor = 28>
 
-//KEYS AND ESSENCES start
+//-------------------------------------------------------- KEYS AND ESSENCES start
 ItemDisplay[pk1]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
 ItemDisplay[pk2]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
 ItemDisplay[pk3]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
@@ -958,10 +960,21 @@ ItemDisplay[dhn]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
 ItemDisplay[mbr]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
 ItemDisplay[bey]: %!MIDTIER!% %WHITE%%NAME%  %!MIDEND!% <<SPECIAL>>
 
-//Rare Orbs
+//-------------------------------------------------------- Rare Orbs
 ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
 
-//CATCHALL
+//-------------------------------------------------------- IMBUE
+ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
+
+//-------------------------------------------------------- JEWELLERY AND CHARMS start
+ItemDisplay[MAG !ID cm1]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[MAG !ID CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[MAG !ID cm3]: %NAME% %PURPLE%[L%ILVL%]
+ItemDisplay[MAG !ID jew]: %NL%%NAME% %PURPLE%%NL%%NL% <<GEM>>
+ItemDisplay[MAG !ID rin]:
+ItemDisplay[MAG !ID amu]: %BLUE%Amu%WHITE% [L%ILVL%]
+
+//-------------------------------------------------------- CATCHALL
 ItemDisplay[RW]: %NAME%
 ItemDisplay[CRAFT rin]: %NAME%
 ItemDisplay[CRAFT amu]: %NAME%
@@ -969,15 +982,15 @@ ItemDisplay[RARE rin]: %NAME%
 ItemDisplay[RARE amu]: %NAME%
 ItemDisplay[RARE jew]: %NAME%
 ItemDisplay[MAG ID jew]: %NAME%
-
-//Tiara Diadem Imbue Charsi
-ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
-// ^add %NAME% to find imbue-able tiara/diadem
-
-//JEWELLERY AND CHARMS start
-ItemDisplay[MAG !ID cm1]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[MAG !ID CLVL<50 cm2]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[MAG !ID cm3]: %NAME% %PURPLE%[L%ILVL%]
-ItemDisplay[MAG !ID jew]: %NL%%NAME% %PURPLE%%NL%%NL% <<GEM>>
-ItemDisplay[MAG !ID rin]:
-ItemDisplay[MAG !ID amu]: %BLUE%Amu%WHITE% [L%ILVL%]
+//-------------------------------------------------------- UNIQUES catchall start
+ItemDisplay[NORM UNI !ID]: UNIQUE %NAME%
+ItemDisplay[EXC UNI !ID]: Excep UNIQUE %NAME%
+ItemDisplay[ELT UNI !ID]: Elite UNIQUE %NAME%
+ItemDisplay[UNI]: %NAME%
+//-------------------------------------------------------- SETS catchall start
+ItemDisplay[NORM !ID SET]: SET %NAME%
+ItemDisplay[NORM SET]: %NAME%
+ItemDisplay[EXC !ID SET]: Excep SET %NAME%
+ItemDisplay[EXC SET]: %NAME%
+ItemDisplay[ELT !ID SET]: Elite SET %NAME%
+ItemDisplay[ELT SET]: %NAME%
