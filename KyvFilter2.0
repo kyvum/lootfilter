@@ -625,29 +625,29 @@ ItemDisplay[RARE (CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
 
 //-------------------------------------------------------- Circlets
 //-------------------------------------------------------- Amazon
-ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND CLSK0=2)]: %!MIDTIER!% %GOLD%+2 Zon + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK0=2)]: %!MIDTIER!% %GOLD%+2 Bow + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK2=2)]: %!MIDTIER!% %GOLD%+2 Java + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND CLSK0=2)]: %!MIDTIER!% %GOLD%+2 Zon + FRW%RED%[%WHITE%%STAT(96,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK0=2)]: %!MIDTIER!% %GOLD%+2 Bow + FRW%RED%[%WHITE%%STAT(96,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK2=2)]: %!MIDTIER!% %GOLD%+2 Java + FRW%RED%[%WHITE%%STAT(96,0)%%%RED%] %!MIDEND!%
 //-------------------------------------------------------- Sorceress
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK1=2)]: %!MIDTIER!% %GOLD%+2 Sorc + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK8=2)]: %!MIDTIER!% %GOLD%+2 Fire + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK10=2)]: %!MIDTIER!% %GOLD%+2 Cold + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK9=2)]: %!MIDTIER!% %GOLD%+2 Light + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK1=2)]: %!MIDTIER!% %GOLD%+2 Sorc + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK8=2)]: %!MIDTIER!% %GOLD%+2 Fire + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK10=2)]: %!MIDTIER!% %GOLD%+2 Cold + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK9=2)]: %!MIDTIER!% %GOLD%+2 Light + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
 //-------------------------------------------------------- Necromancer
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK2=2)]: %!MIDTIER!% %GOLD%+2 Necro + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK16=2)]: %!MIDTIER!% %GOLD%+2 Curse + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK17=2)]: %!MIDTIER!% %GOLD%+2 Psn & Bone + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK16=2)]: %!MIDTIER!% %GOLD%+2 Curse + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK2=2)]: %!MIDTIER!% %GOLD%+2 Necro + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK16=2)]: %!MIDTIER!% %GOLD%+2 Curse + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK17=2)]: %!MIDTIER!% %GOLD%+2 Psn & Bone + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK16=2)]: %!MIDTIER!% %GOLD%+2 Curse + FRW%RED%[%WHITE%%STAT(96,0)%%%RED%] %!MIDEND!%
 //-------------------------------------------------------- Druid
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK5=2 AND RES>9)]: %!MIDTIER!% %GOLD%+2 Druid + FCR[%WHITE%%STAT(FCR)%%RED%] + RES[%WHITE%%STAT(RES)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK42=2 AND RES>9)]: %!MIDTIER!% %GOLD%+2 Elemental + FCR [%WHITE%%STAT(FCR)%%RED%] + RES[%WHITE%%STAT(RES)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK5=2 AND RES>9)]: %!MIDTIER!% %GOLD%+2 Druid + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] + RES[%WHITE%%STAT(RES)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK42=2 AND RES>9)]: %!MIDTIER!% %GOLD%+2 Elemental + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] + RES[%WHITE%%STAT(RES)%%RED%] %!MIDEND!%
 //-------------------------------------------------------- Paladin
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK3=2)]: %!MIDTIER!% %GOLD%+2 Pala + FCR[%WHITE%%STAT(FCR)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK2=2)]: %!MIDTIER!% %GOLD%+2 Pala Combat + FCR[%WHITE%%STAT(FCR)%%RED%]
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND CLSK3=2)]: %!MIDTIER!% %GOLD%+2 Pala + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FCR=20 AND TABSK2=2)]: %!MIDTIER!% %GOLD%+2 Pala Combat + FCR%RED%[%WHITE%%STAT(105,0)%%%RED%]
 //-------------------------------------------------------- Assassin
-ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND CLSK6=2)]: %!MIDTIER!% %GOLD%+2 Sin + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK48=2)]: %!MIDTIER!% %GOLD%+2 Traps + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
-ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK50=2)]: %!MIDTIER!% %GOLD%+2 MA + FRW[%WHITE%%STAT(FRW)%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND CLSK6=2)]: %!MIDTIER!% %GOLD%+2 Sin + FRW%RED%[%WHITE%%STAT(96,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK48=2)]: %!MIDTIER!% %GOLD%+2 Traps + FRW%RED%[%WHITE%%STAT(96,0)%%%RED%] %!MIDEND!%
+ItemDisplay[RARE ID (ci2 OR ci3) (FRW>19 AND TABSK50=2)]: %!MIDTIER!% %GOLD%+2 MA + FRW%RED%[%WHITE%%STAT(96,0)%%%RED%] %!MIDEND!%
 //-------------------------------------------------------- Circlets (Upgrade before slam)
 //-------------------------------------------------------- Amazon
 ItemDisplay[RARE ID (ci0 OR ci1) (FRW=10 AND CLSK0=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
