@@ -572,6 +572,7 @@ ItemDisplay[CL2 SKILL("War Cry")=3 TABSK34=3]: %RED%**%PURPLE%Warcry Helmet%RED%
 
 //-------------------------------------------------------- SMALL AND GRAND CHARMS
 ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
+ItemDisplay[!ID cm3 ilvl>90]: %!LOWTIER!% %PURPLE%[L%ILVL%] %WHITE%%NAME% %PURPLE%[L%ILVL%] %!LOWEND!% <<MAGIC>>
 ItemDisplay[!ID cm3]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
 
 //-------------------------------------------------------- GRAND CHARMS
