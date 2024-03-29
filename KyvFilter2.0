@@ -605,11 +605,11 @@ ItemDisplay[MAG ID cm1 STAT22=3]: %BLUE%Max Damage%RED%[%WHITE%%STAT(24,0)%%RED%
 ItemDisplay[MAG ID cm1 STAT58>205]: %BLUE%Poison Damage%RED%[%WHITE%%STAT(58,0)%%RED%] %BLUE%Small Charm  <<MAGIC>>
 ItemDisplay[MAG ID cm1 MANA>10 LIFE>10]: %BLUE%Life%RED%[%WHITE%%STAT(7,0)%%RED%] & %BLUE%Mana%RED%[%WHITE%%STAT(9,0)%%RED%] %BLUE%Small Charm <<MAGIC>>
 ItemDisplay[MAG ID cm1 RES>2]: %BLUE%All Resist%RED%[%WHITE%%RES%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
-ItemDisplay[MAG ID cm1 LRES>2]: %BLUE%Lightning Resist%RED%[%WHITE%%STAT(41,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
-ItemDisplay[MAG ID cm1 FRES>2]: %BLUE%Fire Resist%RED%[%WHITE%%STAT(39,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
-ItemDisplay[MAG ID cm1 PRES>2]: %BLUE%Poison Resist%RED%[%WHITE%%STAT(45,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
-ItemDisplay[MAG ID cm1 CRES>2]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
-ItemDisplay[MAG ID cm1 MFIND>2]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 LRES>7]: %BLUE%Lightning Resist%RED%[%WHITE%%STAT(41,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 FRES>7]: %BLUE%Fire Resist%RED%[%WHITE%%STAT(39,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 PRES>7]: %BLUE%Poison Resist%RED%[%WHITE%%STAT(45,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 CRES>7]: %BLUE%Cold Resist%RED%[%WHITE%%STAT(43,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
+ItemDisplay[MAG ID cm1 MFIND>7]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%] %BLUE%Small Charm <<MAGIC>>
 
 //-------------------------------------------------------- MAGIC & RARES start
 
