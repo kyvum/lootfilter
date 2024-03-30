@@ -1,3 +1,4 @@
+
 //-------------------------------------------------------- KyvFilter 2.0
 Attribute[Author]: Kyvum
 Attribute[Name]: KyvFilter
@@ -552,13 +553,12 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND CLSK0>0 AND IAS>29)]: %PUR
 ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>29)]: %PURPLE% **%GREEN% 3 Jav%YELLOW% 30+ IAS%PURPLE% ** <<MAGIC>>
 
 //-------------------------------------------------------- Druid
-ItemDisplay[CLVL<30 CL1 SKILL("Arctic Blast")>1]: %PURPLE%Arctic Blast %NAME% <<LADDERSTART>>
-ItemDisplay[CLVL<90 NMAG SKILL("Summon Grizzly")=3 CL1]: %PURPLE%Grizzly %ORANGE%+3 %NAME% <<LADDERSTART>>
-ItemDisplay[NMAG CL1 SKILL("Rabies")=3] (SOCK=0 OR SOCK=3): Rabies Metamorph Base <<BASE>>
-ItemDisplay[NMAG CL1 SKILL("Volcano")=3] TABSK42=3: %RED%**%PURPLE%Volcano Helmet%RED%** <<MAGIC>>
-ItemDisplay[NMAG CL1 SKILL("Tornado")=3] TABSK42=3: %RED%**%PURPLE%Tornado Helmet%RED%** <<MAGIC>>
-ItemDisplay[NMAG CL1 SKILL("Hurricane")=3] TABSK42=3: %RED%**%PURPLE%Hurricane Helmet%RED%** <<MAGIC>>
-ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3] TABSK40=3: %RED%**%PURPLE%Grizzly Helmet%RED%** <<MAGIC>>
+ItemDisplay[CL1 SKILL("Arctic Blast")>1 CLVL<30]: %PURPLE%Arctic Blast %NAME% <<LADDERSTART>>
+ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3 CLVL<90]: %!LOWTIER!% Grizzly %ORANGE%+3 %NAME%%!LOWEND!% <<LADDERSTART>>
+ItemDisplay[NMAG CL1 SKILL("Rabies")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% Rabies Metamorph Base%!LOWEND!% <<BASE>>
+ItemDisplay[RARE CL1 SKILL("Volcano")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Volcano Helmet%!MIDEND!% <<MAGIC>>
+ItemDisplay[RARE CL1 SKILL("Tornado")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Tornado Helmet%!MIDEND!% <<MAGIC>>
+ItemDisplay[RARE CL1 SKILL("Hurricane")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Hurricane Helmet%!MIDEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Necromancer
 ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %RED%Hemorrhage %NAME% <<LADDERSTART>>
@@ -621,7 +621,7 @@ ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd 
 ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) STAT25>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS  %!HIGHEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Class Specific Rares
-ItemDisplay[RARE (CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE (CL1 OR CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
 
 
 //-------------------------------------------------------- Circlets
@@ -728,11 +728,11 @@ ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND RES>4 AND LIF
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND RES>4 AND AR>49)]: %!MIDTIER!% %WHITE%AR%RED%[%WHITE%%STAT(19,0)%%RED%] %PURPLE%All Res%RED%[%WHITE%%RES%%RED%] %RED%LS%RED%[%WHITE%%STAT(60,0)%%RED%] %BLUE%ML%RED%[%WHITE%%STAT(62,0)%%RED%] %WHITE%Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND RES>4)]: %!MIDTIER!% All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND CRES>0 AND PRES>0 AND AR>49)]: %!MIDTIER!% AR Dual Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
-ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND CRES>0 AND FRES>0 AND AR>49)]: %!MIDTIER!% AR All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
-ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND CRES>0 AND LRES>0 AND AR>49)]: %!MIDTIER!% AR All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
-ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND FRES>0 AND PRES>0 AND AR>49)]: %!MIDTIER!% AR All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
-ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND LRES>0 AND FRES>0 AND AR>49)]: %!MIDTIER!% AR All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
-ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND LRES>0 AND PRES>0 AND AR>49)]: %!MIDTIER!% AR All Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND CRES>0 AND FRES>0 AND AR>49)]: %!MIDTIER!% AR Dual Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND CRES>0 AND LRES>0 AND AR>49)]: %!MIDTIER!% AR Dual Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND FRES>0 AND PRES>0 AND AR>49)]: %!MIDTIER!% AR Dual Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND LRES>0 AND FRES>0 AND AR>49)]: %!MIDTIER!% AR Dual Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2 AND LRES>0 AND PRES>0 AND AR>49)]: %!MIDTIER!% AR Dual Res Dual Leech Ring %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (STAT60>2 AND STAT62>2)]: %!MIDTIER!% Dual Leech Ring %!MIDEND!% <<MAGIC>>
 //-------------------------------------------------------- FCR
 ItemDisplay[!ETH (RARE OR CRAFT) rin ID (FCR>9 AND RES>4 AND STR>14 AND LIFE>19)]: %!TOPTIER!% %RED%STR%RED%[%WHITE%%STR%%RED%] %RED%Life%RED%[%WHITE%%LIFE%%RED%] %PURPLE%All Res%RED%[%WHITE%%RES%%RED%] %WHITE%FCR%RED%[%WHITE%%FCR%%RED%] %WHITE%Ring %!TOPEND!% <<MAGIC>>
