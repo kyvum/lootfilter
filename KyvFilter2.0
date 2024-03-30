@@ -259,8 +259,8 @@ ItemDisplay[umg UNI !ID ETH]: %GRAY%ETH %GOLD%Soul Drainer
 ItemDisplay[uhg UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Steelrend %!HIGHEND!% <<UNIQUE>>
 ItemDisplay[uhg UNI !ID ETH]: %GRAY%ETH %GOLD%Steelrend
 //- Frostburn
-ItemDisplay[hgl UNI !ID !ETH]: %!LOWTIER!% %GREEN%Frostburn %!LOWEND!%
-ItemDisplay[hgl UNI !ID ETH]: %GREEN%ETH Frostburn
+ItemDisplay[hgl UNI !ID !ETH]: %!LOWTIER!% %GOLD%Frostburn %!LOWEND!%
+ItemDisplay[hgl UNI !ID ETH]: %GOLD%ETH Frostburn
 //- Laying of Hands
 ItemDisplay[ulg SET !ID !ETH]: %!LOWTIER!% %GREEN%Laying of Hands %!LOWEND!% <<SET>>
 ItemDisplay[ulg SET !ID ETH]: %GREEN%ETH Laying of Hands
