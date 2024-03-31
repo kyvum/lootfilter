@@ -539,8 +539,7 @@ ItemDisplay[CL3 ETH NMAG]:
 ItemDisplay[!UNI TABSK2>1 (am5 OR amf OR ama) CLVL<70]: %BLUE%Javs %PURPLE%+2 <<LADDERSTART>>
 ItemDisplay[!UNI TABSK2=3 (am5 OR amf OR ama) CLVL<70]: %BLUE%Javs %PURPLE%+3 <<LADDERSTART>>
 ItemDisplay[amc SOCK=4 NMAG TABSK0=3]: %DGREEN%Faith Base %PURPLE%[%SOCKETS%]
-//- ItemDisplay[MAG !ID ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
-ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %NAME% %GREEN%#
+ItemDisplay[MAG !ID !ETH ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
 ItemDisplay[MAG ID (am5 OR ama OR amf) TABSK2=6]: %GREEN%6 Jav <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2=6 AND IAS=40)]: %ORANGE%*** %PURPLE% %GREEN%6 Jav %YELLOW%40 IAS %ORANGE%*** <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2=6 AND IAS>40)]: %ORANGE%*** %PURPLE%%GREEN%6 Jav %PURPLE%40+ IAS %ORANGE%*** <<MAGIC>>
