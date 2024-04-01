@@ -531,7 +531,7 @@ ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!LOWTIER!% %GRE
 ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %!HIGHTIER!% %GREEN%PExile Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%)  %!HIGHEND!% {%ORANGE%EXILE: %DGREEN%VEX+OHM+IST+DOL} <<BASE>>
 ItemDisplay[NMAG CL3 RES>39 CLVL<85 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %GREEN%Paladin Shield Base%PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
 ItemDisplay[NMAG SOCK=4 (SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3) WP13]: %NAME% %GREEN%Insane Phoenix Base <<BASE>>
-ItemDisplay[(WEAPON) (!INF AND !ETH) SKILL("Sanctuary")=3 (SOCK=0 OR SOCK=4)]: +3 Sanc%PURPLE%[%SOCKETS%] <<BASE>>
+ItemDisplay[(WEAPON) (!INF AND !ETH) (TABSK25=3 AND SKILL("Sanctuary")=3) (SOCK=0 OR SOCK=4)]: +3 Sanc%PURPLE%[%SOCKETS%] <<BASE>>
 ItemDisplay[CL3 !ETH NMAG RES<30 CLVL>54]:
 ItemDisplay[CL3 ETH NMAG]:
 
