@@ -71,10 +71,10 @@ TextMacro[IAS]: IAS%RED%[%WHITE%%STAT(68,0)%%%RED%]
 //Other
 TextMacro[MFIND]: Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE%%%RED%]
 
-TextMacro[]: 
-TextMacro[]: 
-TextMacro[]: 
-TextMacro[]: 
+//TextMacro[]: 
+//TextMacro[]: 
+//TextMacro[]: 
+//TextMacro[]: 
 
 //-------------------------------------------------------- Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD>2500]: %NAME%
