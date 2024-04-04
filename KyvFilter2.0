@@ -98,8 +98,18 @@ ItemDisplay[(r27 OR r28 OR r29)]: %!HIGHTIER!% %WHITE%%NAME% %!HIGHEND!%<<RUNE>>
 ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %WHITE%%NAME% %!TOPEND!% <<HRUNE>>
 
 //-------------------------------------------------------- RELICS
-ItemDisplay[MAP !ID]: %RED%%NAME% <<RELIC>>
-ItemDisplay[MAP ID]: %RED%%NAME% <<RELIC>>
+//Tier 1 white
+ItemDisplay[MAP MAPTIER=1 !ID]: %!LOWTIER!% %WHITE%Tier I%%NL%%NAME% %!LOWEND!% <<RELIC>>
+ItemDisplay[MAP RARE MAPTIER=1 ID]: %!LOWTIER!% %WHITE%Tier I%NL%%YELLOW%%BASENAME% %!LOWEND!% <<RELIC>>
+ItemDisplay[MAP MAG MAPTIER=1 ID]: %!LOWTIER!% %WHITE%Tier I%NL%%BLUE%%BASENAME% %!LOWEND!% <<RELIC>>
+//Tier 2 yellow
+ItemDisplay[MAP MAPTIER=2 !ID]: %!MIDTIER!% %YELLOW%Tier II%%NL%%NAME% %!MIDEND!% <<RELIC>>
+ItemDisplay[MAP RARE MAPTIER=2 ID]: %!MIDTIER!% %YELLOW%Tier II%NL%%YELLOW%%BASENAME% %!MIDEND!% <<RELIC>>
+ItemDisplay[MAP MAG MAPTIER=2 ID]: %!LOWTIER!% %YELLOW%Tier II%NL%%BLUE%%BASENAME% %!LOWEND!% <<RELIC>>
+//Tier 3 red
+ItemDisplay[MAP MAPTIER=3 !ID]: %!HIGHTIER!% %RED%Tier III%%NL%%NAME% %!HIGHEND!% <<RELIC>>
+ItemDisplay[MAP RARE MAPTIER=3 ID]: %!HIGHTIER!% %RED%Tier III%NL%%YELLOW%%BASENAME% %!HIGHEND!% <<RELIC>>
+ItemDisplay[MAP MAG MAPTIER=3 ID]: %!MIDTIER!% %RED%Tier III%NL%%BLUE%%BASENAME% %!MIDEND!% <<RELIC>>
 
 //-------------------------------------------------------- CRAFTING BASES
 
