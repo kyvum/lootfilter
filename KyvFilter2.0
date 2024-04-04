@@ -155,13 +155,13 @@ ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) CLVL<85]: %DGREEN%%NAME% %PURPL
 ItemDisplay[NMAG !RW !ETH SUP SOCK=3 utp]: %!MIDTIER!%%DGREEN%3 Socket Armor Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%ENIGMA: %DGREEN%JAH+ITH+BER}%!MIDEND!% <<BASE>>
 ItemDisplay[NMAG !RW !ETH SUP SOCK=4 utp]: %DGREEN%4 Socket Armor Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%CoH: %DGREEN%DOL+UM+BER+IST} <<BASE>>
 //-------------------------------------------------------- Weapon Bases
-ItemDisplay[7cr !RW NMAG STAT25=15 SOCK=6]: %!MIDTIER!% %DGREEN%Last Wish Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%LAST WISH: %DGREEN%JAH+MAL+JAH+SUR+JAH+BER}  %!MIDEND!% <<BASE>>
-ItemDisplay[7gd !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
-ItemDisplay[7p7 !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
-ItemDisplay[6ws !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
-ItemDisplay[7wa !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
-ItemDisplay[7gm !RW ETH STAT25=9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
-ItemDisplay[7wa !RW ETH STAT25=9 NMAG SOCK=5]: %!MIDTIER!% %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%] {%ORANGE%DEATH: %DGREEN%HEL+EL+VEX+ORT+GUL} <<BASE>>
+ItemDisplay[7cr !RW NMAG ED=15 SOCK=6]: %!MIDTIER!% %DGREEN%Last Wish Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%LAST WISH: %DGREEN%JAH+MAL+JAH+SUR+JAH+BER}  %!MIDEND!% <<BASE>>
+ItemDisplay[7gd !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
+ItemDisplay[7p7 !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
+ItemDisplay[6ws !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
+ItemDisplay[7wa !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
+ItemDisplay[7gm !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH}  %!MIDEND!% <<BASE>>
+ItemDisplay[7wa !RW ETH ED>9 NMAG SOCK=5]: %!MIDTIER!% %DGREEN%ETH Death Base %PURPLE%[%SOCKETS%] {%ORANGE%DEATH: %DGREEN%HEL+EL+VEX+ORT+GUL} <<BASE>>
 //-------------------------------------------------------- Merc Bases
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 72h]: %DGREEN%MERC LAWBRINGER BASE%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%LAWBRINGER: %DGREEN%AMN+LEM+KO} <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %GRAY%ETH%DGREEN% Merc Polearm Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%INSIGHT: %DGREEN%RAL+TIR+TAL+SOL%NL%%ORANGE%INFINITY: %DGREEN%BER+MAL+BER+IST} <<BASE>>
@@ -566,8 +566,8 @@ ItemDisplay[CL4 FCR>9 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR H
 ItemDisplay[CL4 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand <<MAGIC>>
 
 //-------------------------------------------------------- Barbarian
-ItemDisplay[CL2 SKILL("Battle Orders")=3 TABSK34=3]: %RED%**%PURPLE%Battle Orders Helmet%RED%** <<MAGIC>>
-ItemDisplay[CL2 SKILL("War Cry")=3 TABSK34=3]: %RED%**%PURPLE%Warcry Helmet%RED%** <<MAGIC>>
+ItemDisplay[CL2 SKILL("Battle Orders")=3 TABSK34=3]: %PURPLE%Battle Orders Helmet <<MAGIC>>
+ItemDisplay[CL2 SKILL("War Cry")=3 TABSK34=3]: %PURPLE%Warcry Helmet <<MAGIC>>
 
 //-------------------------------------------------------- SMALL AND GRAND CHARMS
 ItemDisplay[!ID cm1]: %NAME% %PURPLE%[L%ILVL%] <<MAGIC>>
@@ -617,7 +617,7 @@ ItemDisplay[MAG ID cm1 MFIND>4]: %BLUE%Magic Find%RED%[%WHITE%%STAT(80,0)%%WHITE
 
 //-------------------------------------------------------- Rare Melee
 ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr)]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level} <<MAGIC>>
-ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) STAT25>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS  %!HIGHEND!% <<MAGIC>>
+ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) ED>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS  %!HIGHEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Class Specific Rares
 ItemDisplay[RARE (CL1 OR CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
@@ -778,12 +778,12 @@ ItemDisplay[MAG ID amu TABSK48=3]: %!MIDTIER!% %WHITE%Traps Amulet %NL%%RED%SLAM
 ItemDisplay[MAG ID amu ILVL>90]: %NAME% %ORANGE%[L%ILVL%] {%ORANGE%-------------------%NL%%PURPLE%CASTER: RAL %WHITE%+J+ %PURPLE%AMETHYST%NL%%RED%BLOOD: AMN %WHITE%+J+ %RED%RUBY%NL%%BLUE%HITPOWER: THUL %WHITE%+J+ %BLUE%SAPPHIRE%NL%%ORANGE%----CRAFTING----}
 
 //-------------------------------------------------------- Jewels
-ItemDisplay[MAG ID jew (STAT25>37 AND IAS=15)]: %!HIGHTIER!% IAS + ED Jewel %!HIGHEND!% <<MAGIC>>
-ItemDisplay[RARE ID jew (STAT25>27 AND FHR=7 AND RES>7)]: %!HIGHTIER!% FHR + ED + RES Jewel %!HIGHEND!% <<MAGIC>>
+ItemDisplay[MAG ID jew (ED>37 AND IAS=15)]: %!HIGHTIER!% IAS + ED Jewel %!HIGHEND!% <<MAGIC>>
+ItemDisplay[RARE ID jew (ED>27 AND FHR=7 AND RES>7)]: %!HIGHTIER!% FHR + ED + RES Jewel %!HIGHEND!% <<MAGIC>>
 ItemDisplay[RARE ID jew (MAEK>1 AND FHR=7 AND RES>7)]: %!HIGHTIER!% FHR + MAEK + RES Jewel %!HIGHEND!% <<MAGIC>>
-ItemDisplay[MAG ID jew (STAT25>37 AND STAT22>13)]: %!MIDTIER!% 37%+ED 13+Max Dmg Jewel %!MIDEND!% <<MAGIC>>
+ItemDisplay[MAG ID jew (ED>37 AND STAT22>13)]: %!MIDTIER!% 37%+ED 13+Max Dmg Jewel %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG ID jew STAT22>27]: %!MIDTIER!% 27+ Max Dmg Jewel %!MIDEND!% <<MAGIC>>
-ItemDisplay[MAG ID jew STAT25>37]: %!LOWTIER!% 37%+ ED Jewel %!LOWEND!% <<MAGIC>>
+ItemDisplay[MAG ID jew ED>37]: %!LOWTIER!% 37%+ ED Jewel %!LOWEND!% <<MAGIC>>
 
 //-------------------------------------------------------- ARROWS  
 //-------------------------------------------------------- Rare Arrows/Bolts
