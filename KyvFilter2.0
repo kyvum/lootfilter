@@ -163,6 +163,9 @@ ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3]: %!MIDTIER!% FOH 
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: %!TOPTIER!% FCR Hemo Weapon %!TOPEND!% <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3]: %!HIGHTIER!% Hemo Weapon %!HIGHEND!% <<GAMBLING>>
 
+//-------------------------------------------------------- Cube (show upgrade recipes)
+ItemDisplay[box]: %NAME%{%GOLD%Exceptional Armor > %ORANGE%Lem + Ko + %WHITE%Diamond %NL%%GOLD% Exceptional Weapon > %ORANGE%Lum + Pul + %GREEN%Emerald%GOLD% %NL% Normal Armor > %ORANGE%Tal + Shael + %WHITE%Diamond %NL%%GOLD%Normal Weapon > %ORANGE%Sol + Ral + %GREEN%Emerald%NL%%GOLD%Unique Upgrade:%NL%%NL% %GREEN%Exceptional Armor > %ORANGE%Hel + Io + %YELLOW%Topaz%NL%%GREEN%Exceptional Weapon > %ORANGE%Dol + Mal + %RED%Ruby%NL%%GREEN%Normal Armor > %ORANGE%Eld + Ith + %YELLOW%Topaz%NL%%GREEN%Normal Weapon > %ORANGE%El + Ith + %RED%Ruby%NL%%GRAY%%GREEN%Set Upgrade:%NL%}
+
 //-------------------------------------------------------- EMPTY BASES
 //-------------------------------------------------------- EARLY BASES  
 ItemDisplay[NMAG !RW SOCK=3 CLVL<40 EQ3]: %DGREEN%Ancient's Pledge Base%!SOCK!%%!BASENAMES!% {%ORANGE%ANCIENT'S PLEDGE: %DGREEN%RAL+ORT+TAL} <<BASE>>
