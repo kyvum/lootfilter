@@ -491,20 +491,20 @@ ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") 
 ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%CoT+BoI Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME%  %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
 ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Fists of Fire")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%CoT+FoF Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME%  %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
 ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%FoF+BoI Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME%  %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH SKILL("Blades of Ice")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%BoI +3 Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH SKILL("Claws of Thunder")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%CoT +3 Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH SKILL("Fists of Fire")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%FoF +3 Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN}
+ItemDisplay[NMAG CL5 !ETH SKILL("Blades of Ice")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%Blades of Ice +3 Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
+ItemDisplay[NMAG CL5 !ETH SKILL("Claws of Thunder")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%Claws of Thunder +3 Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
+ItemDisplay[NMAG CL5 !ETH SKILL("Fists of Fire")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%Fists of Fire +3 Base%PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN}
 //-------------------------------------------------------- Blade Shield All Skills
-ItemDisplay[MAG CL5 (CLSK6=2 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-ItemDisplay[MAG CL5 (CLSK6>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-ItemDisplay[MAG CL5 (CLSK6>1 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (CLSK6=2 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%RED%+5 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (CLSK6>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (CLSK6>1 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 //-------------------------------------------------------- Blade Shield Trap Skills
-ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%PURPLE%+6 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-ItemDisplay[MAG CL5 (TABSK48>1 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%RED%+5 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-ItemDisplay[MAG CL5 (TABSK48>1 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-ItemDisplay[MAG CL5 (TABSK48>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
-ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>0)]: %NAME% %WHITE%(%ORANGE%+4 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%PURPLE%+6 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (TABSK48>1 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%RED%+5 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%RED%+5 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (TABSK48>1 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (TABSK48>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
+ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>0)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 ItemDisplay[MAG CL5 SKILL("Blade Shield")=3]: %NAME% %WHITE%(%DGREEN%+3 BS%WHITE%) %PURPLE%[%SOCKETS%] <<MAGIC>>
 //-------------------------------------------------------- Blade Shield Venom
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=3)]: %DGREEN%BS +3 & Venom +3 Base %PURPLE%[%SOCKETS%]%NL%%GRAY%%BASENAME% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
