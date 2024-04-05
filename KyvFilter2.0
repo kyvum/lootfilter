@@ -99,7 +99,7 @@ ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %WHITE%%NAME% %!TOPEND!% <<HRUNE>>
 
 //-------------------------------------------------------- RELICS
 //Tier 1 white
-ItemDisplay[MAP MAPTIER=1 !ID]: %!LOWTIER!% %WHITE%Tier I%%NL%%NAME% %!LOWEND!% <<RELIC>>
+ItemDisplay[MAP MAPTIER=1 !ID]: %!LOWTIER!% %WHITE%Tier I%NL%%NAME% %!LOWEND!% <<RELIC>>
 ItemDisplay[MAP RARE MAPTIER=1 ID]: %!LOWTIER!% %WHITE%Tier I%NL%%YELLOW%%BASENAME% %!LOWEND!% <<RELIC>>
 ItemDisplay[MAP MAG MAPTIER=1 ID]: %!LOWTIER!% %WHITE%Tier I%NL%%BLUE%%BASENAME% %!LOWEND!% <<RELIC>>
 //Tier 2 yellow
