@@ -229,282 +229,319 @@ ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar 
 //-------------------------------------------------------- GOOD UNIQUES/SET ITEMS
 //-------------------------------------------------------- HELMETS
 //- Vampire Gaze
-ItemDisplay[xh9 UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Vampire Gaze %!HIGHEND!% <<UNIQUE>>
-ItemDisplay[xh9 UNI !ID ETH FILTERLVL=1]: %GOLD%Vampire Gaze
+ItemDisplay[xh9 UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Vampire Gaze%NL%%BASENAME% %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[xh9 UNI !ID ETH FILTERLVL=1]: %GOLD%Vampire Gaze%NL%%BASENAME%
 //- Shako
-ItemDisplay[uap UNI !ETH]: %!HIGHTIER!% %GOLD%Shako %!HIGHEND!% <<UNIQUE>>
-ItemDisplay[uap UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Shako
+ItemDisplay[uap UNI !ETH]: %!HIGHTIER!% %GOLD%Shako%NL%%BASENAME% %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[uap UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Shako%NL%%BASENAME%
 //- Griffon's Eye
-ItemDisplay[ci3 UNI !ID !ETH]: %!TOPTIER!% %GOLD%Griffon's Eye %!TOPEND!% <<HUNIQUE>>
-ItemDisplay[ci3 UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Griffon's Eye
+ItemDisplay[ci3 UNI !ID !ETH]: %!TOPTIER!% %GOLD%Griffon's Eye%NL%%BASENAME% %!TOPEND!% <<HUNIQUE>>
+ItemDisplay[ci3 UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Griffon's Eye%NL%%BASENAME%
 //- Veil of Steel or Nightwing's Veil
-ItemDisplay[uhm UNI !ID !ETH]: %!LOWTIER!% %GOLD%Veil of Steel or Nightwing's Veil %!LOWEND!% <<UNIQUE>>
-ItemDisplay[uhm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Veil of Steel or %GRAY%ETH %GOLD%Nightwing's Veil
+ItemDisplay[uhm UNI !ID !ETH]: %!LOWTIER!% %GOLD%Veil of Steel or Nightwing's Veil%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[uhm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Veil of Steel or %GRAY%ETH %GOLD%Nightwing's Veil%NL%%BASENAME%
+//- Valkyrie Wing
+ItemDisplay[xhm UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Valkyrie Wing%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[xhm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Valkyrie Wing%NL%%BASENAME%
 //- Andariel's Visage
-ItemDisplay[usk UNI !ID !ETH]: %!MIDTIER!% %GOLD%Andariel's Visage %!MIDEND!% <<UNIQUE>>
-ItemDisplay[usk UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Andariel's Visage
+ItemDisplay[usk UNI !ID !ETH]: %!MIDTIER!% %GOLD%Andariel's Visage%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[usk UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Andariel's Visage%NL%%BASENAME%
 //- Crown of Ages
-ItemDisplay[urn UNI !ID !ETH]: %!MIDTIER!% %GOLD%Crown of Ages %!MIDEND!% <<UNIQUE>>
-ItemDisplay[urn UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Crown of Ages
+ItemDisplay[urn UNI !ID !ETH]: %!MIDTIER!% %GOLD%Crown of Ages%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[urn UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Crown of Ages%NL%%BASENAME%
+//- Steel Shade
+ItemDisplay[ulm UNI !ID !ETH]: %!MIDTIER!% %GOLD%Steel Shade%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[ulm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Steel Shade%NL%%BASENAME%
+//- Stealskull
+ItemDisplay[xlm UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Stealskull%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[xlm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Stealskull%NL%%BASENAME%
 //- Natalya's Totem
-ItemDisplay[xh9 SET !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GREEN%Natalya's Totem %!LOWEND!% <<SET>>
-ItemDisplay[xh9 SET !ID ETH FILTERLVL=1]: %GOLD%Natalya's Totem
+ItemDisplay[xh9 SET !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GREEN%Natalya's Totem%NL%%BASENAME% %!LOWEND!% <<SET>>
+ItemDisplay[xh9 SET !ID ETH FILTERLVL=1]: %GOLD%Natalya's Totem%NL%%BASENAME%
 
 //-------------------------------------------------------- BODY ARMOR
 //- Skin of the Vipermagi
-ItemDisplay[xea UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Skin of the Vipermagi %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[xea UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Skin of the Vipermagi%NL%%BASENAME% %!HIGHEND!% <<UNIQUE>>
 ItemDisplay[UNIQUE("Skin of the Vipermagi") xea ID !ETH]: %GOLD%Skin of the Vipermagi {Upgrade: %ORANGE%Ko + Lem + %GOLD%P Diamond} <<UNIQUE>>
-ItemDisplay[xea UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Skin of the Vipermagi
+ItemDisplay[xea UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Skin of the Vipermagi%NL%%BASENAME%
 //- Skullder's Ire
-ItemDisplay[xpl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Skullder's Ire %!MIDEND!% <<UNIQUE>>
+ItemDisplay[xpl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Skullder's Ire%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
 ItemDisplay[UNIQUE("Skullder's Ire") xpl ID !ETH]: %GOLD%Skullder's Ire {Upgrade: %ORANGE%Ko + Lem + %GOLD%P Diamond} <<UNIQUE>>
-ItemDisplay[xpl UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Skullder's Ire
+ItemDisplay[xpl UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Skullder's Ire%NL%%BASENAME%
 //- Shaftstop 
-ItemDisplay[xhn UNI !ID !ETH]: %!MIDTIER!% %GOLD%Shaftstop %!MIDEND!% <<UNIQUE>>
+ItemDisplay[xhn UNI !ID !ETH]: %!MIDTIER!% %GOLD%Shaftstop%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
 ItemDisplay[UNIQUE("Shaftstop") xhn ID !ETH]: %GOLD%Shaftstop {Upgrade: %ORANGE%Ko + Lem + %GOLD%P Diamond} <<UNIQUE>>
-ItemDisplay[xhn UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Shaftstop <<UNIQUE>>
+ItemDisplay[xhn UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Shaftstop%NL%%BASENAME% <<UNIQUE>>
 //- Ormus' Robes
-ItemDisplay[uui UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ormus' Robes %!MIDEND!% <<UNIQUE>>
-ItemDisplay[uui UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ormus' Robes
+ItemDisplay[uui UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ormus' Robes%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[uui UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ormus' Robes%NL%%BASENAME%
 //- Arkaine's Valor
-ItemDisplay[upl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Arkaine's %!MIDEND!% <<UNIQUE>>
-ItemDisplay[upl UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Arkaine's Valor 
+ItemDisplay[upl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Arkaine's Valor%NL%%BASENAME%%!MIDEND!% <<UNIQUE>>
+ItemDisplay[upl UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Arkaine's Valor%NL%%BASENAME% 
 //- Leviathan
-ItemDisplay[uld UNI !ID !ETH]: %!MIDTIER!% %GOLD%Leviathan %!MIDEND!% <<UNIQUE>>
-ItemDisplay[uld UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Leviathan
+ItemDisplay[uld UNI !ID !ETH]: %!MIDTIER!% %GOLD%Leviathan%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[uld UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Leviathan%NL%%BASENAME%
+//- Guardian Angel
+ItemDisplay[xlt UNI !ID !ETH]: %!LOWTIER!% %GOLD%Guardian Angel%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[xlt UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Guardian Angel%NL%%BASENAME%
 //- Steel Carapace
-ItemDisplay[uul UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Steel Carapace %!LOWEND!% <<UNIQUE>>
-ItemDisplay[uul UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Steel Carapace <<UNIQUE>>
+ItemDisplay[uul UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Steel Carapace%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[uul UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Steel Carapace%NL%%BASENAME% <<UNIQUE>>
 //- Tyrael's Might
-ItemDisplay[uar UNI !ID !ETH]: %!TOPTIER!% %GOLD%Tyrael's Or Templar's %!TOPEND!% <<HUNIQUE>>
-ItemDisplay[uar UNI !ID ETH FILTERLVL<3]: %RED%** %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might %RED%** <<UNIQUE>>
+ItemDisplay[uar UNI !ID !ETH]: %!TOPTIER!% %GOLD%Tyrael's Or Templar's%NL%%BASENAME% %!TOPEND!% <<HUNIQUE>>
+ItemDisplay[uar UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Tyrael's Might or Templar's Might%NL%%BASENAME% <<UNIQUE>>
 //- Tal Rasha's Guardianship
-ItemDisplay[uth SET !ID !ETH]: %!MIDTIER!% %GREEN%Tal Rasha's Guardianship %!MIDEND!% <<SET>>
-ItemDisplay[uth SET !ID ETH FILTERLVL=1]: %GREEN%ETH Tal Rasha's Guardianship
+ItemDisplay[uth SET !ID !ETH]: %!MIDTIER!% %GREEN%Tal Rasha's Guardianship%NL%%BASENAME% %!MIDEND!% <<SET>>
+ItemDisplay[uth SET !ID ETH FILTERLVL=1]: %GRAY%ETH %GREEN%Tal Rasha's Guardianship%NL%%BASENAME%
 //- Naj's Light Plate
-ItemDisplay[ult SET !ID !ETH]: %!LOWTIER!% %GREEN%Naj's Light Plate %!LOWEND!% <<SET>>
+ItemDisplay[ult SET !ID !ETH]: %!LOWTIER!% %GREEN%Naj's Light Plate%NL%%BASENAME% %!LOWEND!% <<SET>>
 ItemDisplay[ult SET ID !ETH]: %!LOWTIER!% %GREEN%Naj's Light Plate %GOLD%{Upgrade: %ORANGE%Hel + Io + %GOLD%Perfect Topaz} %!LOWEND!% <<SET>>
-ItemDisplay[ult SET !ID ETH FILTERLVL=1]: %GREEN%ETH Naj's Light Plate
+ItemDisplay[ult SET !ID ETH FILTERLVL=1]: %GRAY%ETH %GREEN%Naj's Light Plate%NL%%BASENAME%
 //- Natalya's Shadow
-ItemDisplay[ucl SET !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GREEN%Natalya's Shadow %!LOWEND!% <<SET>>
-ItemDisplay[ucl SET !ID ETH FILTERLVL=1]: %GREEN%ETH Natalya's Shadow
+ItemDisplay[ucl SET !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GREEN%Natalya's Shadow%NL%%BASENAME% %!LOWEND!% <<SET>>
+ItemDisplay[ucl SET !ID ETH FILTERLVL=1]: %GRAY%ETH %GREEN%Natalya's Shadow%NL%%BASENAME%
 
 //-------------------------------------------------------- SHIELDS
 //- Stormshield
-ItemDisplay[uit UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Stormshield %!HIGHEND!%  <<UNIQUE>>
-ItemDisplay[uit UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Stormshield
+ItemDisplay[uit UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Stormshield%NL%%BASENAME% %!HIGHEND!%  <<UNIQUE>>
+ItemDisplay[uit UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Stormshield%NL%%BASENAME%
 //- Medusa's Gaze
-ItemDisplay[uow UNI !ID !ETH]: %!MIDTIER!% %GOLD%Medusa's Gaze %!MIDEND!% <<UNIQUE>>
-ItemDisplay[uow UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Medusa's Gaze
+ItemDisplay[uow UNI !ID !ETH]: %!MIDTIER!% %GOLD%Medusa's Gaze%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[uow UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Medusa's Gaze%NL%%BASENAME%
 
 //-------------------------------------------------------- GLOVES
 //- Dracul's Grasp
-ItemDisplay[uvg UNI !ID !ETH]: %!MIDTIER!% %GOLD%Dracul's %!MIDEND!% <<UNIQUE>>
-ItemDisplay[uvg UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Dracul's Grasp
+ItemDisplay[uvg UNI !ID !ETH]: %!MIDTIER!% %GOLD%Dracul's Grasp%NL%%BASENAME%%!MIDEND!% <<UNIQUE>>
+ItemDisplay[uvg UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Dracul's Grasp%NL%%BASENAME%
 //- Soul Drainer
-ItemDisplay[umg UNI !ID !ETH]: %GOLD%Soul Drainer <<UNIQUE>>
-ItemDisplay[umg UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Soul Drainer
+ItemDisplay[umg UNI !ID !ETH]: %GOLD%Soul Drainer%NL%%BASENAME% <<UNIQUE>>
+ItemDisplay[umg UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Soul Drainer%NL%%BASENAME%
 //- Steelrend
-ItemDisplay[uhg UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Steelrend %!HIGHEND!% <<UNIQUE>>
-ItemDisplay[uhg UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Steelrend
+ItemDisplay[uhg UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Steelrend%NL%%BASENAME% %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[uhg UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Steelrend%NL%%BASENAME%
 //- Frostburn
-ItemDisplay[hgl UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Frostburn %!LOWEND!%
-ItemDisplay[hgl UNI !ID ETH FILTERLVL=1]: %GOLD%ETH Frostburn
+ItemDisplay[hgl UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Frostburn%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[hgl UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Frostburn%NL%%BASENAME%
 //- Laying of Hands
-ItemDisplay[ulg SET !ID !ETH]: %!LOWTIER!% %GREEN%Laying of Hands %!LOWEND!% <<SET>>
-ItemDisplay[ulg SET !ID ETH FILTERLVL=1]: %GREEN%ETH Laying of Hands
+ItemDisplay[ulg SET !ID !ETH]: %!LOWTIER!% %GREEN%Laying of Hands%NL%%BASENAME% %!LOWEND!% <<SET>>
+ItemDisplay[ulg SET !ID ETH FILTERLVL=1]: %GRAY%ETH %GREEN%Laying of Hands%NL%%BASENAME%
 //- Trang-Oul's Claws
-ItemDisplay[xmg SET !ID !ETH]: %!LOWTIER!% %GREEN%Trang-Oul's Claws %!LOWEND!% <<SET>>
-ItemDisplay[xmg SET !ID ETH FILTERLVL=1]: %GREEN%ETH Trang-Oul's Claws
+ItemDisplay[xmg SET !ID !ETH]: %!LOWTIER!% %GREEN%Trang-Oul's Claws%NL%%BASENAME% %!LOWEND!% <<SET>>
+ItemDisplay[xmg SET !ID ETH FILTERLVL=1]: %GRAY%ETH %GREEN%Trang-Oul's Claws%NL%%BASENAME%
 
 //-------------------------------------------------------- BOOTS
 //- Waterwalk
-ItemDisplay[xvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Waterwalk %!LOWEND!%
-ItemDisplay[xvb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Waterwalk
+ItemDisplay[xvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Waterwalk%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[xvb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Waterwalk%NL%%BASENAME%
 //- Silkweave
-ItemDisplay[xmb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Silkweave %!LOWEND!%
-ItemDisplay[xmb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Silkweave
+ItemDisplay[xmb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Silkweave%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[xmb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Silkweave%NL%%BASENAME%
 //- War Traveler
-ItemDisplay[xtb UNI !ID !ETH]: %!HIGHTIER!% %GOLD%War Traveler %!HIGHEND!%  <<UNIQUE>>
-ItemDisplay[xtb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%War Traveler 
+ItemDisplay[xtb UNI !ID !ETH]: %!HIGHTIER!% %GOLD%War Traveler%NL%%BASENAME% %!HIGHEND!%  <<UNIQUE>>
+ItemDisplay[xtb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%War Traveler%NL%%BASENAME% 
 //- Gore Rider
-ItemDisplay[xhb UNI !ID !ETH]: %!MIDTIER!% %GOLD%Gore Rider %!MIDEND!% <<UNIQUE>>
-ItemDisplay[xhb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Gore Rider
+ItemDisplay[xhb UNI !ID !ETH]: %!MIDTIER!% %GOLD%Gore Rider%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[xhb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Gore Rider%NL%%BASENAME%
 //- Sandstorm Trek
-ItemDisplay[uvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Sandstorm Trek %!LOWEND!%
-ItemDisplay[uvb UNI !ID ETH]: %GRAY%ETH %GOLD%Sandstorm Trek
+ItemDisplay[uvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Sandstorm Trek%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[uvb UNI !ID ETH]: %GRAY%ETH %GOLD%Sandstorm Trek%NL%%BASENAME%
 //- Marrowwalk
-ItemDisplay[umb UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Marrowwalk %!LOWEND!%
-ItemDisplay[umb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Marrowwalk
+ItemDisplay[umb UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Marrowwalk%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[umb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Marrowwalk%NL%%BASENAME%
 //- Shadow Dancer
-ItemDisplay[uhb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Shadow Dancer %!LOWEND!%
-ItemDisplay[uhb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Shadow Dancer
+ItemDisplay[uhb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Shadow Dancer%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[uhb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Shadow Dancer%NL%%BASENAME%
 //- Aldur's Advance
-ItemDisplay[xtb SET !ID !ETH]: %!LOWTIER!% %GREEN%Aldur's Advance %!LOWEND!% <<SET>>
-ItemDisplay[xtb SET !ID ETH FILTERLVL=1]: %GREEN%ETH Aldur's Advance
+ItemDisplay[xtb SET !ID !ETH]: %!LOWTIER!% %GREEN%Aldur's Advance%NL%%BASENAME% %!LOWEND!% <<SET>>
+ItemDisplay[xtb SET !ID ETH FILTERLVL=1]: %GRAY%ETH %GREEN%Aldur's Advance%NL%%BASENAME%
 //- Natalya's Soul
-ItemDisplay[xmb SET !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GREEN%Natalya's Soul %!LOWEND!% <<SET>>
-ItemDisplay[xmb SET !ID ETH FILTERLVL=1]: %GREEN%ETH Natalya's Soul
+ItemDisplay[xmb SET !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GREEN%Natalya's Soul%NL%%BASENAME% %!LOWEND!% <<SET>>
+ItemDisplay[xmb SET !ID ETH FILTERLVL=1]: %GRAY%ETH %GREEN%Natalya's Soul%NL%%BASENAME%
 
 //-------------------------------------------------------- BELTS
 //- Verdungo's Hearty Cord
-ItemDisplay[umc UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Verdungo's %!HIGHEND!%  <<UNIQUE>>
-ItemDisplay[umc UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Verdungo's Hearty Cord
+ItemDisplay[umc UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Verdungo's Hearty Cord%NL%%BASENAME% %!HIGHEND!%  <<UNIQUE>>
+ItemDisplay[umc UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Verdungo's Hearty Cord%NL%%BASENAME%
 //- Snowclash
-ItemDisplay[ztb UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Snowclash %!LOWEND!% 
-ItemDisplay[ztb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Snowclash
+ItemDisplay[ztb UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Snowclash%NL%%BASENAME% %!LOWEND!% 
+ItemDisplay[ztb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Snowclash%NL%%BASENAME%
 //- Thundergod's Vigor
-ItemDisplay[zhb UNI !ID !ETH]: %!MIDTIER!% %GOLD%Thundergod's %!MIDEND!% <<UNIQUE>>
-ItemDisplay[zhb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Thundergod's Vigor
+ItemDisplay[zhb UNI !ID !ETH]: %!MIDTIER!% %GOLD%Thundergod's Vigor%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[zhb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Thundergod's Vigor%NL%%BASENAME%
 //- Arachnid Mesh
-ItemDisplay[ulc UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Arachnid's Mesh %!HIGHEND!%  <<UNIQUE>>
-ItemDisplay[ulc UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Arachnid Mesh 
+ItemDisplay[ulc UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Arachnid's Mesh%NL%%BASENAME% %!HIGHEND!%  <<UNIQUE>>
+ItemDisplay[ulc UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Arachnid Mesh %NL%%BASENAME%
 //- Razortail
-ItemDisplay[zvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Razortail %!LOWEND!%
-ItemDisplay[zvb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Razortail
+ItemDisplay[zvb UNI !ID !ETH]: %!LOWTIER!% %GOLD%Razortail%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[zvb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Razortail%NL%%BASENAME%
 //- String of Ears
-ItemDisplay[zlb UNI !ID !ETH]: %!LOWTIER!% %GOLD%String of Ears %!LOWEND!%
-ItemDisplay[zlb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%String of Ears
+ItemDisplay[zlb UNI !ID !ETH]: %!LOWTIER!% %GOLD%String of Ears%NL%%BASENAME% %!LOWEND!%
+ItemDisplay[zlb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%String of Ears%NL%%BASENAME%
 
 //-------------------------------------------------------- WEAPONS
 
 //-------------------------------------------------------- AXES
 //- Death Cleaver
-ItemDisplay[7wa UNI !ID !ETH]: %!MIDTIER!% %GOLD%Death Cleaver %!MIDEND!% <<UNIQUE>>
-ItemDisplay[7wa UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Death Cleaver
+ItemDisplay[7wa UNI !ID !ETH]: %!MIDTIER!% %GOLD%Death Cleaver%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7wa UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Death Cleaver%NL%%BASENAME%
 //- Executioner's Justice
 ItemDisplay[7gi UNI !ID !ETH]: %!MIDTIER!% %GOLD%Executioner's Justice %!MIDEND!% <<UNIQUE>>
 ItemDisplay[7gi UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Executioner's Justice
 
 //-------------------------------------------------------- MACES
 //- Horizon's Tornado or Stormlash
-ItemDisplay[7fl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Horizon's or Stormlash %!MIDEND!% <<UNIQUE>>
-ItemDisplay[7fl UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Horizon's Tornado or Stormlash
+ItemDisplay[7fl UNI !ID !ETH]: %!MIDTIER!% %GOLD%Horizon's or Stormlash%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7fl UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Horizon's Tornado or Stormlash%NL%%BASENAME%
 //- Windhammer
-ItemDisplay[7m7 UNI !ID !ETH]: %!MIDTIER!% %GOLD%Windhammer %!MIDEND!% <<UNIQUE>>
-ItemDisplay[7m7 UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Windhammer
+ItemDisplay[7m7 UNI !ID !ETH]: %!MIDTIER!% %GOLD%Windhammer%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7m7 UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Windhammer%NL%%BASENAME%
 //- Earth Shifter or The Cranium Basher
-ItemDisplay[7gm UNI !ID !ETH]: %!MIDTIER!% %GOLD%Earth Shifter or Cranium Basher %!MIDEND!% <<UNIQUE>>
-ItemDisplay[7gm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Earth Shifter or Cranium Bashers
+ItemDisplay[7gm UNI !ID !ETH]: %!MIDTIER!% %GOLD%Earth Shifter or Cranium Basher%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7gm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Earth Shifter or Cranium Basher%NL%%BASENAME%
 
 //-------------------------------------------------------- SWORDS
 //- Headstriker
-ItemDisplay[9bs UNI !ID !ETH]: %!MIDTIER!% %GOLD%Headstriker %!MIDEND!% <<UNIQUE>>
-ItemDisplay[9bs UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Headstriker
+ItemDisplay[9bs UNI !ID !ETH]: %!MIDTIER!% %GOLD%Headstriker%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[9bs UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Headstriker%NL%%BASENAME%
 //- Bing Sz Wang
-ItemDisplay[9cm UNI !ID !ETH]: %!LOWTIER!% %GOLD%Bing Sz Wang %!LOWEND!% <<UNIQUE>>
-ItemDisplay[9cm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Bing Sz Wang
+ItemDisplay[9cm UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Bing Sz Wang%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[9cm UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Bing Sz Wang%NL%%BASENAME%
 //- Lightsabre or Azurewrath
-ItemDisplay[7cr UNI !ID]: %!HIGHTIER!% %GOLD%Lightsabre OR Azurewrath %!HIGHEND!%  <<UNIQUE>>
+ItemDisplay[7cr UNI !ID]: %!HIGHTIER!% %GOLD%Lightsabre OR Azurewrath%NL%%BASENAME% %!HIGHEND!%  <<UNIQUE>>
 //- The Grandfather
-ItemDisplay[7gd UNI !ID !ETH]: %!HIGHTIER!% %GOLD%The Grandfather %!HIGHEND!%  <<UNIQUE>>
-ItemDisplay[7gd UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%The Grandfather
+ItemDisplay[7gd UNI !ID !ETH]: %!HIGHTIER!% %GOLD%The Grandfather%NL%%BASENAME% %!HIGHEND!%  <<UNIQUE>>
+ItemDisplay[7gd UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%The Grandfather%NL%%BASENAME%
 
 //-------------------------------------------------------- THROWING WEAPONS
 //- Warshrike
-ItemDisplay[7bk UNI !ID !ETH FILTERLVL<3]: %!MIDTIER!% %GOLD%Warshrike %!MIDEND!% <<UNIQUE>>
-ItemDisplay[7bk UNI !ID ETH]: %!MIDTIER!% %GRAY%ETH %GOLD%Warshrike %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7bk UNI !ID !ETH FILTERLVL<3]: %!MIDTIER!% %GOLD%Warshrike%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7bk UNI !ID ETH]: %!MIDTIER!% %GRAY%ETH %GOLD%Warshrike%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
 
 //-------------------------------------------------------- POLEARMS
 //- Athena's Wrath
-ItemDisplay[9s8 UNI !ID !ETH]: %!MIDTIER!% %GOLD%Athena's %!MIDEND!% <<UNIQUE>>
+ItemDisplay[9s8 UNI !ID !ETH]: %!MIDTIER!% %GOLD%Athena's Wrath%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
 ItemDisplay[UNIQUE("Athena's Wrath") 9s8 ID !ETH CLSK5=3]: %!MIDTIER!% %GOLD%Athena's +3 %!MIDEND!% {Upgrade: %ORANGE%Pul + Lum + %GREEN%P Emerald}
 //- Reaper's Toll
-ItemDisplay[7s8 UNI !ID !ETH]: %!LOWTIER!% %GOLD%Reaper's Toll %!LOWEND!% <<UNIQUE>>
-ItemDisplay[7s8 UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Reaper's Toll
+ItemDisplay[7s8 UNI !ID !ETH]: %!LOWTIER!% %GOLD%Reaper's Toll%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[7s8 UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Reaper's Toll%NL%%BASENAME%
 //- Tomb Reaver
-ItemDisplay[7pa UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Tomb Reaver %!LOWEND!%  <<UNIQUE>>
-ItemDisplay[7pa UNI !ID ETH FILTERLVL=1]: GRAY%ETH %GOLD%Tomb Reaver
+ItemDisplay[7pa UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Tomb Reaver%NL%%BASENAME% %!LOWEND!%  <<UNIQUE>>
+ItemDisplay[7pa UNI !ID ETH FILTERLVL=1]: GRAY%ETH %GOLD%Tomb Reaver%NL%%BASENAME%
 
-//-------------------------------------------------------- BOWS
+//-------------------------------------------------------- BOWS AND CROSSBOWS
 //- Windforce
-ItemDisplay[6lw UNI !ID]: %!HIGHTIER!% %GOLD%WINDFORCE %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[6lw UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Windforce%NL%%BASENAME% %!HIGHEND!% <<UNIQUE>>
+ItemDisplay[6lw UNI !ID ETH]: %!LOWTIER!% %GRAY%ETH %GOLD%Windforce%NL%%BASENAME% %!LOWEND!%
+//- Buriza-Do Kyanon
+ItemDisplay[8hx UNI !ID !ETH]: %!LOWTIER!% %GOLD%Buriza-Do Kyanon%NL%%BASENAME% %!LOWEND!% <<UNIQUE>>
+ItemDisplay[8hx UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Buriza-Do Kyanon%NL%%BASENAME%
 
 //-------------------------------------------------------- STAVES
 //- Ondal's Wisdom
-ItemDisplay[6cs UNI !ID !ETH]: %!MIDTIER!%%GOLD%Ondal's Wisdom %!MIDEND!% <<UNIQUE>>
-ItemDisplay[6cs UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ondal's Wisdom
+ItemDisplay[6cs UNI !ID !ETH]: %!MIDTIER!%%GOLD%Ondal's Wisdom%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[6cs UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ondal's Wisdom%NL%%BASENAME%
 //- Mang Song's Lesson
-ItemDisplay[6ws UNI !ID !ETH]: %!MIDTIER!% %GOLD%Mang Song %!MIDEND!% <<UNIQUE>>
-ItemDisplay[6ws UNI !ID ETH]: %GRAY%ETH %GOLD%Mang Song's Lesson
+ItemDisplay[6ws UNI !ID !ETH]: %!MIDTIER!% %GOLD%Mang Song's Lesson%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[6ws UNI !ID ETH]: %GRAY%ETH %GOLD%Mang Song's Lesson%NL%%BASENAME%
 //- Ribcracker
-ItemDisplay[8ls UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ribcracker %!MIDEND!% <<UNIQUE>>
+ItemDisplay[8ls UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ribcracker%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
 ItemDisplay[UNIQUE("Ribcracker") 8ls !ID !ETH]: %GOLD%Ribcracker {Upgrade: %ORANGE%Pul + Lum + %GREEN%P Emerald} <<UNIQUE>>
-ItemDisplay[8ls UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ribcracker
+ItemDisplay[8ls UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ribcracker%NL%%BASENAME%
 
 //-------------------------------------------------------- WANDS
 //- Death's Web
-ItemDisplay[7gw UNI !ID !ETH]: %!TOPTIER!% %GOLD%Death's Web %!TOPEND!% <<HUNIQUE>>
-ItemDisplay[7gw UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Death's Web
+ItemDisplay[7gw UNI !ID !ETH]: %!TOPTIER!% %GOLD%Death's Web%NL%%BASENAME% %!TOPEND!% <<HUNIQUE>>
+ItemDisplay[7gw UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Death's Web%NL%%BASENAME%
 
 //-------------------------------------------------------- SCEPTERS
 //- Heaven's Light or The Redeemer
-ItemDisplay[7sc UNI !ID !ETH]: %!MIDTIER!% %GOLD%Heaven's or Redeemer %!MIDEND!% <<UNIQUE>>
-ItemDisplay[7sc UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Heaven's Light or The Redeemer
+ItemDisplay[7sc UNI !ID !ETH]: %!MIDTIER!% %GOLD%Heaven's or Redeemer%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[7sc UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Heaven's Light or The Redeemer%NL%%BASENAME%
 //- Astreon's Iron Ward
-ItemDisplay[7ws UNI !ID !ETH]: %GOLD%Astreon's Iron Ward
-ItemDisplay[7ws UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Astreon's Iron Ward
+ItemDisplay[7ws UNI !ID !ETH]: %GOLD%Astreon's Iron Ward%NL%%BASENAME%
+ItemDisplay[7ws UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Astreon's Iron Ward%NL%%BASENAME%
 
 //-------------------------------------------------------- CLASS SPECIFICS
 
 //-------------------------------------------------------- DRUID
 //- Jalal's Mane
-ItemDisplay[dra UNI !ID !ETH]: %!MIDTIER!% %GOLD%Jalal's %!MIDEND!% <<UNIQUE>>
-ItemDisplay[dra UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Jalal's Mane
+ItemDisplay[dra UNI !ID !ETH]: %!MIDTIER!% %GOLD%Jalal's Mane%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[dra UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Jalal's Mane%NL%%BASENAME%
 //- Ravenlore
-ItemDisplay[dre UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ravenlore %!MIDEND!% 
-ItemDisplay[dre UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ravenlore
+ItemDisplay[dre UNI !ID !ETH]: %!MIDTIER!% %GOLD%Ravenlore%NL%%BASENAME% %!MIDEND!% 
+ItemDisplay[dre UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Ravenlore%NL%%BASENAME%
 //- Cerebus' Bite
-ItemDisplay[drb UNI !ID !ETH FILTERLVL<3]: %GOLD%Cerebus' Bite
-ItemDisplay[drb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Cerebus' Bite
+ItemDisplay[drb UNI !ID !ETH FILTERLVL<3]: %GOLD%Cerebus' Bite%NL%%BASENAME%
+ItemDisplay[drb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Cerebus' Bite%NL%%BASENAME%
+//- Spirit Keeper
+ItemDisplay[drd UNI !ID !ETH FILTERLVL<3]: %GOLD%Spirit Keeper%NL%%BASENAME%
+ItemDisplay[drd UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Spirit Keeper%NL%%BASENAME%
 
 //-------------------------------------------------------- BARBARIAN
 //- Arreat's Face
-ItemDisplay[baa UNI !ID !ETH]: %!MIDTIER!% %GOLD%Arreat's %!MIDEND!% <<UNIQUE>>
-ItemDisplay[baa UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Arreat's Face
+ItemDisplay[baa UNI !ID !ETH]: %!MIDTIER!% %GOLD%Arreat's Face%NL%%BASENAME% %!MIDEND!% <<UNIQUE>>
+ItemDisplay[baa UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Arreat's Face%NL%%BASENAME%
 //- Wolfhowl
-ItemDisplay[bac UNI !ID !ETH]: %!MIDTIER!% %GOLD%Wolfhowl %!MIDEND!% <<UNIQUE>> 
-ItemDisplay[bac UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Wolfhowl
+ItemDisplay[bac UNI !ID !ETH]: %!MIDTIER!% %GOLD%Wolfhowl%NL%%BASENAME% %!MIDEND!% <<UNIQUE>> 
+ItemDisplay[bac UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Wolfhowl%NL%%BASENAME%
+//- Demonhorn's Edge
+ItemDisplay[bad UNI !ID !ETH FILTERLVL<3]: %GOLD%Demonhorn's Edge%NL%%BASENAME%
+ItemDisplay[bad UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Demonhorn's Edge%NL%%BASENAME%
+//- Halaberd's Reign
+ItemDisplay[bae UNI !ID !ETH FILTERLVL<3]: %GOLD%Halaberd's Reign%NL%%BASENAME%
+ItemDisplay[bae UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Halaberd's Reign%NL%%BASENAME%
 
 //-------------------------------------------------------- PALADIN
 //- Alma Negra
-ItemDisplay[pac UNI !ID !ETH]: %GOLD%Alma Negra
-ItemDisplay[pac UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Alma Negra
+ItemDisplay[pac UNI !ID !ETH]: %GOLD%Alma Negra%NL%%BASENAME%
+ItemDisplay[pac UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Alma Negra%NL%%BASENAME%
 //- Herald of Zakarum
-ItemDisplay[UNI !ID !ETH pa9]: %!MIDTIER!% %GOLD%Herald of Zakarum %!MIDEND!% <<UNIQUE>> 
-ItemDisplay[UNI !ID ETH pa9 FILTERLVL=1]: %GRAY%ETH %GOLD%Herald of Zakarum 
+ItemDisplay[UNI !ID !ETH pa9]: %!MIDTIER!% %GOLD%Herald of Zakarum%NL%%BASENAME% %!MIDEND!% <<UNIQUE>> 
+ItemDisplay[UNI !ID ETH pa9 FILTERLVL=1]: %GRAY%ETH %GOLD%Herald of Zakarum%NL%%BASENAME% 
+//- Dragonscale
+ItemDisplay[pae UNI !ID !ETH FILTERLVL<3]: %GOLD%Dragonscale%NL%%BASENAME%
+ItemDisplay[pae UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Dragonscale%NL%%BASENAME%
 
 //-------------------------------------------------------- NECROMANCER
 //- Homunculus
-ItemDisplay[nea UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Homunculus %!HIGHEND!%  <<UNIQUE>> 
-ItemDisplay[nea UNI !ID ETH FILTERLVL=1]:%GRAY%ETH %GOLD%Homunculus
+ItemDisplay[nea UNI !ID !ETH]: %!HIGHTIER!% %GOLD%Homunculus%NL%%BASENAME% %!HIGHEND!%  <<UNIQUE>> 
+ItemDisplay[nea UNI !ID ETH FILTERLVL=1]:%GRAY%ETH %GOLD%Homunculus%NL%%BASENAME%
+//- Darkforce Spawn
+ItemDisplay[nef UNI !ID !ETH FILTERLVL<3]: %GOLD%Darkforce Spawn%NL%%BASENAME%
+ItemDisplay[nef UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Darkforce Spawn%NL%%BASENAME%
+//- Boneflame
+ItemDisplay[nee UNI !ID !ETH FILTERLVL<3]: %GOLD%Boneflame%NL%%BASENAME%
+ItemDisplay[nee UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Boneflame%NL%%BASENAME%
 
 //-------------------------------------------------------- ASSASSIN
 //- Bartuc's Cut-Throat
-ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat
-ItemDisplay[9tw UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat 
+ItemDisplay[9tw UNI !ID !ETH]: %GOLD%Bartuc's Cut-Throat%NL%%BASENAME%
+ItemDisplay[9tw UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Bartuc's Cut-Throat%NL%%BASENAME% 
+//- Jade Talon
+ItemDisplay[7wb UNI !ID !ETH FILTERLVL<3]: %GOLD%Jade Talon%NL%%BASENAME%
+ItemDisplay[7wb UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Jade Talon%NL%%BASENAME%
 //- Natalya's Mark
-ItemDisplay[7qr SET !ID !ETH]: %!HIGHTIER!% %GREEN%Natalya's Mark %!HIGHEND!% <<SET>>
-ItemDisplay[7qr SET !ID ETH FILTERLVL=1]: %GREEN%ETH Natalya's Mark
+ItemDisplay[7qr SET !ID !ETH]: %!HIGHTIER!% %GREEN%Natalya's Mark%NL%%BASENAME% %!HIGHEND!% <<SET>>
+ItemDisplay[7qr SET !ID ETH FILTERLVL=1]: %GREEN%ETH Natalya's Mark%NL%%BASENAME%
 
 //-------------------------------------------------------- SORCERESS
 //- The Oculus
-ItemDisplay[oba UNI !ID !ETH]: %GOLD%The Oculus <<UNIQUE>>
-ItemDisplay[oba UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%The Oculus
+ItemDisplay[oba UNI !ID !ETH]: %GOLD%The Oculus%NL%%BASENAME% <<UNIQUE>>
+ItemDisplay[oba UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%The Oculus%NL%%BASENAME%
 //- Eschuta's Temper
-ItemDisplay[obc UNI !ID !ETH]: %GOLD%Eschuta's Temper <<UNIQUE>> 
-ItemDisplay[obc UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Eschuta's Temper
+ItemDisplay[obc UNI !ID !ETH]: %GOLD%Eschuta's Temper%NL%%BASENAME% <<UNIQUE>> 
+ItemDisplay[obc UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Eschuta's Temper%NL%%BASENAME%
 //- Death's Fathom
-ItemDisplay[obf UNI !ID !ETH]: %GOLD%Death's Fathom <<UNIQUE>> 
-ItemDisplay[obf UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Death's Fathom
+ItemDisplay[obf UNI !ID !ETH]: %GOLD%Death's Fathom%NL%%BASENAME% <<UNIQUE>> 
+ItemDisplay[obf UNI !ID ETH FILTERLVL<3]: %GRAY%ETH %GOLD%Death's Fathom%NL%%BASENAME%
 
 //-------------------------------------------------------- AMAZON
 //- Titan's Revenge
-ItemDisplay[ama UNI !ID !ETH]: %GOLD%Titan's Revenge <<UNIQUE>> 
-ItemDisplay[ama UNI !ID ETH]: %GRAY%ETH %GOLD%Titan's Revenge <<UNIQUE>> 
+ItemDisplay[ama UNI !ID !ETH]: %GOLD%Titan's Revenge%NL%%BASENAME% <<UNIQUE>> 
+ItemDisplay[ama UNI !ID ETH]: %GRAY%ETH %GOLD%Titan's Revenge%NL%%BASENAME% <<UNIQUE>> 
 //- Thunderstroke
-ItemDisplay[amf UNI !ID !ETH]: %GOLD%Thunderstroke <<UNIQUE>> 
-ItemDisplay[amf UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Thunderstroke 
+ItemDisplay[amf UNI !ID !ETH]: %GOLD%Thunderstroke%NL%%BASENAME% <<UNIQUE>> 
+ItemDisplay[amf UNI !ID ETH FILTERLVL=1]: %GRAY%ETH %GOLD%Thunderstroke%NL%%BASENAME% 
 
 ItemDisplay[rin UNI !ID]: %!HIGHTIER!% %GOLD%%NAME% %!HIGHEND!% <<UNIQUEJ>>
 ItemDisplay[amu UNI !ID]: %!HIGHTIER!% %GOLD%%NAME% %!HIGHEND!% <<UNIQUEJ>>
