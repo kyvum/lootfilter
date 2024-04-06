@@ -88,7 +88,7 @@ ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
 ItemDisplay[GOLD<2500 CLVL>65]:
 
 //-------------------------------------------------------- General
-ItemDisplay[NMAG CLVL<30 EQ1 SOCK=3]: %DGREEN%MF Base%!BASENAME!% <<LADDERSTART>>
+ItemDisplay[NMAG CLVL<30 EQ1 SOCK=3]: %SAGE%MF Base%!BASENAME!% <<LADDERSTART>>
 
 //-------------------------------------------------------- RARE JEWELLERY
 ItemDisplay[!ID RARE (amu OR rin OR jew)]: %NAME% %!ILVL!% <<MAGIC>>
@@ -143,8 +143,8 @@ ItemDisplay[!ETH MAG ID (uvc OR zvb) ILVL>71 FILTERLVL<3]: %PURPLE%C Belt %!ILVL
 
 //-------------------------------------------------------- SAFETY BASES
 //-------------------------------------------------------- Boots
-ItemDisplay[!ETH MAG !ID hbt ILVL>71 FILTERLVL<3]: %DGREEN%S Boots %!ILVL!% <:CRAFT: MapIcon = 64>
-ItemDisplay[!ETH MAG ID hbt ILVL>71 FILTERLVL<3]: %DGREEN%S Boots %!ILVL!% {%ORANGE%Ort %WHITE%+J+ %GREEN%Emerald}
+ItemDisplay[!ETH MAG !ID hbt ILVL>71 FILTERLVL<3]: %SAGE%S Boots %!ILVL!% <:CRAFT: MapIcon = 64>
+ItemDisplay[!ETH MAG ID hbt ILVL>71 FILTERLVL<3]: %SAGE%S Boots %!ILVL!% {%ORANGE%Ort %WHITE%+J+ %GREEN%Emerald}
 
 //-------------------------------------------------------- SYNTH
 ItemDisplay[SYNTH]: %!HIGHTIER!% %GOLD%%NAME% %!HIGHEND!% <<UNIQUE>>
@@ -183,47 +183,47 @@ ItemDisplay[box]: %NAME%{%GOLD%Exceptional Armor > %ORANGE%Lem + Ko + %WHITE%Dia
 
 //-------------------------------------------------------- EMPTY BASES
 //-------------------------------------------------------- EARLY BASES  
-ItemDisplay[NMAG !RW SOCK=3 CLVL<40 EQ3]: %DGREEN%Ancient's Pledge Base%!SOCK!%%!BASENAME!% {%ORANGE%ANCIENT'S PLEDGE: %DGREEN%RAL+ORT+TAL} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 crs]: %DGREEN%Spirit Sword Base%!SOCK!%%!BASENAME!% <<BASE>>
-ItemDisplay[NMAG !RW SOCK=4 crs FILTERLVL=1]: %DGREEN%Spirit Sword Base%!SOCK!%%!BASENAME!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 bsd]: %DGREEN%Spirit Sword Base%!SOCK!%%!BASENAME!% <<BASE>>
-ItemDisplay[NMAG !RW SOCK=4 bsd FILTERLVL=1]: %DGREEN%Spirit Sword Base%!SOCK!%%!BASENAME!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=4 CLVL<40 WP8]: %!LOWTIER!% %DGREEN%Insight Merc Base%!SOCK!%%!BASENAME!% {%ORANGE%INSIGHT: %DGREEN%RAL+TIR+TAL+SOL} %!LOWEND!% <<BASE>>
-ItemDisplay[NMAG !RW SOCK=2 CLVL<25 brs]: %DGREEN%Stealth Base%!SOCK!%%!BASENAME!% {%ORANGE%STEALTH: %DGREEN%TAL+ETH} <<BASE>>
-ItemDisplay[NMAG !RW SOCK=2 CLVL<25 EQ1]: %DGREEN%Lore Base%!SOCK!%%!BASENAME!% {%ORANGE%LORE: %DGREEN%ORT+SOL} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=3 CLVL<40 EQ3]: %SAGE%Ancient's Pledge Base%!SOCK!%%!BASENAME!% {%ORANGE%ANCIENT'S PLEDGE: %SAGE%RAL+ORT+TAL} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 crs]: %SAGE%Spirit Sword Base%!SOCK!%%!BASENAME!% <<BASE>>
+ItemDisplay[NMAG !RW SOCK=4 crs FILTERLVL=1]: %SAGE%Spirit Sword Base%!SOCK!%%!BASENAME!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=0 CLVL<70 ILVL>25 ILVL<41 bsd]: %SAGE%Spirit Sword Base%!SOCK!%%!BASENAME!% <<BASE>>
+ItemDisplay[NMAG !RW SOCK=4 bsd FILTERLVL=1]: %SAGE%Spirit Sword Base%!SOCK!%%!BASENAME!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=4 CLVL<40 WP8]: %!LOWTIER!% %SAGE%Insight Merc Base%!SOCK!%%!BASENAME!% {%ORANGE%INSIGHT: %SAGE%RAL+TIR+TAL+SOL} %!LOWEND!% <<BASE>>
+ItemDisplay[NMAG !RW SOCK=2 CLVL<25 brs]: %SAGE%Stealth Base%!SOCK!%%!BASENAME!% {%ORANGE%STEALTH: %SAGE%TAL+ETH} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=2 CLVL<25 EQ1]: %SAGE%Lore Base%!SOCK!%%!BASENAME!% {%ORANGE%LORE: %SAGE%ORT+SOL} <<BASE>>
 
 //-------------------------------------------------------- LATE BASES  
 //-------------------------------------------------------- Monarchs
-ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %GRAY%[%DGREEN%-10% Req%GRAY%] %NAME% %!SOCK!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%P%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
-ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-9 CLVL<85]: %GRAY%[%DGREEN%-9% Req%GRAY%] %NAME% %!SOCK!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
-ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) CLVL<85]: %DGREEN%%NAME% %!SOCK!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH}
+ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-10]: %GRAY%[%SAGE%-10% Req%GRAY%] %NAME% %!SOCK!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN%NL%P%ORANGE%PHOENIX: %SAGE%VEX+VEX+LO+JAH} <<BASE>>
+ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) STAT91=-9 CLVL<85]: %GRAY%[%SAGE%-9% Req%GRAY%] %NAME% %!SOCK!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %SAGE%VEX+VEX+LO+JAH} <<BASE>>
+ItemDisplay[uit !RW !ETH NMAG (SOCK=4 OR SOCK=0) CLVL<85]: %SAGE%%NAME% %!SOCK!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN%NL%%ORANGE%PHOENIX: %SAGE%VEX+VEX+LO+JAH}
 //-------------------------------------------------------- Archon Plates
-ItemDisplay[NMAG !RW !ETH SUP SOCK=3 utp]: %!MIDTIER!%%DGREEN%3 Socket Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%ENIGMA: %DGREEN%JAH+ITH+BER}%!MIDEND!% <<BASE>>
-ItemDisplay[NMAG !RW !ETH SUP SOCK=4 utp]: %DGREEN%4 Socket Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%CoH: %DGREEN%DOL+UM+BER+IST} <<BASE>>
+ItemDisplay[NMAG !RW !ETH SUP SOCK=3 utp]: %!MIDTIER!%%SAGE%3 Socket Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%ENIGMA: %SAGE%JAH+ITH+BER}%!MIDEND!% <<BASE>>
+ItemDisplay[NMAG !RW !ETH SUP SOCK=4 utp]: %SAGE%4 Socket Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%FORTITUDE: %SAGE%EL+SOL+DOL+LO%NL%%ORANGE%CoH: %SAGE%DOL+UM+BER+IST} <<BASE>>
 //-------------------------------------------------------- Weapon Bases
-ItemDisplay[7cr !RW NMAG ED=15 SOCK=6]: %!MIDTIER!% %DGREEN%Last Wish Base %!SOCK!%%!BASENAME!% {%ORANGE%LAST WISH: %DGREEN%JAH+MAL+JAH+SUR+JAH+BER} %!MIDEND!% <<BASE>>
-ItemDisplay[7cr !RW NMAG STAT91<-8 SOCK=5]: %!MIDTIER!% %DGREEN%Grief Base %!SOCK!%%!BASENAME!% {%ORANGE%GRIEF: %DGREEN%ETH+TIR+LO+MAL+RAL} %!MIDEND!% <<BASE>>
-ItemDisplay[7gd !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
-ItemDisplay[7p7 !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
-ItemDisplay[6ws !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
-ItemDisplay[7wa !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
-ItemDisplay[7gm !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %DGREEN%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
-ItemDisplay[7wa !RW ETH ED>9 NMAG SOCK=5]: %!MIDTIER!% %DGREEN%ETH Death Base %!SOCK!% {%ORANGE%DEATH: %DGREEN%HEL+EL+VEX+ORT+GUL} <<BASE>>
+ItemDisplay[7cr !RW NMAG ED=15 SOCK=6]: %!MIDTIER!% %SAGE%Last Wish Base %!SOCK!%%!BASENAME!% {%ORANGE%LAST WISH: %SAGE%JAH+MAL+JAH+SUR+JAH+BER} %!MIDEND!% <<BASE>>
+ItemDisplay[7cr !RW NMAG STAT91<-8 SOCK=5]: %!MIDTIER!% %SAGE%Grief Base %!SOCK!%%!BASENAME!% {%ORANGE%GRIEF: %SAGE%ETH+TIR+LO+MAL+RAL} %!MIDEND!% <<BASE>>
+ItemDisplay[7gd !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %SAGE%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %SAGE%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
+ItemDisplay[7p7 !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %SAGE%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %SAGE%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
+ItemDisplay[6ws !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %SAGE%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %SAGE%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
+ItemDisplay[7wa !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %SAGE%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %SAGE%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
+ItemDisplay[7gm !RW ETH ED>9 NMAG (SOCK=0 OR SOCK=6)]: %!MIDTIER!% %SAGE%EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BOTD: %SAGE%VEX+HEL+EL+ELD+ZOD+ETH} %!MIDEND!% <<BASE>>
+ItemDisplay[7wa !RW ETH ED>9 NMAG SOCK=5]: %!MIDTIER!% %SAGE%ETH Death Base %!SOCK!% {%ORANGE%DEATH: %SAGE%HEL+EL+VEX+ORT+GUL} <<BASE>>
 //-------------------------------------------------------- Merc Bases
-ItemDisplay[NMAG ETH !RW SUP SOCK=3 72h]: %DGREEN%MERC LAWBRINGER BASE%!SOCK!%%!BASENAME!% {%ORANGE%LAWBRINGER: %DGREEN%AMN+LEM+KO} <<BASE>>
-ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %GRAY%ETH%DGREEN% Merc Polearm Base%!SOCK!%%!BASENAME!% {%ORANGE%INSIGHT: %DGREEN%RAL+TIR+TAL+SOL%NL%%ORANGE%INFINITY: %DGREEN%BER+MAL+BER+IST} <<BASE>>
-ItemDisplay[NMAG ETH !RW SOCK=5 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %GRAY%ETH%DGREEN% Merc Doom Base%!SOCK!%%!BASENAME!% {%ORANGE%DOOM: %DGREEN%HEL+OHM+UM+LO+CHAM} <<BASE>>
-ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=6) 7gd]: %DGREEN%Merc Silence Base%!SOCK!%%!BASENAME!% {%ORANGE%SILENCE: %DGREEN%DOL+ELD+HEL+IST+TIR+VEX} <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=3 72h]: %SAGE%MERC LAWBRINGER BASE%!SOCK!%%!BASENAME!% {%ORANGE%LAWBRINGER: %SAGE%AMN+LEM+KO} <<BASE>>
+ItemDisplay[NMAG ETH !RW SOCK=4 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %GRAY%ETH%SAGE% Merc Polearm Base%!SOCK!%%!BASENAME!% {%ORANGE%INSIGHT: %SAGE%RAL+TIR+TAL+SOL%NL%%ORANGE%INFINITY: %SAGE%BER+MAL+BER+IST} <<BASE>>
+ItemDisplay[NMAG ETH !RW SOCK=5 (7s8 OR 7h7 OR 7wc OR 7vo OR 7pa)]: %GRAY%ETH%SAGE% Merc Doom Base%!SOCK!%%!BASENAME!% {%ORANGE%DOOM: %SAGE%HEL+OHM+UM+LO+CHAM} <<BASE>>
+ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=6) 7gd]: %SAGE%Merc Silence Base%!SOCK!%%!BASENAME!% {%ORANGE%SILENCE: %SAGE%DOL+ELD+HEL+IST+TIR+VEX} <<BASE>>
 //-------------------------------------------------------- Sacred Armor MERC
-ItemDisplay[NMAG ETH !RW SUP SOCK=0 uar]: %!MIDTIER!% %DGREEN%Merc Sacred Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=3 uar]: %!MIDTIER!% %DGREEN%3 Socket Merc Sacred Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: %!MIDTIER!% %DGREEN%4 Socket Merc Sacred Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%STONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=0 uar]: %!MIDTIER!% %SAGE%Merc Sacred Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=3 uar]: %!MIDTIER!% %SAGE%3 Socket Merc Sacred Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%TREACHERY: %SAGE%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: %!MIDTIER!% %SAGE%4 Socket Merc Sacred Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%FORTITUDE: %SAGE%EL+SOL+DOL+LO%NL%%ORANGE%STONE: %SAGE%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
 //-------------------------------------------------------- Archon Plate MERC
-ItemDisplay[NMAG ETH !RW SUP SOCK=0 utp]: %!MIDTIER!% %DGREEN%Merc Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=3 utp]: %!MIDTIER!% %DGREEN%3 Socket Merc Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=4 utp]: %!MIDTIER!% %DGREEN%4 Socket Merc Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%STONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%DGREEN% Merc Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%DGREEN% Merc Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=0 utp]: %!MIDTIER!% %SAGE%Merc Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=3 utp]: %!MIDTIER!% %SAGE%3 Socket Merc Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%TREACHERY: %SAGE%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=4 utp]: %!MIDTIER!% %SAGE%4 Socket Merc Armor Base%!SOCK!%%!BASENAME!% {%ORANGE%FORTITUDE: %SAGE%EL+SOL+DOL+LO%NL%%ORANGE%STONE: %SAGE%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%SAGE% Merc Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%SAGE% Merc Armor Base%!SOCK!%%!BASENAME!% %!MIDEND!% <<BASE>>
 
 //-------------------------------------------------------- GOOD UNIQUES/SET ITEMS
 //-------------------------------------------------------- HELMETS
@@ -558,10 +558,10 @@ ItemDisplay[amu SET ID]: %GREEN%%NAME%
 //-------------------------------------------------------- Sorceress
 //-------------------------------------------------------- Bases
 ItemDisplay[CLVL<40 (CL6 OR WP11) SKILL("Frost Nova")>1]: %ORANGE%Frost Nova Stick %NAME% <<LADDERSTART>>
-ItemDisplay[NMAG !RW SOCK=2 CLVL<35 SKILL("Fire Bolt")=3 WP11]: %DGREEN%Leaf Base%!SOCK!%%!BASENAME!% %ORANGE%{TIR+RAL} <<LADDERSTART>>
-ItemDisplay[NMAG !RW (wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=5 OR SOCK=0)]: %DGREEN%Energy Shield CTA Base%!SOCK!%%!BASENAME!% {%ORANGE%CTA: %DGREEN%AMN+RAL+MAL+IST+OHM}
-ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) (SKILL("Energy Shield")=3 AND SKILL("Shiver Armor")=3) (SOCK=4)]: %DGREEN%Energy Shield + Shiver Memory Base%!SOCK!%%!BASENAME!% {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
-ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=4)]: %DGREEN%Energy Shield Memory Base%!SOCK!%%!BASENAME!% {%ORANGE%MEMORY: %DGREEN%LUM+IO+SOL+ETH}
+ItemDisplay[NMAG !RW SOCK=2 CLVL<35 SKILL("Fire Bolt")=3 WP11]: %SAGE%Leaf Base%!SOCK!%%!BASENAME!% %ORANGE%{TIR+RAL} <<LADDERSTART>>
+ItemDisplay[NMAG !RW (wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=5 OR SOCK=0)]: %SAGE%Energy Shield CTA Base%!SOCK!%%!BASENAME!% {%ORANGE%CTA: %SAGE%AMN+RAL+MAL+IST+OHM}
+ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) (SKILL("Energy Shield")=3 AND SKILL("Shiver Armor")=3) (SOCK=4)]: %SAGE%Energy Shield + Shiver Memory Base%!SOCK!%%!BASENAME!% {%ORANGE%MEMORY: %SAGE%LUM+IO+SOL+ETH}
+ItemDisplay[NMAG !RW (bst OR 8cs OR 8bs OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=4)]: %SAGE%Energy Shield Memory Base%!SOCK!%%!BASENAME!% {%ORANGE%MEMORY: %SAGE%LUM+IO+SOL+ETH}
 //-------------------------------------------------------- Rares and Magic
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (FCR>11 AND TABSK8=3)]: %!MIDTIER!%%!FCR!%%WHITE% &%STAT(TABSK8=3)% Fire %!MIDEND!% <<MAGIC>>
 ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (FCR>11 AND TABSK9=3)]: %!MIDTIER!%%!FCR!%%WHITE% &%STAT(TABSK9=3)% Light %!MIDEND!% <<MAGIC>>
@@ -574,13 +574,13 @@ ItemDisplay[MAG OR RARE ID (oba OR obf OR ob5) (FCR>11 AND CLSK1=3)]: %!MIDTIER!
 
 //-------------------------------------------------------- Assassin
 //-------------------------------------------------------- Mosaic Bases
-ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") AND SKILL("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %DGREEN%FoF+CoT+BoI Base%!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<HUNIQUE>>
-ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%CoT+BoI Base%!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Fists of Fire")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%CoT+FoF Base%!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%FoF+BoI Base%!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH SKILL("Blades of Ice")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%Blades of Ice +3 Base%!SOCK!%%!BASENAME!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH SKILL("Claws of Thunder")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%Claws of Thunder +3 Base%!SOCK!%%!BASENAME!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN} <<BASE>>
-ItemDisplay[NMAG CL5 !ETH SKILL("Fists of Fire")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%Fists of Fire +3 Base%!SOCK!%%!BASENAME!% {%ORANGE%MOSAIC: %DGREEN%MAL+GUL+AMN}
+ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire") AND SKILL("Claws of Thunder") AND SKILL("Blades of Ice")) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %SAGE%FoF+CoT+BoI Base%!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%MOSAIC: %SAGE%MAL+GUL+AMN} <<HUNIQUE>>
+ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %SAGE%CoT+BoI Base%!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%MOSAIC: %SAGE%MAL+GUL+AMN} <<BASE>>
+ItemDisplay[NMAG CL5 !ETH (SKILL("Claws of Thunder")>1 AND SKILL("Fists of Fire")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %SAGE%CoT+FoF Base%!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%MOSAIC: %SAGE%MAL+GUL+AMN} <<BASE>>
+ItemDisplay[NMAG CL5 !ETH (SKILL("Fists of Fire")>1 AND SKILL("Blades of Ice")>1) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %SAGE%FoF+BoI Base%!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%MOSAIC: %SAGE%MAL+GUL+AMN} <<BASE>>
+ItemDisplay[NMAG CL5 !ETH SKILL("Blades of Ice")=3 (SOCK=0 OR SOCK=3)]: %SAGE%Blades of Ice +3 Base%!SOCK!%%!BASENAME!% {%ORANGE%MOSAIC: %SAGE%MAL+GUL+AMN} <<BASE>>
+ItemDisplay[NMAG CL5 !ETH SKILL("Claws of Thunder")=3 (SOCK=0 OR SOCK=3)]: %SAGE%Claws of Thunder +3 Base%!SOCK!%%!BASENAME!% {%ORANGE%MOSAIC: %SAGE%MAL+GUL+AMN} <<BASE>>
+ItemDisplay[NMAG CL5 !ETH SKILL("Fists of Fire")=3 (SOCK=0 OR SOCK=3)]: %SAGE%Fists of Fire +3 Base%!SOCK!%%!BASENAME!% {%ORANGE%MOSAIC: %SAGE%MAL+GUL+AMN}
 //-------------------------------------------------------- Blade Shield All Skills
 ItemDisplay[MAG CL5 (CLSK6=2 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%RED%+5 Blade Shield%WHITE%) %!SOCK!% <<MAGIC>>
 ItemDisplay[MAG CL5 (CLSK6>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %!SOCK!% <<MAGIC>>
@@ -592,41 +592,41 @@ ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%RE
 ItemDisplay[MAG CL5 (TABSK48>1 AND SKILL("Blade Shield")>1)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %!SOCK!% <<MAGIC>>
 ItemDisplay[MAG CL5 (TABSK48>0 AND SKILL("Blade Shield")=3)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %!SOCK!% <<MAGIC>>
 ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Blade Shield")>0)]: %NAME% %WHITE%(%ORANGE%+4 Blade Shield%WHITE%) %!SOCK!% <<MAGIC>>
-ItemDisplay[MAG CL5 SKILL("Blade Shield")=3]: %NAME% %WHITE%(%DGREEN%+3 BS%WHITE%) %!SOCK!% <<MAGIC>>
+ItemDisplay[MAG CL5 SKILL("Blade Shield")=3]: %NAME% %WHITE%(%SAGE%+3 BS%WHITE%) %!SOCK!% <<MAGIC>>
 //-------------------------------------------------------- Blade Shield Venom
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=3)]: %DGREEN%BS +3 & Venom +3 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=2)]: %DGREEN%BS +3 & Venom +2 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=1)]: %DGREEN%BS +3 & Venom +1 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("Blade Shield")=3 (SOCK=0 OR SOCK=3)]: %DGREEN%Blade Shield +3 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=3)]: %SAGE%BS +3 & Venom +3 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=2)]: %SAGE%BS +3 & Venom +2 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SOCK=0 OR SOCK=3) (SKILL("Blade Shield")=3 AND SKILL("Venom")=1)]: %SAGE%BS +3 & Venom +1 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("Blade Shield")=3 (SOCK=0 OR SOCK=3)]: %SAGE%Blade Shield +3 Base %!SOCK!%%!BASENAME!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
 //-------------------------------------------------------- WoF and WoI
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Fade")>0) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %DGREEN%Wake of Fire & Inferno +3 & Fade Base %!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Weapon Block")>0) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %DGREEN%Wake of Fire & Inferno +3 & WBlock Base %!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %DGREEN%Wake of Fire & Inferno +3 & BoI Base %!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%Wake of Fire & Inferno +3 Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %DGREEN%Wake of Fire +3 & BoI Base %!SOCK!%%!BASENAME!% %!LOWEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("Wake of Fire")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %DGREEN%Wake of Fire +3 Base %!SOCK!%%!BASENAME!% %!LOWEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Wake of Fire")=3)]: %NAME% %WHITE%(%DGREEN%+6 WoF%WHITE%) %!SOCK!% <<MAGIC>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Fade")>0) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %SAGE%Wake of Fire & Inferno +3 & Fade Base %!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Weapon Block")>0) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %SAGE%Wake of Fire & Inferno +3 & WBlock Base %!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %!TOPTIER!% %SAGE%Wake of Fire & Inferno +3 & BoI Base %!SOCK!%%!BASENAME!% %!TOPEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Wake of Inferno")=3) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %SAGE%Wake of Fire & Inferno +3 Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Wake of Fire")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %SAGE%Wake of Fire +3 & BoI Base %!SOCK!%%!BASENAME!% %!LOWEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SKILL("Wake of Fire")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %SAGE%Wake of Fire +3 Base %!SOCK!%%!BASENAME!% %!LOWEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[MAG CL5 (TABSK48=3 AND SKILL("Wake of Fire")=3)]: %NAME% %WHITE%(%SAGE%+6 WoF%WHITE%) %!SOCK!% <<MAGIC>>
 //-------------------------------------------------------- Lightning Sentry
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Fade")>0) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%Light & Death Sentry +3 & Fade Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Weapon Block")>0) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%Light & Death Sentry +3 & WBlock Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %DGREEN%Light & Death Sentry +3 & BoI Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3) (SOCK=0 OR SOCK=3)]: %!MIDTIER!% %DGREEN%Light & Death Sentry +3 Base %!SOCK!%%!BASENAME!% %!MIDEND!% {%ORANGE%PLAGUE: %DGREEN%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Fade")>0) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %SAGE%Light & Death Sentry +3 & Fade Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Weapon Block")>0) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %SAGE%Light & Death Sentry +3 & WBlock Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3 AND SKILL("Blades of Ice")>0) (SOCK=0 OR SOCK=3)]: %!HIGHTIER!% %SAGE%Light & Death Sentry +3 & BoI Base %!SOCK!%%!BASENAME!% %!HIGHEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightning Sentry")=3 AND SKILL("Death Sentry")=3) (SOCK=0 OR SOCK=3)]: %!MIDTIER!% %SAGE%Light & Death Sentry +3 Base %!SOCK!%%!BASENAME!% %!MIDEND!% {%ORANGE%PLAGUE: %SAGE%CHAM+SHAEL or FAL+UM} <<BASE>>
 
 //-------------------------------------------------------- Paladin
 ItemDisplay[CLVL<50 WP13 SKILL("Holy Bolt")>1]: %GREEN%Holy Bolt Stick %NAME% <<LADDERSTART>>
-ItemDisplay[NMAG !ETH pab RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!MIDTIER!% %DGREEN%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%45 Res%WHITE%) %!MIDEND!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN} <<HUNIQUE>>
-ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!LOWTIER!% %DGREEN%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) %!LOWEND!% {%ORANGE%SPIRIT: %DGREEN%TAL+THUL+ORT+AMN} <<BASE>>
-ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %!HIGHTIER!% %DGREEN%Exile Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) %!HIGHEND!% {%ORANGE%EXILE: %DGREEN%VEX+OHM+IST+DOL} <<BASE>>
-ItemDisplay[NMAG CL3 RES>39 CLVL<85 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DGREEN%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
-ItemDisplay[NMAG SOCK=4 (SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3) WP13]: %NAME% %DGREEN%Insane Phoenix Base%!BASENAME!% {%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
+ItemDisplay[NMAG !ETH pab RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!MIDTIER!% %SAGE%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%45 Res%WHITE%) %!MIDEND!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN} <<HUNIQUE>>
+ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!LOWTIER!% %SAGE%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) %!LOWEND!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN} <<BASE>>
+ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %!HIGHTIER!% %SAGE%Exile Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) %!HIGHEND!% {%ORANGE%EXILE: %SAGE%VEX+OHM+IST+DOL} <<BASE>>
+ItemDisplay[NMAG CL3 RES>39 CLVL<85 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %SAGE%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) <<BASE>>
+ItemDisplay[NMAG SOCK=4 (SKILL("Blessed Hammer")=3 AND SKILL("Concentration")=3) WP13]: %NAME% %SAGE%Insane Phoenix Base%!BASENAME!% {%ORANGE%PHOENIX: %SAGE%VEX+VEX+LO+JAH} <<BASE>>
 ItemDisplay[(WEAPON) (!INF AND !ETH) (TABSK25=3 AND SKILL("Sanctuary")=3) (SOCK=0 OR SOCK=4)]: +3 Sanc%!SOCK!%%!BASENAME!% <<BASE>>
 ItemDisplay[CL3 !ETH NMAG RES<30 CLVL>54]:
 ItemDisplay[CL3 ETH NMAG]:
 
 //-------------------------------------------------------- Amazon
-ItemDisplay[amc SOCK=4 NMAG TABSK0=3 FILTERLVL<3]: %DGREEN%Faith Base %!SOCK!%
-ItemDisplay[(amd OR ame) NMAG ED>9 !ETH SOCK=4 TABSK2=3]: %DGREEN%Spearzon Phoenix Base %!SOCK!%%!BASENAME!% {%ORANGE%PHOENIX: %DGREEN%VEX+VEX+LO+JAH} <<BASE>>
-ItemDisplay[(amd OR ame) NMAG ED>9 ETH SOCK=6 TABSK2=3]: %DGREEN%Spearzon EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BREATH OF THE DYING: %DGREEN%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
+ItemDisplay[amc SOCK=4 NMAG TABSK0=3 FILTERLVL<3]: %SAGE%Faith Base %!SOCK!%
+ItemDisplay[(amd OR ame) NMAG ED>9 !ETH SOCK=4 TABSK2=3]: %SAGE%Spearzon Phoenix Base %!SOCK!%%!BASENAME!% {%ORANGE%PHOENIX: %SAGE%VEX+VEX+LO+JAH} <<BASE>>
+ItemDisplay[(amd OR ame) NMAG ED>9 ETH SOCK=6 TABSK2=3]: %SAGE%Spearzon EBOTD Base %!SOCK!%%!BASENAME!% {%ORANGE%BREATH OF THE DYING: %SAGE%VEX+HEL+EL+ELD+ZOD+ETH} <<BASE>>
 ItemDisplay[MAG !ID !ETH ILVL>55 (am5 OR ama OR amf) FILTERLVL<3]: %BLUE%%NAME%
 ItemDisplay[MAG ID (am5 OR ama OR amf) TABSK2=6]: %!LOWTIER!% 6 Jav <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2=6 AND IAS>39)]: %!TOPTIER!% 6 Jav %YELLOW%%!IAS!%%!TOPEND!% <<MAGIC>>
@@ -639,15 +639,15 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>29)]: %!LOWTIER!% 3 Ja
 
 //-------------------------------------------------------- Druid
 ItemDisplay[CL1 SKILL("Arctic Blast")>1 CLVL<30]: %PURPLE%Arctic Blast %NAME% <<LADDERSTART>>
-ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3 CLVL<90]: %!LOWTIER!% %DGREEN%Grizzly %ORANGE%+3%!BASENAME!%%!LOWEND!% <<LADDERSTART>>
-ItemDisplay[NMAG CL1 SKILL("Rabies")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %DGREEN%Rabies Metamorph Base%!BASENAME!%%!LOWEND!% <<BASE>>
+ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3 CLVL<90]: %!LOWTIER!% %SAGE%Grizzly %ORANGE%+3%!BASENAME!%%!LOWEND!% <<LADDERSTART>>
+ItemDisplay[NMAG CL1 SKILL("Rabies")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %SAGE%Rabies Metamorph Base%!BASENAME!%%!LOWEND!% <<BASE>>
 ItemDisplay[RARE CL1 SKILL("Volcano")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Volcano Helmet%!MIDEND!% <<MAGIC>>
 ItemDisplay[RARE CL1 SKILL("Tornado")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Tornado Helmet%!MIDEND!% <<MAGIC>>
 ItemDisplay[RARE CL1 SKILL("Hurricane")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Hurricane Helmet%!MIDEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Necromancer
 ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %RED%Hemorrhage %NAME% <<LADDERSTART>>
-ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %DGREEN%White Base%!SOCK!%%!BASENAME!% %ORANGE%{White: DOL+IO} <<BASE>>
+ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %SAGE%White Base%!SOCK!%%!BASENAME!% %ORANGE%{White: DOL+IO} <<BASE>>
 ItemDisplay[CL4 FCR>9 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL% <<MAGIC>>
 ItemDisplay[CL4 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand <<MAGIC>>
 
@@ -929,8 +929,8 @@ ItemDisplay[isc IDSCROLLS<5 FILTERLVL<3]: %RED%!%WHITE%ID%RED%!
 ItemDisplay[isc IDSCROLLS>4]:
 ItemDisplay[tsc TPSCROLLS<5 FILTERLVL<3]: %BLUE%!%WHITE%TP%BLUE%!
 ItemDisplay[tsc TPSCROLLS>4]:
-ItemDisplay[key CLVL<30]: %NAME% {%DGREEN%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
-ItemDisplay[key]: {%DGREEN%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
+ItemDisplay[key CLVL<30]: %NAME% {%SAGE%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
+ItemDisplay[key]: {%SAGE%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<10]: $$$
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]://- Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
 
