@@ -100,7 +100,7 @@ ItemDisplay[(r18 OR r19)]: %NL%%GREEN% %ORANGE%%NAME%%GREEN%%NL%%NL%
 ItemDisplay[(r20 OR r21 OR r22 OR r23 OR r24 OR r25)]: %NL%%GREEN% %ORANGE%%NAME%%RED%%NL%%NL% <<MRUNE>>
 ItemDisplay[(r26 OR r32 OR r33)]: %!MIDTIER!% %WHITE%%NAME% %!MIDEND!% <<MRUNE>>
 ItemDisplay[(r27 OR r28 OR r29)]: %!HIGHTIER!% %WHITE%%NAME% %!HIGHEND!%<<RUNE>>
-ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %WHITE%%NAME% %!TOPEND!% <<HRUNE>>
+ItemDisplay[(r30 OR r31)]: %!TOPTIER!% %BOLD%%NAME% %!TOPEND!% <<HRUNE>>
 
 //-------------------------------------------------------- RELICS
 //Tier 1 white
