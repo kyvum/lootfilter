@@ -701,7 +701,7 @@ ItemDisplay[MAG ID cm1 MFIND>4]: %!MFIND!% %BLUE%%NL%%NAME%%CONTINUE% <<MAGIC>>
 //-------------------------------------------------------- Weapons
 
 //-------------------------------------------------------- Rare Melee
-ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr)]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level FILTERLVL<3} <<MAGIC>>
+ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) FILTERLVL<3]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level FILTERLVL<3} <<MAGIC>>
 ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) ED>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS %!HIGHEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Class Specific Rares
