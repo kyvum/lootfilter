@@ -1075,9 +1075,9 @@ ItemDisplay[MAG ID jew]: %NAME%
 ItemDisplay[NORM UNI !ID FILTERLVL<3]: %GOLD%[Normal]%NL% %NAME%
 ItemDisplay[EXC UNI !ID FILTERLVL<3]: %GOLD%[Exceptional]%NL% %NAME%
 ItemDisplay[ELT UNI !ID FILTERLVL<3]: %GOLD%[Elite]%NL% %NAME%
-ItemDisplay[UNI ID FILTERLVL<3]: %NAME%
+ItemDisplay[UNI ID]: %NAME%
 //-------------------------------------------------------- SETS catchall  
 ItemDisplay[NORM !ID SET FILTERLVL<3]: %GREEN%[Normal]%NL% %NAME%
 ItemDisplay[EXC !ID SET FILTERLVL<3]: %GREEN%[Exceptional]%NL% %NAME%
 ItemDisplay[ELT !ID SET FILTERLVL<3]: %GREEN%[Elite]%NL% %NAME%
-ItemDisplay[SET ID FILTERLVL<3]: %NAME%
+ItemDisplay[SET ID]: %NAME%
