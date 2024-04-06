@@ -172,7 +172,7 @@ ItemDisplay[EQ7 !ID ILVL=1]: %PURPLE%CIRCLET/CORONET <<GAMBLING>>
 ItemDisplay[EQ4 (IAS=20 AND TABSK50=3)]: %!HIGHTIER!% MA Gloves %!HIGHEND!% <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %!HIGHTIER!% Bowzon Gloves %!HIGHEND!% <<GAMBLING>>
 ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %!HIGHTIER!% Javazon Gloves %!HIGHEND!% <<GAMBLING>>
-ItemDisplay[MAG ID !amu TABSK34=3 FILTERLVL=1]: %PURPLE%BO Stick
+ItemDisplay[MAG (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP12 OR WP13) TABSK34=3 FILTERLVL=1]: %PURPLE%BO Stick
 ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3 FCR>19]:%!HIGHTIER!% FOH Weapon %!HIGHEND!% <<GAMBLING>>
 ItemDisplay[MAG WP13 SKILL("Fist of the Heavens")=3 TABSK24=3]: %!MIDTIER!% FOH Weapon %!MIDEND!% <<GAMBLING>>
 ItemDisplay[WP12 SKILL("Hemorrhage")=3 TABSK16=3 FCR>19]: %!TOPTIER!% FCR Hemo Weapon %!TOPEND!% <<GAMBLING>>
@@ -759,7 +759,7 @@ ItemDisplay[RARE ID (ci0 OR ci1) (FRW>19 AND TABSK48=2)]: %!MIDTIER!% %RED%Upgra
 ItemDisplay[RARE ID (ci0 OR ci1) (FRW>19 AND TABSK50=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
 
 ItemDisplay[RARE ID EQ7]:
-ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME% <<MAGIC>>
+ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin)]: %NAME% <<MAGIC>>
 
 //-------------------------------------------------------- Rare Boots
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 !ID FILTERLVL<3]: %NAME% <<MAGIC>>
