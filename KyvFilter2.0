@@ -1,4 +1,3 @@
-
 //-------------------------------------------------------- KyvFilter 2.0
 Attribute[Author]: Kyvum
 Attribute[Name]: KyvFilter
@@ -549,9 +548,9 @@ ItemDisplay[jew UNI !ID]: %!HIGHTIER!% %GOLD%%NAME% %!HIGHEND!% <<UNIQUEJ>>
 ItemDisplay[cm1 UNI !ID]: %!TOPTIER!% %GOLD%%NAME% %!TOPEND!% <<UNIQUEJ>>
 ItemDisplay[cm2 UNI !ID]: %!TOPTIER!% %GOLD%%NAME% %!TOPEND!% <<UNIQUEJ>>
 
-ItemDisplay[rin SET !ID]: %GREEN%%NAME%
+ItemDisplay[rin SET !ID FILTERLVL<3]: %GREEN%%NAME%
 ItemDisplay[rin SET ID]: %GREEN%%NAME%
-ItemDisplay[amu SET !ID]: %!MIDTIER!% %GREEN%%NAME% %!MIDEND!% <<SET>>
+ItemDisplay[amu SET !ID FILTERLVL<3]: %!MIDTIER!% %GREEN%%NAME% %!MIDEND!% <<SET>>
 ItemDisplay[amu SET ID]: %GREEN%%NAME%
 
 //-------------------------------------------------------- Class Specific Items  
@@ -625,8 +624,8 @@ ItemDisplay[CL3 !ETH NMAG RES<30 CLVL>54]:
 ItemDisplay[CL3 ETH NMAG]:
 
 //-------------------------------------------------------- Amazon
-ItemDisplay[amc SOCK=4 NMAG TABSK0=3]: %DGREEN%Faith Base %!SOCK!%
-ItemDisplay[MAG !ID !ETH ILVL>55 (am5 OR ama OR amf)]: %BLUE%%NAME%
+ItemDisplay[amc SOCK=4 NMAG TABSK0=3 FILTERLVL<3]: %DGREEN%Faith Base %!SOCK!%
+ItemDisplay[MAG !ID !ETH ILVL>55 (am5 OR ama OR amf) FILTERLVL<3]: %BLUE%%NAME%
 ItemDisplay[MAG ID (am5 OR ama OR amf) TABSK2=6]: %!LOWTIER!% 6 Jav <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2=6 AND IAS>39)]: %!TOPTIER!% 6 Jav %YELLOW%%!IAS!%%!TOPEND!% <<MAGIC>>
 ItemDisplay[MAG ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>39)]: %!MIDTIER!% 3-4 Jav%YELLOW% %!IAS!%%!MIDEND!% <<MAGIC>>
@@ -655,9 +654,9 @@ ItemDisplay[CL2 SKILL("Battle Orders")=3 TABSK34=3]: %PURPLE%Battle Orders Helme
 ItemDisplay[CL2 SKILL("War Cry")=3 TABSK34=3]: %PURPLE%Warcry Helmet <<MAGIC>>
 
 //-------------------------------------------------------- SMALL AND GRAND CHARMS
-ItemDisplay[!ID cm1]: %NAME% %!ILVL!% <<MAGIC>>
+ItemDisplay[!ID cm1 FILTERLVL<3]: %NAME% %!ILVL!% <<MAGIC>>
 ItemDisplay[!ID MAG cm3 ILVL>90]: %!LOWTIER!% %!ILVL!% %WHITE%%NAME% %!ILVL!% %!LOWEND!% <<MAGIC>>
-ItemDisplay[!ID cm3]: %NAME% %!ILVL!% <<MAGIC>>
+ItemDisplay[!ID cm3 FILTERLVL<3]: %NAME% %!ILVL!% <<MAGIC>>
 
 //-------------------------------------------------------- GRAND CHARMS
 ItemDisplay[MAG ID cm3 (TABSK0>0 OR TABSK2>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK50>0)]: %NAME% <<MAGIC>>
@@ -702,11 +701,11 @@ ItemDisplay[MAG ID cm1 MFIND>4]: %!MFIND!% %BLUE%%NL%%NAME%%CONTINUE% <<MAGIC>>
 //-------------------------------------------------------- Weapons
 
 //-------------------------------------------------------- Rare Melee
-ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr)]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level} <<MAGIC>>
+ItemDisplay[!ETH RARE !ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr)]: %NAME% {%ORANGE%Look for 200+ED, 30+IAS, Max DMG/Level FILTERLVL<3} <<MAGIC>>
 ItemDisplay[!ETH RARE ID (7p7 OR 7gm OR 7gd OR 7gi OR gma OR 9gd OR 9gm OR gsd OR pik OR 9p9 OR 7gi OR 9gi OR gix OR 7h7 OR hal OR 9h9 OR 7ga OR gax OR 9ga OR 6ws OR wst OR 8ws OR crs OR 9cr) ED>199 IAS>29]: %!HIGHTIER!% %PURPLE%UPGRADE AND SLAM THIS %!HIGHEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Class Specific Rares
-ItemDisplay[RARE (CL1 OR CL4 OR CL5 OR am5 OR amf OR ama) !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE (CL1 OR CL4 OR CL5 OR am5 OR amf OR ama) !ID FILTERLVL<3]: %YELLOW%%NAME%
 
 
 //-------------------------------------------------------- Circlets
@@ -763,14 +762,14 @@ ItemDisplay[RARE ID EQ7]:
 ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4)]: %NAME% <<MAGIC>>
 
 //-------------------------------------------------------- Rare Boots
-ItemDisplay[!ETH (RARE OR CRAFT) EQ5 !ID]: %NAME% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ5 !ID FILTERLVL<3]: %NAME% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (CRES>0 AND LRES>0 AND FRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (PRES>0 AND LRES>0 AND FRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (CRES>0 AND PRES>0 AND FRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 ID (CRES>0 AND LRES>0 AND PRES>0 AND FRW>9)]: %!MIDTIER!% Tri Res Boots %!MIDEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Rare Gloves
-ItemDisplay[!ETH (RARE OR CRAFT) EQ4 !ID]: %NAME% <<MAGIC>>
+ItemDisplay[!ETH (RARE OR CRAFT) EQ4 !ID FILTERLVL<3]: %NAME% <<MAGIC>>
 //-------------------------------------------------------- Jav+IAS
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (RES>0 AND TABSK2=2 AND IAS=20)]: %!TOPTIER!% Jav/IAS Dual All Res Gloves %!TOPEND!% <<MAGIC>>
 ItemDisplay[!ETH (RARE OR CRAFT) EQ4 ID (CRES>0 AND LRES>0 AND TABSK2=2 AND IAS=20)]: %!HIGHTIER!% Jav/IAS Dual Res Gloves %!HIGHEND!% <<MAGIC>>
@@ -873,7 +872,7 @@ ItemDisplay[MAG ID jew ED>37]: %!LOWTIER!% 37%+ ED Jewel %!LOWEND!% <<MAGIC>>
 
 //-------------------------------------------------------- ARROWS  
 //-------------------------------------------------------- Rare Arrows/Bolts
-ItemDisplay[RARE !ID (aq2 OR cq2)]: %NAME%
+ItemDisplay[RARE !ID (aq2 OR cq2) FILTERLVL<3]: %NAME%
 ItemDisplay[MAG (aq2 OR cq2)]:
 //-------------------------------------------------------- Physical Arrows/Bolts
 ItemDisplay[(aq2 OR cq2) !UNI (ALLSK>0 AND TABSK0>0 AND STAT218>2 AND STAT21>0 AND IAS>0)]: %!TOPTIER!% %GOLD%Insane Phys Arrows %!TOPEND!% <<HUNIQUE>>
@@ -919,14 +918,14 @@ ItemDisplay[mp4 CLVL<29]: %BLUE%+%WHITE%M-//- Greater Mana Potion
 ItemDisplay[mp4 CLVL>29]: //- HIDES
 ItemDisplay[mp5 FILTERLVL=1]: %BLUE%+%WHITE%M+//- Super Mana Potion
 //-------------------------------------------------------- Rejuv Potions
-ItemDisplay[rvs]: %PURPLE%+%WHITE%R//- Rejuv Potion
+ItemDisplay[rvs FILTERLVL<3]: %PURPLE%+%WHITE%R//- Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%+%WHITE%R+%PURPLE%+%WHITE%//- Full Rejuv Potion
 
 //-------------------------------------------------------- UTILITIES  
 //-------------------------------------------------------- Scrolls & Tomes
-ItemDisplay[isc IDSCROLLS<5]: %RED%!%WHITE%ID%RED%!
+ItemDisplay[isc IDSCROLLS<5 FILTERLVL<3]: %RED%!%WHITE%ID%RED%!
 ItemDisplay[isc IDSCROLLS>4]:
-ItemDisplay[tsc TPSCROLLS<5]: %BLUE%!%WHITE%TP%BLUE%!
+ItemDisplay[tsc TPSCROLLS<5 FILTERLVL<3]: %BLUE%!%WHITE%TP%BLUE%!
 ItemDisplay[tsc TPSCROLLS>4]:
 ItemDisplay[key CLVL<30]: %NAME% {%DGREEN%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
 ItemDisplay[key]: {%DGREEN%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
@@ -1051,7 +1050,7 @@ ItemDisplay[mbr]: %!MIDTIER!% %WHITE%%NAME% %!MIDEND!% <<SPECIAL>>
 ItemDisplay[bey]: %!MIDTIER!% %WHITE%%NAME% %!MIDEND!% <<SPECIAL>>
 
 //-------------------------------------------------------- Rare Orbs
-ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5)]: %YELLOW%Orb
+ItemDisplay[RARE !ETH !ID (oba OR obf OR ob5) FILTERLVL<3]: %YELLOW%Orb
 
 //-------------------------------------------------------- IMBUE
 ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK=0 CLVL<85]: IMBUE
