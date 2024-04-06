@@ -221,7 +221,7 @@ ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: %!MIDTIER!% %DGREEN%4 Socket Merc Sacr
 //-------------------------------------------------------- Archon Plate MERC
 ItemDisplay[NMAG ETH !RW SUP SOCK=0 utp]: %!MIDTIER!% %DGREEN%Merc Armor Base%!SOCK!%%!BASENAMES!% %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 utp]: %!MIDTIER!% %DGREEN%3 Socket Merc Armor Base%!SOCK!%%!BASENAMES!% {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=4 utp]: %!MIDTIER!% %DGREEN%4 Socket Merc Armor Base%!SOCK!%%!BASENAMES!% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=4 utp]: %!MIDTIER!% %DGREEN%4 Socket Merc Armor Base%!SOCK!%%!BASENAMES!% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%STONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%DGREEN% Merc Armor Base%!SOCK!%%!BASENAMES!% %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SOCK=0 DEF>900 (uui OR uea OR ula OR utu OR uld OR uar OR utp OR xar OR xul OR xth)]: %!MIDTIER!% %ORANGE%ETH%DGREEN% Merc Armor Base%!SOCK!%%!BASENAMES!% %!MIDEND!% <<BASE>>
 
