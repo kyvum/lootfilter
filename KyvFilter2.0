@@ -968,7 +968,7 @@ ItemDisplay[ice]: %NAME%//- Malah's Potion
 ItemDisplay[tr2]: %NAME%//- Scroll of Resistance
 
 //-------------------------------------------------------- POD SPECIFICS  
-ItemDisplay[cx5]: %RED%Orb of Corruption <<UNIQUE>> //- OOC
+ItemDisplay[cx5]: %CORAL%Orb of Corruption <<RELIC>> //- OOC
 ItemDisplay[cx6]: %RED%%NAME%//- Diablo's Soulstone
 ItemDisplay[cx7]: %RED%%NAME%//- Key of Chaos
 ItemDisplay[cx8]: %RED%%NAME%//- Orb of Enchantment (Old)
