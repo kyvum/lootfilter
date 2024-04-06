@@ -1061,7 +1061,7 @@ ItemDisplay[MAG !ID CLVL<50 cm2]: %NAME% %!ILVL!%
 ItemDisplay[MAG !ID cm3]: %NAME% %!ILVL!%
 ItemDisplay[MAG !ID jew]: %NL%%NAME% %PURPLE%%NL%%NL% <<GEM>>
 ItemDisplay[MAG !ID rin]:
-ItemDisplay[MAG !ID amu]: %BLUE%Amu%WHITE% %!ILVL!%
+ItemDisplay[MAG !ID amu FILTERLVL<3]: %BLUE%Amu%WHITE% %!ILVL!%
 
 //-------------------------------------------------------- CATCHALL
 ItemDisplay[RW]: %NAME%
@@ -1075,9 +1075,9 @@ ItemDisplay[MAG ID jew]: %NAME%
 ItemDisplay[NORM UNI !ID FILTERLVL<3]: %GOLD%[Normal]%NL% %NAME%
 ItemDisplay[EXC UNI !ID FILTERLVL<3]: %GOLD%[Exceptional]%NL% %NAME%
 ItemDisplay[ELT UNI !ID FILTERLVL<3]: %GOLD%[Elite]%NL% %NAME%
-ItemDisplay[UNI FILTERLVL<3]: %NAME%
+ItemDisplay[UNI]: %NAME%
 //-------------------------------------------------------- SETS catchall  
 ItemDisplay[NORM !ID SET FILTERLVL<3]: %GREEN%[Normal]%NL% %NAME%
 ItemDisplay[EXC !ID SET FILTERLVL<3]: %GREEN%[Exceptional]%NL% %NAME%
 ItemDisplay[ELT !ID SET FILTERLVL<3]: %GREEN%[Elite]%NL% %NAME%
-ItemDisplay[SET FILTERLVL<3]: %NAME%
+ItemDisplay[SET]: %NAME%
