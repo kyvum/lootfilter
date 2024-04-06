@@ -759,7 +759,7 @@ ItemDisplay[RARE ID (ci0 OR ci1) (FRW>19 AND TABSK48=2)]: %!MIDTIER!% %RED%Upgra
 ItemDisplay[RARE ID (ci0 OR ci1) (FRW>19 AND TABSK50=2)]: %!MIDTIER!% %RED%Upgrade before slam%ORANGE%Ral + Thul + %PURPLE%Ame %!MIDEND!%
 
 ItemDisplay[RARE ID EQ7]:
-ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin)]: %NAME% <<MAGIC>>
+ItemDisplay[RARE !ID !ETH (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin)]: %NAME% <<MAGIC>>
 
 //-------------------------------------------------------- Rare Boots
 ItemDisplay[!ETH (RARE OR CRAFT) EQ5 !ID FILTERLVL<3]: %NAME% <<MAGIC>>
