@@ -217,7 +217,7 @@ ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=6) 7gd]: %DGREEN%Merc Silence Base%!SOC
 //-------------------------------------------------------- Sacred Armor MERC
 ItemDisplay[NMAG ETH !RW SUP SOCK=0 uar]: %!MIDTIER!% %DGREEN%Merc Sacred Armor Base%!SOCK!%%!BASENAMES!% %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 uar]: %!MIDTIER!% %DGREEN%3 Socket Merc Sacred Armor Base%!SOCK!%%!BASENAMES!% {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
-ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: %!MIDTIER!% %DGREEN%4 Socket Merc Sacred Armor Base%!SOCK!%%!BASENAMES!% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%FSTONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
+ItemDisplay[NMAG ETH !RW SUP SOCK=4 uar]: %!MIDTIER!% %DGREEN%4 Socket Merc Sacred Armor Base%!SOCK!%%!BASENAMES!% {%ORANGE%FORTITUDE: %DGREEN%EL+SOL+DOL+LO%NL%%ORANGE%STONE: %DGREEN%SHAEL+UM+PUL+LUM} %!MIDEND!% <<BASE>>
 //-------------------------------------------------------- Archon Plate MERC
 ItemDisplay[NMAG ETH !RW SUP SOCK=0 utp]: %!MIDTIER!% %DGREEN%Merc Armor Base%!SOCK!%%!BASENAMES!% %!MIDEND!% <<BASE>>
 ItemDisplay[NMAG ETH !RW SUP SOCK=3 utp]: %!MIDTIER!% %DGREEN%3 Socket Merc Armor Base%!SOCK!%%!BASENAMES!% {%ORANGE%TREACHERY: %DGREEN%SHAEL+THUL+LEM} %!MIDEND!% <<BASE>>
@@ -1075,9 +1075,9 @@ ItemDisplay[MAG ID jew]: %NAME%
 ItemDisplay[NORM UNI !ID FILTERLVL<3]: %GOLD%[Normal]%NL% %NAME%
 ItemDisplay[EXC UNI !ID FILTERLVL<3]: %GOLD%[Exceptional]%NL% %NAME%
 ItemDisplay[ELT UNI !ID FILTERLVL<3]: %GOLD%[Elite]%NL% %NAME%
-ItemDisplay[UNI]: %NAME%
+ItemDisplay[UNI ID FILTERLVL<3]: %NAME%
 //-------------------------------------------------------- SETS catchall  
 ItemDisplay[NORM !ID SET FILTERLVL<3]: %GREEN%[Normal]%NL% %NAME%
 ItemDisplay[EXC !ID SET FILTERLVL<3]: %GREEN%[Exceptional]%NL% %NAME%
 ItemDisplay[ELT !ID SET FILTERLVL<3]: %GREEN%[Elite]%NL% %NAME%
-ItemDisplay[SET]: %NAME%
+ItemDisplay[SET ID FILTERLVL<3]: %NAME%
