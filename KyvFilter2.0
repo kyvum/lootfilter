@@ -639,7 +639,7 @@ ItemDisplay[RARE ID (am5 OR ama OR amf) (TABSK2>2 AND IAS>29)]: %!LOWTIER!% 3 Ja
 
 //-------------------------------------------------------- Druid
 ItemDisplay[CL1 SKILL("Arctic Blast")>1 CLVL<30]: %PURPLE%Arctic Blast %NAME% <<LADDERSTART>>
-ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3 CLVL<90]: %!LOWTIER!% %SAGE%Grizzly %ORANGE%+3%!BASENAME!%%!LOWEND!% <<LADDERSTART>>
+ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")=3 CLVL<90]: %!LOWTIER!% %SAGE%Grizzly Metamorph Base%!BASENAME!%%!LOWEND!% {%ORANGE%Metamorphosis: %SAGE%IO+CHAM+FAL} <<BASE>>
 ItemDisplay[NMAG CL1 SKILL("Rabies")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %SAGE%Rabies Metamorph Base%!BASENAME!%%!LOWEND!% {%ORANGE%Metamorphosis: %SAGE%IO+CHAM+FAL} <<BASE>>
 ItemDisplay[NMAG CL1 SKILL("Volcano")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %SAGE%Volcano Flickering Flame Base%!BASENAME!%%!LOWEND!% {%ORANGE%Flickering Flame: %SAGE%NEF+PUL+VEX} <<BASE>>
 ItemDisplay[NMAG CL1 SKILL("Fire Claws")=3 (SOCK=0 OR SOCK=3)]: %!LOWTIER!% %SAGE%Fire Claws Flickering Flame Base%!BASENAME!%%!LOWEND!% {%ORANGE%Flickering Flame: %SAGE%NEF+PUL+VEX} <<BASE>>
