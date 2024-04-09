@@ -9,11 +9,6 @@ FilterLevel[3]: Strict
 
 Option[IgnoreMissingSounds]: True
 
-//FILTER LEVEL 1 - NOT STRICT
-//FILTER LEVEL 2 - NO HEALTH AND MANA POTIONS NOT STRICT
-//FILTER LEVEL 3 - STRICT
-
-
 //-------------------------------------------------------- ITEM STYLES
 
 //-------------------------------------------------------- Gambling
