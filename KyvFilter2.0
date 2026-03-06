@@ -461,8 +461,8 @@ ItemDisplay[7ws UNI !ID ETH FILTERLVL=1]: %LIGHT_GRAY%ETH %GOLD%Astreon's Iron W
 
 //-------------------------------------------------------- QUIVERS AND BOLTS
 //- Swiftheart
-ItemDisplay[UNIQUE("Swiftheart") !ID !ETH]: %GOLD%Swiftheart<<UNIQUE>>
-ItemDisplay[UNIQUE("Swiftheart") ID !ETH]: %GOLD%%NAME%<<UNIQUE>>
+// - ItemDisplay[UNIQUE("Swiftheart") !ID !ETH]: %GOLD%Swiftheart<<UNIQUE>>
+// - ItemDisplay[UNIQUE("Swiftheart") ID !ETH]: %GOLD%%NAME%<<UNIQUE>>
 
 //-------------------------------------------------------- CLASS SPECIFICS
 
