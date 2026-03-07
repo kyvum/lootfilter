@@ -936,7 +936,7 @@ ItemDisplay[isc IDSCROLLS<5 FILTERLVL<3]: %RED%!%WHITE%ID%RED%!
 ItemDisplay[isc IDSCROLLS>4]:
 ItemDisplay[tsc TPSCROLLS<5 FILTERLVL<3]: %BLUE%!%WHITE%TP%BLUE%!
 ItemDisplay[tsc TPSCROLLS>4]:
-ItemDisplay[key CLVL<30]: %NAME% {%SAGE%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
+ItemDisplay[key]: %NAME% {%SAGE%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
 ItemDisplay[key]: {%SAGE%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%ORANGE%DURIEL TOMB ORDER:}
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL<10]: $$$
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]://- Choking, Exploding, Fulminating, Oil, Rancid, Strangling hidden after level 20, not level 23
