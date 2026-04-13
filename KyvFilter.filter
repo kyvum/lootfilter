@@ -617,6 +617,8 @@ ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SKILL("Lightn
 
 //-------------------------------------------------------- Paladin
 ItemDisplay[CLVL<50 WP13 SKILL("Holy Bolt")>1]: %GREEN%Holy Bolt Stick %NAME% <<LADDERSTART>>
+ItemDisplay[CLVL<18 WP13 SKILL("Holy Fire")>1]: %GREEN%Holy Fire Stick %NAME% <<LADDERSTART>>
+ItemDisplay[CLVL<50 WP13 SKILL("Vengeance")>1]: %GREEN%Vengeance Stick %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG !ETH pab RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!MIDTIER!% %SAGE%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%45 Res%WHITE%) %!MIDEND!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN} <<HUNIQUE>>
 ItemDisplay[NMAG !ETH pab RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %!LOWTIER!% %SAGE%Paladin Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) %!LOWEND!% {%ORANGE%SPIRIT: %SAGE%TAL+THUL+ORT+AMN} <<BASE>>
 ItemDisplay[NMAG ETH paf RES>39 (SOCK=0 OR SOCK=4)]: %!HIGHTIER!% %SAGE%Exile Shield Base%!SOCK!%%!BASENAME!% %WHITE%(%ORANGE%40+ Res%WHITE%) %!HIGHEND!% {%ORANGE%EXILE: %SAGE%VEX+OHM+IST+DOL} <<BASE>>
@@ -652,7 +654,9 @@ ItemDisplay[RARE CL1 SKILL("Tornado")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Tornado H
 ItemDisplay[RARE CL1 SKILL("Hurricane")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Hurricane Helmet%!MIDEND!% <<MAGIC>>
 
 //-------------------------------------------------------- Necromancer
-ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %RED%Hemorrhage %NAME% <<LADDERSTART>>
+ItemDisplay[CLVL<50 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %RED%Hemorrhage %NAME% <<LADDERSTART>>
+ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Raise Skeleton Warrior")>1]: %RED%Raise Skeleton %NAME% <<LADDERSTART>>
+ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Teeth")>1]: %RED%Teeth %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %SAGE%White Base%!SOCK!%%!BASENAME!% %ORANGE%{White: DOL+IO} <<BASE>>
 ItemDisplay[CL4 FCR>9 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL% <<MAGIC>>
 ItemDisplay[CL4 SKILL("Hemorrhage")=3 TABSK16=3]: %PURPLE%Hemo Offhand <<MAGIC>>
