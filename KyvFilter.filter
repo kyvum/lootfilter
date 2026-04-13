@@ -1,7 +1,7 @@
-//-------------------------------------------------------- KyvFilter 3.0
+//-------------------------------------------------------- KyvFilter 2.0
 Attribute[Author]: Kyvum
 Attribute[Name]: KyvFilter
-Attribute[Version]: 3.0
+Attribute[Version]: 2.0
 Attribute[FilterLevels]: The filter levels are as follows
 FilterLevel[1]: Not strict
 FilterLevel[2]: Hide MP and HP
@@ -116,32 +116,34 @@ ItemDisplay[MAP RARE MAPTIER=3 ID]: %!HIGHTIER!% %RED%Tier III%NL%%YELLOW%%BASEN
 ItemDisplay[MAP MAG MAPTIER=3 ID]: %!MIDTIER!% %RED%Tier III%NL%%BLUE%%BASENAME% %!MIDEND!% <<RELIC>>
 
 //-------------------------------------------------------- CRAFTING BASES
+
+//-------------------------------------------------------- BLOOD BASES
 //-------------------------------------------------------- Weapons
-ItemDisplay[MAG !ETH !ID (7m7 OR 7gm OR 7cr OR 7p7 OR 6ws OR amf OR amc OR 7hw OR 7ws OR 7gd OR 7wc OR 7ga OR 7wa) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%WHITE%%NAME% %ORANGE%%!ILVL!% <:CRAFT: MapIcon = 74>
-ItemDisplay[MAG !ETH ID (7m7 OR 7gm OR 7cr OR 7p7 OR 6ws OR amf OR amc OR 7hw OR 7ws OR 7gd OR 7wc OR 7ga OR 7wa) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%WHITE%%NAME% %ORANGE%%!ILVL!% {%BLUE%HITPOWER: %ORANGE%Tir %WHITE%+J+ %BLUE%Sapphire %NL%%RED%BLOOD: %ORANGE%Ort %WHITE%+ Jewel + %RED%Ruby %NL%%PURPLE%CASTER: %ORANGE%Tir %WHITE%+J+ %PURPLE%Amethyst %NL%%SAGE%SAFETY: %ORANGE%Sol %WHITE%+J+ %DGREEN%Emerald} 
-
+ItemDisplay[MAG !ETH !ID (7ga OR 7wa) ILVL>85 FILTERLVL<3]: %RED%B Weapon %!ILVL!% <:CRAFT: MapIcon = 74>
+ItemDisplay[MAG !ETH ID (7ga OR 7wa) ILVL>85 FILTERLVL<3]: %RED%B Weapon %!ILVL!% {%RED%BLOOD CRAFT: %ORANGE%Ort %WHITE%+ Jewel + %RED%Ruby} 
 //-------------------------------------------------------- Gloves
-ItemDisplay[!ETH !ID MAG (uvg) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Gloves %ORANGE%%!ILVL!% <:CRAFT: MapIcon = 63>
-ItemDisplay[!ETH ID MAG (uvg) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Gloves %ORANGE%%!ILVL!% {%BLUE%HITPOWER: %ORANGE%Ort %WHITE%+ Jewel + %BLUE%Sapphire %NL%%RED%BLOOD: %ORANGE%Nef %WHITE%+ Jewel + %RED%Ruby %NL%%PURPLE%CASTER: %ORANGE%Ort %WHITE%+ Jewel + %PURPLE%Amethyst %NL%%SAGE%SAFETY: %ORANGE%Ral %WHITE%+ Jewel + %DGREEN%Emerald}
+ItemDisplay[!ETH !ID MAG (xvg OR vgl) ILVL>71 FILTERLVL<3]: %RED%B Glv %!ILVL!% <:CRAFT: MapIcon = 66>
+ItemDisplay[!ETH ID MAG (xvg OR vgl) ILVL>71 FILTERLVL<3]: %RED%B Glv %!ILVL!% {%RED%BLOOD CRAFT: %ORANGE%Nef %WHITE%+ Jewel + %RED%Ruby}
 
+//-------------------------------------------------------- HITPOWER BASES
+ItemDisplay[MAG !ETH !ID 7gm ILVL>85 FILTERLVL<3]: %BLUE%HitP Weapon %!ILVL!% <:CRAFT: MapIcon = 72>
+ItemDisplay[MAG ID 7gm ILVL>85 FILTERLVL<3]: %BLUE%HitP Weapon %!ILVL!% {%BLUE%HITPOWER CRAFT: %ORANGE%Tir %WHITE%+J+ %BLUE%Sapphire}
+//-------------------------------------------------------- Gloves
+ItemDisplay[!ETH !ID MAG (mgl OR xmg OR umg) ILVL>71 FILTERLVL<3]: %BLUE%HitP Glv %!ILVL!% <:CRAFT: MapIcon = 63>
+ItemDisplay[!ETH ID MAG (mgl OR xmg OR umg) ILVL>71 FILTERLVL<3]: %BLUE%HitP Glv %!ILVL!% {%BLUE%HITPOWER CRAFT: %ORANGE%Ort %WHITE%+ Jewel + %BLUE%Sapphire}
+
+//-------------------------------------------------------- CASTER BASES
 //-------------------------------------------------------- Boots
-ItemDisplay[!ETH !ID MAG (ulb) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Boots %ORANGE%%!ILVL!% <:CRAFT: MapIcon = 63>
-ItemDisplay[!ETH ID MAG (ulb) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Boots %ORANGE%%!ILVL!% {%BLUE%HITPOWER: %ORANGE%Ral %WHITE%+ Jewel + %BLUE%Sapphire %NL%%RED%BLOOD: %ORANGE%Eth %WHITE%+ Jewel + %RED%Ruby %NL%%PURPLE%CASTER: %ORANGE%Thul %WHITE%+ Jewel + %PURPLE%Amethyst %NL%%SAGE%SAFETY: %ORANGE%Ort %WHITE%+ Jewel + %GREEN%Emerald}
-
+ItemDisplay[!ETH MAG !ID (xlb OR ulb) ILVL>71 FILTERLVL<3]: %PURPLE%C Boots %!ILVL!% <:CRAFT: MapIcon = 75>
+ItemDisplay[!ETH MAG ID (xlb OR ulb) ILVL>71 FILTERLVL<3]: %PURPLE%Caster Base %!ILVL!% {%PURPLE%CASTER CRAFT: %ORANGE%Thul %WHITE%+ Jewel + %PURPLE%Amethyst}
 //-------------------------------------------------------- Belts
-ItemDisplay[!ETH !ID MAG (uvc) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Belt %ORANGE%%!ILVL!% <:CRAFT: MapIcon = 63>
-ItemDisplay[!ETH ID MAG (uvc) ILVL>71 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Belt %ORANGE%%!ILVL!% {%BLUE%HITPOWER: %ORANGE%Tal %WHITE%+ Jewel + %BLUE%Sapphire %NL%%RED%BLOOD: %ORANGE%Tal %WHITE%+ Jewel + %RED%Ruby %NL%%PURPLE%CASTER: %ORANGE%Ith %WHITE%+ Jewel + %PURPLE%Amethyst %NL%%SAGE%SAFETY: %ORANGE%Tal %WHITE%+ Jewel + %GREEN%Emerald}
+ItemDisplay[!ETH MAG !ID (uvc OR zvb) ILVL>71 FILTERLVL<3]: %PURPLE%C Belt %!ILVL!% <:CRAFT: MapIcon = 67>
+ItemDisplay[!ETH MAG ID (uvc OR zvb) ILVL>71 FILTERLVL<3]: %PURPLE%C Belt %!ILVL!% {%PURPLE%CASTER CRAFT: %ORANGE%Ith %WHITE%+ Jewel + %PURPLE%Amethyst}
 
-//-------------------------------------------------------- Quivers
-ItemDisplay[!ETH !ID MAG (cqv or aqv) ILVL>84 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%%NAME% %ORANGE%%!ILVL!% <:CRAFT: MapIcon = 63>
-ItemDisplay[!ETH ID MAG (cqv or aqv) ILVL>84 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%%NAME% %ORANGE%%!ILVL!% {%BLUE%HITPOWER: %ORANGE%El %WHITE%+ Jewel + %BLUE%Sapphire %NL%%RED%BLOOD: %ORANGE%Eld %WHITE%+ Jewel + %RED%Ruby %NL%%PURPLE%CASTER: %ORANGE%Eld %WHITE%+ Jewel + %PURPLE%Amethyst %NL%%SAGE%SAFETY: %ORANGE%El %WHITE%+ Jewel + %GREEN%Emerald}
-
-//-------------------------------------------------------- Jewellery
-ItemDisplay[!ETH !ID MAG (rin) ILVL>84 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Ring %ORANGE%%!ILVL!% <:CRAFT: MapIcon = 63>
-ItemDisplay[!ETH ID MAG (rin) ILVL>84 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Ring %ORANGE%%!ILVL!% {%BLUE%HITPOWER: %ORANGE%Amn %WHITE%+ Jewel + %BLUE%Sapphire %NL%%RED%BLOOD: %ORANGE%Sol %WHITE%+ Jewel + %RED%Ruby %NL%%PURPLE%CASTER: %ORANGE%Amn %WHITE%+ Jewel + %PURPLE%Amethyst %NL%%SAGE%SAFETY: %ORANGE%Amn %WHITE%+ Jewel + %GREEN%Emerald}
-
-ItemDisplay[!ETH !ID MAG (amu) ILVL>84 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Amulet %ORANGE%%!ILVL!% <:CRAFT: MapIcon = 63>
-ItemDisplay[!ETH ID MAG (amu) ILVL>84 FILTERLVL<3]: %ORANGE%Craft Base %NL%%BLUE%Amulet %ORANGE%%!ILVL!% {%BLUE%HITPOWER: %ORANGE%Thul %WHITE%+ Jewel + %BLUE%Sapphire %NL%%RED%BLOOD: %ORANGE%Amn %WHITE%+ Jewel + %RED%Ruby %NL%%PURPLE%CASTER: %ORANGE%Ral %WHITE%+ Jewel + %PURPLE%Amethyst %NL%%SAGE%SAFETY: %ORANGE%Thul %WHITE%+ Jewel + %GREEN%Emerald}
+//-------------------------------------------------------- SAFETY BASES
+//-------------------------------------------------------- Boots
+ItemDisplay[!ETH MAG !ID hbt ILVL>71 FILTERLVL<3]: %SAGE%S Boots %!ILVL!% <:CRAFT: MapIcon = 64>
+ItemDisplay[!ETH MAG ID hbt ILVL>71 FILTERLVL<3]: %SAGE%S Boots %!ILVL!% {%SAGE%SAFETY CRAFT: %ORANGE%Ort %WHITE%+ Jewel + %GREEN%Emerald}
 
 //-------------------------------------------------------- SYNTH
 ItemDisplay[SYNTH]: %!HIGHTIER!% %GOLD%%NAME% %!HIGHEND!% <<UNIQUE>>
