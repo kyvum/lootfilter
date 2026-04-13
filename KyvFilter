@@ -655,7 +655,7 @@ ItemDisplay[RARE CL1 SKILL("Hurricane")=3 TABSK42=3]: %!MIDTIER!% %WHITE%Hurrica
 
 //-------------------------------------------------------- Necromancer
 ItemDisplay[CLVL<50 (WP12 OR CL4) SKILL("Hemorrhage")>1]: %RED%Hemorrhage %NAME% <<LADDERSTART>>
-ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Raise Skeleton")>1]: %RED%Raise Skeleton %NAME% <<LADDERSTART>>
+ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Raise Skeleton Warrior")>1]: %RED%Raise Skeleton %NAME% <<LADDERSTART>>
 ItemDisplay[CLVL<30 (WP12 OR CL4) SKILL("Teeth")>1]: %RED%Teeth %NAME% <<LADDERSTART>>
 ItemDisplay[NMAG !RW SOCK=2 CLVL<80 (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw) SKILL("Bone Spear")=3]: %SAGE%White Base%!SOCK!%%!BASENAME!% %ORANGE%{White: DOL+IO} <<BASE>>
 ItemDisplay[CL4 FCR>9 SKILL("Hemorrhage")=3 TABSK16=3]: %NL%%RED%**%PURPLE%FCR Hemo Offhand%RED%**%NL%%NL% <<MAGIC>>
