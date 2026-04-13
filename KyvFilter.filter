@@ -423,7 +423,7 @@ ItemDisplay[7s8 UNI !ID !ETH]: %!LOWTIER!% %GOLD%Reaper's Toll%NL%%BASENAME% %!L
 ItemDisplay[7s8 UNI !ID ETH FILTERLVL=1]: %LIGHT_GRAY%ETH %GOLD%Reaper's Toll%NL%%BASENAME%
 //- Tomb Reaver
 ItemDisplay[7pa UNI !ID !ETH FILTERLVL<3]: %!LOWTIER!% %GOLD%Tomb Reaver%NL%%BASENAME% %!LOWEND!%  <<UNIQUE>>
-ItemDisplay[7pa UNI !ID ETH FILTERLVL=1]: LIGHT_GRAY%ETH %GOLD%Tomb Reaver%NL%%BASENAME%
+ItemDisplay[7pa UNI !ID ETH FILTERLVL=1]: %LIGHT_GRAY%ETH %GOLD%Tomb Reaver%NL%%BASENAME%
 
 //-------------------------------------------------------- BOWS AND CROSSBOWS
 //- Windforce
